@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ferney/DOCTORADO/QUACHO/gr-Quacho/lib/qa_Quacho.cc
+qa_Quacho.h
+/home/ferney/DOCTORADO/QUACHO/gr-Quacho/lib/qa_Quacho.h
+
+/home/ferney/DOCTORADO/QUACHO/gr-Quacho/lib/qa_Quacho.h
+gnuradio/attributes.h
+-
+cppunit/TestSuite.h
+-
+
+/home/ferney/DOCTORADO/QUACHO/gr-Quacho/lib/test_Quacho.cc
+config.h
+/home/ferney/DOCTORADO/QUACHO/gr-Quacho/lib/config.h
+cppunit/TextTestRunner.h
+-
+cppunit/XmlOutputter.h
+-
+gnuradio/unittests.h
+-
+qa_Quacho.h
+/home/ferney/DOCTORADO/QUACHO/gr-Quacho/lib/qa_Quacho.h
+iostream
+-
+

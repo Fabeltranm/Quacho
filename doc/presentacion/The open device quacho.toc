@@ -1,0 +1,5 @@
+\beamer@endinputifotherversion {3.24pt}
+\select@language {spanish}
+\beamer@sectionintoc {1}{El Concepto Quacho}{2}{0}{1}
+\beamer@sectionintoc {2}{Arquitectura Quacho}{8}{0}{2}
+\beamer@sectionintoc {3}{Propuestas de trabajo}{12}{0}{3}

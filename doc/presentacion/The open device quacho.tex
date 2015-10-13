@@ -1,0 +1,424 @@
+
+\documentclass[10pt]{beamer}
+\usepackage{etex}
+\usepackage[latin1]{inputenc}
+\usepackage[spanish, activeacute]{babel}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amsthm} % Para \newtheorem*
+\usepackage{amssymb}
+\usepackage{pstricks}
+\usepackage{psfrag}
+\usepackage{url}
+\usepackage{cite}
+\usepackage{algorithmic}
+\usepackage{MnSymbol,wasysym}
+\usepackage{alltt}
+\usepackage{multimedia}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%          TikZ             %%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\usepackage{circuitikz}
+\usepackage{tikz}
+\usetikzlibrary{chains}
+%\usetikzlibrary{dsp,fit} 
+\usetikzlibrary{calc}
+\usetikzlibrary{shapes,shapes.multipart}
+\usetikzlibrary{positioning}
+\usetikzlibrary{shadows,arrows}
+
+
+% Define the layers to draw the diagram
+\pgfdeclarelayer{background}
+\pgfdeclarelayer{foreground}
+\pgfsetlayers{background,main,foreground}
+ 
+% Define block styles  
+\tikzstyle{materia}=[draw, fill=blue!20, text width=6.0em, text centered,
+  minimum height=1.5em,drop shadow]
+\tikzstyle{practica} = [materia, text width=8em, minimum width=8em,
+  minimum height=2.5em, rounded corners, drop shadow]
+\tikzstyle{texto} = [above, text width=6em, text centered]
+\tikzstyle{linepart} = [draw, thick, color=black!50, -latex', dashed]
+\tikzstyle{line} = [draw, thick, color=black!50, -latex']
+\tikzstyle{ur}=[draw, text centered, minimum height=0.01em]
+
+\tikzstyle{arrow}=[draw, -latex] 
+\tikzstyle{arrow2}=[draw, latex-latex] 
+
+
+% Define distances for bordering
+\newcommand{\blockdist}{1.3}
+\newcommand{\edgedist}{1.5}
+
+\newcommand{\practica}[2]{node (p#1) [practica]
+  {{\scriptsize\textit{#2}}}}
+%  {Asigntaura #1\\{\scriptsize\textit{#2}}}}
+
+% Draw background
+\newcommand{\background}[5]{%
+  \begin{pgfonlayer}{background}
+    % Left-top corner of the background rectangle
+    \path (#1.west |- #2.north)+(-0.5,0.5) node (a1) {};
+    % Right-bottom corner of the background rectanle
+    \path (#3.east |- #4.south)+(+0.5,-0.25) node (a2) {};
+    % Draw the background
+    \path[fill=yellow!20,rounded corners, draw=black!50, dashed]
+      (a1) rectangle (a2);
+    \path (a1.east |- a1.south)+(0.8,-0.3) node (u1)[texto]
+      {\scriptsize\textit{Curso #5}};
+  \end{pgfonlayer}}
+
+\newcommand{\transreceptor}[3]{%
+  \path [linepart] (#1.east) -- node [above]
+    {\scriptsize Transreceptor #2} (#3);}
+
+\def\PowAmp#1#2#3{
+\begin{scope}[shift={#1}, rotate=#2, scale=#3]
+    \draw [fill=white,thick,label=PA] (0,0) -- (0,0.5) -- (1,0) -- (0,-0.5) -- cycle;
+\end{scope}
+}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%          TikZ: FIN             %%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+%\usetheme{default}
+%\usetheme{AnnArbor}
+%\usetheme{Antibes}
+%\usetheme{Bergen}
+%\usetheme{Berkeley}
+%\usetheme{Berlin}
+%\usetheme{Boadilla}
+%\usetheme{CambridgeUS}
+%\usetheme{Copenhagen}
+%\usetheme{Darmstadt}
+%\usetheme{Dresden}
+%\usetheme{Frankfurt}
+%\usetheme{Goettingen}
+%\usetheme{Hannover}
+%\usetheme{Ilmenau}
+%\usetheme{JuanLesPins}
+%\usetheme{Luebeck}
+\usetheme{Madrid}
+%\usetheme{Malmoe}
+%\usetheme{Marburg}
+%\usetheme{Montpellier}
+%\usetheme{PaloAlto}
+%\usetheme{Pittsburgh}
+%\usetheme{Rochester}
+%\usetheme{Singapore}
+%\usetheme{Szeged}
+%\usetheme{Warsaw}
+
+\usefonttheme{professionalfonts} % Para que las ecuaciones tengan buena pinta
+%\decimalpoint
+
+
+\makeatletter
+\setbeamertemplate{footline}
+{
+  \leavevmode%
+  \hbox{%
+  \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,center]{author in head/foot}%
+    \usebeamerfont{author in head/foot}\insertauthor
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,center]{title in head/foot}%
+    \usebeamerfont{title in head/foot}Quacho %\inserttitle
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1ex,right]{date in head/foot}%
+    \usebeamerfont{date in head/foot}\insertshortdate{}\hspace*{2em}
+    \insertframenumber{} / \inserttotalframenumber\hspace*{2ex} 
+  \end{beamercolorbox}}%
+  \vskip0pt%
+}
+\makeatother
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\AtBeginSection[]
+{
+  \begin{frame}
+%    \frametitle{Contents}
+    \frametitle{Índice}
+    \tableofcontents[current,currentsection]
+  \end{frame}
+}
+
+\title{The Open Device Quacho}
+\subtitle{}
+\author{Jesús Requena Carrión, Ferney A. Beltrán Molina}
+\institute{Queen Mary University of London, Universidad Rey Juan Carlos}
+\date{02 octubre de 2015}
+\begin{document}
+
+%Application for the Post of Lecturer \\  
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+\begin{frame}[plain] % Como no me gustaba la página de título que hacía el beamer, esto está ligeramente tuneado !!
+%\vspace{1cm} \centering{{\sc School of Electronic Engineering and Computer Science
+%\\ Queen Mary University of London\\ 
+%}}
+\vspace{0.2cm}
+\titlepage
+\vspace{-2.5cm}
+
+\vspace{0.6cm} 
+\end{frame}
+
+
+\section[TC-ITT]{El Concepto Quacho}
+
+
+%%%%%%%%%%
+\begin{frame}{Qué es}
+
+El propósito de Quacho como plataforma académica es brindar nuevas herramientas académicas, 
+tanto en Software como en Hardware, que sirvan como apoyo docente en el aula y que dé soporte 
+al vertiginosos desarrollo de las diferentes tecnologías inalámbricas.
+
+\vspace{1cm}
+
+El valor añadido de la plataforma Quacho es la implementación de módulos  y guías académicas 
+que brindan acompañamiento muy cercano a las universidades.
+
+\end{frame}
+
+\begin{frame}{Qué es}
+
+{\bf Busca:} 
+
+Diseñar dispositivos abiertos y de bajo costo, que no limiten la calidad de la información 
+registrada y que permitan a los investigadores tratar de manera transparente 
+la adquisición de señales en todas sus etapas.
+
+
+\begin{itemize}
+\item Promover una plataforma entorno a la creación y utilización de herramientas educativas en el ambito del procesamiento y transmisión de datos
+\item Definir, desarrollar e implementar dispositivos hardware de adquisición y transmisión de datos y señales reconfigurables via software. 
+\end{itemize}
+
+
+
+{\bf Sus pilares:}
+
+\centering
+\begin{tabular}{ll}
+\includegraphics[width=0.105\textwidth]{./figs/Osi_standard_logo-262x300.png} &
+\includegraphics[width=0.1\textwidth]{./figs/oshw-logo-800-px.png} \\
+\end{tabular}
+
+\end{frame}
+
+%%%%%%%%%%
+\begin{frame}{Ecosistema Quacho}
+
+
+\centering
+\includegraphics[width=0.7\textwidth]{./figs/ESQUEMA0.jpg} 
+
+\end{frame}
+
+
+%%%%%%%%%%
+\begin{frame}{Reconfigurabilidad y versatilidad}
+
+\centering
+\includegraphics[width=0.6\textwidth]{./figs/ESQUEMA000.jpg} 
+
+\end{frame}
+
+
+%%%%%%%%%%
+\begin{frame}{Reconfigurabilidad y versatilidad}
+
+\begin{itemize}
+\item Núcleo central de procesamiento,basado en plataformas ya extendidas comercialmente.
+\item Gestionar desde un servidor HTML5, las diferentes shield. 
+\item Compatibilidad  e interoperabilidad con otros sitemas.
+\item diseño de shield acorde a los requerimientos de las Universidades.
+\item Conectividad IP.
+\item Configuración  a través de módulos prediseñados y compatibles con GNURadio.
+\end{itemize}
+
+\end{frame}
+
+
+
+
+
+\section[TC-ITT]{Arquitectura Quacho}
+
+
+%%%%%%%%%%
+\begin{frame}{Quacho Basic}
+
+El sistema Quacho Basic es compatible con plataformas ARM SoC y su Sistema operatico cuentasoporte de servidor web HTML5. 
+
+Quacho Basic cuenta con más de 30 GPIO de altas prestaciones  para la interoperabilidad con las diferentes Quacho Shields.
+
+
+\centering
+\includegraphics[width=0.7\textwidth]{./figs/ESQUEMA2.jpg} 
+
+\end{frame}
+
+\begin{frame}{Quacho Shield SDR (SSDR)}
+
+SSDR es el hardware específico de la plataforma de Software Defined Radio. El SSDR está diseñado para trabajar en la banda libre de 2.45 GHz, por lo que podría implementar tecnologías inalámbricas tales como los estándares 802.15.1 (Bluetooth), 802.15.4 (Zigbee, MiWi), 802.11 (WiFi) y 802.16 (WiMAX).
+
+{\bf Especificaciones}
+
+\begin{itemize}
+\item Transceptor MIMO de conversión directa a 2,45GHz.
+\item Ancho de banda: 20 MHz.
+\item A/D and D/A: 20 Msps, Resolución 12 bits.
+\item Conectores: RF - SMA female.
+\item Procesado digital: Opcionalmente FPGA, CPLD.
+\item GPIO: pin headers para Quacho Basic y expansión.
+\end{itemize}
+
+\end{frame}
+
+
+\begin{frame}{Quacho Shield SDMI  (SDMI)}
+
+SDMI es la plataforma hardware para la adquisición de señales electrofisiológicas.
+SDMI amplifica y filtra los diferentes biopotenciales. Así mismo digitaliza dichos potenciales.
+SDMI está basado en el sistema de adquisición RHD2000 de Intan Technologies.
+
+
+{\bf Especificaciones}
+
+\begin{itemize}
+\item Ancho de banda 100Hz a 20 kHz, filtro programable.
+\item CMRR alto.
+\item 32 Canales + 3 entradas análogas.
+\item Frecuencia de muestreo 1.05MSps.
+\item Resolución 16 bits.
+
+\end{itemize}
+
+\end{frame}
+
+
+
+
+\section[TC-ITT]{Propuestas de trabajo}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}{WP1- Desarrollo de drivers }
+
+La amplia utilización de GNUradio como plataforma para SDR hace necesario el desarrollo de drivers de las tarjetas comerciales de procesamiento empotrado (ejmplo ITEAD A20) para la comunicación entre GNURadio  y las diferentes Shield Quacho. 
+La idea es, por lo tanto, expandir la funcionalidad de GNURadio con la construcción de nuevos módulos y bloques que abstraen las diversas configuraciones de los instrumentos virtuales para cada Quacho Shield.
+
+\end{frame}
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}{WP1- Desarrollo de drivers }
+
+La amplia utilización de GNUradio como plataforma para SDR hace necesario el desarrollo de drivers 
+de las tarjetas comerciales de procesamiento empotrado  para la comunicación entre GNURadio  y 
+las diferentes Shield Quacho. 
+
+La idea es, por lo tanto, expandir la funcionalidad de GNURadio con la construcción de nuevos módulos 
+y bloques que abstraen las diversas configuraciones de los instrumentos virtuales para cada Quacho Shield.
+
+
+propuesta, diseño del driver para QUACHO basic y para el IAT20
+
+\end{frame}
+
+
+\begin{frame}{WP2- Desarrollo e implementación de QuachoLab 
+}
+Si bien este módulo de trabajo requiere una descripción 
+más detallada de la funcionalidad, el objetivo en esta fase es la 
+implementación del prototipo de la plataforma QuachoLab, en la tarjetas ITEAD A20 
+
+
+
+
+\end{frame}
+
+
+\begin{frame}{WP3- Diseño y desarrollo de Quacho Basic 
+}
+El objetivo de este módulo de trabajo es incluir procesamiento en hardware basado en FPGA y soporte de compatibilidad con el pinout de las tarjetas comerciales. En consecuencia, se redefinen las prestaciones del sistema en materia de hardware, lo cual se reflejará en los desarrollos correspondientes a los módulos de trabajo 1 y 2, 
+
+
+\end{frame}
+
+
+\begin{frame}{WP4- Diseño y desarrollo tarjeta SSDR
+}
+Teniendo como base los diseños desarrollados por HackRF, específicamente  la tarjeta Lemondrop, el primer proceso es la adaptación de dicho sistema y la evaluación de posibles mejoras, para su integración con las tarjetas  de Quacho Basic basadas en los desarrollos realizados por la Universidad Nacional de Colombia, junto con tarjetas comerciales que  incluyen el procesador A20
+
+
+\end{frame}
+
+
+\begin{frame}{WP5- Validación tarjeta SSDR
+}
+La fabricacion de  los prototipos se entiende que se realiza de forma externa, por lo que en este paquete de trabajo se plantea la validación del sistema SSDR y su contraste en cuanto a prestaciones con los sistemas actuales de SDR. 
+
+
+
+\end{frame}
+
+
+\begin{frame}{WP6- Validación SSDMI con Quacho Basic
+}
+Teniendo como punto de partida los kits de desarrollo de Intan Technologies el primer proceso es la adaptación del sistema de adquisición RHD2132 y la evaluación de posibles mejoras para su integración con las tarjetas de Quacho Basic.
+
+
+\end{frame}
+
+
+\begin{frame}{WP7- Implementación módulos Quacho Lab
+}
+El control y adquisición del sistema se realiza por medio del software Quacho Lab. En esta etapa, el objetivo es definir y desarrollar los bloques funcionales de la SSDMI que configuren la adquisición, la visualización, el procesamiento y el almacenamiento de las señales electrofisiológicas.
+
+
+
+\end{frame}
+
+
+\begin{frame}{WP8-  Selección del sistema de electrodos 
+}
+Se contempla usar un sistema de electrodos, como por ejemplo un chaleco de torso o un calcetín de electrodos, para la adquisición de las señales electrofisiológicas. El objetivo es validar en laboratorios de electrofisiología la plataforma formada por los elementos  SSDMI + QuachoBasic + QuachoLabs.
+
+
+\end{frame}
+
+
+\begin{frame}{WP9- Diseño  y fabricación  del prototipo SSDMI
+}
+Acorde a los resultados y al análisis de los paquetes de trabajo WP6 y WP7, se  diseña y fabrica la tarjeta SSDMI con el objetivo de reducir los costos de fabricación y la integración con las tarjetas de procesamiento existentes.
+
+\end{frame}
+
+\end{document}
+
+
+
+
+
+\end{document}
+
+

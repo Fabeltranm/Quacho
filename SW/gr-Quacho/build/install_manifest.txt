@@ -1,0 +1,16 @@
+/usr/local/lib/cmake/Quacho/QuachoConfig.cmake
+/usr/local/include/Quacho/api.h
+/usr/local/include/Quacho/ssdr_sink.h
+/usr/local/include/Quacho/ssdr_source.h
+/usr/local/lib/libgnuradio-Quacho.so
+/usr/local/lib/python2.7/dist-packages/Quacho/_Quacho_swig.so
+/usr/local/lib/python2.7/dist-packages/Quacho/Quacho_swig.py
+/usr/local/lib/python2.7/dist-packages/Quacho/Quacho_swig.pyc
+/usr/local/lib/python2.7/dist-packages/Quacho/Quacho_swig.pyo
+/usr/local/include/Quacho/Quacho/swig/Quacho_swig.i
+/usr/local/include/Quacho/Quacho/swig/Quacho_swig_doc.i
+/usr/local/lib/python2.7/dist-packages/Quacho/__init__.py
+/usr/local/lib/python2.7/dist-packages/Quacho/__init__.pyc
+/usr/local/lib/python2.7/dist-packages/Quacho/__init__.pyo
+/usr/local/share/gnuradio/grc/blocks/Quacho_ssdr_sink.xml
+/usr/local/share/gnuradio/grc/blocks/Quacho_ssdr_source.xml

@@ -1,0 +1,9 @@
+/home/ferney/DOCTORADO/QUACHO/gr-Quacho/build/swig/CMakeFiles/Quacho_swig_swig_doc.dir
+/home/ferney/DOCTORADO/QUACHO/gr-Quacho/build/swig/CMakeFiles/_Quacho_swig.dir
+/home/ferney/DOCTORADO/QUACHO/gr-Quacho/build/swig/CMakeFiles/_Quacho_swig_swig_tag.dir
+/home/ferney/DOCTORADO/QUACHO/gr-Quacho/build/lib/CMakeFiles/gnuradio-Quacho.dir
+/home/ferney/DOCTORADO/QUACHO/gr-Quacho/build/apps/CMakeFiles/pygen_apps_9a6dd.dir
+/home/ferney/DOCTORADO/QUACHO/gr-Quacho/build/python/CMakeFiles/pygen_python_cbb64.dir
+/home/ferney/DOCTORADO/QUACHO/gr-Quacho/build/swig/CMakeFiles/pygen_swig_feda0.dir
+/home/ferney/DOCTORADO/QUACHO/gr-Quacho/build/lib/CMakeFiles/test-Quacho.dir
+/home/ferney/DOCTORADO/QUACHO/gr-Quacho/build/CMakeFiles/uninstall.dir

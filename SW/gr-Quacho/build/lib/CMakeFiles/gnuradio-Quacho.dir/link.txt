@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC -O3 -DNDEBUG   -shared -Wl,-soname,libgnuradio-Quacho.so -o libgnuradio-Quacho.so CMakeFiles/gnuradio-Quacho.dir/ssdr_sink_impl.cc.o CMakeFiles/gnuradio-Quacho.dir/ssdr_source_impl.cc.o -lboost_filesystem -lboost_system -lgnuradio-runtime -lgnuradio-pmt 
