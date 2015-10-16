@@ -3141,7 +3141,7 @@ Wire Wire Line
 Wire Wire Line
 	6700 6700 6700 6850
 Wire Wire Line
-	6700 7900 6700 7800
+	6700 7750 6700 7900
 Wire Wire Line
 	4200 1250 4200 1400
 Connection ~ 1250 3500
@@ -3249,7 +3249,7 @@ Wire Wire Line
 Wire Wire Line
 	2500 7750 2500 7950
 Wire Wire Line
-	11650 5900 11650 6000
+	11650 5850 11650 6000
 Wire Wire Line
 	11150 5850 11150 6000
 Connection ~ 13800 900 
@@ -3600,7 +3600,7 @@ Wire Wire Line
 	10600 4300 12200 4300
 Connection ~ 11950 4300
 Wire Wire Line
-	11650 5500 11650 4300
+	11650 4300 11650 5550
 Connection ~ 11650 4300
 Connection ~ 2500 7950
 Wire Wire Line
@@ -3668,7 +3668,7 @@ Connection ~ 8350 8100
 Wire Wire Line
 	8350 8550 8350 8700
 Wire Wire Line
-	7650 9000 7650 9100
+	7650 8950 7650 9100
 Wire Wire Line
 	6700 9100 7000 9100
 Wire Wire Line
@@ -4070,10 +4070,10 @@ Wire Wire Line
 Wire Wire Line
 	16200 7100 16200 7050
 $Comp
-L CONN_02X13 P35
+L CONN_02X13 PFIO2
 U 1 1 55A59163
 P 10850 7800
-F 0 "P35" H 10850 8500 50  0000 C CNN
+F 0 "PFIO2" H 10850 8500 50  0000 C CNN
 F 1 "CONN_02X13" V 10850 7800 50  0000 C CNN
 F 2 "" H 10850 6650 60  0001 C CNN
 F 3 "" H 10850 6650 60  0000 C CNN
@@ -4081,10 +4081,10 @@ F 3 "" H 10850 6650 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_02X14 P34
+L CONN_02X14 PSA1
 U 1 1 55A592FE
 P 12700 7750
-F 0 "P34" H 12700 8500 50  0000 C CNN
+F 0 "PSA1" H 12700 8500 50  0000 C CNN
 F 1 "CONN_02X14" V 12700 7750 50  0000 C CNN
 F 2 "" H 12700 6600 60  0001 C CNN
 F 3 "" H 12700 6600 60  0000 C CNN
@@ -4092,36 +4092,53 @@ F 3 "" H 12700 6600 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_02X18 P36
+L CONN_02X18 PFIO1
 U 1 1 55A594A9
 P 14500 7850
-F 0 "P36" H 14500 8800 50  0000 C CNN
+F 0 "PFIO1" H 14500 8800 50  0000 C CNN
 F 1 "CONN_02X18" V 14500 7850 50  0000 C CNN
 F 2 "" H 14500 6800 60  0001 C CNN
 F 3 "" H 14500 6800 60  0000 C CNN
 	1    14500 7850
 	1    0    0    -1  
 $EndComp
-Text GLabel 14900 7200 2    40   Input ~ 0
-DA7
-Text GLabel 14900 7300 2    40   Input ~ 0
-DA6
-Text GLabel 14900 7400 2    40   Input ~ 0
-DA5
-Text GLabel 14900 7500 2    40   Input ~ 0
-DA4
-Text GLabel 14900 7800 2    40   Input ~ 0
-DA3
-Text GLabel 14900 7900 2    40   Input ~ 0
-DA2
 Text GLabel 14900 8000 2    40   Input ~ 0
-DA1
+DA7
 Text GLabel 14900 8100 2    40   Input ~ 0
+DA6
+Text GLabel 14900 8200 2    40   Input ~ 0
+DA5
+Text GLabel 14900 8300 2    40   Input ~ 0
+DA4
+Text GLabel 14900 8400 2    40   Input ~ 0
+DA3
+Text GLabel 14900 8500 2    40   Input ~ 0
+DA2
+Text GLabel 14900 8600 2    40   Input ~ 0
+DA1
+Text GLabel 14900 8700 2    40   Input ~ 0
 DA0
-Text GLabel 14900 7100 2    40   Input ~ 0
-DD0
 Text GLabel 14900 7000 2    40   Input ~ 0
+DD0
+Text GLabel 14900 7100 2    40   Input ~ 0
 DD1
+Text GLabel 14900 7200 2    40   Input ~ 0
+DD2
+Text GLabel 14900 7300 2    40   Input ~ 0
+DD3
+Text GLabel 14900 7400 2    40   Input ~ 0
+DD4
+Text GLabel 14900 7500 2    40   Input ~ 0
+DD5
+Text GLabel 14900 7600 2    40   Input ~ 0
+DD6
+Text GLabel 14900 7700 2    40   Input ~ 0
+DD7
+Text GLabel 14900 7800 2    40   Input ~ 0
+DD8
+Text GLabel 14900 7900 2    40   Input ~ 0
+DD9
+NoConn ~ 15350 7300
 Wire Wire Line
 	14750 7000 14900 7000
 Wire Wire Line
@@ -4134,4 +4151,50 @@ Wire Wire Line
 	14750 7400 14900 7400
 Wire Wire Line
 	14750 7500 14900 7500
+Wire Wire Line
+	14750 7600 14900 7600
+Wire Wire Line
+	14750 7700 14900 7700
+Wire Wire Line
+	14750 7800 14900 7800
+Wire Wire Line
+	14750 7900 14900 7900
+Wire Wire Line
+	14750 8000 14900 8000
+Wire Wire Line
+	14750 8100 14900 8100
+Wire Wire Line
+	14750 8200 14900 8200
+Wire Wire Line
+	14750 8300 14900 8300
+Wire Wire Line
+	14750 8400 14900 8400
+Wire Wire Line
+	14750 8500 14900 8500
+Wire Wire Line
+	14750 8600 14900 8600
+Wire Wire Line
+	14750 8700 14900 8700
+Text GLabel 10450 7200 0    40   Input ~ 0
+CS_AD
+Text GLabel 10450 7300 0    40   Input ~ 0
+SSP1_SCK
+Text GLabel 10450 7400 0    40   Input ~ 0
+SSP1_MOSI
+Text GLabel 12300 8000 0    40   Input ~ 0
+SDA
+Text GLabel 13050 7700 2    40   Input ~ 0
+SCL
+Wire Wire Line
+	13050 7700 12950 7700
+Wire Wire Line
+	12300 8000 12450 8000
+Text GLabel 10450 7700 0    40   Input ~ 0
+CS_XCVR
+Text GLabel 10450 7500 0    40   Input ~ 0
+RSSI
+Text GLabel 10450 7600 0    40   Input ~ 0
+SSP1_MOSI
+Text GLabel 10450 7800 0    40   Input ~ 0
+SSP1_MISO
 $EndSCHEMATC
