@@ -735,12 +735,12 @@ AS[0..13]
 $Comp
 L CONN_02X14 PSA1
 U 1 1 54C40123
-P 6600 5100
-F 0 "PSA1" H 6600 5850 50  0000 C CNN
-F 1 "CONN_02X14" V 6600 5100 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x14" H 6600 3950 60  0001 C CNN
-F 3 "" H 6600 3950 60  0000 C CNN
-	1    6600 5100
+P 6800 5500
+F 0 "PSA1" H 6800 6250 50  0000 C CNN
+F 1 "CONN_02X14" V 6800 5500 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_2x14" H 6800 4350 60  0001 C CNN
+F 3 "" H 6800 4350 60  0000 C CNN
+	1    6800 5500
 	-1   0    0    1   
 $EndComp
 Text Label 1150 4600 0    60   ~ 0
@@ -761,19 +761,19 @@ Text Label 1150 5500 0    60   ~ 0
 AD9
 Text Label 1150 5700 0    60   ~ 0
 AD3
-Text Label 5900 4450 0    60   ~ 0
+Text Label 6100 4850 0    60   ~ 0
 AD5
-Text Label 6900 4550 0    60   ~ 0
+Text Label 7100 4950 0    60   ~ 0
 AD0
-Text Label 5900 4550 0    60   ~ 0
+Text Label 6100 4950 0    60   ~ 0
 AD1
-Text Label 6900 5650 0    60   ~ 0
+Text Label 7100 6050 0    60   ~ 0
 AD11
-Text Label 5900 5750 0    60   ~ 0
+Text Label 6100 6150 0    60   ~ 0
 AD2
-Text Label 6900 5750 0    60   ~ 0
+Text Label 7100 6150 0    60   ~ 0
 AD8
-Text Label 5900 5650 0    60   ~ 0
+Text Label 6100 6050 0    60   ~ 0
 AD9
 Text Label 1150 5800 0    60   ~ 0
 PWML2
@@ -793,13 +793,13 @@ Text Label 1150 6500 0    60   ~ 0
 PWMH1
 Text Label 1150 6600 0    60   ~ 0
 PWMH0
-Text Label 5900 5550 0    60   ~ 0
+Text Label 6100 5950 0    60   ~ 0
 PWML2
-Text Label 6900 5550 0    60   ~ 0
+Text Label 7100 5950 0    60   ~ 0
 PWML3
-Text Label 5900 5450 0    60   ~ 0
+Text Label 6100 5850 0    60   ~ 0
 PWMH3
-Text Label 6900 5450 0    60   ~ 0
+Text Label 7100 5850 0    60   ~ 0
 PWMH2
 Text Label 4950 6300 0    60   ~ 0
 URXD0
@@ -809,13 +809,13 @@ Text Label 4950 6100 0    60   ~ 0
 RXD0
 Text Label 4950 6200 0    60   ~ 0
 TXD0
-Text Label 6900 5350 0    60   ~ 0
+Text Label 7100 5750 0    60   ~ 0
 URXD0
-Text Label 5900 5350 0    60   ~ 0
+Text Label 6100 5750 0    60   ~ 0
 UTXD0
-Text Label 5900 5250 0    60   ~ 0
+Text Label 6100 5650 0    60   ~ 0
 TXD0
-Text Label 6900 5250 0    60   ~ 0
+Text Label 7100 5650 0    60   ~ 0
 RXD0
 Text Label 4950 6000 0    60   ~ 0
 PA4
@@ -841,48 +841,48 @@ Text Label 4950 5000 0    60   ~ 0
 PA1
 Text Label 4950 4900 0    60   ~ 0
 PC16
-Text Label 5900 5150 0    60   ~ 0
+Text Label 6100 5550 0    60   ~ 0
 PA4
-Text Label 6900 5150 0    60   ~ 0
+Text Label 7100 5550 0    60   ~ 0
 PA27
-Text Label 5900 5050 0    60   ~ 0
+Text Label 6100 5450 0    60   ~ 0
 PA28
-Text Label 6900 5050 0    60   ~ 0
+Text Label 7100 5450 0    60   ~ 0
 PC9
-Text Label 5900 4950 0    60   ~ 0
+Text Label 6100 5350 0    60   ~ 0
 PA29
-Text Label 6900 4950 0    60   ~ 0
+Text Label 7100 5350 0    60   ~ 0
 PA30
-Text Label 5900 4850 0    60   ~ 0
+Text Label 6100 5250 0    60   ~ 0
 PC10
-Text Label 6900 4850 0    60   ~ 0
+Text Label 7100 5250 0    60   ~ 0
 PA3
-Text Label 5900 4750 0    60   ~ 0
+Text Label 6100 5150 0    60   ~ 0
 PA2
-Text Label 6900 4750 0    60   ~ 0
+Text Label 7100 5150 0    60   ~ 0
 PC14
 Text Label 5000 4700 0    60   ~ 0
 LED
 $Comp
 L +3.3VP #PWR024
 U 1 1 54ED0F5F
-P 7350 4450
-F 0 "#PWR024" H 7400 4480 20  0001 C CNN
-F 1 "+3.3VP" H 7350 4540 30  0000 C CNN
-F 2 "" H 7350 4450 60  0001 C CNN
-F 3 "" H 7350 4450 60  0001 C CNN
-	1    7350 4450
+P 7550 4850
+F 0 "#PWR024" H 7600 4880 20  0001 C CNN
+F 1 "+3.3VP" H 7550 4940 30  0000 C CNN
+F 2 "" H 7550 4850 60  0001 C CNN
+F 3 "" H 7550 4850 60  0001 C CNN
+	1    7550 4850
 	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR025
 U 1 1 54ED12AC
-P 7350 4650
-F 0 "#PWR025" H 7350 4650 30  0001 C CNN
-F 1 "GND" H 7350 4580 30  0001 C CNN
-F 2 "" H 7350 4650 60  0001 C CNN
-F 3 "" H 7350 4650 60  0001 C CNN
-	1    7350 4650
+P 7550 5050
+F 0 "#PWR025" H 7550 5050 30  0001 C CNN
+F 1 "GND" H 7550 4980 30  0001 C CNN
+F 2 "" H 7550 5050 60  0001 C CNN
+F 3 "" H 7550 5050 60  0001 C CNN
+	1    7550 5050
 	0    -1   -1   0   
 $EndComp
 Text Label 4950 4600 0    60   ~ 0
@@ -969,12 +969,12 @@ $EndComp
 $Comp
 L GND #PWR029
 U 1 1 555D26A9
-P 5850 4650
-F 0 "#PWR029" H 5850 4650 30  0001 C CNN
-F 1 "GND" H 5850 4580 30  0001 C CNN
-F 2 "" H 5850 4650 60  0001 C CNN
-F 3 "" H 5850 4650 60  0001 C CNN
-	1    5850 4650
+P 6050 5050
+F 0 "#PWR029" H 6050 5050 30  0001 C CNN
+F 1 "GND" H 6050 4980 30  0001 C CNN
+F 2 "" H 6050 5050 60  0001 C CNN
+F 3 "" H 6050 5050 60  0001 C CNN
+	1    6050 5050
 	0    1    1    0   
 $EndComp
 $Comp
@@ -1264,19 +1264,19 @@ Wire Wire Line
 Wire Wire Line
 	1100 5700 1600 5700
 Wire Wire Line
-	5850 4450 6350 4450
+	6050 4850 6550 4850
 Wire Wire Line
-	6850 4550 7350 4550
+	7050 4950 7550 4950
 Wire Wire Line
-	5850 4550 6350 4550
+	6050 4950 6550 4950
 Wire Wire Line
-	6850 5650 7350 5650
+	7050 6050 7550 6050
 Wire Wire Line
-	5850 5750 6350 5750
+	6050 6150 6550 6150
 Wire Wire Line
-	6850 5750 7350 5750
+	7050 6150 7550 6150
 Wire Wire Line
-	5850 5650 6350 5650
+	6050 6050 6550 6050
 Wire Wire Line
 	1100 5800 1600 5800
 Wire Wire Line
@@ -1294,13 +1294,13 @@ Wire Wire Line
 Wire Wire Line
 	1100 6600 1600 6600
 Wire Wire Line
-	6850 5550 7350 5550
+	7050 5950 7550 5950
 Wire Wire Line
-	5850 5550 6350 5550
+	6050 5950 6550 5950
 Wire Wire Line
-	6850 5450 7350 5450
+	7050 5850 7550 5850
 Wire Wire Line
-	5850 5450 6350 5450
+	6050 5850 6550 5850
 Wire Wire Line
 	4900 6300 5400 6300
 Wire Wire Line
@@ -1310,13 +1310,13 @@ Wire Wire Line
 Wire Wire Line
 	4900 6200 5400 6200
 Wire Wire Line
-	6850 5350 7350 5350
+	7050 5750 7550 5750
 Wire Wire Line
-	5850 5350 6350 5350
+	6050 5750 6550 5750
 Wire Wire Line
-	5850 5250 6350 5250
+	6050 5650 6550 5650
 Wire Wire Line
-	6850 5250 7350 5250
+	7050 5650 7550 5650
 Wire Wire Line
 	5400 6000 4900 6000
 Wire Wire Line
@@ -1348,29 +1348,29 @@ Wire Wire Line
 Wire Wire Line
 	5400 4600 4900 4600
 Wire Wire Line
-	6350 5150 5850 5150
+	6550 5550 6050 5550
 Wire Wire Line
-	7350 5150 6850 5150
+	7550 5550 7050 5550
 Wire Wire Line
-	6350 5050 5850 5050
+	6550 5450 6050 5450
 Wire Wire Line
-	7350 5050 6850 5050
+	7550 5450 7050 5450
 Wire Wire Line
-	6350 4950 5850 4950
+	6550 5350 6050 5350
 Wire Wire Line
-	7350 4950 6850 4950
+	7550 5350 7050 5350
 Wire Wire Line
-	6350 4850 5850 4850
+	6550 5250 6050 5250
 Wire Wire Line
-	7350 4850 6850 4850
+	7550 5250 7050 5250
 Wire Wire Line
-	6350 4750 5850 4750
+	6550 5150 6050 5150
 Wire Wire Line
-	7350 4750 6850 4750
+	7550 5150 7050 5150
 Wire Wire Line
-	6350 4650 5850 4650
+	6550 5050 6050 5050
 Wire Wire Line
-	6850 4650 7350 4650
+	7050 5050 7550 5050
 Wire Wire Line
 	7400 3550 7950 3550
 Wire Wire Line
@@ -1509,5 +1509,5 @@ Wire Wire Line
 	8250 4600 8250 4550
 Connection ~ 8250 4550
 Wire Wire Line
-	6850 4450 7350 4450
+	7050 4850 7550 4850
 $EndSCHEMATC

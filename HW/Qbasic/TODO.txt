@@ -1,2 +1,3 @@
 -Revisar footprrint de power plug ps1
 -Revisar diodos de aliementación 5V
+-revisar spi del micro
