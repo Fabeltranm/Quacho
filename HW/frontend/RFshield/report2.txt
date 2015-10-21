@@ -1,0 +1,1686 @@
+Info: Reading netlist file "D:\Quacho++\Quacho\HW\frontend\RFshield\Rfshieldnetl.net".
+
+Info: Using references to match components and footprints.
+
+Info: Checking netlist component footprint "22pF1:/562EC8F1:Capacitors_SMD:C_0402".
+
+Adding new component "22pF1:/562EC8F1" footprint "Capacitors_SMD:C_0402".
+
+Changing component "22pF1:/562EC8F1" pin "1" net name from "" to "TX_IF".
+
+Changing component "22pF1:/562EC8F1" pin "2" net name from "" to "Net-(22pF1-Pad2)".
+
+Info: Checking netlist component footprint "C1:/5599ED5C:Capacitors_SMD:C_0402".
+
+Adding new component "C1:/5599ED5C" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C1:/5599ED5C" pin "1" net name from "" to "VAA".
+
+Changing component "C1:/5599ED5C" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C2:/5599ECF5:Capacitors_SMD:C_0402".
+
+Adding new component "C2:/5599ECF5" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C2:/5599ECF5" pin "1" net name from "" to "VAA".
+
+Changing component "C2:/5599ECF5" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C3:/5599ECF4:Capacitors_SMD:C_0402".
+
+Adding new component "C3:/5599ECF4" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C3:/5599ECF4" pin "1" net name from "" to "VAA".
+
+Changing component "C3:/5599ECF4" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C4:/5599ED0B:Capacitors_SMD:C_0402".
+
+Adding new component "C4:/5599ED0B" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C4:/5599ED0B" pin "1" net name from "" to "VAA".
+
+Changing component "C4:/5599ED0B" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C5:/5599ED09:Capacitors_SMD:C_0402".
+
+Adding new component "C5:/5599ED09" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C5:/5599ED09" pin "1" net name from "" to "VAA".
+
+Changing component "C5:/5599ED09" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C6:/5599ECE8:Capacitors_SMD:C_0402".
+
+Adding new component "C6:/5599ECE8" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C6:/5599ECE8" pin "1" net name from "" to "VAA".
+
+Changing component "C6:/5599ECE8" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C7:/5599ED03:Capacitors_SMD:C_0402".
+
+Adding new component "C7:/5599ED03" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C7:/5599ED03" pin "1" net name from "" to "VAA".
+
+Changing component "C7:/5599ED03" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C8:/5599ED08:Capacitors_SMD:C_0402".
+
+Adding new component "C8:/5599ED08" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C8:/5599ED08" pin "1" net name from "" to "VAA".
+
+Changing component "C8:/5599ED08" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C9:/5599ED07:Capacitors_SMD:C_0402".
+
+Adding new component "C9:/5599ED07" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C9:/5599ED07" pin "1" net name from "" to "VAA".
+
+Changing component "C9:/5599ED07" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C10:/5599ECF3:Capacitors_SMD:C_0402".
+
+Adding new component "C10:/5599ECF3" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C10:/5599ECF3" pin "1" net name from "" to "VAA".
+
+Changing component "C10:/5599ECF3" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C11:/5599ED0A:Capacitors_SMD:C_0402".
+
+Adding new component "C11:/5599ED0A" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C11:/5599ED0A" pin "1" net name from "" to "VCC".
+
+Changing component "C11:/5599ED0A" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C12:/5599ED12:Capacitors_SMD:C_0402".
+
+Adding new component "C12:/5599ED12" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C12:/5599ED12" pin "1" net name from "" to "VAA".
+
+Changing component "C12:/5599ED12" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C13:/5599ECC6:Capacitors_SMD:C_0402".
+
+Adding new component "C13:/5599ECC6" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C13:/5599ECC6" pin "1" net name from "" to "VAA".
+
+Changing component "C13:/5599ECC6" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C14:/5599ED11:Capacitors_SMD:C_0402".
+
+Adding new component "C14:/5599ED11" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C14:/5599ED11" pin "1" net name from "" to "VAA".
+
+Changing component "C14:/5599ED11" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C15:/5599ECFB:Capacitors_SMD:C_0402".
+
+Adding new component "C15:/5599ECFB" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C15:/5599ECFB" pin "1" net name from "" to "VAA".
+
+Changing component "C15:/5599ECFB" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C16:/5599ED10:Capacitors_SMD:C_0402".
+
+Adding new component "C16:/5599ED10" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C16:/5599ED10" pin "1" net name from "" to "VAA".
+
+Changing component "C16:/5599ED10" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C17:/5599ECFA:Capacitors_SMD:C_0402".
+
+Adding new component "C17:/5599ECFA" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C17:/5599ECFA" pin "1" net name from "" to "VAA".
+
+Changing component "C17:/5599ECFA" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C18:/5599ED0F:Capacitors_SMD:C_0402".
+
+Adding new component "C18:/5599ED0F" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C18:/5599ED0F" pin "1" net name from "" to "VAA".
+
+Changing component "C18:/5599ED0F" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C19:/5599ECF9:Capacitors_SMD:C_0402".
+
+Adding new component "C19:/5599ECF9" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C19:/5599ECF9" pin "1" net name from "" to "VAA".
+
+Changing component "C19:/5599ECF9" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C20:/5599ED0E:Capacitors_SMD:C_0402".
+
+Adding new component "C20:/5599ED0E" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C20:/5599ED0E" pin "1" net name from "" to "VAA".
+
+Changing component "C20:/5599ED0E" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C21:/5599ECF8:Capacitors_SMD:C_0402".
+
+Adding new component "C21:/5599ECF8" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C21:/5599ECF8" pin "1" net name from "" to "VAA".
+
+Changing component "C21:/5599ECF8" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C22:/5599ED0D:Capacitors_SMD:C_0402".
+
+Adding new component "C22:/5599ED0D" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C22:/5599ED0D" pin "1" net name from "" to "VAA".
+
+Changing component "C22:/5599ED0D" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C23:/5599ECF7:Capacitors_SMD:C_0402".
+
+Adding new component "C23:/5599ECF7" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C23:/5599ECF7" pin "1" net name from "" to "VAA".
+
+Changing component "C23:/5599ECF7" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C24:/5599ED0C:Capacitors_SMD:C_0402".
+
+Adding new component "C24:/5599ED0C" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C24:/5599ED0C" pin "1" net name from "" to "VAA".
+
+Changing component "C24:/5599ED0C" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C25:/5599ED83:Capacitors_SMD:C_0402".
+
+Adding new component "C25:/5599ED83" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C25:/5599ED83" pin "1" net name from "" to "VCC".
+
+Changing component "C25:/5599ED83" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C26:/5599ECF2:Capacitors_SMD:C_0402".
+
+Adding new component "C26:/5599ECF2" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C26:/5599ECF2" pin "1" net name from "" to "/TXBBQ-".
+
+Changing component "C26:/5599ECF2" pin "2" net name from "" to "/TXBBQ+".
+
+Info: Checking netlist component footprint "C27:/5599ECF1:Capacitors_SMD:C_0402".
+
+Adding new component "C27:/5599ECF1" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C27:/5599ECF1" pin "1" net name from "" to "/TXBBI+".
+
+Changing component "C27:/5599ECF1" pin "2" net name from "" to "/TXBBI-".
+
+Info: Checking netlist component footprint "C28:/5599ED49:Capacitors_SMD:C_0402".
+
+Adding new component "C28:/5599ED49" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C28:/5599ED49" pin "1" net name from "" to "/COM".
+
+Changing component "C28:/5599ED49" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C29:/5599ED3E:Capacitors_SMD:C_0402".
+
+Adding new component "C29:/5599ED3E" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C29:/5599ED3E" pin "1" net name from "" to "/REFN".
+
+Changing component "C29:/5599ED3E" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C30:/5599ECFC:Capacitors_SMD:C_0402".
+
+Adding new component "C30:/5599ECFC" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C30:/5599ECFC" pin "1" net name from "" to "Net-(C30-Pad1)".
+
+Changing component "C30:/5599ECFC" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C31:/5599ECEA:Capacitors_SMD:C_0402".
+
+Adding new component "C31:/5599ECEA" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C31:/5599ECEA" pin "1" net name from "" to "Net-(C31-Pad1)".
+
+Changing component "C31:/5599ECEA" pin "2" net name from "" to "Net-(C31-Pad2)".
+
+Info: Checking netlist component footprint "C32:/5599ED4A:Capacitors_SMD:C_0402".
+
+Adding new component "C32:/5599ED4A" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C32:/5599ED4A" pin "1" net name from "" to "/REFP".
+
+Changing component "C32:/5599ED4A" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C33:/5599ECF0:Capacitors_SMD:C_0402".
+
+Adding new component "C33:/5599ECF0" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C33:/5599ECF0" pin "1" net name from "" to "/IA+".
+
+Changing component "C33:/5599ECF0" pin "2" net name from "" to "/IA-".
+
+Info: Checking netlist component footprint "C34:/5599ECE9:Capacitors_SMD:C_0402".
+
+Adding new component "C34:/5599ECE9" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C34:/5599ECE9" pin "1" net name from "" to "Net-(C34-Pad1)".
+
+Changing component "C34:/5599ECE9" pin "2" net name from "" to "Net-(C34-Pad2)".
+
+Info: Checking netlist component footprint "C35:/5599ECEF:Capacitors_SMD:C_0402".
+
+Adding new component "C35:/5599ECEF" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C35:/5599ECEF" pin "1" net name from "" to "/QA-".
+
+Changing component "C35:/5599ECEF" pin "2" net name from "" to "/QA+".
+
+Info: Checking netlist component footprint "C36:/5599ED3C:Capacitors_SMD:C_0402".
+
+Adding new component "C36:/5599ED3C" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C36:/5599ED3C" pin "1" net name from "" to "Net-(C36-Pad1)".
+
+Changing component "C36:/5599ED3C" pin "2" net name from "" to "Net-(C36-Pad2)".
+
+Info: Checking netlist component footprint "C37:/5599ED53:Capacitors_SMD:C_0402".
+
+Adding new component "C37:/5599ED53" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C37:/5599ED53" pin "1" net name from "" to "Net-(C37-Pad1)".
+
+Changing component "C37:/5599ED53" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C38:/5599ECEE:Capacitors_SMD:C_0402".
+
+Adding new component "C38:/5599ECEE" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C38:/5599ECEE" pin "1" net name from "" to "/QA+".
+
+Changing component "C38:/5599ECEE" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C39:/5599ECED:Capacitors_SMD:C_0402".
+
+Adding new component "C39:/5599ECED" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C39:/5599ECED" pin "1" net name from "" to "/QA-".
+
+Changing component "C39:/5599ECED" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C40:/5599ECEC:Capacitors_SMD:C_0402".
+
+Adding new component "C40:/5599ECEC" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C40:/5599ECEC" pin "1" net name from "" to "/IA-".
+
+Changing component "C40:/5599ECEC" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C41:/5599ECEB:Capacitors_SMD:C_0402".
+
+Adding new component "C41:/5599ECEB" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C41:/5599ECEB" pin "1" net name from "" to "/IA+".
+
+Changing component "C41:/5599ECEB" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C42:/5599ED3D:Capacitors_SMD:C_0402".
+
+Adding new component "C42:/5599ED3D" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C42:/5599ED3D" pin "1" net name from "" to "Net-(C42-Pad1)".
+
+Changing component "C42:/5599ED3D" pin "2" net name from "" to "Net-(C42-Pad2)".
+
+Info: Checking netlist component footprint "C43:/5599ECFE:Capacitors_SMD:C_0402".
+
+Adding new component "C43:/5599ECFE" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C43:/5599ECFE" pin "1" net name from "" to "/CPOUT-".
+
+Changing component "C43:/5599ECFE" pin "2" net name from "" to "/CPOUT+".
+
+Info: Checking netlist component footprint "C44:/5599ED18:Capacitors_SMD:C_0402".
+
+Adding new component "C44:/5599ED18" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C44:/5599ED18" pin "1" net name from "" to "VCC".
+
+Changing component "C44:/5599ED18" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C45:/5599ED13:Capacitors_SMD:C_0402".
+
+Adding new component "C45:/5599ED13" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C45:/5599ED13" pin "1" net name from "" to "VCC".
+
+Changing component "C45:/5599ED13" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C46:/5599ECF6:Capacitors_SMD:C_0402".
+
+Adding new component "C46:/5599ECF6" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C46:/5599ECF6" pin "1" net name from "" to "VCC".
+
+Changing component "C46:/5599ECF6" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C47:/5599EDA2:Capacitors_SMD:C_0402".
+
+Adding new component "C47:/5599EDA2" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C47:/5599EDA2" pin "1" net name from "" to "GND".
+
+Changing component "C47:/5599EDA2" pin "2" net name from "" to "/XB".
+
+Info: Checking netlist component footprint "C48:/5599EDA3:Capacitors_SMD:C_0402".
+
+Adding new component "C48:/5599EDA3" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C48:/5599EDA3" pin "1" net name from "" to "GND".
+
+Changing component "C48:/5599EDA3" pin "2" net name from "" to "/XA".
+
+Info: Checking netlist component footprint "C49:/5599ED9B:Capacitors_SMD:C_0402".
+
+Adding new component "C49:/5599ED9B" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C49:/5599ED9B" pin "1" net name from "" to "/CLK5".
+
+Changing component "C49:/5599ED9B" pin "2" net name from "" to "/XTAL2".
+
+Info: Checking netlist component footprint "C50:/5599ED56:Capacitors_SMD:C_0402".
+
+Adding new component "C50:/5599ED56" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C50:/5599ED56" pin "1" net name from "" to "Net-(C50-Pad1)".
+
+Changing component "C50:/5599ED56" pin "2" net name from "" to "Net-(C50-Pad2)".
+
+Info: Checking netlist component footprint "C51:/5599EDA0:Capacitors_SMD:C_0402".
+
+Adding new component "C51:/5599EDA0" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C51:/5599EDA0" pin "1" net name from "" to "SSP1_MISO".
+
+Changing component "C51:/5599EDA0" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C52:/5599ED9C:Capacitors_SMD:C_0402".
+
+Adding new component "C52:/5599ED9C" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C52:/5599ED9C" pin "1" net name from "" to "/XTAL2".
+
+Changing component "C52:/5599ED9C" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C53:/5599ED67:Capacitors_SMD:C_0402".
+
+Adding new component "C53:/5599ED67" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C53:/5599ED67" pin "1" net name from "" to "GCK1".
+
+Changing component "C53:/5599ED67" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C54:/5599ED68:Capacitors_SMD:C_0402".
+
+Adding new component "C54:/5599ED68" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C54:/5599ED68" pin "1" net name from "" to "GCK2".
+
+Changing component "C54:/5599ED68" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C55:/5599ED6B:Capacitors_SMD:C_0402".
+
+Adding new component "C55:/5599ED6B" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C55:/5599ED6B" pin "1" net name from "" to "SGPIO_CLK".
+
+Changing component "C55:/5599ED6B" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C56:/5599ED6E:Capacitors_SMD:C_0402".
+
+Adding new component "C56:/5599ED6E" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C56:/5599ED6E" pin "1" net name from "" to "CLKOUT".
+
+Changing component "C56:/5599ED6E" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C57:/5599ED17:Capacitors_SMD:C_0402".
+
+Adding new component "C57:/5599ED17" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C57:/5599ED17" pin "1" net name from "" to "VCC".
+
+Changing component "C57:/5599ED17" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C58:/5599ED16:Capacitors_SMD:C_0402".
+
+Adding new component "C58:/5599ED16" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C58:/5599ED16" pin "1" net name from "" to "VCC".
+
+Changing component "C58:/5599ED16" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C59:/5599ED15:Capacitors_SMD:C_0402".
+
+Adding new component "C59:/5599ED15" footprint "Capacitors_SMD:C_0402".
+
+Changing component "C59:/5599ED15" pin "1" net name from "" to "VCC".
+
+Changing component "C59:/5599ED15" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "C60:/5599ED14:Capacitors_SMD:C_0603".
+
+Adding new component "C60:/5599ED14" footprint "Capacitors_SMD:C_0603".
+
+Changing component "C60:/5599ED14" pin "1" net name from "" to "VCC".
+
+Changing component "C60:/5599ED14" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "D1:/5599ED81:Capacitors_SMD:C_0402".
+
+Adding new component "D1:/5599ED81" footprint "Capacitors_SMD:C_0402".
+
+Changing component "D1:/5599ED81" pin "1" net name from "" to "GND".
+
+Changing component "D1:/5599ED81" pin "2" net name from "" to "CLKIN".
+
+Info: Checking netlist component footprint "D2:/5599ED7F:Capacitors_SMD:C_0402".
+
+Adding new component "D2:/5599ED7F" footprint "Capacitors_SMD:C_0402".
+
+Changing component "D2:/5599ED7F" pin "1" net name from "" to "GND".
+
+Changing component "D2:/5599ED7F" pin "2" net name from "" to "CLKOUT".
+
+Info: Checking netlist component footprint "FB1:/5599ECFD:Capacitors_SMD:C_0805".
+
+Adding new component "FB1:/5599ECFD" footprint "Capacitors_SMD:C_0805".
+
+Changing component "FB1:/5599ECFD" pin "1" net name from "" to "Net-(FB1-Pad1)".
+
+Changing component "FB1:/5599ECFD" pin "2" net name from "" to "Net-(C30-Pad1)".
+
+Info: Checking netlist component footprint "GndCon1:/5630B6A1:Connect:1pin".
+
+Adding new component "GndCon1:/5630B6A1" footprint "Connect:1pin".
+
+Changing component "GndCon1:/5630B6A1" pin "1" net name from "" to "GND".
+
+Info: Checking netlist component footprint "L1:/5599ED25:Capacitors_SMD:C_0402".
+
+Adding new component "L1:/5599ED25" footprint "Capacitors_SMD:C_0402".
+
+Changing component "L1:/5599ED25" pin "1" net name from "" to "Net-(C31-Pad2)".
+
+Changing component "L1:/5599ED25" pin "2" net name from "" to "Net-(C34-Pad2)".
+
+Info: Checking netlist component footprint "L2:/5599ED5B:Capacitors_SMD:C_0402".
+
+Adding new component "L2:/5599ED5B" footprint "Capacitors_SMD:C_0402".
+
+Changing component "L2:/5599ED5B" pin "1" net name from "" to "Net-(C31-Pad1)".
+
+Changing component "L2:/5599ED5B" pin "2" net name from "" to "Net-(C34-Pad1)".
+
+Info: Checking netlist component footprint "L3:/5599ED23:Capacitors_SMD:C_0402".
+
+Adding new component "L3:/5599ED23" footprint "Capacitors_SMD:C_0402".
+
+Changing component "L3:/5599ED23" pin "1" net name from "" to "Net-(C36-Pad2)".
+
+Changing component "L3:/5599ED23" pin "2" net name from "" to "Net-(C42-Pad2)".
+
+Info: Checking netlist component footprint "L4:/5599ED24:Capacitors_SMD:C_0402".
+
+Adding new component "L4:/5599ED24" footprint "Capacitors_SMD:C_0402".
+
+Changing component "L4:/5599ED24" pin "1" net name from "" to "Net-(C36-Pad1)".
+
+Changing component "L4:/5599ED24" pin "2" net name from "" to "Net-(C42-Pad1)".
+
+Info: Checking netlist component footprint "P1:/5599ED9D:hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Adding new component "P1:/5599ED9D" footprint "hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Info: Checking netlist component footprint "P2:/5599ECC5:hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Adding new component "P2:/5599ECC5" footprint "hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Info: Checking netlist component footprint "P3:/5599ECC4:hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Adding new component "P3:/5599ECC4" footprint "hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Info: Checking netlist component footprint "P4:/5599ECC3:hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Adding new component "P4:/5599ECC3" footprint "hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Info: Checking netlist component footprint "P5:/5599ECC2:hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Adding new component "P5:/5599ECC2" footprint "hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Info: Checking netlist component footprint "P6:/5599ECC0:hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Adding new component "P6:/5599ECC0" footprint "hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Info: Checking netlist component footprint "P7:/5599ECC1:hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Adding new component "P7:/5599ECC1" footprint "hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Info: Checking netlist component footprint "P8:/5599ED72:hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Adding new component "P8:/5599ED72" footprint "hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Info: Checking netlist component footprint "P9:/5599ED74:hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Adding new component "P9:/5599ED74" footprint "hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Info: Checking netlist component footprint "P10:/5599ED70:hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Adding new component "P10:/5599ED70" footprint "hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Info: Checking netlist component footprint "P11:/5599ED71:hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Adding new component "P11:/5599ED71" footprint "hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Info: Checking netlist component footprint "P12:/5599ED73:hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Adding new component "P12:/5599ED73" footprint "hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Info: Checking netlist component footprint "P13:/5599ED77:hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Adding new component "P13:/5599ED77" footprint "hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Info: Checking netlist component footprint "P14:/5599ED75:hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Adding new component "P14:/5599ED75" footprint "hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Info: Checking netlist component footprint "P15:/5599ED76:hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Adding new component "P15:/5599ED76" footprint "hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Info: Checking netlist component footprint "P16:/5599ED7A:hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Adding new component "P16:/5599ED7A" footprint "hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Info: Checking netlist component footprint "P17:/5599ED7D:hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Adding new component "P17:/5599ED7D" footprint "hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Info: Checking netlist component footprint "P18:/5599ED7B:hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Adding new component "P18:/5599ED7B" footprint "hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Info: Checking netlist component footprint "P19:/5599ED78:hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Adding new component "P19:/5599ED78" footprint "hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Info: Checking netlist component footprint "P20:/5599ED7C:hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Adding new component "P20:/5599ED7C" footprint "hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Info: Checking netlist component footprint "P21:/5599ED79:hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Adding new component "P21:/5599ED79" footprint "hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Info: Checking netlist component footprint "P22:/5599ED7E:hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Adding new component "P22:/5599ED7E" footprint "hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Info: Checking netlist component footprint "P23:/5599ED85:hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Adding new component "P23:/5599ED85" footprint "hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Info: Checking netlist component footprint "P24:/5599ED87:hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Adding new component "P24:/5599ED87" footprint "hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Info: Checking netlist component footprint "P25:/5599ED89:hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Adding new component "P25:/5599ED89" footprint "hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Info: Checking netlist component footprint "P26:/5599ED8B:hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Adding new component "P26:/5599ED8B" footprint "hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Info: Checking netlist component footprint "P27:/5599ED8D:hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Adding new component "P27:/5599ED8D" footprint "hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Info: Checking netlist component footprint "P28:/5599ED8F:hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Adding new component "P28:/5599ED8F" footprint "hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Info: Checking netlist component footprint "P29:/5599ED91:hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Adding new component "P29:/5599ED91" footprint "hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Info: Checking netlist component footprint "P30:/5599ED93:hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Adding new component "P30:/5599ED93" footprint "hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Info: Checking netlist component footprint "P31:/5599ED95:hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Adding new component "P31:/5599ED95" footprint "hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Info: Checking netlist component footprint "P32:/5599ED97:hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Adding new component "P32:/5599ED97" footprint "hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Info: Checking netlist component footprint "P33:/5599ED1E:hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Adding new component "P33:/5599ED1E" footprint "hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Info: Checking netlist component footprint "P37:/5599ED1C:hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Adding new component "P37:/5599ED1C" footprint "hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Info: Checking netlist component footprint "P38:/5599ED29:hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Adding new component "P38:/5599ED29" footprint "hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Info: Checking netlist component footprint "P39:/5599ECC7:hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Adding new component "P39:/5599ECC7" footprint "hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Info: Checking netlist component footprint "P40:/5599ED1D:hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Adding new component "P40:/5599ED1D" footprint "hackrf1:GSG-TESTPOINT-30MIL-MASKONLY".
+
+Info: Checking netlist component footprint "PFIO1:/55A594A9:Socket_Strips:Socket_Strip_Straight_2x18".
+
+Adding new component "PFIO1:/55A594A9" footprint "Socket_Strips:Socket_Strip_Straight_2x18".
+
+Changing component "PFIO1:/55A594A9" pin "1" net name from "" to "DA0".
+
+Changing component "PFIO1:/55A594A9" pin "2" net name from "" to "DD0".
+
+Changing component "PFIO1:/55A594A9" pin "3" net name from "" to "Net-(PFIO1-Pad3)".
+
+Changing component "PFIO1:/55A594A9" pin "4" net name from "" to "DD1".
+
+Changing component "PFIO1:/55A594A9" pin "5" net name from "" to "Net-(PFIO1-Pad5)".
+
+Changing component "PFIO1:/55A594A9" pin "6" net name from "" to "DD2".
+
+Changing component "PFIO1:/55A594A9" pin "7" net name from "" to "Net-(PFIO1-Pad7)".
+
+Changing component "PFIO1:/55A594A9" pin "8" net name from "" to "DD3".
+
+Changing component "PFIO1:/55A594A9" pin "9" net name from "" to "Net-(PFIO1-Pad9)".
+
+Changing component "PFIO1:/55A594A9" pin "10" net name from "" to "DD4".
+
+Changing component "PFIO1:/55A594A9" pin "11" net name from "" to "Net-(PFIO1-Pad11)".
+
+Changing component "PFIO1:/55A594A9" pin "12" net name from "" to "DD5".
+
+Changing component "PFIO1:/55A594A9" pin "13" net name from "" to "Net-(PFIO1-Pad13)".
+
+Changing component "PFIO1:/55A594A9" pin "14" net name from "" to "DD6".
+
+Changing component "PFIO1:/55A594A9" pin "15" net name from "" to "Net-(PFIO1-Pad15)".
+
+Changing component "PFIO1:/55A594A9" pin "16" net name from "" to "DD7".
+
+Changing component "PFIO1:/55A594A9" pin "17" net name from "" to "Net-(PFIO1-Pad17)".
+
+Changing component "PFIO1:/55A594A9" pin "18" net name from "" to "DD8".
+
+Changing component "PFIO1:/55A594A9" pin "19" net name from "" to "Net-(PFIO1-Pad19)".
+
+Changing component "PFIO1:/55A594A9" pin "20" net name from "" to "DD9".
+
+Changing component "PFIO1:/55A594A9" pin "21" net name from "" to "Net-(PFIO1-Pad21)".
+
+Changing component "PFIO1:/55A594A9" pin "22" net name from "" to "DA7".
+
+Changing component "PFIO1:/55A594A9" pin "23" net name from "" to "Net-(PFIO1-Pad23)".
+
+Changing component "PFIO1:/55A594A9" pin "24" net name from "" to "DA6".
+
+Changing component "PFIO1:/55A594A9" pin "25" net name from "" to "Net-(PFIO1-Pad25)".
+
+Changing component "PFIO1:/55A594A9" pin "26" net name from "" to "DA5".
+
+Changing component "PFIO1:/55A594A9" pin "27" net name from "" to "Net-(PFIO1-Pad27)".
+
+Changing component "PFIO1:/55A594A9" pin "28" net name from "" to "DA4".
+
+Changing component "PFIO1:/55A594A9" pin "29" net name from "" to "Net-(PFIO1-Pad29)".
+
+Changing component "PFIO1:/55A594A9" pin "30" net name from "" to "DA3".
+
+Changing component "PFIO1:/55A594A9" pin "31" net name from "" to "Net-(PFIO1-Pad31)".
+
+Changing component "PFIO1:/55A594A9" pin "32" net name from "" to "DA2".
+
+Changing component "PFIO1:/55A594A9" pin "33" net name from "" to "Net-(PFIO1-Pad33)".
+
+Changing component "PFIO1:/55A594A9" pin "34" net name from "" to "DA1".
+
+Changing component "PFIO1:/55A594A9" pin "35" net name from "" to "Net-(PFIO1-Pad35)".
+
+Changing component "PFIO1:/55A594A9" pin "36" net name from "" to "VCC".
+
+Info: Checking netlist component footprint "PFIO2:/5626557D:Socket_Strips:Socket_Strip_Straight_2x12".
+
+Adding new component "PFIO2:/5626557D" footprint "Socket_Strips:Socket_Strip_Straight_2x12".
+
+Changing component "PFIO2:/5626557D" pin "1" net name from "" to "Net-(PFIO2-Pad1)".
+
+Changing component "PFIO2:/5626557D" pin "2" net name from "" to "Net-(PFIO2-Pad2)".
+
+Changing component "PFIO2:/5626557D" pin "3" net name from "" to "Net-(PFIO2-Pad3)".
+
+Changing component "PFIO2:/5626557D" pin "4" net name from "" to "Net-(PFIO2-Pad4)".
+
+Changing component "PFIO2:/5626557D" pin "5" net name from "" to "Net-(PFIO2-Pad5)".
+
+Changing component "PFIO2:/5626557D" pin "6" net name from "" to "Net-(PFIO2-Pad6)".
+
+Changing component "PFIO2:/5626557D" pin "7" net name from "" to "Net-(PFIO2-Pad7)".
+
+Changing component "PFIO2:/5626557D" pin "8" net name from "" to "Net-(PFIO2-Pad8)".
+
+Changing component "PFIO2:/5626557D" pin "9" net name from "" to "Net-(PFIO2-Pad9)".
+
+Changing component "PFIO2:/5626557D" pin "10" net name from "" to "Net-(PFIO2-Pad10)".
+
+Changing component "PFIO2:/5626557D" pin "11" net name from "" to "Net-(PFIO2-Pad11)".
+
+Changing component "PFIO2:/5626557D" pin "12" net name from "" to "Net-(PFIO2-Pad12)".
+
+Changing component "PFIO2:/5626557D" pin "13" net name from "" to "Net-(PFIO2-Pad13)".
+
+Changing component "PFIO2:/5626557D" pin "14" net name from "" to "Net-(PFIO2-Pad14)".
+
+Changing component "PFIO2:/5626557D" pin "15" net name from "" to "Net-(PFIO2-Pad15)".
+
+Changing component "PFIO2:/5626557D" pin "16" net name from "" to "Net-(PFIO2-Pad16)".
+
+Changing component "PFIO2:/5626557D" pin "17" net name from "" to "Net-(PFIO2-Pad17)".
+
+Changing component "PFIO2:/5626557D" pin "18" net name from "" to "Net-(PFIO2-Pad18)".
+
+Changing component "PFIO2:/5626557D" pin "19" net name from "" to "Net-(PFIO2-Pad19)".
+
+Changing component "PFIO2:/5626557D" pin "20" net name from "" to "Net-(PFIO2-Pad20)".
+
+Changing component "PFIO2:/5626557D" pin "21" net name from "" to "Net-(PFIO2-Pad21)".
+
+Changing component "PFIO2:/5626557D" pin "22" net name from "" to "Net-(PFIO2-Pad22)".
+
+Changing component "PFIO2:/5626557D" pin "23" net name from "" to "Net-(PFIO2-Pad23)".
+
+Changing component "PFIO2:/5626557D" pin "24" net name from "" to "Net-(PFIO2-Pad24)".
+
+Info: Checking netlist component footprint "PSA1:/55A592FE:Socket_Strips:Socket_Strip_Straight_2x14".
+
+Adding new component "PSA1:/55A592FE" footprint "Socket_Strips:Socket_Strip_Straight_2x14".
+
+Changing component "PSA1:/55A592FE" pin "1" net name from "" to "!VAA_ENABLE".
+
+Changing component "PSA1:/55A592FE" pin "2" net name from "" to "CS_AD".
+
+Changing component "PSA1:/55A592FE" pin "3" net name from "" to "Net-(PSA1-Pad3)".
+
+Changing component "PSA1:/55A592FE" pin "4" net name from "" to "CS_XCVR".
+
+Changing component "PSA1:/55A592FE" pin "5" net name from "" to "Net-(PSA1-Pad5)".
+
+Changing component "PSA1:/55A592FE" pin "6" net name from "" to "Net-(PSA1-Pad6)".
+
+Changing component "PSA1:/55A592FE" pin "7" net name from "" to "Net-(PSA1-Pad7)".
+
+Changing component "PSA1:/55A592FE" pin "8" net name from "" to "Net-(PSA1-Pad8)".
+
+Changing component "PSA1:/55A592FE" pin "9" net name from "" to "Net-(PSA1-Pad9)".
+
+Changing component "PSA1:/55A592FE" pin "10" net name from "" to "Net-(PSA1-Pad10)".
+
+Changing component "PSA1:/55A592FE" pin "11" net name from "" to "SSP1_MISO".
+
+Changing component "PSA1:/55A592FE" pin "12" net name from "" to "SSP1_MOSI".
+
+Changing component "PSA1:/55A592FE" pin "13" net name from "" to "Net-(PSA1-Pad13)".
+
+Changing component "PSA1:/55A592FE" pin "14" net name from "" to "SCL".
+
+Changing component "PSA1:/55A592FE" pin "15" net name from "" to "Net-(PSA1-Pad15)".
+
+Changing component "PSA1:/55A592FE" pin "16" net name from "" to "XCVR_EN".
+
+Changing component "PSA1:/55A592FE" pin "17" net name from "" to "Net-(PSA1-Pad17)".
+
+Changing component "PSA1:/55A592FE" pin "18" net name from "" to "RXENABLE".
+
+Changing component "PSA1:/55A592FE" pin "19" net name from "" to "SDA".
+
+Changing component "PSA1:/55A592FE" pin "20" net name from "" to "TXENABLE".
+
+Changing component "PSA1:/55A592FE" pin "21" net name from "" to "Net-(PSA1-Pad21)".
+
+Changing component "PSA1:/55A592FE" pin "22" net name from "" to "SSP1_SCK".
+
+Changing component "PSA1:/55A592FE" pin "23" net name from "" to "Net-(PSA1-Pad23)".
+
+Changing component "PSA1:/55A592FE" pin "24" net name from "" to "Net-(PSA1-Pad24)".
+
+Changing component "PSA1:/55A592FE" pin "25" net name from "" to "Net-(PSA1-Pad25)".
+
+Changing component "PSA1:/55A592FE" pin "26" net name from "" to "Net-(PSA1-Pad26)".
+
+Changing component "PSA1:/55A592FE" pin "27" net name from "" to "Net-(PSA1-Pad27)".
+
+Changing component "PSA1:/55A592FE" pin "28" net name from "" to "Net-(PSA1-Pad28)".
+
+Info: Checking netlist component footprint "Q1:/5599ED65:TO_SOT_Packages_SMD:SOT-23".
+
+Adding new component "Q1:/5599ED65" footprint "TO_SOT_Packages_SMD:SOT-23".
+
+Info: Checking netlist component footprint "R1:/5599ED66:Resistors_SMD:R_0402".
+
+Adding new component "R1:/5599ED66" footprint "Resistors_SMD:R_0402".
+
+Changing component "R1:/5599ED66" pin "1" net name from "" to "VCC".
+
+Changing component "R1:/5599ED66" pin "2" net name from "" to "!VAA_ENABLE".
+
+Info: Checking netlist component footprint "R2:/5599ED50:Resistors_SMD:R_0402".
+
+Adding new component "R2:/5599ED50" footprint "Resistors_SMD:R_0402".
+
+Changing component "R2:/5599ED50" pin "1" net name from "" to "/QD+".
+
+Changing component "R2:/5599ED50" pin "2" net name from "" to "/TXBBQ-".
+
+Info: Checking netlist component footprint "R3:/5599ECE7:Resistors_SMD:R_0402".
+
+Adding new component "R3:/5599ECE7" footprint "Resistors_SMD:R_0402".
+
+Changing component "R3:/5599ECE7" pin "1" net name from "" to "/QD-".
+
+Changing component "R3:/5599ECE7" pin "2" net name from "" to "/TXBBQ+".
+
+Info: Checking netlist component footprint "R4:/5599ECE6:Resistors_SMD:R_0402".
+
+Adding new component "R4:/5599ECE6" footprint "Resistors_SMD:R_0402".
+
+Changing component "R4:/5599ECE6" pin "1" net name from "" to "/ID-".
+
+Changing component "R4:/5599ECE6" pin "2" net name from "" to "/TXBBI+".
+
+Info: Checking netlist component footprint "R5:/5599ECE5:Resistors_SMD:R_0402".
+
+Adding new component "R5:/5599ECE5" footprint "Resistors_SMD:R_0402".
+
+Changing component "R5:/5599ECE5" pin "1" net name from "" to "/ID+".
+
+Changing component "R5:/5599ECE5" pin "2" net name from "" to "/TXBBI-".
+
+Info: Checking netlist component footprint "R6:/5599ED02:Resistors_SMD:R_0402".
+
+Adding new component "R6:/5599ED02" footprint "Resistors_SMD:R_0402".
+
+Changing component "R6:/5599ED02" pin "1" net name from "" to "/TXBBI-".
+
+Changing component "R6:/5599ED02" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "R7:/5599ED01:Resistors_SMD:R_0402".
+
+Adding new component "R7:/5599ED01" footprint "Resistors_SMD:R_0402".
+
+Changing component "R7:/5599ED01" pin "1" net name from "" to "/TXBBI+".
+
+Changing component "R7:/5599ED01" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "R8:/5599ED00:Resistors_SMD:R_0402".
+
+Adding new component "R8:/5599ED00" footprint "Resistors_SMD:R_0402".
+
+Changing component "R8:/5599ED00" pin "1" net name from "" to "/TXBBQ+".
+
+Changing component "R8:/5599ED00" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "R9:/5599ECFF:Resistors_SMD:R_0402".
+
+Adding new component "R9:/5599ECFF" footprint "Resistors_SMD:R_0402".
+
+Changing component "R9:/5599ECFF" pin "1" net name from "" to "/TXBBQ-".
+
+Changing component "R9:/5599ECFF" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "R10:/5599ED26:Resistors_SMD:R_0402".
+
+Adding new component "R10:/5599ED26" footprint "Resistors_SMD:R_0402".
+
+Changing component "R10:/5599ED26" pin "1" net name from "" to "/IA+".
+
+Changing component "R10:/5599ED26" pin "2" net name from "" to "/RXBBI+".
+
+Info: Checking netlist component footprint "R11:/5599ECE4:Resistors_SMD:R_0402".
+
+Adding new component "R11:/5599ECE4" footprint "Resistors_SMD:R_0402".
+
+Changing component "R11:/5599ECE4" pin "1" net name from "" to "/IA-".
+
+Changing component "R11:/5599ECE4" pin "2" net name from "" to "/RXBBI-".
+
+Info: Checking netlist component footprint "R12:/5599ECE3:Resistors_SMD:R_0402".
+
+Adding new component "R12:/5599ECE3" footprint "Resistors_SMD:R_0402".
+
+Changing component "R12:/5599ECE3" pin "1" net name from "" to "/QA-".
+
+Changing component "R12:/5599ECE3" pin "2" net name from "" to "/RXBBQ+".
+
+Info: Checking netlist component footprint "R13:/5599ECE2:Resistors_SMD:R_0402".
+
+Adding new component "R13:/5599ECE2" footprint "Resistors_SMD:R_0402".
+
+Changing component "R13:/5599ECE2" pin "1" net name from "" to "/QA+".
+
+Changing component "R13:/5599ECE2" pin "2" net name from "" to "/RXBBQ-".
+
+Info: Checking netlist component footprint "R14:/5599ED05:Resistors_SMD:R_0402".
+
+Adding new component "R14:/5599ED05" footprint "Resistors_SMD:R_0402".
+
+Changing component "R14:/5599ED05" pin "1" net name from "" to "GND".
+
+Changing component "R14:/5599ED05" pin "2" net name from "" to "XCVR_EN".
+
+Info: Checking netlist component footprint "R15:/5599ED55:Resistors_SMD:R_0402".
+
+Adding new component "R15:/5599ED55" footprint "Resistors_SMD:R_0402".
+
+Changing component "R15:/5599ED55" pin "1" net name from "" to "/CPOUT+".
+
+Changing component "R15:/5599ED55" pin "2" net name from "" to "Net-(C50-Pad2)".
+
+Info: Checking netlist component footprint "R16:/5599ED54:Resistors_SMD:R_0402".
+
+Adding new component "R16:/5599ED54" footprint "Resistors_SMD:R_0402".
+
+Changing component "R16:/5599ED54" pin "1" net name from "" to "/CPOUT-".
+
+Changing component "R16:/5599ED54" pin "2" net name from "" to "Net-(C50-Pad1)".
+
+Info: Checking netlist component footprint "R17:/5599ED31:Resistors_SMD:R_0402".
+
+Adding new component "R17:/5599ED31" footprint "Resistors_SMD:R_0402".
+
+Changing component "R17:/5599ED31" pin "1" net name from "" to "VCC".
+
+Changing component "R17:/5599ED31" pin "2" net name from "" to "SDA".
+
+Info: Checking netlist component footprint "R18:/5599ECBD:Resistors_SMD:R_0402".
+
+Adding new component "R18:/5599ECBD" footprint "Resistors_SMD:R_0402".
+
+Changing component "R18:/5599ECBD" pin "1" net name from "" to "VCC".
+
+Changing component "R18:/5599ECBD" pin "2" net name from "" to "SCL".
+
+Info: Checking netlist component footprint "R19:/5599ED04:Resistors_SMD:R_0402".
+
+Adding new component "R19:/5599ED04" footprint "Resistors_SMD:R_0402".
+
+Changing component "R19:/5599ED04" pin "1" net name from "" to "VCC".
+
+Changing component "R19:/5599ED04" pin "2" net name from "" to "/INTR".
+
+Info: Checking netlist component footprint "R20:/5599ED9A:Resistors_SMD:R_0402".
+
+Adding new component "R20:/5599ED9A" footprint "Resistors_SMD:R_0402".
+
+Changing component "R20:/5599ED9A" pin "1" net name from "" to "GCK1".
+
+Changing component "R20:/5599ED9A" pin "2" net name from "" to "/CLK0".
+
+Info: Checking netlist component footprint "R21:/5599ED99:Resistors_SMD:R_0402".
+
+Adding new component "R21:/5599ED99" footprint "Resistors_SMD:R_0402".
+
+Changing component "R21:/5599ED99" pin "1" net name from "" to "GCK2".
+
+Changing component "R21:/5599ED99" pin "2" net name from "" to "/CLK1".
+
+Info: Checking netlist component footprint "R22:/5599ED5F:Resistors_SMD:R_0402".
+
+Adding new component "R22:/5599ED5F" footprint "Resistors_SMD:R_0402".
+
+Changing component "R22:/5599ED5F" pin "1" net name from "" to "SGPIO_CLK".
+
+Changing component "R22:/5599ED5F" pin "2" net name from "" to "/CLK2".
+
+Info: Checking netlist component footprint "R23:/5599ECBF:Resistors_SMD:R_0402".
+
+Adding new component "R23:/5599ECBF" footprint "Resistors_SMD:R_0402".
+
+Changing component "R23:/5599ECBF" pin "1" net name from "" to "CLKIN".
+
+Changing component "R23:/5599ECBF" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "R24:/5599ED6D:Resistors_SMD:R_0402".
+
+Adding new component "R24:/5599ED6D" footprint "Resistors_SMD:R_0402".
+
+Changing component "R24:/5599ED6D" pin "1" net name from "" to "CLKOUT".
+
+Changing component "R24:/5599ED6D" pin "2" net name from "" to "/CLK3".
+
+Info: Checking netlist component footprint "R25:/5599ED06:Resistors_SMD:R_0402".
+
+Adding new component "R25:/5599ED06" footprint "Resistors_SMD:R_0402".
+
+Changing component "R25:/5599ED06" pin "1" net name from "" to "VCC".
+
+Changing component "R25:/5599ED06" pin "2" net name from "" to "/OEB".
+
+Info: Checking netlist component footprint "R26:/562FE02A:Resistors_SMD:R_0402".
+
+Adding new component "R26:/562FE02A" footprint "Resistors_SMD:R_0402".
+
+Changing component "R26:/562FE02A" pin "1" net name from "" to "Net-(PFIO1-Pad35)".
+
+Changing component "R26:/562FE02A" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "RX1:/562E9DD1:hackrf1:GSG-SMA-EDGE".
+
+Adding new component "RX1:/562E9DD1" footprint "hackrf1:GSG-SMA-EDGE".
+
+Changing component "RX1:/562E9DD1" pin "1" net name from "" to "RX_IF".
+
+Changing component "RX1:/562E9DD1" pin "2" net name from "" to "GND".
+
+Changing component "RX1:/562E9DD1" pin "2" net name from "" to "GND".
+
+Changing component "RX1:/562E9DD1" pin "2" net name from "" to "GND".
+
+Changing component "RX1:/562E9DD1" pin "2" net name from "" to "GND".
+
+Changing component "RX1:/562E9DD1" pin "2" net name from "" to "GND".
+
+Changing component "RX1:/562E9DD1" pin "2" net name from "" to "GND".
+
+Changing component "RX1:/562E9DD1" pin "2" net name from "" to "GND".
+
+Changing component "RX1:/562E9DD1" pin "2" net name from "" to "GND".
+
+Changing component "RX1:/562E9DD1" pin "2" net name from "" to "GND".
+
+Changing component "RX1:/562E9DD1" pin "2" net name from "" to "GND".
+
+Changing component "RX1:/562E9DD1" pin "2" net name from "" to "GND".
+
+Changing component "RX1:/562E9DD1" pin "2" net name from "" to "GND".
+
+Changing component "RX1:/562E9DD1" pin "2" net name from "" to "GND".
+
+Changing component "RX1:/562E9DD1" pin "2" net name from "" to "GND".
+
+Changing component "RX1:/562E9DD1" pin "2" net name from "" to "GND".
+
+Changing component "RX1:/562E9DD1" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "T1:/5599ED3B:hackrf1:GSG-2500BL14M100".
+
+Adding new component "T1:/5599ED3B" footprint "hackrf1:GSG-2500BL14M100".
+
+Changing component "T1:/5599ED3B" pin "1" net name from "" to "RX_IF".
+
+Changing component "T1:/5599ED3B" pin "2" net name from "" to "GND".
+
+Changing component "T1:/5599ED3B" pin "3" net name from "" to "Net-(C34-Pad2)".
+
+Changing component "T1:/5599ED3B" pin "4" net name from "" to "Net-(C31-Pad2)".
+
+Changing component "T1:/5599ED3B" pin "5" net name from "" to "GND".
+
+Info: Checking netlist component footprint "T2:/5599ED38:hackrf1:GSG-2500BL14M100".
+
+Adding new component "T2:/5599ED38" footprint "hackrf1:GSG-2500BL14M100".
+
+Changing component "T2:/5599ED38" pin "1" net name from "" to "TX_IF".
+
+Changing component "T2:/5599ED38" pin "2" net name from "" to "GND".
+
+Changing component "T2:/5599ED38" pin "3" net name from "" to "Net-(C42-Pad2)".
+
+Changing component "T2:/5599ED38" pin "4" net name from "" to "Net-(C36-Pad2)".
+
+Changing component "T2:/5599ED38" pin "5" net name from "" to "GND".
+
+Info: Checking netlist component footprint "TX1:/562EA022:hackrf1:GSG-SMA-EDGE".
+
+Adding new component "TX1:/562EA022" footprint "hackrf1:GSG-SMA-EDGE".
+
+Changing component "TX1:/562EA022" pin "1" net name from "" to "Net-(22pF1-Pad2)".
+
+Changing component "TX1:/562EA022" pin "2" net name from "" to "GND".
+
+Changing component "TX1:/562EA022" pin "2" net name from "" to "GND".
+
+Changing component "TX1:/562EA022" pin "2" net name from "" to "GND".
+
+Changing component "TX1:/562EA022" pin "2" net name from "" to "GND".
+
+Changing component "TX1:/562EA022" pin "2" net name from "" to "GND".
+
+Changing component "TX1:/562EA022" pin "2" net name from "" to "GND".
+
+Changing component "TX1:/562EA022" pin "2" net name from "" to "GND".
+
+Changing component "TX1:/562EA022" pin "2" net name from "" to "GND".
+
+Changing component "TX1:/562EA022" pin "2" net name from "" to "GND".
+
+Changing component "TX1:/562EA022" pin "2" net name from "" to "GND".
+
+Changing component "TX1:/562EA022" pin "2" net name from "" to "GND".
+
+Changing component "TX1:/562EA022" pin "2" net name from "" to "GND".
+
+Changing component "TX1:/562EA022" pin "2" net name from "" to "GND".
+
+Changing component "TX1:/562EA022" pin "2" net name from "" to "GND".
+
+Changing component "TX1:/562EA022" pin "2" net name from "" to "GND".
+
+Changing component "TX1:/562EA022" pin "2" net name from "" to "GND".
+
+Info: Checking netlist component footprint "U1:/5599ED21:hackrf1:GSG-QFN48-6".
+
+Adding new component "U1:/5599ED21" footprint "hackrf1:GSG-QFN48-6".
+
+Changing component "U1:/5599ED21" pin "1" net name from "" to "VAA".
+
+Changing component "U1:/5599ED21" pin "2" net name from "" to "GND".
+
+Changing component "U1:/5599ED21" pin "3" net name from "" to "Net-(U1-Pad3)".
+
+Changing component "U1:/5599ED21" pin "4" net name from "" to "Net-(C31-Pad1)".
+
+Changing component "U1:/5599ED21" pin "5" net name from "" to "Net-(C34-Pad1)".
+
+Changing component "U1:/5599ED21" pin "6" net name from "" to "Net-(U1-Pad6)".
+
+Changing component "U1:/5599ED21" pin "7" net name from "" to "VAA".
+
+Changing component "U1:/5599ED21" pin "8" net name from "" to "Net-(U1-Pad8)".
+
+Changing component "U1:/5599ED21" pin "9" net name from "" to "Net-(U1-Pad9)".
+
+Changing component "U1:/5599ED21" pin "10" net name from "" to "Net-(C36-Pad1)".
+
+Changing component "U1:/5599ED21" pin "11" net name from "" to "Net-(C42-Pad1)".
+
+Changing component "U1:/5599ED21" pin "12" net name from "" to "Net-(U1-Pad12)".
+
+Changing component "U1:/5599ED21" pin "13" net name from "" to "VAA".
+
+Changing component "U1:/5599ED21" pin "14" net name from "" to "Net-(U1-Pad14)".
+
+Changing component "U1:/5599ED21" pin "15" net name from "" to "SSP1_SCK".
+
+Changing component "U1:/5599ED21" pin "16" net name from "" to "/XCVR_CLKOUT".
+
+Changing component "U1:/5599ED21" pin "17" net name from "" to "/XTAL2".
+
+Changing component "U1:/5599ED21" pin "18" net name from "" to "Net-(U1-Pad18)".
+
+Changing component "U1:/5599ED21" pin "19" net name from "" to "VAA".
+
+Changing component "U1:/5599ED21" pin "20" net name from "" to "VCC".
+
+Changing component "U1:/5599ED21" pin "21" net name from "" to "VAA".
+
+Changing component "U1:/5599ED21" pin "22" net name from "" to "GND".
+
+Changing component "U1:/5599ED21" pin "23" net name from "" to "/CPOUT+".
+
+Changing component "U1:/5599ED21" pin "24" net name from "" to "/CPOUT-".
+
+Changing component "U1:/5599ED21" pin "25" net name from "" to "XCVR_EN".
+
+Changing component "U1:/5599ED21" pin "26" net name from "" to "GND".
+
+Changing component "U1:/5599ED21" pin "27" net name from "" to "Net-(C37-Pad1)".
+
+Changing component "U1:/5599ED21" pin "28" net name from "" to "VAA".
+
+Changing component "U1:/5599ED21" pin "29" net name from "" to "SSP1_MISO".
+
+Changing component "U1:/5599ED21" pin "30" net name from "" to "CS_XCVR".
+
+Changing component "U1:/5599ED21" pin "31" net name from "" to "SSP1_MOSI".
+
+Changing component "U1:/5599ED21" pin "32" net name from "" to "RSSI".
+
+Changing component "U1:/5599ED21" pin "33" net name from "" to "Net-(U1-Pad33)".
+
+Changing component "U1:/5599ED21" pin "34" net name from "" to "Net-(U1-Pad34)".
+
+Changing component "U1:/5599ED21" pin "35" net name from "" to "/RXBBQ-".
+
+Changing component "U1:/5599ED21" pin "36" net name from "" to "/RXBBQ+".
+
+Changing component "U1:/5599ED21" pin "37" net name from "" to "/RXBBI-".
+
+Changing component "U1:/5599ED21" pin "38" net name from "" to "/RXBBI+".
+
+Changing component "U1:/5599ED21" pin "39" net name from "" to "VAA".
+
+Changing component "U1:/5599ED21" pin "40" net name from "" to "Net-(U1-Pad40)".
+
+Changing component "U1:/5599ED21" pin "41" net name from "" to "VAA".
+
+Changing component "U1:/5599ED21" pin "42" net name from "" to "/TXBBI-".
+
+Changing component "U1:/5599ED21" pin "43" net name from "" to "/TXBBI+".
+
+Changing component "U1:/5599ED21" pin "44" net name from "" to "/TXBBQ+".
+
+Changing component "U1:/5599ED21" pin "45" net name from "" to "/TXBBQ-".
+
+Changing component "U1:/5599ED21" pin "46" net name from "" to "VAA".
+
+Changing component "U1:/5599ED21" pin "47" net name from "" to "TXENABLE".
+
+Changing component "U1:/5599ED21" pin "48" net name from "" to "RXENABLE".
+
+Changing component "U1:/5599ED21" pin "0" net name from "" to "GND".
+
+Changing component "U1:/5599ED21" pin "0" net name from "" to "GND".
+
+Changing component "U1:/5599ED21" pin "0" net name from "" to "GND".
+
+Changing component "U1:/5599ED21" pin "0" net name from "" to "GND".
+
+Changing component "U1:/5599ED21" pin "0" net name from "" to "GND".
+
+Changing component "U1:/5599ED21" pin "0" net name from "" to "GND".
+
+Changing component "U1:/5599ED21" pin "0" net name from "" to "GND".
+
+Changing component "U1:/5599ED21" pin "0" net name from "" to "GND".
+
+Changing component "U1:/5599ED21" pin "0" net name from "" to "GND".
+
+Changing component "U1:/5599ED21" pin "0" net name from "" to "GND".
+
+Changing component "U1:/5599ED21" pin "0" net name from "" to "GND".
+
+Changing component "U1:/5599ED21" pin "0" net name from "" to "GND".
+
+Changing component "U1:/5599ED21" pin "0" net name from "" to "GND".
+
+Changing component "U1:/5599ED21" pin "0" net name from "" to "GND".
+
+Changing component "U1:/5599ED21" pin "0" net name from "" to "GND".
+
+Changing component "U1:/5599ED21" pin "0" net name from "" to "GND".
+
+Changing component "U1:/5599ED21" pin "0" net name from "" to "GND".
+
+Changing component "U1:/5599ED21" pin "0" net name from "" to "GND".
+
+Changing component "U1:/5599ED21" pin "0" net name from "" to "GND".
+
+Info: Checking netlist component footprint "U2:/5599ED4F:hackrf1:GSG-QFN48-7".
+
+Adding new component "U2:/5599ED4F" footprint "hackrf1:GSG-QFN48-7".
+
+Changing component "U2:/5599ED4F" pin "1" net name from "" to "/REFP".
+
+Changing component "U2:/5599ED4F" pin "2" net name from "" to "VAA".
+
+Changing component "U2:/5599ED4F" pin "3" net name from "" to "/IA+".
+
+Changing component "U2:/5599ED4F" pin "4" net name from "" to "/IA-".
+
+Changing component "U2:/5599ED4F" pin "5" net name from "" to "GND".
+
+Changing component "U2:/5599ED4F" pin "6" net name from "" to "GCK1".
+
+Changing component "U2:/5599ED4F" pin "7" net name from "" to "GND".
+
+Changing component "U2:/5599ED4F" pin "8" net name from "" to "VAA".
+
+Changing component "U2:/5599ED4F" pin "9" net name from "" to "/QA-".
+
+Changing component "U2:/5599ED4F" pin "10" net name from "" to "/QA+".
+
+Changing component "U2:/5599ED4F" pin "11" net name from "" to "VAA".
+
+Changing component "U2:/5599ED4F" pin "12" net name from "" to "GND".
+
+Changing component "U2:/5599ED4F" pin "13" net name from "" to "DA0".
+
+Changing component "U2:/5599ED4F" pin "14" net name from "" to "DA1".
+
+Changing component "U2:/5599ED4F" pin "15" net name from "" to "DA2".
+
+Changing component "U2:/5599ED4F" pin "16" net name from "" to "DA3".
+
+Changing component "U2:/5599ED4F" pin "17" net name from "" to "GND".
+
+Changing component "U2:/5599ED4F" pin "18" net name from "" to "VCC".
+
+Changing component "U2:/5599ED4F" pin "19" net name from "" to "DA4".
+
+Changing component "U2:/5599ED4F" pin "20" net name from "" to "DA5".
+
+Changing component "U2:/5599ED4F" pin "21" net name from "" to "DA6".
+
+Changing component "U2:/5599ED4F" pin "22" net name from "" to "DA7".
+
+Changing component "U2:/5599ED4F" pin "23" net name from "" to "DD0".
+
+Changing component "U2:/5599ED4F" pin "24" net name from "" to "DD1".
+
+Changing component "U2:/5599ED4F" pin "25" net name from "" to "DD2".
+
+Changing component "U2:/5599ED4F" pin "26" net name from "" to "DD3".
+
+Changing component "U2:/5599ED4F" pin "27" net name from "" to "DD4".
+
+Changing component "U2:/5599ED4F" pin "28" net name from "" to "DD5".
+
+Changing component "U2:/5599ED4F" pin "29" net name from "" to "DD6".
+
+Changing component "U2:/5599ED4F" pin "30" net name from "" to "DD7".
+
+Changing component "U2:/5599ED4F" pin "31" net name from "" to "DD8".
+
+Changing component "U2:/5599ED4F" pin "32" net name from "" to "DD9".
+
+Changing component "U2:/5599ED4F" pin "33" net name from "" to "VAA".
+
+Changing component "U2:/5599ED4F" pin "34" net name from "" to "SSP1_MOSI".
+
+Changing component "U2:/5599ED4F" pin "35" net name from "" to "SSP1_SCK".
+
+Changing component "U2:/5599ED4F" pin "36" net name from "" to "CS_AD".
+
+Changing component "U2:/5599ED4F" pin "37" net name from "" to "GND".
+
+Changing component "U2:/5599ED4F" pin "38" net name from "" to "Net-(U2-Pad38)".
+
+Changing component "U2:/5599ED4F" pin "39" net name from "" to "VAA".
+
+Changing component "U2:/5599ED4F" pin "40" net name from "" to "/QD+".
+
+Changing component "U2:/5599ED4F" pin "41" net name from "" to "/QD-".
+
+Changing component "U2:/5599ED4F" pin "42" net name from "" to "GND".
+
+Changing component "U2:/5599ED4F" pin "43" net name from "" to "VAA".
+
+Changing component "U2:/5599ED4F" pin "44" net name from "" to "/ID-".
+
+Changing component "U2:/5599ED4F" pin "45" net name from "" to "/ID+".
+
+Changing component "U2:/5599ED4F" pin "46" net name from "" to "VAA".
+
+Changing component "U2:/5599ED4F" pin "47" net name from "" to "/COM".
+
+Changing component "U2:/5599ED4F" pin "48" net name from "" to "/REFN".
+
+Changing component "U2:/5599ED4F" pin "0" net name from "" to "GND".
+
+Changing component "U2:/5599ED4F" pin "0" net name from "" to "GND".
+
+Changing component "U2:/5599ED4F" pin "0" net name from "" to "GND".
+
+Changing component "U2:/5599ED4F" pin "0" net name from "" to "GND".
+
+Changing component "U2:/5599ED4F" pin "0" net name from "" to "GND".
+
+Changing component "U2:/5599ED4F" pin "0" net name from "" to "GND".
+
+Changing component "U2:/5599ED4F" pin "0" net name from "" to "GND".
+
+Changing component "U2:/5599ED4F" pin "0" net name from "" to "GND".
+
+Changing component "U2:/5599ED4F" pin "0" net name from "" to "GND".
+
+Changing component "U2:/5599ED4F" pin "0" net name from "" to "GND".
+
+Changing component "U2:/5599ED4F" pin "0" net name from "" to "GND".
+
+Changing component "U2:/5599ED4F" pin "0" net name from "" to "GND".
+
+Changing component "U2:/5599ED4F" pin "0" net name from "" to "GND".
+
+Changing component "U2:/5599ED4F" pin "0" net name from "" to "GND".
+
+Changing component "U2:/5599ED4F" pin "0" net name from "" to "GND".
+
+Changing component "U2:/5599ED4F" pin "0" net name from "" to "GND".
+
+Changing component "U2:/5599ED4F" pin "0" net name from "" to "GND".
+
+Changing component "U2:/5599ED4F" pin "0" net name from "" to "GND".
+
+Changing component "U2:/5599ED4F" pin "0" net name from "" to "GND".
+
+Info: Checking netlist component footprint "U3:/5599ED32:hackrf1:GSG-QFN20-4".
+
+Adding new component "U3:/5599ED32" footprint "hackrf1:GSG-QFN20-4".
+
+Changing component "U3:/5599ED32" pin "1" net name from "" to "/XA".
+
+Changing component "U3:/5599ED32" pin "2" net name from "" to "/XB".
+
+Changing component "U3:/5599ED32" pin "3" net name from "" to "/INTR".
+
+Changing component "U3:/5599ED32" pin "4" net name from "" to "SCL".
+
+Changing component "U3:/5599ED32" pin "5" net name from "" to "SDA".
+
+Changing component "U3:/5599ED32" pin "6" net name from "" to "CLKIN".
+
+Changing component "U3:/5599ED32" pin "7" net name from "" to "/OEB".
+
+Changing component "U3:/5599ED32" pin "8" net name from "" to "/CLK3".
+
+Changing component "U3:/5599ED32" pin "9" net name from "" to "/CLK2".
+
+Changing component "U3:/5599ED32" pin "10" net name from "" to "VCC".
+
+Changing component "U3:/5599ED32" pin "11" net name from "" to "VCC".
+
+Changing component "U3:/5599ED32" pin "12" net name from "" to "/CLK1".
+
+Changing component "U3:/5599ED32" pin "13" net name from "" to "/CLK0".
+
+Changing component "U3:/5599ED32" pin "14" net name from "" to "VCC".
+
+Changing component "U3:/5599ED32" pin "15" net name from "" to "MCU_CLK".
+
+Changing component "U3:/5599ED32" pin "16" net name from "" to "CLK6".
+
+Changing component "U3:/5599ED32" pin "17" net name from "" to "/CLK5".
+
+Changing component "U3:/5599ED32" pin "18" net name from "" to "VCC".
+
+Changing component "U3:/5599ED32" pin "19" net name from "" to "MIX_CLK".
+
+Changing component "U3:/5599ED32" pin "20" net name from "" to "VCC".
+
+Changing component "U3:/5599ED32" pin "0" net name from "" to "GND".
+
+Changing component "U3:/5599ED32" pin "0" net name from "" to "GND".
+
+Changing component "U3:/5599ED32" pin "0" net name from "" to "GND".
+
+Changing component "U3:/5599ED32" pin "0" net name from "" to "GND".
+
+Changing component "U3:/5599ED32" pin "0" net name from "" to "GND".
+
+Changing component "U3:/5599ED32" pin "0" net name from "" to "GND".
+
+Changing component "U3:/5599ED32" pin "0" net name from "" to "GND".
+
+Changing component "U3:/5599ED32" pin "0" net name from "" to "GND".
+
+Changing component "U3:/5599ED32" pin "0" net name from "" to "GND".
+
+Changing component "U3:/5599ED32" pin "0" net name from "" to "GND".
+
+Info: Checking netlist component footprint "X1:/5599ED2C:hackrf1:GSG-XTAL3.2x2.5mm".
+
+Adding new component "X1:/5599ED2C" footprint "hackrf1:GSG-XTAL3.2x2.5mm".
+
+Changing component "X1:/5599ED2C" pin "1" net name from "" to "/XB".
+
+Changing component "X1:/5599ED2C" pin "3" net name from "" to "/XA".
+
+Changing component "X1:/5599ED2C" pin "2" net name from "" to "GND".
+
+Changing component "X1:/5599ED2C" pin "4" net name from "" to "GND".
+
+Error: Component 'P1' pad '9' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P1' pad '16' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P1' pad '15' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P1' pad '14' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P1' pad '3' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P1' pad '2' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P1' pad '1' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P1' pad '8' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P1' pad '7' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P1' pad '13' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P1' pad '11' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P1' pad '12' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P1' pad '10' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P1' pad '5' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P1' pad '4' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P1' pad '6' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P2' pad '1' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P2' pad '2' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P3' pad '1' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P4' pad '1' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P5' pad '1' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P6' pad '1' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P7' pad '1' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P8' pad '1' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P9' pad '1' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P10' pad '1' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P11' pad '1' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P12' pad '1' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P13' pad '1' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P14' pad '1' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P15' pad '1' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P16' pad '1' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P17' pad '1' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P18' pad '1' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P19' pad '1' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P20' pad '1' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P21' pad '1' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P22' pad '1' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P23' pad '1' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P24' pad '1' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P25' pad '1' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P26' pad '1' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P27' pad '1' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P28' pad '1' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P29' pad '1' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P30' pad '1' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P31' pad '1' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P32' pad '1' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P33' pad '1' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P37' pad '1' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P38' pad '2' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P38' pad '1' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P39' pad '2' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P39' pad '1' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'P40' pad '1' not found in footprint 'hackrf1:GSG-TESTPOINT-30MIL-MASKONLY'
+
+Error: Component 'Q1' pad 'D' not found in footprint 'TO_SOT_Packages_SMD:SOT-23'
+
+Error: Component 'Q1' pad 'G' not found in footprint 'TO_SOT_Packages_SMD:SOT-23'
+
+Error: Component 'Q1' pad 'S' not found in footprint 'TO_SOT_Packages_SMD:SOT-23'
+
+Error: Component 'RX1' pad '5' not found in footprint 'hackrf1:GSG-SMA-EDGE'
+
+Error: Component 'RX1' pad '4' not found in footprint 'hackrf1:GSG-SMA-EDGE'
+
+Error: Component 'RX1' pad '3' not found in footprint 'hackrf1:GSG-SMA-EDGE'
+
+Error: Component 'TX1' pad '3' not found in footprint 'hackrf1:GSG-SMA-EDGE'
+
+Error: Component 'TX1' pad '4' not found in footprint 'hackrf1:GSG-SMA-EDGE'
+
+Error: Component 'TX1' pad '5' not found in footprint 'hackrf1:GSG-SMA-EDGE'
+
