@@ -2,7 +2,7 @@
 
   (general
     (links 459)
-    (no_connects 346)
+    (no_connects 459)
     (area 19.224999 59.875 171.150602 139.375001)
     (thickness 1.6)
     (drawings 9)
@@ -79,7 +79,7 @@
     (pad_to_mask_clearance 0)
     (aux_axis_origin 20 90)
     (grid_origin 67.3 108.35)
-    (visible_elements 7FFFF7FF)
+    (visible_elements 7FFCF7FF)
     (pcbplotparams
       (layerselection 0x013ff_80000001)
       (usegerberextensions true)
@@ -726,7 +726,7 @@
   )
 
   (module opendous:1Pin_12mil_VIA (layer F.Cu) (tedit 4A002CFA) (tstamp 555D9A3C)
-    (at 28.52 109.7)
+    (at 56.685 115.415)
     (path /555D7333)
     (fp_text reference TH4 (at 0 -0.3175) (layer F.SilkS) hide
       (effects (font (size 0.127 0.127) (thickness 0.00254)))
@@ -739,7 +739,7 @@
   )
 
   (module opendous:1Pin_12mil_VIA (layer F.Cu) (tedit 4A002CFA) (tstamp 555D9A41)
-    (at 23.27 110.15)
+    (at 61.765 115.415)
     (path /555D7716)
     (fp_text reference TH5 (at 0 -0.3175) (layer F.SilkS) hide
       (effects (font (size 0.127 0.127) (thickness 0.00254)))
@@ -778,7 +778,7 @@
   )
 
   (module opendous:1Pin_12mil_VIA (layer F.Cu) (tedit 4A002CFA) (tstamp 555D9A50)
-    (at 20.87 110.15)
+    (at 64.305 115.415)
     (path /555D7728)
     (fp_text reference TH8 (at 0 -0.3175) (layer F.SilkS) hide
       (effects (font (size 0.127 0.127) (thickness 0.00254)))
@@ -791,7 +791,7 @@
   )
 
   (module opendous:1Pin_12mil_VIA (layer F.Cu) (tedit 4A002CFA) (tstamp 555D9A55)
-    (at 31.29 112.91)
+    (at 66.845 115.415)
     (path /555D798F)
     (fp_text reference TH9 (at 0 -0.3175) (layer F.SilkS) hide
       (effects (font (size 0.127 0.127) (thickness 0.00254)))
@@ -817,7 +817,7 @@
   )
 
   (module opendous:1Pin_12mil_VIA (layer F.Cu) (tedit 4A002CFA) (tstamp 555D9A5F)
-    (at 28.65 112.85)
+    (at 69.385 115.415)
     (path /555DB544)
     (fp_text reference TH11 (at 0 -0.3175) (layer F.SilkS) hide
       (effects (font (size 0.127 0.127) (thickness 0.00254)))
@@ -882,7 +882,7 @@
   )
 
   (module opendous:1Pin_12mil_VIA (layer F.Cu) (tedit 4A002CFA) (tstamp 555D9A78)
-    (at 26.12 109.52)
+    (at 59.225 115.415)
     (path /555DB562)
     (fp_text reference TH16 (at 0 -0.3175) (layer F.SilkS) hide
       (effects (font (size 0.127 0.127) (thickness 0.00254)))
@@ -1077,7 +1077,7 @@
   )
 
   (module opendous:1Pin_12mil_VIA (layer F.Cu) (tedit 4A002CFA) (tstamp 555D9D9D)
-    (at 26.21 112.85)
+    (at 71.925 115.415)
     (path /555DE4A3)
     (fp_text reference TH33 (at 0 -0.3175) (layer F.SilkS) hide
       (effects (font (size 0.127 0.127) (thickness 0.00254)))
@@ -1090,7 +1090,7 @@
   )
 
   (module opendous:1Pin_12mil_VIA (layer F.Cu) (tedit 4A002CFA) (tstamp 555D9DA2)
-    (at 23.49 112.87)
+    (at 74.465 115.415)
     (path /555DE4A9)
     (fp_text reference TH34 (at 0 -0.3175) (layer F.SilkS) hide
       (effects (font (size 0.127 0.127) (thickness 0.00254)))
@@ -4623,7 +4623,7 @@
   )
 
   (module hackrf1:GSG-2500BL14M100 (layer F.Cu) (tedit 4F5D90A4) (tstamp 562A4F8D)
-    (at 38.13 92.46)
+    (at 116.657474 113.63977)
     (path /5599ED3B)
     (fp_text reference T1 (at 0 0) (layer F.SilkS)
       (effects (font (size 0.381 0.381) (thickness 0.09652)))
@@ -4651,7 +4651,7 @@
   )
 
   (module hackrf1:GSG-2500BL14M100 (layer F.Cu) (tedit 4F5D90A4) (tstamp 562A4F9C)
-    (at 37.97 96.39)
+    (at 116.612117 115.32977)
     (path /5599ED38)
     (fp_text reference T2 (at 0 0) (layer F.SilkS)
       (effects (font (size 0.381 0.381) (thickness 0.09652)))
