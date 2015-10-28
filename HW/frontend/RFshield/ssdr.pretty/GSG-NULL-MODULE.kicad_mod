@@ -1,0 +1,8 @@
+(module GSG-NULL-MODULE (layer F.Cu) (tedit 52804A31)
+  (fp_text reference NULL-MODULE (at 0 2) (layer F.SilkS) hide
+    (effects (font (thickness 0.3048)))
+  )
+  (fp_text value VAL** (at 0 0) (layer F.SilkS) hide
+    (effects (font (thickness 0.3048)))
+  )
+)

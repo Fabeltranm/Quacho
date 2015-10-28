@@ -1,14 +1,16 @@
-update=28/10/2015 8:21:15
+update=28/10/2015 8:55:15
 version=1
 last_client=pcbnew
+[general]
+version=1
+RootSch=
+BoardNm=
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
-LibDir=../../../../../hackrf/hackrf/hardware/lemondrop
+LibDir=
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -39,7 +41,6 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=D:/hackrf/hackrf/hardware/kicad/hackrf
 [pcbnew]
 version=1
 PageLayoutDescrFile=

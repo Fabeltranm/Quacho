@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="D">
   <design>
-    <source>/home/ferney/FERNEY/Proyectos/QUACHO/HW/frontend/RFshield/Rfshield.sch</source>
-    <date>dom 05 jul 2015 17:22:03 COT</date>
-    <tool>Eeschema 0.201506292248+5841~23~ubuntu14.04.1-product</tool>
+    <source>D:/Quacho++/Quacho/HW/frontend/RFshield/Rfshield.sch</source>
+    <date>26/10/2015 11:46:53</date>
+    <tool>Eeschema 4.0.0-rc1-stable</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>HackRF One baseband</title>
@@ -21,6 +21,7 @@
   <components>
     <comp ref="R18">
       <value>1k8</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
       <fields>
         <field name="Manufacturer">Stackpole</field>
         <field name="Part Number">RMCF0402JT1K80</field>
@@ -32,6 +33,7 @@
     </comp>
     <comp ref="R23">
       <value>10k</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
       <fields>
         <field name="Manufacturer">Stackpole</field>
         <field name="Part Number">RMCF0402JT10K0</field>
@@ -41,8 +43,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ECBF</tstamp>
     </comp>
-    <comp ref="P5">
+    <comp ref="P6">
       <value>SSP1_MOSI</value>
+      <footprint>hackrf1:GSG-TESTPOINT-50MIL-MASKONLY</footprint>
       <fields>
         <field name="Note">DNP</field>
       </fields>
@@ -50,8 +53,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ECC0</tstamp>
     </comp>
-    <comp ref="P6">
+    <comp ref="P7">
       <value>SSP1_MISO</value>
+      <footprint>hackrf1:GSG-TESTPOINT-50MIL-MASKONLY</footprint>
       <fields>
         <field name="Note">DNP</field>
       </fields>
@@ -59,8 +63,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ECC1</tstamp>
     </comp>
-    <comp ref="P4">
+    <comp ref="P5">
       <value>SSP1_SCK</value>
+      <footprint>hackrf1:GSG-TESTPOINT-50MIL-MASKONLY</footprint>
       <fields>
         <field name="Note">DNP</field>
       </fields>
@@ -68,8 +73,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ECC2</tstamp>
     </comp>
-    <comp ref="P3">
+    <comp ref="P4">
       <value>SDA</value>
+      <footprint>hackrf1:GSG-TESTPOINT-50MIL-MASKONLY</footprint>
       <fields>
         <field name="Note">DNP</field>
       </fields>
@@ -77,8 +83,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ECC3</tstamp>
     </comp>
-    <comp ref="P2">
+    <comp ref="P3">
       <value>SCL</value>
+      <footprint>hackrf1:GSG-TESTPOINT-50MIL-MASKONLY</footprint>
       <fields>
         <field name="Note">DNP</field>
       </fields>
@@ -86,8 +93,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ECC4</tstamp>
     </comp>
-    <comp ref="P1">
+    <comp ref="P2">
       <value>VAA</value>
+      <footprint>Pin_Headers:Pin_Header_Straight_1x02_Pitch3.96mm_Friction_Lock</footprint>
       <fields>
         <field name="Note">DNP</field>
       </fields>
@@ -95,30 +103,33 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ECC5</tstamp>
     </comp>
-    <comp ref="C2">
+    <comp ref="C13">
       <value>2.2uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Taiyo Yuden</field>
         <field name="Part Number">LMK105BJ225MV-F</field>
-        <field name="Description">CAP CER 2.2UF 10V 20% X5R 0402</field>
+        <field name="Description">CAP CER 2.2UF 10V 1% X5R 0402</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ECC6</tstamp>
     </comp>
-    <comp ref="P36">
+    <comp ref="P39">
       <value>CLKOUT</value>
+      <footprint>hackrf1:GSG-SMA-73251-2120</footprint>
       <fields>
         <field name="Manufacturer">Molex</field>
         <field name="Part Number">73251-2121</field>
         <field name="Description">CONN SMA JACK 50 OHM EDGE MNT W/JAM NUT &amp; LOCK WASHER</field>
       </fields>
-      <libsource lib="Rfshield-cache" part="GSG-RF-CONN"/>
+      <libsource lib="hackrf" part="GSG-RF-CONN"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ECC7</tstamp>
     </comp>
     <comp ref="R13">
       <value>0</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
       <fields>
         <field name="Manufacturer">Stackpole</field>
         <field name="Part Number">RMCF0402ZT0R00</field>
@@ -130,6 +141,7 @@
     </comp>
     <comp ref="R12">
       <value>0</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
       <fields>
         <field name="Manufacturer">Stackpole</field>
         <field name="Part Number">RMCF0402ZT0R00</field>
@@ -141,6 +153,7 @@
     </comp>
     <comp ref="R11">
       <value>0</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
       <fields>
         <field name="Manufacturer">Stackpole</field>
         <field name="Part Number">RMCF0402ZT0R00</field>
@@ -152,6 +165,7 @@
     </comp>
     <comp ref="R5">
       <value>1k</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
       <fields>
         <field name="Manufacturer">Stackpole</field>
         <field name="Part Number">RMCF0402FT1K00</field>
@@ -163,6 +177,7 @@
     </comp>
     <comp ref="R4">
       <value>1k</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
       <fields>
         <field name="Manufacturer">Stackpole</field>
         <field name="Part Number">RMCF0402FT1K00</field>
@@ -174,6 +189,7 @@
     </comp>
     <comp ref="R3">
       <value>1k</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
       <fields>
         <field name="Manufacturer">Stackpole</field>
         <field name="Part Number">RMCF0402FT1K00</field>
@@ -183,8 +199,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ECE7</tstamp>
     </comp>
-    <comp ref="C19">
+    <comp ref="C6">
       <value>100pF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM1555C1H101JA01D</field>
@@ -196,6 +213,7 @@
     </comp>
     <comp ref="C34">
       <value>22pF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM1555C1H220JA01D</field>
@@ -207,6 +225,7 @@
     </comp>
     <comp ref="C31">
       <value>22pF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM1555C1H220JA01D</field>
@@ -218,6 +237,7 @@
     </comp>
     <comp ref="C41">
       <value>22pF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM1555C1H220JA01D</field>
@@ -230,6 +250,7 @@
     </comp>
     <comp ref="C40">
       <value>22pF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM1555C1H220JA01D</field>
@@ -242,6 +263,7 @@
     </comp>
     <comp ref="C39">
       <value>22pF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM1555C1H220JA01D</field>
@@ -254,6 +276,7 @@
     </comp>
     <comp ref="C38">
       <value>22pF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM1555C1H220JA01D</field>
@@ -266,6 +289,7 @@
     </comp>
     <comp ref="C35">
       <value>22pF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM1555C1H220JA01D</field>
@@ -278,6 +302,7 @@
     </comp>
     <comp ref="C33">
       <value>22pF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM1555C1H220JA01D</field>
@@ -290,6 +315,7 @@
     </comp>
     <comp ref="C27">
       <value>22pF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM1555C1H220JA01D</field>
@@ -300,8 +326,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ECF1</tstamp>
     </comp>
-    <comp ref="C25">
+    <comp ref="C26">
       <value>22pF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM1555C1H220JA01D</field>
@@ -312,8 +339,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ECF2</tstamp>
     </comp>
-    <comp ref="C23">
+    <comp ref="C10">
       <value>22pF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM1555C1H220JA01D</field>
@@ -323,8 +351,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ECF3</tstamp>
     </comp>
-    <comp ref="C16">
+    <comp ref="C3">
       <value>22pF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM1555C1H220JA01D</field>
@@ -334,8 +363,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ECF4</tstamp>
     </comp>
-    <comp ref="C15">
+    <comp ref="C2">
       <value>22pF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM1555C1H220JA01D</field>
@@ -345,8 +375,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ECF5</tstamp>
     </comp>
-    <comp ref="C50">
+    <comp ref="C46">
       <value>2.2uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Taiyo Yuden</field>
         <field name="Part Number">LMK105BJ225MV-F</field>
@@ -356,8 +387,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ECF6</tstamp>
     </comp>
-    <comp ref="C12">
+    <comp ref="C23">
       <value>2.2uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Taiyo Yuden</field>
         <field name="Part Number">LMK105BJ225MV-F</field>
@@ -367,8 +399,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ECF7</tstamp>
     </comp>
-    <comp ref="C10">
+    <comp ref="C21">
       <value>2.2uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Taiyo Yuden</field>
         <field name="Part Number">LMK105BJ225MV-F</field>
@@ -378,8 +411,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ECF8</tstamp>
     </comp>
-    <comp ref="C8">
+    <comp ref="C19">
       <value>2.2uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Taiyo Yuden</field>
         <field name="Part Number">LMK105BJ225MV-F</field>
@@ -389,8 +423,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ECF9</tstamp>
     </comp>
-    <comp ref="C6">
+    <comp ref="C17">
       <value>2.2uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Taiyo Yuden</field>
         <field name="Part Number">LMK105BJ225MV-F</field>
@@ -400,12 +435,13 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ECFA</tstamp>
     </comp>
-    <comp ref="C4">
+    <comp ref="C15">
       <value>2.2uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Taiyo Yuden</field>
         <field name="Part Number">LMK105BJ225MV-F</field>
-        <field name="Description">CAP CER 2.2UF 10V 20% X5R 0402</field>
+        <field name="Description">CAP CER 2.2UF 10V 1% X5R 0402</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
@@ -413,6 +449,7 @@
     </comp>
     <comp ref="C30">
       <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM21BR61A106KE19L</field>
@@ -424,6 +461,7 @@
     </comp>
     <comp ref="FB1">
       <value>FILTER</value>
+      <footprint>Capacitors_SMD:C_0805</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">BLM21PG221SN1D</field>
@@ -435,6 +473,7 @@
     </comp>
     <comp ref="C43">
       <value>180pF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM1555C1H181JA01D</field>
@@ -446,6 +485,7 @@
     </comp>
     <comp ref="R9">
       <value>4k7</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
       <fields>
         <field name="Manufacturer">Stackpole</field>
         <field name="Part Number">RMCF0402FT4K70</field>
@@ -457,6 +497,7 @@
     </comp>
     <comp ref="R8">
       <value>4k7</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
       <fields>
         <field name="Manufacturer">Stackpole</field>
         <field name="Part Number">RMCF0402FT4K70</field>
@@ -468,6 +509,7 @@
     </comp>
     <comp ref="R7">
       <value>4k7</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
       <fields>
         <field name="Manufacturer">Stackpole</field>
         <field name="Part Number">RMCF0402FT4K70</field>
@@ -479,6 +521,7 @@
     </comp>
     <comp ref="R6">
       <value>4k7</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
       <fields>
         <field name="Manufacturer">Stackpole</field>
         <field name="Part Number">RMCF0402FT4K70</field>
@@ -488,8 +531,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED02</tstamp>
     </comp>
-    <comp ref="C20">
+    <comp ref="C7">
       <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM155R61A104KA01D</field>
@@ -501,6 +545,7 @@
     </comp>
     <comp ref="R19">
       <value>10k</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
       <fields>
         <field name="Manufacturer">Stackpole</field>
         <field name="Part Number">RMCF0402JT10K0</field>
@@ -512,6 +557,7 @@
     </comp>
     <comp ref="R14">
       <value>10k</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
       <fields>
         <field name="Manufacturer">Stackpole</field>
         <field name="Part Number">RMCF0402JT10K0</field>
@@ -523,6 +569,7 @@
     </comp>
     <comp ref="R25">
       <value>10k</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
       <fields>
         <field name="Manufacturer">Stackpole</field>
         <field name="Part Number">RMCF0402JT10K0</field>
@@ -532,8 +579,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED06</tstamp>
     </comp>
-    <comp ref="C22">
+    <comp ref="C9">
       <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM155R71C103KA01D</field>
@@ -543,8 +591,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED07</tstamp>
     </comp>
-    <comp ref="C21">
+    <comp ref="C8">
       <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM155R71C103KA01D</field>
@@ -554,8 +603,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED08</tstamp>
     </comp>
-    <comp ref="C18">
+    <comp ref="C5">
       <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM155R71C103KA01D</field>
@@ -565,8 +615,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED09</tstamp>
     </comp>
-    <comp ref="C24">
+    <comp ref="C11">
       <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM155R71C103KA01D</field>
@@ -576,8 +627,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED0A</tstamp>
     </comp>
-    <comp ref="C17">
+    <comp ref="C4">
       <value>10nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM155R71C103KA01D</field>
@@ -587,8 +639,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED0B</tstamp>
     </comp>
-    <comp ref="C13">
+    <comp ref="C24">
       <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM155R61A104KA01D</field>
@@ -598,8 +651,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED0C</tstamp>
     </comp>
-    <comp ref="C11">
+    <comp ref="C22">
       <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM155R61A104KA01D</field>
@@ -609,8 +663,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED0D</tstamp>
     </comp>
-    <comp ref="C9">
+    <comp ref="C20">
       <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM155R61A104KA01D</field>
@@ -620,8 +675,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED0E</tstamp>
     </comp>
-    <comp ref="C7">
+    <comp ref="C18">
       <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM155R61A104KA01D</field>
@@ -631,8 +687,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED0F</tstamp>
     </comp>
-    <comp ref="C5">
+    <comp ref="C16">
       <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM155R61A104KA01D</field>
@@ -642,30 +699,33 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED10</tstamp>
     </comp>
-    <comp ref="C3">
+    <comp ref="C14">
       <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM155R61A104KA01D</field>
-        <field name="Description">CAP CER 0.1UF 10V 10% X5R 0402</field>
+        <field name="Description">CAP CER 0.1UF 10V 1% X5R 0402</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED11</tstamp>
     </comp>
-    <comp ref="C1">
+    <comp ref="C12">
       <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM155R61A104KA01D</field>
-        <field name="Description">CAP CER 0.1UF 10V 10% X5R 0402</field>
+        <field name="Description">CAP CER 0.1UF 10V 1% X5R 0402</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED12</tstamp>
     </comp>
-    <comp ref="C49">
+    <comp ref="C45">
       <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM155R61A104KA01D</field>
@@ -677,6 +737,7 @@
     </comp>
     <comp ref="C60">
       <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0603</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM155R61A104KA01D</field>
@@ -688,6 +749,7 @@
     </comp>
     <comp ref="C59">
       <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM155R61A104KA01D</field>
@@ -699,6 +761,7 @@
     </comp>
     <comp ref="C58">
       <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM155R61A104KA01D</field>
@@ -710,6 +773,7 @@
     </comp>
     <comp ref="C57">
       <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM155R61A104KA01D</field>
@@ -721,6 +785,7 @@
     </comp>
     <comp ref="C44">
       <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM155R61A104KA01D</field>
@@ -730,8 +795,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED18</tstamp>
     </comp>
-    <comp ref="P33">
+    <comp ref="P37">
       <value>INTR</value>
+      <footprint>hackrf1:GSG-TESTPOINT-50MIL-MASKONLY</footprint>
       <fields>
         <field name="Note">DNP</field>
       </fields>
@@ -739,17 +805,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED1C</tstamp>
     </comp>
-    <comp ref="P37">
-      <value>OEB</value>
-      <fields>
-        <field name="Note">DNP</field>
-      </fields>
-      <libsource lib="Rfshield-cache" part="CONN_1"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5599ED1D</tstamp>
-    </comp>
-    <comp ref="P32">
+    <comp ref="P33">
       <value>XCVR_CLKOUT</value>
+      <footprint>hackrf1:GSG-TESTPOINT-50MIL-MASKONLY</footprint>
       <fields>
         <field name="Note">DNP</field>
       </fields>
@@ -759,17 +817,19 @@
     </comp>
     <comp ref="U1">
       <value>MAX2837</value>
+      <footprint>hackrf1:GSG-QFN48-6</footprint>
       <fields>
         <field name="Manufacturer">Maxim</field>
         <field name="Part Number">MAX2837ETM+</field>
         <field name="Description">IC TXRX 2.3GHZ-2.7GHZ 48TQFN</field>
       </fields>
-      <libsource lib="Rfshield-cache" part="MAX2837"/>
+      <libsource lib="hackrf" part="MAX2837"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED21</tstamp>
     </comp>
     <comp ref="L3">
       <value>DNP</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Note">DNP</field>
       </fields>
@@ -779,6 +839,7 @@
     </comp>
     <comp ref="L4">
       <value>DNP</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Note">DNP</field>
       </fields>
@@ -788,6 +849,7 @@
     </comp>
     <comp ref="L1">
       <value>DNP</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Note">DNP</field>
       </fields>
@@ -797,6 +859,7 @@
     </comp>
     <comp ref="R10">
       <value>0</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
       <fields>
         <field name="Manufacturer">Stackpole</field>
         <field name="Part Number">RMCF0402ZT0R00</field>
@@ -806,30 +869,33 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED26</tstamp>
     </comp>
-    <comp ref="P35">
+    <comp ref="P38">
       <value>CLKIN</value>
+      <footprint>hackrf1:GSG-SMA-73251-2120</footprint>
       <fields>
         <field name="Manufacturer">Molex</field>
         <field name="Part Number">73251-2121</field>
         <field name="Description">CONN SMA JACK 50 OHM EDGE MNT W/JAM NUT &amp; LOCK WASHER</field>
       </fields>
-      <libsource lib="Rfshield-cache" part="GSG-RF-CONN"/>
+      <libsource lib="hackrf" part="GSG-RF-CONN"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED29</tstamp>
     </comp>
     <comp ref="X1">
       <value>GSG-XTAL4PIN</value>
+      <footprint>hackrf1:GSG-XTAL3.2x2.5mm</footprint>
       <fields>
         <field name="Manufacturer">AVX</field>
         <field name="Part Number">CX3225GB25000D0HEQZ1</field>
         <field name="Description">CRYSTAL 25.000MHZ 8PF SMD</field>
       </fields>
-      <libsource lib="Rfshield-cache" part="GSG-XTAL4PIN"/>
+      <libsource lib="hackrf" part="GSG-XTAL4PIN"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED2C</tstamp>
     </comp>
     <comp ref="R17">
       <value>1k8</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
       <fields>
         <field name="Manufacturer">Stackpole</field>
         <field name="Part Number">RMCF0402JT1K80</field>
@@ -841,39 +907,43 @@
     </comp>
     <comp ref="U3">
       <value>SI5351C</value>
+      <footprint>hackrf1:GSG-QFN20-4</footprint>
       <fields>
         <field name="Manufacturer">Silicon Laboratories Inc</field>
         <field name="Part Number">SI5351C-B-GM</field>
         <field name="Description">IC CLK GENERATOR 160MHZ 20QFN</field>
       </fields>
-      <libsource lib="Rfshield-cache" part="SI5351C"/>
+      <libsource lib="hackrf" part="SI5351C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED32</tstamp>
     </comp>
     <comp ref="T2">
       <value>TX_BALUN</value>
+      <footprint>hackrf1:GSG-2500BL14M100</footprint>
       <fields>
         <field name="Manufacturer">Johanson Technology</field>
         <field name="Part Number">2500BL14M100T</field>
         <field name="Description">BALUN CERAMIC CHIP WIMAX 2.5GHZ</field>
       </fields>
-      <libsource lib="Rfshield-cache" part="BALUN"/>
+      <libsource lib="hackrf" part="BALUN"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED38</tstamp>
     </comp>
     <comp ref="T1">
       <value>RX_BALUN</value>
+      <footprint>hackrf1:GSG-2500BL14M100</footprint>
       <fields>
         <field name="Manufacturer">Johanson Technology</field>
         <field name="Part Number">2500BL14M100T</field>
         <field name="Description">BALUN CERAMIC CHIP WIMAX 2.5GHZ</field>
       </fields>
-      <libsource lib="Rfshield-cache" part="BALUN"/>
+      <libsource lib="hackrf" part="BALUN"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED3B</tstamp>
     </comp>
     <comp ref="C36">
       <value>3pF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM1555C1H3R0CA01D</field>
@@ -885,6 +955,7 @@
     </comp>
     <comp ref="C42">
       <value>3pF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM1555C1H3R0CA01D</field>
@@ -896,6 +967,7 @@
     </comp>
     <comp ref="C29">
       <value>330nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM155R61A334KE15D</field>
@@ -907,6 +979,7 @@
     </comp>
     <comp ref="C28">
       <value>330nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM155R61A334KE15D</field>
@@ -918,6 +991,7 @@
     </comp>
     <comp ref="C32">
       <value>330nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM155R61A334KE15D</field>
@@ -929,17 +1003,19 @@
     </comp>
     <comp ref="U2">
       <value>MAX5864</value>
+      <footprint>hackrf1:GSG-QFN48-7</footprint>
       <fields>
         <field name="Manufacturer">Maxim</field>
         <field name="Part Number">MAX5864ETM+</field>
         <field name="Description">IC ANLG FRONT END 22MSPS 48-TQFN</field>
       </fields>
-      <libsource lib="Rfshield-cache" part="MAX5864"/>
+      <libsource lib="hackrf" part="MAX5864"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED4F</tstamp>
     </comp>
-    <comp ref="R1">
+    <comp ref="R2">
       <value>1k</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
       <fields>
         <field name="Manufacturer">Stackpole</field>
         <field name="Part Number">RMCF0402FT1K00</field>
@@ -951,6 +1027,7 @@
     </comp>
     <comp ref="C37">
       <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Taiyo Yuden</field>
         <field name="Part Number">LMK105BJ105KV-F</field>
@@ -962,6 +1039,7 @@
     </comp>
     <comp ref="R16">
       <value>475</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
       <fields>
         <field name="Manufacturer">Stackpole</field>
         <field name="Part Number">RMCF0402JT470R</field>
@@ -973,6 +1051,7 @@
     </comp>
     <comp ref="R15">
       <value>475</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
       <fields>
         <field name="Manufacturer">Stackpole</field>
         <field name="Part Number">RMCF0402JT470R</field>
@@ -982,8 +1061,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED55</tstamp>
     </comp>
-    <comp ref="C48">
+    <comp ref="C50">
       <value>3.3nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM155R71H332KA01D</field>
@@ -995,6 +1075,7 @@
     </comp>
     <comp ref="L2">
       <value>6.2nH</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Taiyo Yuden</field>
         <field name="Part Number">HK10056N2S-T</field>
@@ -1004,8 +1085,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED5B</tstamp>
     </comp>
-    <comp ref="C14">
+    <comp ref="C1">
       <value>22pF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM1555C1H220JA01D</field>
@@ -1017,6 +1099,7 @@
     </comp>
     <comp ref="R22">
       <value>39</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
       <fields>
         <field name="Manufacturer">Stackpole</field>
         <field name="Part Number">RMCF0402JT39R0</field>
@@ -1028,6 +1111,7 @@
     </comp>
     <comp ref="Q1">
       <value>MOSFET_P</value>
+      <footprint>kicad1:SOT-23mos</footprint>
       <fields>
         <field name="Manufacturer">Diodes Inc.</field>
         <field name="Part Number">DMP2305U-7</field>
@@ -1037,8 +1121,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED65</tstamp>
     </comp>
-    <comp ref="R2">
+    <comp ref="R1">
       <value>10k</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
       <fields>
         <field name="Manufacturer">Stackpole</field>
         <field name="Part Number">RMCF0402JT10K0</field>
@@ -1050,6 +1135,7 @@
     </comp>
     <comp ref="C53">
       <value>100pF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM1555C1H101JA01D</field>
@@ -1062,6 +1148,7 @@
     </comp>
     <comp ref="C54">
       <value>100pF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM1555C1H101JA01D</field>
@@ -1074,6 +1161,7 @@
     </comp>
     <comp ref="C55">
       <value>100pF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM1555C1H101JA01D</field>
@@ -1086,6 +1174,7 @@
     </comp>
     <comp ref="R24">
       <value>39</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
       <fields>
         <field name="Manufacturer">Stackpole</field>
         <field name="Part Number">RMCF0402JT39R0</field>
@@ -1097,6 +1186,7 @@
     </comp>
     <comp ref="C56">
       <value>100pF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM1555C1H101JA01D</field>
@@ -1107,8 +1197,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED6E</tstamp>
     </comp>
-    <comp ref="P9">
+    <comp ref="P10">
       <value>TXENABLE</value>
+      <footprint>hackrf1:GSG-TESTPOINT-50MIL-MASKONLY</footprint>
       <fields>
         <field name="Note">DNP</field>
       </fields>
@@ -1116,8 +1207,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED70</tstamp>
     </comp>
-    <comp ref="P10">
+    <comp ref="P11">
       <value>RXENABLE</value>
+      <footprint>hackrf1:GSG-TESTPOINT-50MIL-MASKONLY</footprint>
       <fields>
         <field name="Note">DNP</field>
       </fields>
@@ -1125,8 +1217,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED71</tstamp>
     </comp>
-    <comp ref="P7">
+    <comp ref="P8">
       <value>CS_XCVR</value>
+      <footprint>hackrf1:GSG-TESTPOINT-50MIL-MASKONLY</footprint>
       <fields>
         <field name="Note">DNP</field>
       </fields>
@@ -1134,8 +1227,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED72</tstamp>
     </comp>
-    <comp ref="P11">
+    <comp ref="P12">
       <value>XTAL2</value>
+      <footprint>hackrf1:GSG-TESTPOINT-50MIL-MASKONLY</footprint>
       <fields>
         <field name="Note">DNP</field>
       </fields>
@@ -1143,8 +1237,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED73</tstamp>
     </comp>
-    <comp ref="P8">
+    <comp ref="P9">
       <value>CS_AD</value>
+      <footprint>hackrf1:GSG-TESTPOINT-50MIL-MASKONLY</footprint>
       <fields>
         <field name="Note">DNP</field>
       </fields>
@@ -1152,8 +1247,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED74</tstamp>
     </comp>
-    <comp ref="P13">
+    <comp ref="P14">
       <value>GCK2</value>
+      <footprint>hackrf1:GSG-TESTPOINT-50MIL-MASKONLY</footprint>
       <fields>
         <field name="Note">DNP</field>
       </fields>
@@ -1161,8 +1257,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED75</tstamp>
     </comp>
-    <comp ref="P14">
+    <comp ref="P15">
       <value>SGPIO_CLK</value>
+      <footprint>hackrf1:GSG-TESTPOINT-50MIL-MASKONLY</footprint>
       <fields>
         <field name="Note">DNP</field>
       </fields>
@@ -1170,8 +1267,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED76</tstamp>
     </comp>
-    <comp ref="P12">
+    <comp ref="P13">
       <value>GCK1</value>
+      <footprint>hackrf1:GSG-TESTPOINT-50MIL-MASKONLY</footprint>
       <fields>
         <field name="Note">DNP</field>
       </fields>
@@ -1179,8 +1277,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED77</tstamp>
     </comp>
-    <comp ref="P18">
+    <comp ref="P19">
       <value>DD0</value>
+      <footprint>hackrf1:GSG-TESTPOINT-50MIL-MASKONLY</footprint>
       <fields>
         <field name="Note">DNP</field>
       </fields>
@@ -1188,8 +1287,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED78</tstamp>
     </comp>
-    <comp ref="P20">
+    <comp ref="P21">
       <value>DD9</value>
+      <footprint>hackrf1:GSG-TESTPOINT-50MIL-MASKONLY</footprint>
       <fields>
         <field name="Note">DNP</field>
       </fields>
@@ -1197,8 +1297,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED79</tstamp>
     </comp>
-    <comp ref="P15">
+    <comp ref="P16">
       <value>DA0</value>
+      <footprint>hackrf1:GSG-TESTPOINT-50MIL-MASKONLY</footprint>
       <fields>
         <field name="Note">DNP</field>
       </fields>
@@ -1206,8 +1307,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED7A</tstamp>
     </comp>
-    <comp ref="P17">
+    <comp ref="P18">
       <value>DA7</value>
+      <footprint>hackrf1:GSG-TESTPOINT-50MIL-MASKONLY</footprint>
       <fields>
         <field name="Note">DNP</field>
       </fields>
@@ -1215,8 +1317,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED7B</tstamp>
     </comp>
-    <comp ref="P19">
+    <comp ref="P20">
       <value>DD5</value>
+      <footprint>hackrf1:GSG-TESTPOINT-50MIL-MASKONLY</footprint>
       <fields>
         <field name="Note">DNP</field>
       </fields>
@@ -1224,8 +1327,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED7C</tstamp>
     </comp>
-    <comp ref="P16">
+    <comp ref="P17">
       <value>DA4</value>
+      <footprint>hackrf1:GSG-TESTPOINT-50MIL-MASKONLY</footprint>
       <fields>
         <field name="Note">DNP</field>
       </fields>
@@ -1233,8 +1337,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED7D</tstamp>
     </comp>
-    <comp ref="P21">
+    <comp ref="P22">
       <value>RSSI</value>
+      <footprint>hackrf1:GSG-TESTPOINT-50MIL-MASKONLY</footprint>
       <fields>
         <field name="Note">DNP</field>
       </fields>
@@ -1244,28 +1349,31 @@
     </comp>
     <comp ref="D2">
       <value>GSG-DIODE-TVS-BI</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">LXES15AAA1-100</field>
         <field name="Description">TVS DIODE ESD .05PF 15KV 0402</field>
       </fields>
-      <libsource lib="Rfshield-cache" part="GSG-DIODE-TVS-BI"/>
+      <libsource lib="hackrf" part="GSG-DIODE-TVS-BI"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED7F</tstamp>
     </comp>
     <comp ref="D1">
       <value>GSG-DIODE-TVS-BI</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">LXES15AAA1-100</field>
         <field name="Description">TVS DIODE ESD .05PF 15KV 0402</field>
       </fields>
-      <libsource lib="Rfshield-cache" part="GSG-DIODE-TVS-BI"/>
+      <libsource lib="hackrf" part="GSG-DIODE-TVS-BI"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED81</tstamp>
     </comp>
-    <comp ref="C26">
+    <comp ref="C25">
       <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM155R61A104KA01D</field>
@@ -1275,8 +1383,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED83</tstamp>
     </comp>
-    <comp ref="P22">
+    <comp ref="P23">
       <value>GND</value>
+      <footprint>hackrf1:GSG-TESTPOINT-50MIL-MASKONLY</footprint>
       <fields>
         <field name="Note">DNP</field>
       </fields>
@@ -1284,8 +1393,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED85</tstamp>
     </comp>
-    <comp ref="P23">
+    <comp ref="P24">
       <value>GND</value>
+      <footprint>hackrf1:GSG-TESTPOINT-50MIL-MASKONLY</footprint>
       <fields>
         <field name="Note">DNP</field>
       </fields>
@@ -1293,8 +1403,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED87</tstamp>
     </comp>
-    <comp ref="P24">
+    <comp ref="P25">
       <value>GND</value>
+      <footprint>hackrf1:GSG-TESTPOINT-50MIL-MASKONLY</footprint>
       <fields>
         <field name="Note">DNP</field>
       </fields>
@@ -1302,8 +1413,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED89</tstamp>
     </comp>
-    <comp ref="P25">
+    <comp ref="P26">
       <value>GND</value>
+      <footprint>hackrf1:GSG-TESTPOINT-50MIL-MASKONLY</footprint>
       <fields>
         <field name="Note">DNP</field>
       </fields>
@@ -1311,8 +1423,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED8B</tstamp>
     </comp>
-    <comp ref="P26">
+    <comp ref="P27">
       <value>GND</value>
+      <footprint>hackrf1:GSG-TESTPOINT-50MIL-MASKONLY</footprint>
       <fields>
         <field name="Note">DNP</field>
       </fields>
@@ -1320,8 +1433,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED8D</tstamp>
     </comp>
-    <comp ref="P27">
+    <comp ref="P28">
       <value>GND</value>
+      <footprint>hackrf1:GSG-TESTPOINT-50MIL-MASKONLY</footprint>
       <fields>
         <field name="Note">DNP</field>
       </fields>
@@ -1329,8 +1443,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED8F</tstamp>
     </comp>
-    <comp ref="P28">
+    <comp ref="P29">
       <value>GND</value>
+      <footprint>hackrf1:GSG-TESTPOINT-50MIL-MASKONLY</footprint>
       <fields>
         <field name="Note">DNP</field>
       </fields>
@@ -1338,8 +1453,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED91</tstamp>
     </comp>
-    <comp ref="P29">
+    <comp ref="P30">
       <value>GND</value>
+      <footprint>hackrf1:GSG-TESTPOINT-50MIL-MASKONLY</footprint>
       <fields>
         <field name="Note">DNP</field>
       </fields>
@@ -1347,8 +1463,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED93</tstamp>
     </comp>
-    <comp ref="P30">
+    <comp ref="P31">
       <value>GND</value>
+      <footprint>hackrf1:GSG-TESTPOINT-50MIL-MASKONLY</footprint>
       <fields>
         <field name="Note">DNP</field>
       </fields>
@@ -1356,8 +1473,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED95</tstamp>
     </comp>
-    <comp ref="P31">
+    <comp ref="P32">
       <value>GND</value>
+      <footprint>hackrf1:GSG-TESTPOINT-50MIL-MASKONLY</footprint>
       <fields>
         <field name="Note">DNP</field>
       </fields>
@@ -1367,6 +1485,7 @@
     </comp>
     <comp ref="R21">
       <value>39</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
       <fields>
         <field name="Manufacturer">Stackpole</field>
         <field name="Part Number">RMCF0402JT39R0</field>
@@ -1378,6 +1497,7 @@
     </comp>
     <comp ref="R20">
       <value>39</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
       <fields>
         <field name="Manufacturer">Stackpole</field>
         <field name="Part Number">RMCF0402JT39R0</field>
@@ -1387,8 +1507,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED9A</tstamp>
     </comp>
-    <comp ref="C47">
+    <comp ref="C49">
       <value>33pF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM1555C1H330JA01D</field>
@@ -1398,8 +1519,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED9B</tstamp>
     </comp>
-    <comp ref="C51">
+    <comp ref="C52">
       <value>47pF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM1555C1H470JA01D</field>
@@ -1409,19 +1531,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599ED9C</tstamp>
     </comp>
-    <comp ref="P34">
-      <value>BASEBAND</value>
-      <fields>
-        <field name="Manufacturer">Sullins</field>
-        <field name="Part Number">PPPC082LFBN-RC</field>
-        <field name="Description">CONN HEADER FMAL 16PS.1" DL GOLD</field>
-      </fields>
-      <libsource lib="Rfshield-cache" part="CONN_8X2"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamp>5599ED9D</tstamp>
-    </comp>
-    <comp ref="C52">
+    <comp ref="C51">
       <value>100pF</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Manufacturer">Murata</field>
         <field name="Part Number">GRM1555C1H101JA01D</field>
@@ -1432,8 +1544,9 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599EDA0</tstamp>
     </comp>
-    <comp ref="C45">
+    <comp ref="C47">
       <value>DNP</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Note">DNP</field>
       </fields>
@@ -1441,14 +1554,89 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599EDA2</tstamp>
     </comp>
-    <comp ref="C46">
+    <comp ref="C48">
       <value>DNP</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
       <fields>
         <field name="Note">DNP</field>
       </fields>
       <libsource lib="device" part="C"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5599EDA3</tstamp>
+    </comp>
+    <comp ref="PSA1">
+      <value>CONN_02X14</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_2x14</footprint>
+      <libsource lib="conn" part="CONN_02X14"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55A592FE</tstamp>
+    </comp>
+    <comp ref="PFIO1">
+      <value>CONN_02X18</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_2x18</footprint>
+      <libsource lib="conn" part="CONN_02X18"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>55A594A9</tstamp>
+    </comp>
+    <comp ref="PFIO2">
+      <value>CONN_02X12</value>
+      <footprint>Socket_Strips:Socket_Strip_Straight_2x12</footprint>
+      <libsource lib="conn" part="CONN_02X12"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5626557D</tstamp>
+    </comp>
+    <comp ref="22pF1">
+      <value>C_Small</value>
+      <footprint>Capacitors_SMD:C_0402</footprint>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>562EC8F1</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>0</value>
+      <footprint>Resistors_SMD:R_0402</footprint>
+      <fields>
+        <field name="Manufacturer">Stackpole</field>
+        <field name="Part Number">RMCF0402ZT0R00</field>
+        <field name="Description">RES 0.0 OHM 1/16W 0402 SMD</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>562FE02A</tstamp>
+    </comp>
+    <comp ref="GndCon1">
+      <value>GND</value>
+      <footprint>Connect:1pin</footprint>
+      <fields>
+        <field name="Note">DNP</field>
+      </fields>
+      <libsource lib="Rfshield-cache" part="CONN_1"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5630B6A1</tstamp>
+    </comp>
+    <comp ref="RX1">
+      <value>CLKOUT</value>
+      <footprint>hackrf1:GSG-SMA-EDGE</footprint>
+      <fields>
+        <field name="Manufacturer">Molex</field>
+        <field name="Part Number">73251-2121</field>
+        <field name="Description">CONN SMA JACK 50 OHM EDGE MNT W/JAM NUT &amp; LOCK WASHER</field>
+      </fields>
+      <libsource lib="hackrf" part="GSG-RF-CONN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5627FF57</tstamp>
+    </comp>
+    <comp ref="TX1">
+      <value>CLKOUT</value>
+      <footprint>hackrf1:GSG-SMA-EDGE</footprint>
+      <fields>
+        <field name="Manufacturer">Molex</field>
+        <field name="Part Number">73251-2121</field>
+        <field name="Description">CONN SMA JACK 50 OHM EDGE MNT W/JAM NUT &amp; LOCK WASHER</field>
+      </fields>
+      <libsource lib="hackrf" part="GSG-RF-CONN"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>56280BE6</tstamp>
     </comp>
   </components>
   <libparts>
@@ -1467,41 +1655,78 @@
         <pin num="2" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Rfshield-cache" part="CONN_2">
+    <libpart lib="hackrf" part="BALUN">
       <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_2</field>
+        <field name="Reference">T</field>
+        <field name="Value">BALUN</field>
       </fields>
       <pins>
-        <pin num="1" name="P1" type="passive"/>
-        <pin num="2" name="PM" type="passive"/>
+        <pin num="1" name="S1" type="passive"/>
+        <pin num="2" name="S2" type="passive"/>
+        <pin num="3" name="PR1" type="passive"/>
+        <pin num="4" name="PR2" type="passive"/>
+        <pin num="5" name="PM" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Rfshield-cache" part="CONN_8X2">
+    <libpart lib="device" part="FILTER">
+      <description>Filtre EMI</description>
       <fields>
-        <field name="Reference">P</field>
-        <field name="Value">CONN_8X2</field>
+        <field name="Reference">FB</field>
+        <field name="Value">FILTER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="INDUCTOR">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">INDUCTOR</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
       </fields>
       <pins>
         <pin num="1" name="~" type="passive"/>
         <pin num="2" name="~" type="passive"/>
-        <pin num="3" name="~" type="passive"/>
-        <pin num="4" name="~" type="passive"/>
-        <pin num="5" name="~" type="passive"/>
-        <pin num="6" name="~" type="passive"/>
-        <pin num="7" name="~" type="passive"/>
-        <pin num="8" name="~" type="passive"/>
-        <pin num="9" name="~" type="passive"/>
-        <pin num="10" name="~" type="passive"/>
-        <pin num="11" name="~" type="passive"/>
-        <pin num="12" name="~" type="passive"/>
-        <pin num="13" name="~" type="passive"/>
-        <pin num="14" name="~" type="passive"/>
-        <pin num="15" name="~" type="passive"/>
-        <pin num="16" name="~" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Rfshield-cache" part="GSG-DIODE-TVS-BI">
+    <libpart lib="device" part="C_Small">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="hackrf" part="GSG-DIODE-TVS-BI">
+      <description>Diode zener</description>
       <footprints>
         <fp>D?</fp>
         <fp>SO*</fp>
@@ -1516,7 +1741,7 @@
         <pin num="2" name="K" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Rfshield-cache" part="GSG-RF-CONN">
+    <libpart lib="hackrf" part="GSG-RF-CONN">
       <fields>
         <field name="Reference">P</field>
         <field name="Value">GSG-RF-CONN</field>
@@ -1526,7 +1751,7 @@
         <pin num="2" name="GND" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="Rfshield-cache" part="GSG-XTAL4PIN">
+    <libpart lib="hackrf" part="GSG-XTAL4PIN">
       <fields>
         <field name="Reference">X</field>
         <field name="Value">GSG-XTAL4PIN</field>
@@ -1538,7 +1763,7 @@
         <pin num="4" name="4" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Rfshield-cache" part="MAX2837">
+    <libpart lib="hackrf" part="MAX2837">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">MAX2837</field>
@@ -1595,7 +1820,7 @@
         <pin num="48" name="RXENABLE" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="Rfshield-cache" part="MAX5864">
+    <libpart lib="hackrf" part="MAX5864">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">MAX5864</field>
@@ -1652,21 +1877,7 @@
         <pin num="48" name="REFN" type="output"/>
       </pins>
     </libpart>
-    <libpart lib="Rfshield-cache" part="MOS_P">
-      <aliases>
-        <alias>MOSFET_P</alias>
-      </aliases>
-      <fields>
-        <field name="Reference">Q</field>
-        <field name="Value">MOS_P</field>
-      </fields>
-      <pins>
-        <pin num="D" name="D" type="passive"/>
-        <pin num="G" name="G" type="input"/>
-        <pin num="S" name="S" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Rfshield-cache" part="SI5351C">
+    <libpart lib="hackrf" part="SI5351C">
       <fields>
         <field name="Reference">U</field>
         <field name="Value">SI5351C</field>
@@ -1695,37 +1906,6 @@
         <pin num="20" name="VDD" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="device" part="C">
-      <description>Unpolarized capacitor</description>
-      <footprints>
-        <fp>C?</fp>
-        <fp>C_????_*</fp>
-        <fp>C_????</fp>
-        <fp>SMD*_c</fp>
-        <fp>Capacitor*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">C</field>
-      </fields>
-      <pins>
-        <pin num="1" name="~" type="passive"/>
-        <pin num="2" name="~" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Rfshield-cache" part="BALUN">
-      <fields>
-        <field name="Reference">T</field>
-        <field name="Value">BALUN</field>
-      </fields>
-      <pins>
-        <pin num="1" name="S1" type="passive"/>
-        <pin num="2" name="S2" type="passive"/>
-        <pin num="3" name="PR1" type="passive"/>
-        <pin num="4" name="PR2" type="passive"/>
-        <pin num="5" name="PM" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="Rfshield-cache" part="CONN_1">
       <fields>
         <field name="Reference">P</field>
@@ -1735,847 +1915,944 @@
         <pin num="1" name="1" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="device" part="FILTER">
-      <description>Filtre EMI</description>
+    <libpart lib="Rfshield-cache" part="CONN_2">
       <fields>
-        <field name="Reference">FB</field>
-        <field name="Value">FILTER</field>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_2</field>
       </fields>
       <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="PM" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="device" part="INDUCTOR">
+    <libpart lib="Rfshield-cache" part="MOS_P">
+      <aliases>
+        <alias>MOSFET_P</alias>
+      </aliases>
       <fields>
-        <field name="Reference">L</field>
-        <field name="Value">INDUCTOR</field>
+        <field name="Reference">Q</field>
+        <field name="Value">MOS_P</field>
       </fields>
       <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
+        <pin num="D" name="D" type="passive"/>
+        <pin num="G" name="G" type="input"/>
+        <pin num="S" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X12">
+      <footprints>
+        <fp>Pin_Header_Straight_2X12</fp>
+        <fp>Pin_Header_Angled_2X12</fp>
+        <fp>Socket_Strip_Straight_2X12</fp>
+        <fp>Socket_Strip_Angled_2X12</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X12</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+        <pin num="13" name="P13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+        <pin num="15" name="P15" type="passive"/>
+        <pin num="16" name="P16" type="passive"/>
+        <pin num="17" name="P17" type="passive"/>
+        <pin num="18" name="P18" type="passive"/>
+        <pin num="19" name="P19" type="passive"/>
+        <pin num="20" name="P20" type="passive"/>
+        <pin num="21" name="P21" type="passive"/>
+        <pin num="22" name="P22" type="passive"/>
+        <pin num="23" name="P23" type="passive"/>
+        <pin num="24" name="P24" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X14">
+      <footprints>
+        <fp>Pin_Header_Straight_2X14</fp>
+        <fp>Pin_Header_Angled_2X14</fp>
+        <fp>Socket_Strip_Straight_2X14</fp>
+        <fp>Socket_Strip_Angled_2X14</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X14</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+        <pin num="13" name="P13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+        <pin num="15" name="P15" type="passive"/>
+        <pin num="16" name="P16" type="passive"/>
+        <pin num="17" name="P17" type="passive"/>
+        <pin num="18" name="P18" type="passive"/>
+        <pin num="19" name="P19" type="passive"/>
+        <pin num="20" name="P20" type="passive"/>
+        <pin num="21" name="P21" type="passive"/>
+        <pin num="22" name="P22" type="passive"/>
+        <pin num="23" name="P23" type="passive"/>
+        <pin num="24" name="P24" type="passive"/>
+        <pin num="25" name="P25" type="passive"/>
+        <pin num="26" name="P26" type="passive"/>
+        <pin num="27" name="P27" type="passive"/>
+        <pin num="28" name="P28" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="CONN_02X18">
+      <footprints>
+        <fp>Pin_Header_Straight_2X18</fp>
+        <fp>Pin_Header_Angled_2X18</fp>
+        <fp>Socket_Strip_Straight_2X18</fp>
+        <fp>Socket_Strip_Angled_2X18</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_02X18</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+        <pin num="7" name="P7" type="passive"/>
+        <pin num="8" name="P8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P11" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+        <pin num="13" name="P13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+        <pin num="15" name="P15" type="passive"/>
+        <pin num="16" name="P16" type="passive"/>
+        <pin num="17" name="P17" type="passive"/>
+        <pin num="18" name="P18" type="passive"/>
+        <pin num="19" name="P19" type="passive"/>
+        <pin num="20" name="P20" type="passive"/>
+        <pin num="21" name="P21" type="passive"/>
+        <pin num="22" name="P22" type="passive"/>
+        <pin num="23" name="P23" type="passive"/>
+        <pin num="24" name="P24" type="passive"/>
+        <pin num="25" name="P25" type="passive"/>
+        <pin num="26" name="P26" type="passive"/>
+        <pin num="27" name="P27" type="passive"/>
+        <pin num="28" name="P28" type="passive"/>
+        <pin num="29" name="P29" type="passive"/>
+        <pin num="30" name="P30" type="passive"/>
+        <pin num="31" name="P31" type="passive"/>
+        <pin num="32" name="P32" type="passive"/>
+        <pin num="33" name="P33" type="passive"/>
+        <pin num="34" name="P34" type="passive"/>
+        <pin num="35" name="P35" type="passive"/>
+        <pin num="36" name="P36" type="passive"/>
       </pins>
     </libpart>
   </libparts>
   <libraries>
+    <library logical="conn">
+      <uri>C:\Program Files\KiCad\share\kicad\library\conn.lib</uri>
+    </library>
     <library logical="device">
-      <uri>/usr/share/kicad/library/device.lib</uri>
+      <uri>C:\Program Files\KiCad\share\kicad\library\device.lib</uri>
+    </library>
+    <library logical="hackrf">
+      <uri>D:\hackrf\hackrf\hardware\kicad\hackrf.lib</uri>
     </library>
     <library logical="Rfshield-cache">
-      <uri>/home/ferney/FERNEY/Proyectos/QUACHO/HW/frontend/RFshield/Rfshield-cache.lib</uri>
+      <uri>D:\Quacho++\Quacho\HW\frontend\RFshield\Rfshield-cache.lib</uri>
     </library>
   </libraries>
   <nets>
-    <net code="1" name="SDA">
-      <node ref="U3" pin="5"/>
-      <node ref="P3" pin="1"/>
-    </net>
-    <net code="2" name="TX_IF">
-      <node ref="T2" pin="1"/>
-    </net>
-    <net code="3" name="RX_IF">
-      <node ref="T1" pin="1"/>
-    </net>
-    <net code="4" name="SCL">
-      <node ref="U3" pin="4"/>
+    <net code="1" name="VAA">
       <node ref="P2" pin="1"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C24" pin="1"/>
+      <node ref="C22" pin="1"/>
+      <node ref="C20" pin="1"/>
+      <node ref="C18" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="C7" pin="1"/>
+      <node ref="U1" pin="21"/>
+      <node ref="U1" pin="41"/>
+      <node ref="U1" pin="13"/>
+      <node ref="C16" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U1" pin="7"/>
+      <node ref="U2" pin="11"/>
+      <node ref="U1" pin="46"/>
+      <node ref="U1" pin="28"/>
+      <node ref="U1" pin="19"/>
+      <node ref="U1" pin="39"/>
+      <node ref="C14" pin="1"/>
+      <node ref="C12" pin="1"/>
+      <node ref="U2" pin="8"/>
+      <node ref="U2" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="U2" pin="46"/>
+      <node ref="U2" pin="39"/>
+      <node ref="C1" pin="1"/>
+      <node ref="C3" pin="1"/>
+      <node ref="C8" pin="1"/>
+      <node ref="C9" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="C2" pin="1"/>
+      <node ref="U2" pin="33"/>
+      <node ref="C10" pin="1"/>
+      <node ref="C17" pin="1"/>
+      <node ref="C23" pin="1"/>
+      <node ref="C19" pin="1"/>
+      <node ref="U2" pin="43"/>
+      <node ref="C21" pin="1"/>
     </net>
-    <net code="6" name="TXENABLE">
-      <node ref="P9" pin="1"/>
-      <node ref="U1" pin="47"/>
-    </net>
-    <net code="7" name="/CPOUT+">
-      <node ref="U1" pin="23"/>
-    </net>
-    <net code="8" name="DD1">
-      <node ref="U2" pin="24"/>
-    </net>
-    <net code="9" name="DA1">
-      <node ref="U2" pin="14"/>
-    </net>
-    <net code="10" name="DA3">
-      <node ref="U2" pin="16"/>
-    </net>
-    <net code="11" name="DA5">
-      <node ref="U2" pin="20"/>
-    </net>
-    <net code="12" name="DD3">
-      <node ref="U2" pin="26"/>
-    </net>
-    <net code="13" name="DD7">
-      <node ref="U2" pin="30"/>
-    </net>
-    <net code="14" name="Net-(U1-Pad27)">
-      <node ref="U1" pin="27"/>
-    </net>
-    <net code="15" name="GND">
-      <node ref="U2" pin="42"/>
-      <node ref="U2" pin="37"/>
-      <node ref="C23" pin="2"/>
-      <node ref="C16" pin="2"/>
-      <node ref="C15" pin="2"/>
-      <node ref="U2" pin="0"/>
-      <node ref="U2" pin="17"/>
-      <node ref="C19" pin="2"/>
-      <node ref="C30" pin="2"/>
-      <node ref="U2" pin="5"/>
-      <node ref="P34" pin="1"/>
-      <node ref="P34" pin="2"/>
-      <node ref="P34" pin="3"/>
-      <node ref="P34" pin="14"/>
-      <node ref="P34" pin="8"/>
-      <node ref="P34" pin="9"/>
-      <node ref="U2" pin="7"/>
-      <node ref="C56" pin="2"/>
-      <node ref="P34" pin="15"/>
-      <node ref="P34" pin="16"/>
-      <node ref="U2" pin="12"/>
-      <node ref="U1" pin="22"/>
-      <node ref="C18" pin="2"/>
-      <node ref="C21" pin="2"/>
-      <node ref="C22" pin="2"/>
-      <node ref="C24" pin="2"/>
-      <node ref="C20" pin="2"/>
-      <node ref="C17" pin="2"/>
-      <node ref="U1" pin="2"/>
-      <node ref="U1" pin="0"/>
-      <node ref="C57" pin="2"/>
-      <node ref="C58" pin="2"/>
-      <node ref="C59" pin="2"/>
-      <node ref="C60" pin="2"/>
-      <node ref="P36" pin="2"/>
-      <node ref="R23" pin="2"/>
-      <node ref="T1" pin="5"/>
-      <node ref="P25" pin="1"/>
-      <node ref="T1" pin="2"/>
-      <node ref="P26" pin="1"/>
-      <node ref="U3" pin="0"/>
-      <node ref="P24" pin="1"/>
-      <node ref="P31" pin="1"/>
-      <node ref="P30" pin="1"/>
-      <node ref="T2" pin="5"/>
+    <net code="2" name="RSSI">
       <node ref="P22" pin="1"/>
-      <node ref="P23" pin="1"/>
-      <node ref="P27" pin="1"/>
-      <node ref="X1" pin="2"/>
-      <node ref="X1" pin="4"/>
-      <node ref="U1" pin="26"/>
-      <node ref="P35" pin="2"/>
-      <node ref="D1" pin="1"/>
-      <node ref="D2" pin="1"/>
-      <node ref="C14" pin="2"/>
-      <node ref="T2" pin="2"/>
-      <node ref="P28" pin="1"/>
-      <node ref="P29" pin="1"/>
-      <node ref="C26" pin="2"/>
-    </net>
-    <net code="16" name="Net-(R20-Pad1)">
-      <node ref="R20" pin="1"/>
-    </net>
-    <net code="17" name="DD9">
-      <node ref="U2" pin="32"/>
-      <node ref="P20" pin="1"/>
-    </net>
-    <net code="18" name="DD0">
-      <node ref="U2" pin="23"/>
-      <node ref="P18" pin="1"/>
-    </net>
-    <net code="19" name="DA0">
-      <node ref="U2" pin="13"/>
-      <node ref="P15" pin="1"/>
-    </net>
-    <net code="20" name="CS_AD">
-      <node ref="P8" pin="1"/>
-      <node ref="U2" pin="36"/>
-    </net>
-    <net code="21" name="SGPIO_CLK">
-      <node ref="P14" pin="1"/>
-      <node ref="C55" pin="1"/>
-      <node ref="R22" pin="1"/>
-    </net>
-    <net code="22" name="GCK2">
-      <node ref="R21" pin="1"/>
-      <node ref="P13" pin="1"/>
-    </net>
-    <net code="23" name="GCK1">
-      <node ref="U2" pin="6"/>
-      <node ref="P12" pin="1"/>
-    </net>
-    <net code="24" name="/XTAL2">
-      <node ref="P11" pin="1"/>
-      <node ref="U1" pin="17"/>
-    </net>
-    <net code="25" name="CS_XCVR">
-      <node ref="U1" pin="30"/>
-      <node ref="P7" pin="1"/>
-    </net>
-    <net code="26" name="Net-(R20-Pad2)">
-      <node ref="R20" pin="2"/>
-    </net>
-    <net code="27" name="RSSI">
-      <node ref="P21" pin="1"/>
       <node ref="U1" pin="32"/>
     </net>
-    <net code="28" name="DA4">
-      <node ref="P16" pin="1"/>
-      <node ref="U2" pin="19"/>
+    <net code="3" name="Net-(C50-Pad1)">
+      <node ref="C50" pin="1"/>
+      <node ref="R16" pin="2"/>
     </net>
-    <net code="29" name="DD5">
-      <node ref="U2" pin="28"/>
-      <node ref="P19" pin="1"/>
+    <net code="4" name="/CPOUT+">
+      <node ref="R15" pin="1"/>
+      <node ref="U1" pin="23"/>
+      <node ref="C43" pin="2"/>
     </net>
-    <net code="30" name="DA7">
-      <node ref="U2" pin="22"/>
-      <node ref="P17" pin="1"/>
+    <net code="5" name="Net-(C37-Pad1)">
+      <node ref="C37" pin="1"/>
+      <node ref="U1" pin="27"/>
     </net>
-    <net code="31" name="Net-(C30-Pad1)">
-      <node ref="FB1" pin="2"/>
-      <node ref="C30" pin="1"/>
-      <node ref="P1" pin="2"/>
+    <net code="6" name="Net-(C50-Pad2)">
+      <node ref="C50" pin="2"/>
+      <node ref="R15" pin="2"/>
     </net>
-    <net code="32" name="SSP1_SCK">
-      <node ref="P4" pin="1"/>
+    <net code="8" name="Net-(PFIO2-Pad4)">
+      <node ref="PFIO2" pin="4"/>
+    </net>
+    <net code="9" name="Net-(PFIO2-Pad3)">
+      <node ref="PFIO2" pin="3"/>
+    </net>
+    <net code="10" name="Net-(PFIO2-Pad2)">
+      <node ref="PFIO2" pin="2"/>
+    </net>
+    <net code="11" name="Net-(PFIO2-Pad1)">
+      <node ref="PFIO2" pin="1"/>
+    </net>
+    <net code="12" name="SSP1_SCK">
       <node ref="U1" pin="15"/>
+      <node ref="PSA1" pin="22"/>
+      <node ref="P5" pin="1"/>
       <node ref="U2" pin="35"/>
     </net>
-    <net code="33" name="SSP1_MOSI">
+    <net code="13" name="SSP1_MISO">
+      <node ref="U1" pin="29"/>
+      <node ref="PSA1" pin="11"/>
+      <node ref="C51" pin="1"/>
+      <node ref="P7" pin="1"/>
+    </net>
+    <net code="14" name="SSP1_MOSI">
+      <node ref="P6" pin="1"/>
+      <node ref="PSA1" pin="12"/>
       <node ref="U1" pin="31"/>
-      <node ref="P5" pin="1"/>
       <node ref="U2" pin="34"/>
     </net>
-    <net code="34" name="VCC">
-      <node ref="C59" pin="1"/>
-      <node ref="C57" pin="1"/>
-      <node ref="C58" pin="1"/>
-      <node ref="C60" pin="1"/>
-      <node ref="U1" pin="20"/>
-      <node ref="U3" pin="18"/>
-      <node ref="U3" pin="14"/>
-      <node ref="U2" pin="18"/>
-      <node ref="C24" pin="1"/>
-      <node ref="R25" pin="1"/>
-      <node ref="U3" pin="11"/>
-      <node ref="U3" pin="20"/>
-      <node ref="R2" pin="1"/>
-      <node ref="Q1" pin="S"/>
-      <node ref="U3" pin="10"/>
-      <node ref="C26" pin="1"/>
+    <net code="15" name="CS_XCVR">
+      <node ref="U1" pin="30"/>
+      <node ref="PSA1" pin="4"/>
+      <node ref="P8" pin="1"/>
     </net>
-    <net code="35" name="Net-(FB1-Pad1)">
+    <net code="16" name="SCL">
+      <node ref="R18" pin="2"/>
+      <node ref="U3" pin="4"/>
+      <node ref="P3" pin="1"/>
+      <node ref="PSA1" pin="14"/>
+    </net>
+    <net code="17" name="SDA">
+      <node ref="PSA1" pin="19"/>
+      <node ref="R17" pin="2"/>
+      <node ref="U3" pin="5"/>
+      <node ref="P4" pin="1"/>
+    </net>
+    <net code="18" name="Net-(PFIO2-Pad5)">
+      <node ref="PFIO2" pin="5"/>
+    </net>
+    <net code="19" name="Net-(PFIO2-Pad22)">
+      <node ref="PFIO2" pin="22"/>
+    </net>
+    <net code="20" name="XCVR_EN">
+      <node ref="U1" pin="25"/>
+      <node ref="R14" pin="2"/>
+      <node ref="PSA1" pin="16"/>
+    </net>
+    <net code="21" name="Net-(PFIO2-Pad19)">
+      <node ref="PFIO2" pin="19"/>
+    </net>
+    <net code="22" name="Net-(PFIO2-Pad18)">
+      <node ref="PFIO2" pin="18"/>
+    </net>
+    <net code="23" name="Net-(PFIO2-Pad17)">
+      <node ref="PFIO2" pin="17"/>
+    </net>
+    <net code="24" name="Net-(PFIO2-Pad16)">
+      <node ref="PFIO2" pin="16"/>
+    </net>
+    <net code="25" name="Net-(PFIO2-Pad15)">
+      <node ref="PFIO2" pin="15"/>
+    </net>
+    <net code="26" name="Net-(PFIO2-Pad24)">
+      <node ref="PFIO2" pin="24"/>
+    </net>
+    <net code="27" name="Net-(PFIO2-Pad14)">
+      <node ref="PFIO2" pin="14"/>
+    </net>
+    <net code="28" name="Net-(PFIO2-Pad23)">
+      <node ref="PFIO2" pin="23"/>
+    </net>
+    <net code="29" name="Net-(PFIO2-Pad13)">
+      <node ref="PFIO2" pin="13"/>
+    </net>
+    <net code="30" name="DA0">
+      <node ref="U2" pin="13"/>
+      <node ref="P16" pin="1"/>
+      <node ref="PFIO1" pin="1"/>
+    </net>
+    <net code="31" name="Net-(PFIO2-Pad12)">
+      <node ref="PFIO2" pin="12"/>
+    </net>
+    <net code="32" name="Net-(PFIO2-Pad21)">
+      <node ref="PFIO2" pin="21"/>
+    </net>
+    <net code="33" name="Net-(PFIO2-Pad11)">
+      <node ref="PFIO2" pin="11"/>
+    </net>
+    <net code="34" name="Net-(PFIO2-Pad20)">
+      <node ref="PFIO2" pin="20"/>
+    </net>
+    <net code="35" name="Net-(PFIO2-Pad10)">
+      <node ref="PFIO2" pin="10"/>
+    </net>
+    <net code="36" name="Net-(PFIO2-Pad9)">
+      <node ref="PFIO2" pin="9"/>
+    </net>
+    <net code="37" name="Net-(PFIO2-Pad8)">
+      <node ref="PFIO2" pin="8"/>
+    </net>
+    <net code="38" name="Net-(PFIO2-Pad7)">
+      <node ref="PFIO2" pin="7"/>
+    </net>
+    <net code="39" name="Net-(PFIO2-Pad6)">
+      <node ref="PFIO2" pin="6"/>
+    </net>
+    <net code="40" name="DD6">
+      <node ref="PFIO1" pin="14"/>
+      <node ref="U2" pin="29"/>
+    </net>
+    <net code="41" name="Net-(PFIO1-Pad33)">
+      <node ref="PFIO1" pin="33"/>
+    </net>
+    <net code="42" name="Net-(PFIO1-Pad23)">
+      <node ref="PFIO1" pin="23"/>
+    </net>
+    <net code="43" name="Net-(PFIO1-Pad13)">
+      <node ref="PFIO1" pin="13"/>
+    </net>
+    <net code="44" name="DD5">
+      <node ref="P20" pin="1"/>
+      <node ref="PFIO1" pin="12"/>
+      <node ref="U2" pin="28"/>
+    </net>
+    <net code="45" name="Net-(PFIO1-Pad31)">
+      <node ref="PFIO1" pin="31"/>
+    </net>
+    <net code="46" name="Net-(PFIO1-Pad21)">
+      <node ref="PFIO1" pin="21"/>
+    </net>
+    <net code="47" name="Net-(PFIO1-Pad11)">
+      <node ref="PFIO1" pin="11"/>
+    </net>
+    <net code="48" name="DD9">
+      <node ref="P21" pin="1"/>
+      <node ref="PFIO1" pin="20"/>
+      <node ref="U2" pin="32"/>
+    </net>
+    <net code="49" name="DD4">
+      <node ref="PFIO1" pin="10"/>
+      <node ref="U2" pin="27"/>
+    </net>
+    <net code="50" name="Net-(PFIO1-Pad9)">
+      <node ref="PFIO1" pin="9"/>
+    </net>
+    <net code="51" name="DD3">
+      <node ref="PFIO1" pin="8"/>
+      <node ref="U2" pin="26"/>
+    </net>
+    <net code="52" name="Net-(PFIO1-Pad7)">
+      <node ref="PFIO1" pin="7"/>
+    </net>
+    <net code="53" name="DD2">
+      <node ref="U2" pin="25"/>
+      <node ref="PFIO1" pin="6"/>
+    </net>
+    <net code="54" name="Net-(PFIO1-Pad5)">
+      <node ref="PFIO1" pin="5"/>
+    </net>
+    <net code="55" name="DD1">
+      <node ref="PFIO1" pin="4"/>
+      <node ref="U2" pin="24"/>
+    </net>
+    <net code="56" name="Net-(PFIO1-Pad3)">
+      <node ref="PFIO1" pin="3"/>
+    </net>
+    <net code="57" name="DD0">
+      <node ref="U2" pin="23"/>
+      <node ref="P19" pin="1"/>
+      <node ref="PFIO1" pin="2"/>
+    </net>
+    <net code="58" name="DD8">
+      <node ref="PFIO1" pin="18"/>
+      <node ref="U2" pin="31"/>
+    </net>
+    <net code="59" name="DA2">
+      <node ref="U2" pin="15"/>
+      <node ref="PFIO1" pin="32"/>
+    </net>
+    <net code="60" name="DA3">
+      <node ref="U2" pin="16"/>
+      <node ref="PFIO1" pin="30"/>
+    </net>
+    <net code="61" name="DA6">
+      <node ref="U2" pin="21"/>
+      <node ref="PFIO1" pin="24"/>
+    </net>
+    <net code="62" name="DA7">
+      <node ref="U2" pin="22"/>
+      <node ref="P18" pin="1"/>
+      <node ref="PFIO1" pin="22"/>
+    </net>
+    <net code="63" name="Net-(PFIO1-Pad29)">
+      <node ref="PFIO1" pin="29"/>
+    </net>
+    <net code="64" name="Net-(PFIO1-Pad19)">
+      <node ref="PFIO1" pin="19"/>
+    </net>
+    <net code="65" name="DA4">
+      <node ref="U2" pin="19"/>
+      <node ref="P17" pin="1"/>
+      <node ref="PFIO1" pin="28"/>
+    </net>
+    <net code="66" name="TXENABLE">
+      <node ref="P10" pin="1"/>
+      <node ref="U1" pin="47"/>
+      <node ref="PSA1" pin="20"/>
+    </net>
+    <net code="67" name="Net-(PFIO1-Pad27)">
+      <node ref="PFIO1" pin="27"/>
+    </net>
+    <net code="68" name="Net-(PFIO1-Pad17)">
+      <node ref="PFIO1" pin="17"/>
+    </net>
+    <net code="69" name="DA5">
+      <node ref="U2" pin="20"/>
+      <node ref="PFIO1" pin="26"/>
+    </net>
+    <net code="70" name="DD7">
+      <node ref="PFIO1" pin="16"/>
+      <node ref="U2" pin="30"/>
+    </net>
+    <net code="71" name="Net-(PFIO1-Pad25)">
+      <node ref="PFIO1" pin="25"/>
+    </net>
+    <net code="72" name="Net-(PFIO1-Pad15)">
+      <node ref="PFIO1" pin="15"/>
+    </net>
+    <net code="73" name="DA1">
+      <node ref="U2" pin="14"/>
+      <node ref="PFIO1" pin="34"/>
+    </net>
+    <net code="74" name="Net-(C30-Pad1)">
+      <node ref="C30" pin="1"/>
+      <node ref="FB1" pin="2"/>
+      <node ref="P2" pin="2"/>
+    </net>
+    <net code="75" name="Net-(FB1-Pad1)">
       <node ref="FB1" pin="1"/>
       <node ref="Q1" pin="D"/>
     </net>
-    <net code="36" name="/TXBBI+">
-      <node ref="U1" pin="43"/>
-      <node ref="P34" pin="12"/>
+    <net code="76" name="CS_AD">
+      <node ref="U2" pin="36"/>
+      <node ref="PSA1" pin="2"/>
+      <node ref="P9" pin="1"/>
     </net>
-    <net code="37" name="/RXBBI+">
-      <node ref="U1" pin="38"/>
-      <node ref="P34" pin="7"/>
-    </net>
-    <net code="38" name="/RXBBQ+">
-      <node ref="U1" pin="36"/>
-      <node ref="P34" pin="6"/>
-    </net>
-    <net code="39" name="/RXBBQ-">
-      <node ref="U1" pin="35"/>
-      <node ref="P34" pin="4"/>
-    </net>
-    <net code="40" name="Net-(C51-Pad2)">
-      <node ref="C51" pin="2"/>
-    </net>
-    <net code="41" name="Net-(C51-Pad1)">
-      <node ref="C51" pin="1"/>
-    </net>
-    <net code="42" name="Net-(C47-Pad2)">
-      <node ref="C47" pin="2"/>
-    </net>
-    <net code="43" name="Net-(C47-Pad1)">
-      <node ref="C47" pin="1"/>
-    </net>
-    <net code="44" name="!VAA_ENABLE">
-      <node ref="R2" pin="2"/>
-      <node ref="Q1" pin="G"/>
-    </net>
-    <net code="45" name="/RXBBI-">
-      <node ref="U1" pin="37"/>
-      <node ref="P34" pin="5"/>
-    </net>
-    <net code="46" name="/TXBBI-">
-      <node ref="P34" pin="10"/>
-      <node ref="U1" pin="42"/>
-    </net>
-    <net code="47" name="/TXBBQ+">
-      <node ref="P34" pin="11"/>
-      <node ref="U1" pin="44"/>
-    </net>
-    <net code="48" name="/TXBBQ-">
-      <node ref="P34" pin="13"/>
-      <node ref="U1" pin="45"/>
-    </net>
-    <net code="49" name="CLKOUT">
-      <node ref="D2" pin="2"/>
-      <node ref="C56" pin="1"/>
-      <node ref="R24" pin="1"/>
-      <node ref="P36" pin="1"/>
-    </net>
-    <net code="50" name="CLKIN">
-      <node ref="D1" pin="2"/>
-      <node ref="P35" pin="1"/>
-      <node ref="U3" pin="6"/>
-      <node ref="R23" pin="1"/>
-    </net>
-    <net code="51" name="CLK6">
-      <node ref="U3" pin="16"/>
-    </net>
-    <net code="52" name="Net-(C46-Pad2)">
-      <node ref="C46" pin="2"/>
-    </net>
-    <net code="53" name="Net-(C46-Pad1)">
-      <node ref="C46" pin="1"/>
-    </net>
-    <net code="54" name="Net-(C45-Pad2)">
-      <node ref="C45" pin="2"/>
-    </net>
-    <net code="55" name="Net-(C45-Pad1)">
-      <node ref="C45" pin="1"/>
-    </net>
-    <net code="56" name="SSP1_MISO">
-      <node ref="P6" pin="1"/>
-      <node ref="U1" pin="29"/>
-    </net>
-    <net code="57" name="Net-(C52-Pad2)">
-      <node ref="C52" pin="2"/>
-    </net>
-    <net code="58" name="Net-(C52-Pad1)">
-      <node ref="C52" pin="1"/>
-    </net>
-    <net code="59" name="DD6">
-      <node ref="U2" pin="29"/>
-    </net>
-    <net code="60" name="DD4">
-      <node ref="U2" pin="27"/>
-    </net>
-    <net code="61" name="DD2">
-      <node ref="U2" pin="25"/>
-    </net>
-    <net code="62" name="DA6">
-      <node ref="U2" pin="21"/>
-    </net>
-    <net code="63" name="DA2">
-      <node ref="U2" pin="15"/>
-    </net>
-    <net code="64" name="DD8">
-      <node ref="U2" pin="31"/>
-    </net>
-    <net code="65" name="VAA">
-      <node ref="U1" pin="46"/>
-      <node ref="U1" pin="13"/>
-      <node ref="C20" pin="1"/>
-      <node ref="C16" pin="1"/>
-      <node ref="U1" pin="28"/>
-      <node ref="C14" pin="1"/>
-      <node ref="C23" pin="1"/>
-      <node ref="C15" pin="1"/>
-      <node ref="U1" pin="19"/>
-      <node ref="U2" pin="2"/>
-      <node ref="U2" pin="11"/>
-      <node ref="U2" pin="39"/>
-      <node ref="U2" pin="8"/>
-      <node ref="C21" pin="1"/>
-      <node ref="C18" pin="1"/>
-      <node ref="C22" pin="1"/>
-      <node ref="C19" pin="1"/>
-      <node ref="U2" pin="46"/>
-      <node ref="U2" pin="43"/>
-      <node ref="U2" pin="33"/>
-      <node ref="U1" pin="39"/>
-      <node ref="U1" pin="21"/>
-      <node ref="U1" pin="41"/>
-      <node ref="U1" pin="7"/>
-      <node ref="U1" pin="1"/>
-      <node ref="P1" pin="1"/>
-      <node ref="C17" pin="1"/>
-    </net>
-    <net code="67" name="RXENABLE">
-      <node ref="P10" pin="1"/>
+    <net code="77" name="RXENABLE">
+      <node ref="PSA1" pin="18"/>
+      <node ref="P11" pin="1"/>
       <node ref="U1" pin="48"/>
     </net>
-    <net code="68" name="XCVR_EN">
-      <node ref="U1" pin="25"/>
+    <net code="78" name="TX_IF">
+      <node ref="T2" pin="1"/>
+      <node ref="22pF1" pin="1"/>
     </net>
-    <net code="69" name="Net-(C44-Pad2)">
-      <node ref="C44" pin="2"/>
-    </net>
-    <net code="70" name="Net-(C44-Pad1)">
-      <node ref="C44" pin="1"/>
-    </net>
-    <net code="71" name="Net-(C49-Pad2)">
-      <node ref="C49" pin="2"/>
-    </net>
-    <net code="72" name="Net-(C49-Pad1)">
-      <node ref="C49" pin="1"/>
-    </net>
-    <net code="73" name="Net-(R14-Pad2)">
-      <node ref="R14" pin="2"/>
-    </net>
-    <net code="74" name="Net-(R14-Pad1)">
-      <node ref="R14" pin="1"/>
-    </net>
-    <net code="75" name="Net-(R19-Pad2)">
-      <node ref="R19" pin="2"/>
-    </net>
-    <net code="76" name="Net-(R19-Pad1)">
-      <node ref="R19" pin="1"/>
-    </net>
-    <net code="77" name="Net-(R6-Pad2)">
-      <node ref="R6" pin="2"/>
-    </net>
-    <net code="78" name="Net-(R6-Pad1)">
-      <node ref="R6" pin="1"/>
-    </net>
-    <net code="79" name="Net-(C9-Pad2)">
-      <node ref="C9" pin="2"/>
-    </net>
-    <net code="80" name="Net-(C1-Pad2)">
-      <node ref="C1" pin="2"/>
-    </net>
-    <net code="81" name="Net-(C1-Pad1)">
-      <node ref="C1" pin="1"/>
-    </net>
-    <net code="82" name="Net-(C3-Pad2)">
-      <node ref="C3" pin="2"/>
-    </net>
-    <net code="83" name="Net-(C3-Pad1)">
-      <node ref="C3" pin="1"/>
-    </net>
-    <net code="84" name="Net-(C5-Pad2)">
-      <node ref="C5" pin="2"/>
-    </net>
-    <net code="85" name="Net-(C5-Pad1)">
-      <node ref="C5" pin="1"/>
-    </net>
-    <net code="86" name="Net-(C7-Pad2)">
-      <node ref="C7" pin="2"/>
-    </net>
-    <net code="87" name="Net-(C7-Pad1)">
-      <node ref="C7" pin="1"/>
-    </net>
-    <net code="88" name="Net-(C9-Pad1)">
-      <node ref="C9" pin="1"/>
-    </net>
-    <net code="89" name="Net-(C11-Pad2)">
-      <node ref="C11" pin="2"/>
-    </net>
-    <net code="90" name="Net-(C11-Pad1)">
-      <node ref="C11" pin="1"/>
-    </net>
-    <net code="91" name="Net-(C13-Pad2)">
-      <node ref="C13" pin="2"/>
-    </net>
-    <net code="92" name="Net-(C13-Pad1)">
-      <node ref="C13" pin="1"/>
-    </net>
-    <net code="93" name="Net-(U1-Pad3)">
-      <node ref="U1" pin="3"/>
-    </net>
-    <net code="94" name="/IA+">
-      <node ref="U2" pin="3"/>
-    </net>
-    <net code="95" name="/IA-">
-      <node ref="U2" pin="4"/>
-    </net>
-    <net code="96" name="/QA-">
-      <node ref="U2" pin="9"/>
-    </net>
-    <net code="97" name="/QA+">
-      <node ref="U2" pin="10"/>
-    </net>
-    <net code="98" name="/QD+">
-      <node ref="U2" pin="40"/>
-    </net>
-    <net code="99" name="/QD-">
-      <node ref="U2" pin="41"/>
-    </net>
-    <net code="100" name="Net-(U1-Pad12)">
-      <node ref="U1" pin="12"/>
-    </net>
-    <net code="101" name="Net-(U1-Pad40)">
-      <node ref="U1" pin="40"/>
-    </net>
-    <net code="102" name="/ID-">
-      <node ref="U2" pin="44"/>
-    </net>
-    <net code="103" name="Net-(U1-Pad9)">
-      <node ref="U1" pin="9"/>
-    </net>
-    <net code="104" name="Net-(U1-Pad8)">
-      <node ref="U1" pin="8"/>
-    </net>
-    <net code="105" name="Net-(U1-Pad6)">
-      <node ref="U1" pin="6"/>
-    </net>
-    <net code="106" name="Net-(U1-Pad34)">
-      <node ref="U1" pin="34"/>
-    </net>
-    <net code="107" name="Net-(U1-Pad33)">
-      <node ref="U1" pin="33"/>
-    </net>
-    <net code="108" name="/ID+">
-      <node ref="U2" pin="45"/>
-    </net>
-    <net code="109" name="/INTR">
-      <node ref="U3" pin="3"/>
-      <node ref="P33" pin="1"/>
-    </net>
-    <net code="110" name="/CPOUT-">
-      <node ref="U1" pin="24"/>
-    </net>
-    <net code="111" name="/REFP">
-      <node ref="U2" pin="1"/>
-    </net>
-    <net code="112" name="/REFN">
-      <node ref="U2" pin="48"/>
-    </net>
-    <net code="113" name="/COM">
-      <node ref="U2" pin="47"/>
-    </net>
-    <net code="114" name="Net-(R7-Pad2)">
+    <net code="79" name="GND">
+      <node ref="R9" pin="2"/>
+      <node ref="U2" pin="5"/>
+      <node ref="U2" pin="7"/>
+      <node ref="C30" pin="2"/>
       <node ref="R7" pin="2"/>
-    </net>
-    <net code="115" name="Net-(U1-Pad14)">
-      <node ref="U1" pin="14"/>
-    </net>
-    <net code="116" name="Net-(C2-Pad1)">
-      <node ref="C2" pin="1"/>
-    </net>
-    <net code="117" name="Net-(R18-Pad2)">
-      <node ref="R18" pin="2"/>
-    </net>
-    <net code="118" name="/CLK5">
-      <node ref="U3" pin="17"/>
-    </net>
-    <net code="119" name="Net-(C2-Pad2)">
+      <node ref="C15" pin="2"/>
+      <node ref="C11" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C20" pin="2"/>
+      <node ref="C22" pin="2"/>
+      <node ref="R8" pin="2"/>
+      <node ref="R6" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="R14" pin="1"/>
+      <node ref="U2" pin="0"/>
+      <node ref="C37" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="C3" pin="2"/>
       <node ref="C2" pin="2"/>
-    </net>
-    <net code="120" name="Net-(C10-Pad1)">
-      <node ref="C10" pin="1"/>
-    </net>
-    <net code="121" name="Net-(C12-Pad2)">
+      <node ref="C46" pin="2"/>
+      <node ref="C23" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C41" pin="2"/>
+      <node ref="C40" pin="2"/>
+      <node ref="C39" pin="2"/>
+      <node ref="C38" pin="2"/>
+      <node ref="C9" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="U1" pin="22"/>
+      <node ref="U1" pin="26"/>
+      <node ref="U1" pin="0"/>
+      <node ref="U1" pin="2"/>
+      <node ref="P38" pin="2"/>
+      <node ref="X1" pin="2"/>
+      <node ref="U2" pin="42"/>
+      <node ref="U2" pin="12"/>
+      <node ref="R23" pin="2"/>
+      <node ref="C13" pin="2"/>
+      <node ref="P39" pin="2"/>
+      <node ref="C32" pin="2"/>
+      <node ref="T1" pin="2"/>
+      <node ref="T2" pin="2"/>
+      <node ref="T2" pin="5"/>
+      <node ref="T1" pin="5"/>
+      <node ref="C29" pin="2"/>
+      <node ref="P29" pin="1"/>
+      <node ref="P30" pin="1"/>
+      <node ref="P31" pin="1"/>
+      <node ref="P32" pin="1"/>
+      <node ref="C28" pin="2"/>
+      <node ref="U2" pin="37"/>
+      <node ref="U2" pin="17"/>
+      <node ref="X1" pin="4"/>
+      <node ref="U3" pin="0"/>
+      <node ref="C53" pin="2"/>
+      <node ref="C54" pin="2"/>
+      <node ref="C55" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="C56" pin="2"/>
+      <node ref="D2" pin="1"/>
+      <node ref="D1" pin="1"/>
+      <node ref="C25" pin="2"/>
+      <node ref="P23" pin="1"/>
+      <node ref="P24" pin="1"/>
+      <node ref="P28" pin="1"/>
+      <node ref="P25" pin="1"/>
+      <node ref="P26" pin="1"/>
+      <node ref="P27" pin="1"/>
+      <node ref="C52" pin="2"/>
+      <node ref="C51" pin="2"/>
+      <node ref="C47" pin="1"/>
+      <node ref="C48" pin="1"/>
+      <node ref="GndCon1" pin="1"/>
+      <node ref="C45" pin="2"/>
+      <node ref="C60" pin="2"/>
+      <node ref="C58" pin="2"/>
+      <node ref="TX1" pin="2"/>
+      <node ref="C59" pin="2"/>
+      <node ref="C57" pin="2"/>
+      <node ref="C44" pin="2"/>
+      <node ref="R26" pin="2"/>
+      <node ref="RX1" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="C14" pin="2"/>
       <node ref="C12" pin="2"/>
     </net>
-    <net code="122" name="Net-(C12-Pad1)">
-      <node ref="C12" pin="1"/>
+    <net code="80" name="Net-(PFIO1-Pad35)">
+      <node ref="PFIO1" pin="35"/>
+      <node ref="R26" pin="1"/>
     </net>
-    <net code="123" name="Net-(C50-Pad2)">
-      <node ref="C50" pin="2"/>
+    <net code="81" name="Net-(22pF1-Pad2)">
+      <node ref="22pF1" pin="2"/>
+      <node ref="TX1" pin="1"/>
     </net>
-    <net code="124" name="Net-(C50-Pad1)">
-      <node ref="C50" pin="1"/>
+    <net code="82" name="RX_IF">
+      <node ref="RX1" pin="1"/>
+      <node ref="T1" pin="1"/>
     </net>
-    <net code="125" name="Net-(C10-Pad2)">
-      <node ref="C10" pin="2"/>
-    </net>
-    <net code="126" name="Net-(C25-Pad2)">
-      <node ref="C25" pin="2"/>
-    </net>
-    <net code="127" name="Net-(C25-Pad1)">
-      <node ref="C25" pin="1"/>
-    </net>
-    <net code="128" name="Net-(C27-Pad2)">
-      <node ref="C27" pin="2"/>
-    </net>
-    <net code="129" name="Net-(C27-Pad1)">
-      <node ref="C27" pin="1"/>
-    </net>
-    <net code="130" name="Net-(C33-Pad2)">
-      <node ref="C33" pin="2"/>
-    </net>
-    <net code="131" name="Net-(C33-Pad1)">
-      <node ref="C33" pin="1"/>
-    </net>
-    <net code="132" name="Net-(R7-Pad1)">
-      <node ref="R7" pin="1"/>
-    </net>
-    <net code="133" name="Net-(R8-Pad2)">
-      <node ref="R8" pin="2"/>
-    </net>
-    <net code="134" name="Net-(R8-Pad1)">
-      <node ref="R8" pin="1"/>
-    </net>
-    <net code="135" name="Net-(R9-Pad2)">
-      <node ref="R9" pin="2"/>
-    </net>
-    <net code="136" name="Net-(R9-Pad1)">
-      <node ref="R9" pin="1"/>
-    </net>
-    <net code="137" name="Net-(C43-Pad2)">
-      <node ref="C43" pin="2"/>
-    </net>
-    <net code="138" name="Net-(C43-Pad1)">
-      <node ref="C43" pin="1"/>
-    </net>
-    <net code="139" name="Net-(C35-Pad2)">
-      <node ref="C35" pin="2"/>
-    </net>
-    <net code="140" name="Net-(C4-Pad2)">
-      <node ref="C4" pin="2"/>
-    </net>
-    <net code="141" name="Net-(C4-Pad1)">
-      <node ref="C4" pin="1"/>
-    </net>
-    <net code="142" name="Net-(C6-Pad2)">
-      <node ref="C6" pin="2"/>
-    </net>
-    <net code="143" name="Net-(C6-Pad1)">
-      <node ref="C6" pin="1"/>
-    </net>
-    <net code="144" name="Net-(C8-Pad2)">
-      <node ref="C8" pin="2"/>
-    </net>
-    <net code="145" name="Net-(C8-Pad1)">
-      <node ref="C8" pin="1"/>
-    </net>
-    <net code="146" name="Net-(R13-Pad2)">
-      <node ref="R13" pin="2"/>
-    </net>
-    <net code="147" name="Net-(R4-Pad2)">
-      <node ref="R4" pin="2"/>
-    </net>
-    <net code="148" name="Net-(R4-Pad1)">
-      <node ref="R4" pin="1"/>
-    </net>
-    <net code="149" name="Net-(R5-Pad2)">
-      <node ref="R5" pin="2"/>
-    </net>
-    <net code="150" name="Net-(R5-Pad1)">
-      <node ref="R5" pin="1"/>
-    </net>
-    <net code="151" name="Net-(R11-Pad2)">
-      <node ref="R11" pin="2"/>
-    </net>
-    <net code="152" name="Net-(R11-Pad1)">
-      <node ref="R11" pin="1"/>
-    </net>
-    <net code="153" name="Net-(R12-Pad2)">
-      <node ref="R12" pin="2"/>
-    </net>
-    <net code="154" name="Net-(R12-Pad1)">
-      <node ref="R12" pin="1"/>
-    </net>
-    <net code="155" name="Net-(R3-Pad1)">
-      <node ref="R3" pin="1"/>
-    </net>
-    <net code="156" name="Net-(R13-Pad1)">
-      <node ref="R13" pin="1"/>
-    </net>
-    <net code="157" name="Net-(C41-Pad1)">
-      <node ref="C41" pin="1"/>
-    </net>
-    <net code="158" name="Net-(C35-Pad1)">
-      <node ref="C35" pin="1"/>
-    </net>
-    <net code="159" name="Net-(C38-Pad2)">
-      <node ref="C38" pin="2"/>
-    </net>
-    <net code="160" name="Net-(C38-Pad1)">
-      <node ref="C38" pin="1"/>
-    </net>
-    <net code="161" name="Net-(C39-Pad2)">
-      <node ref="C39" pin="2"/>
-    </net>
-    <net code="162" name="Net-(C39-Pad1)">
-      <node ref="C39" pin="1"/>
-    </net>
-    <net code="163" name="Net-(C40-Pad2)">
-      <node ref="C40" pin="2"/>
-    </net>
-    <net code="164" name="Net-(C40-Pad1)">
-      <node ref="C40" pin="1"/>
-    </net>
-    <net code="165" name="Net-(C41-Pad2)">
-      <node ref="C41" pin="2"/>
-    </net>
-    <net code="166" name="Net-(C31-Pad2)">
-      <node ref="C31" pin="2"/>
-    </net>
-    <net code="167" name="Net-(C31-Pad1)">
-      <node ref="C31" pin="1"/>
-    </net>
-    <net code="168" name="Net-(C34-Pad2)">
-      <node ref="C34" pin="2"/>
-    </net>
-    <net code="169" name="Net-(C34-Pad1)">
-      <node ref="C34" pin="1"/>
-    </net>
-    <net code="170" name="Net-(R3-Pad2)">
-      <node ref="R3" pin="2"/>
-    </net>
-    <net code="171" name="Net-(C37-Pad2)">
-      <node ref="C37" pin="2"/>
-    </net>
-    <net code="172" name="Net-(C37-Pad1)">
-      <node ref="C37" pin="1"/>
-    </net>
-    <net code="173" name="Net-(R1-Pad2)">
+    <net code="83" name="!VAA_ENABLE">
+      <node ref="PSA1" pin="1"/>
+      <node ref="Q1" pin="G"/>
       <node ref="R1" pin="2"/>
     </net>
-    <net code="174" name="Net-(R1-Pad1)">
+    <net code="84" name="Net-(PSA1-Pad9)">
+      <node ref="PSA1" pin="9"/>
+    </net>
+    <net code="85" name="Net-(PSA1-Pad24)">
+      <node ref="PSA1" pin="24"/>
+    </net>
+    <net code="86" name="Net-(PSA1-Pad27)">
+      <node ref="PSA1" pin="27"/>
+    </net>
+    <net code="87" name="Net-(PSA1-Pad25)">
+      <node ref="PSA1" pin="25"/>
+    </net>
+    <net code="88" name="Net-(PSA1-Pad23)">
+      <node ref="PSA1" pin="23"/>
+    </net>
+    <net code="89" name="Net-(PSA1-Pad17)">
+      <node ref="PSA1" pin="17"/>
+    </net>
+    <net code="90" name="Net-(PSA1-Pad15)">
+      <node ref="PSA1" pin="15"/>
+    </net>
+    <net code="91" name="Net-(PSA1-Pad13)">
+      <node ref="PSA1" pin="13"/>
+    </net>
+    <net code="92" name="Net-(PSA1-Pad10)">
+      <node ref="PSA1" pin="10"/>
+    </net>
+    <net code="93" name="Net-(PSA1-Pad8)">
+      <node ref="PSA1" pin="8"/>
+    </net>
+    <net code="94" name="Net-(PSA1-Pad6)">
+      <node ref="PSA1" pin="6"/>
+    </net>
+    <net code="95" name="Net-(PSA1-Pad26)">
+      <node ref="PSA1" pin="26"/>
+    </net>
+    <net code="96" name="Net-(PSA1-Pad7)">
+      <node ref="PSA1" pin="7"/>
+    </net>
+    <net code="97" name="Net-(PSA1-Pad5)">
+      <node ref="PSA1" pin="5"/>
+    </net>
+    <net code="98" name="Net-(PSA1-Pad3)">
+      <node ref="PSA1" pin="3"/>
+    </net>
+    <net code="99" name="VCC">
+      <node ref="U2" pin="18"/>
+      <node ref="C11" pin="1"/>
+      <node ref="U3" pin="20"/>
+      <node ref="R18" pin="1"/>
+      <node ref="U3" pin="11"/>
+      <node ref="U3" pin="14"/>
+      <node ref="U3" pin="18"/>
+      <node ref="C46" pin="1"/>
+      <node ref="R25" pin="1"/>
+      <node ref="U3" pin="10"/>
+      <node ref="R17" pin="1"/>
+      <node ref="C25" pin="1"/>
+      <node ref="Q1" pin="S"/>
       <node ref="R1" pin="1"/>
+      <node ref="R19" pin="1"/>
+      <node ref="U1" pin="20"/>
+      <node ref="PFIO1" pin="36"/>
+      <node ref="C45" pin="1"/>
+      <node ref="C60" pin="1"/>
+      <node ref="C59" pin="1"/>
+      <node ref="C58" pin="1"/>
+      <node ref="C57" pin="1"/>
+      <node ref="C44" pin="1"/>
     </net>
-    <net code="175" name="Net-(U2-Pad38)">
-      <node ref="U2" pin="38"/>
+    <net code="100" name="Net-(PSA1-Pad28)">
+      <node ref="PSA1" pin="28"/>
     </net>
-    <net code="176" name="Net-(C32-Pad2)">
-      <node ref="C32" pin="2"/>
+    <net code="101" name="/XTAL2">
+      <node ref="P12" pin="1"/>
+      <node ref="C49" pin="2"/>
+      <node ref="U1" pin="17"/>
+      <node ref="C52" pin="1"/>
     </net>
-    <net code="177" name="Net-(C32-Pad1)">
-      <node ref="C32" pin="1"/>
+    <net code="102" name="GCK2">
+      <node ref="P14" pin="1"/>
+      <node ref="C54" pin="1"/>
+      <node ref="R21" pin="1"/>
     </net>
-    <net code="178" name="Net-(C28-Pad2)">
-      <node ref="C28" pin="2"/>
+    <net code="103" name="GCK1">
+      <node ref="U2" pin="6"/>
+      <node ref="P13" pin="1"/>
+      <node ref="C53" pin="1"/>
+      <node ref="R20" pin="1"/>
     </net>
-    <net code="179" name="Net-(C28-Pad1)">
-      <node ref="C28" pin="1"/>
+    <net code="104" name="CLK6">
+      <node ref="U3" pin="16"/>
     </net>
-    <net code="180" name="Net-(R16-Pad1)">
+    <net code="105" name="CLKIN">
+      <node ref="P38" pin="1"/>
+      <node ref="R23" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="U3" pin="6"/>
+    </net>
+    <net code="106" name="CLKOUT">
+      <node ref="D2" pin="2"/>
+      <node ref="P39" pin="1"/>
+      <node ref="C56" pin="1"/>
+      <node ref="R24" pin="1"/>
+    </net>
+    <net code="107" name="SGPIO_CLK">
+      <node ref="R22" pin="1"/>
+      <node ref="C55" pin="1"/>
+      <node ref="P15" pin="1"/>
+    </net>
+    <net code="108" name="Net-(U1-Pad14)">
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="109" name="Net-(U1-Pad3)">
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="110" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="111" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="112" name="Net-(U1-Pad9)">
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="113" name="Net-(U1-Pad12)">
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="114" name="Net-(U1-Pad34)">
+      <node ref="U1" pin="34"/>
+    </net>
+    <net code="115" name="Net-(U1-Pad33)">
+      <node ref="U1" pin="33"/>
+    </net>
+    <net code="116" name="Net-(U1-Pad40)">
+      <node ref="U1" pin="40"/>
+    </net>
+    <net code="117" name="/ID+">
+      <node ref="R5" pin="1"/>
+      <node ref="U2" pin="45"/>
+    </net>
+    <net code="118" name="/RXBBI-">
+      <node ref="R11" pin="2"/>
+      <node ref="U1" pin="37"/>
+    </net>
+    <net code="119" name="/RXBBQ-">
+      <node ref="U1" pin="35"/>
+      <node ref="R13" pin="2"/>
+    </net>
+    <net code="120" name="/RXBBQ+">
+      <node ref="U1" pin="36"/>
+      <node ref="R12" pin="2"/>
+    </net>
+    <net code="121" name="/IA+">
+      <node ref="C41" pin="1"/>
+      <node ref="C33" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="U2" pin="3"/>
+    </net>
+    <net code="122" name="/IA-">
+      <node ref="C40" pin="1"/>
+      <node ref="U2" pin="4"/>
+      <node ref="R11" pin="1"/>
+      <node ref="C33" pin="2"/>
+    </net>
+    <net code="123" name="/QA-">
+      <node ref="C39" pin="1"/>
+      <node ref="U2" pin="9"/>
+      <node ref="R12" pin="1"/>
+      <node ref="C35" pin="1"/>
+    </net>
+    <net code="124" name="/QA+">
+      <node ref="C35" pin="2"/>
+      <node ref="C38" pin="1"/>
+      <node ref="U2" pin="10"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="125" name="/QD+">
+      <node ref="R2" pin="1"/>
+      <node ref="U2" pin="40"/>
+    </net>
+    <net code="126" name="/QD-">
+      <node ref="U2" pin="41"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="127" name="/ID-">
+      <node ref="U2" pin="44"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="128" name="/INTR">
+      <node ref="P37" pin="1"/>
+      <node ref="R19" pin="2"/>
+      <node ref="U3" pin="3"/>
+    </net>
+    <net code="129" name="/CPOUT-">
+      <node ref="C43" pin="1"/>
+      <node ref="U1" pin="24"/>
       <node ref="R16" pin="1"/>
     </net>
-    <net code="181" name="Net-(C54-Pad2)">
-      <node ref="C54" pin="2"/>
+    <net code="130" name="/REFP">
+      <node ref="U2" pin="1"/>
+      <node ref="C32" pin="1"/>
     </net>
-    <net code="182" name="Net-(C54-Pad1)">
-      <node ref="C54" pin="1"/>
+    <net code="131" name="/REFN">
+      <node ref="C29" pin="1"/>
+      <node ref="U2" pin="48"/>
     </net>
-    <net code="183" name="Net-(C53-Pad2)">
-      <node ref="C53" pin="2"/>
+    <net code="132" name="/COM">
+      <node ref="U2" pin="47"/>
+      <node ref="C28" pin="1"/>
     </net>
-    <net code="184" name="Net-(C53-Pad1)">
-      <node ref="C53" pin="1"/>
-    </net>
-    <net code="185" name="Net-(C55-Pad2)">
-      <node ref="C55" pin="2"/>
-    </net>
-    <net code="186" name="Net-(L2-Pad2)">
-      <node ref="U1" pin="5"/>
-      <node ref="L2" pin="2"/>
-    </net>
-    <net code="187" name="Net-(L2-Pad1)">
-      <node ref="L2" pin="1"/>
-      <node ref="U1" pin="4"/>
-    </net>
-    <net code="188" name="/XCVR_CLKOUT">
-      <node ref="U1" pin="16"/>
-      <node ref="P32" pin="1"/>
-    </net>
-    <net code="189" name="Net-(C48-Pad2)">
-      <node ref="C48" pin="2"/>
-    </net>
-    <net code="190" name="Net-(C48-Pad1)">
-      <node ref="C48" pin="1"/>
-    </net>
-    <net code="191" name="Net-(R15-Pad2)">
-      <node ref="R15" pin="2"/>
-    </net>
-    <net code="192" name="Net-(R15-Pad1)">
-      <node ref="R15" pin="1"/>
-    </net>
-    <net code="193" name="Net-(R16-Pad2)">
-      <node ref="R16" pin="2"/>
-    </net>
-    <net code="194" name="/OEB">
-      <node ref="U3" pin="7"/>
-      <node ref="P37" pin="1"/>
-      <node ref="R25" pin="2"/>
-    </net>
-    <net code="195" name="/CLK2">
-      <node ref="U3" pin="9"/>
-      <node ref="R22" pin="2"/>
-    </net>
-    <net code="196" name="/CLK3">
-      <node ref="R24" pin="2"/>
-      <node ref="U3" pin="8"/>
-    </net>
-    <net code="197" name="MIX_CLK">
-      <node ref="U3" pin="19"/>
-    </net>
-    <net code="198" name="MCU_CLK">
-      <node ref="U3" pin="15"/>
-    </net>
-    <net code="199" name="/CLK0">
-      <node ref="U3" pin="13"/>
-    </net>
-    <net code="200" name="/CLK1">
-      <node ref="R21" pin="2"/>
-      <node ref="U3" pin="12"/>
-    </net>
-    <net code="201" name="Net-(R10-Pad2)">
+    <net code="133" name="/RXBBI+">
       <node ref="R10" pin="2"/>
+      <node ref="U1" pin="38"/>
     </net>
-    <net code="202" name="Net-(R10-Pad1)">
-      <node ref="R10" pin="1"/>
-    </net>
-    <net code="203" name="Net-(R17-Pad2)">
-      <node ref="R17" pin="2"/>
-    </net>
-    <net code="204" name="Net-(R17-Pad1)">
-      <node ref="R17" pin="1"/>
-    </net>
-    <net code="205" name="Net-(L1-Pad2)">
+    <net code="134" name="Net-(C34-Pad2)">
       <node ref="T1" pin="3"/>
       <node ref="L1" pin="2"/>
+      <node ref="C34" pin="2"/>
     </net>
-    <net code="206" name="/XA">
-      <node ref="X1" pin="3"/>
-      <node ref="U3" pin="1"/>
-    </net>
-    <net code="207" name="/XB">
-      <node ref="U3" pin="2"/>
-      <node ref="X1" pin="1"/>
-    </net>
-    <net code="208" name="Net-(L1-Pad1)">
+    <net code="135" name="Net-(C31-Pad2)">
+      <node ref="C31" pin="2"/>
       <node ref="T1" pin="4"/>
       <node ref="L1" pin="1"/>
     </net>
-    <net code="209" name="Net-(L4-Pad2)">
+    <net code="136" name="Net-(C42-Pad1)">
       <node ref="L4" pin="2"/>
       <node ref="U1" pin="11"/>
-    </net>
-    <net code="210" name="Net-(L4-Pad1)">
-      <node ref="U1" pin="10"/>
-      <node ref="L4" pin="1"/>
-    </net>
-    <net code="211" name="Net-(L3-Pad2)">
-      <node ref="L3" pin="2"/>
-      <node ref="T2" pin="3"/>
-    </net>
-    <net code="212" name="Net-(L3-Pad1)">
-      <node ref="L3" pin="1"/>
-      <node ref="T2" pin="4"/>
-    </net>
-    <net code="213" name="Net-(U1-Pad18)">
-      <node ref="U1" pin="18"/>
-    </net>
-    <net code="214" name="Net-(C29-Pad2)">
-      <node ref="C29" pin="2"/>
-    </net>
-    <net code="215" name="Net-(C29-Pad1)">
-      <node ref="C29" pin="1"/>
-    </net>
-    <net code="216" name="Net-(C42-Pad2)">
-      <node ref="C42" pin="2"/>
-    </net>
-    <net code="217" name="Net-(C42-Pad1)">
       <node ref="C42" pin="1"/>
     </net>
-    <net code="218" name="Net-(C36-Pad2)">
-      <node ref="C36" pin="2"/>
-    </net>
-    <net code="219" name="Net-(C36-Pad1)">
+    <net code="137" name="Net-(C36-Pad1)">
+      <node ref="U1" pin="10"/>
+      <node ref="L4" pin="1"/>
       <node ref="C36" pin="1"/>
     </net>
-    <net code="220" name="Net-(R18-Pad1)">
-      <node ref="R18" pin="1"/>
+    <net code="138" name="Net-(C42-Pad2)">
+      <node ref="C42" pin="2"/>
+      <node ref="T2" pin="3"/>
+      <node ref="L3" pin="2"/>
+    </net>
+    <net code="139" name="Net-(C36-Pad2)">
+      <node ref="C36" pin="2"/>
+      <node ref="T2" pin="4"/>
+      <node ref="L3" pin="1"/>
+    </net>
+    <net code="140" name="Net-(U1-Pad18)">
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="141" name="/CLK2">
+      <node ref="R22" pin="2"/>
+      <node ref="U3" pin="9"/>
+    </net>
+    <net code="142" name="/XB">
+      <node ref="C47" pin="2"/>
+      <node ref="X1" pin="1"/>
+      <node ref="U3" pin="2"/>
+    </net>
+    <net code="143" name="/CLK3">
+      <node ref="R24" pin="2"/>
+      <node ref="U3" pin="8"/>
+    </net>
+    <net code="144" name="OEB">
+      <node ref="PSA1" pin="21"/>
+      <node ref="R25" pin="2"/>
+      <node ref="U3" pin="7"/>
+    </net>
+    <net code="145" name="MIX_CLK">
+      <node ref="U3" pin="19"/>
+    </net>
+    <net code="146" name="MCU_CLK">
+      <node ref="U3" pin="15"/>
+    </net>
+    <net code="147" name="/CLK0">
+      <node ref="R20" pin="2"/>
+      <node ref="U3" pin="13"/>
+    </net>
+    <net code="148" name="/CLK1">
+      <node ref="U3" pin="12"/>
+      <node ref="R21" pin="2"/>
+    </net>
+    <net code="149" name="/TXBBQ-">
+      <node ref="U1" pin="45"/>
+      <node ref="C26" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="150" name="/TXBBQ+">
+      <node ref="R8" pin="1"/>
+      <node ref="R3" pin="2"/>
+      <node ref="C26" pin="2"/>
+      <node ref="U1" pin="44"/>
+    </net>
+    <net code="151" name="/TXBBI+">
+      <node ref="R7" pin="1"/>
+      <node ref="U1" pin="43"/>
+      <node ref="C27" pin="1"/>
+      <node ref="R4" pin="2"/>
+    </net>
+    <net code="152" name="/TXBBI-">
+      <node ref="U1" pin="42"/>
+      <node ref="R5" pin="2"/>
+      <node ref="C27" pin="2"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="153" name="/CLK5">
+      <node ref="U3" pin="17"/>
+      <node ref="C49" pin="1"/>
+    </net>
+    <net code="154" name="/XA">
+      <node ref="C48" pin="2"/>
+      <node ref="U3" pin="1"/>
+      <node ref="X1" pin="3"/>
+    </net>
+    <net code="155" name="Net-(U2-Pad38)">
+      <node ref="U2" pin="38"/>
+    </net>
+    <net code="156" name="Net-(C34-Pad1)">
+      <node ref="C34" pin="1"/>
+      <node ref="U1" pin="5"/>
+      <node ref="L2" pin="2"/>
+    </net>
+    <net code="157" name="Net-(C31-Pad1)">
+      <node ref="L2" pin="1"/>
+      <node ref="C31" pin="1"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="158" name="/XCVR_CLKOUT">
+      <node ref="U1" pin="16"/>
+      <node ref="P33" pin="1"/>
     </net>
   </nets>
 </export>
