@@ -1,6 +1,6 @@
 Source,D:/Quacho++/Quacho/HW/frontend/RFshield/Rfshield.sch
 Kicad Rev,Eeschema 4.0.0-rc1-stable
-Generated Date,26/10/2015 11:46:53
+Generated Date,03/02/2016 16:52:13
 
 Title,HackRF One baseband
 Company,Copyright 2012 Michael Ossmann
@@ -151,3 +151,11 @@ R26,0,Stackpole,RMCF0402ZT0R00,RES 0.0 OHM 1/16W 0402 SMD,,device,R
 GndCon1,GND,,,,DNP,Rfshield-cache,CONN_1
 RX1,CLKOUT,Molex,73251-2121,CONN SMA JACK 50 OHM EDGE MNT W/JAM NUT & LOCK WASHER,,hackrf,GSG-RF-CONN
 TX1,CLKOUT,Molex,73251-2121,CONN SMA JACK 50 OHM EDGE MNT W/JAM NUT & LOCK WASHER,,hackrf,GSG-RF-CONN
+R34,R,device,R
+R33,R,device,R
+R32,R,device,R
+R31,R,device,R
+R30,R,device,R
+R29,R,device,R
+R28,R,device,R
+R27,0,device,R
