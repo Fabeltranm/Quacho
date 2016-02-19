@@ -1,0 +1,9 @@
+(module GSG-HOLE-62MIL-COPPER (layer F.Cu) (tedit 52F7A830)
+  (fp_text reference HOLE-62MIL-COPPER (at 0 2.10058) (layer F.SilkS) hide
+    (effects (font (size 1.00076 1.00076) (thickness 0.2032)))
+  )
+  (fp_text value VAL** (at 0 -1.89992) (layer F.SilkS) hide
+    (effects (font (size 1.00076 1.00076) (thickness 0.2032)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 2.5 2.5) (drill 1.5748) (layers *.Cu *.Mask))
+)

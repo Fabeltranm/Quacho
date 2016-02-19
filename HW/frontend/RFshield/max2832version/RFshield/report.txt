@@ -1,0 +1,820 @@
+Info: Reading netlist file "/home/ferney/FERNEY/Proyectos/QUACHO/HW/frontend/RFshield/Rfshield.net".
+
+Info: Using references to match components and footprints.
+
+Error: No footprint defined for component 'R2'.
+
+Error: No footprint defined for component 'C37'.
+
+Error: No footprint defined for component 'R16'.
+
+Error: No footprint defined for component 'R15'.
+
+Error: No footprint defined for component 'C48'.
+
+Error: No footprint defined for component 'L2'.
+
+Error: No footprint defined for component 'C14'.
+
+Error: No footprint defined for component 'R22'.
+
+Error: No footprint defined for component 'Q1'.
+
+Error: No footprint defined for component 'R1'.
+
+Error: No footprint defined for component 'C53'.
+
+Error: No footprint defined for component 'C54'.
+
+Error: No footprint defined for component 'C55'.
+
+Error: No footprint defined for component 'R24'.
+
+Error: No footprint defined for component 'C56'.
+
+Error: No footprint defined for component 'P9'.
+
+Error: No footprint defined for component 'P10'.
+
+Error: No footprint defined for component 'T2'.
+
+Error: No footprint defined for component 'L3'.
+
+Error: No footprint defined for component 'L4'.
+
+Error: No footprint defined for component 'L1'.
+
+Error: No footprint defined for component 'R10'.
+
+Error: No footprint defined for component 'P35'.
+
+Error: No footprint defined for component 'X1'.
+
+Error: No footprint defined for component 'R17'.
+
+Error: No footprint defined for component 'U3'.
+
+Error: No footprint defined for component 'P7'.
+
+Error: No footprint defined for component 'T1'.
+
+Error: No footprint defined for component 'C36'.
+
+Error: No footprint defined for component 'C42'.
+
+Error: No footprint defined for component 'C29'.
+
+Error: No footprint defined for component 'C28'.
+
+Error: No footprint defined for component 'C32'.
+
+Error: No footprint defined for component 'U2'.
+
+Error: No footprint defined for component 'R21'.
+
+Error: No footprint defined for component 'P24'.
+
+Error: No footprint defined for component 'P25'.
+
+Error: No footprint defined for component 'P26'.
+
+Error: No footprint defined for component 'P27'.
+
+Error: No footprint defined for component 'P28'.
+
+Error: No footprint defined for component 'P29'.
+
+Error: No footprint defined for component 'P30'.
+
+Error: No footprint defined for component 'P31'.
+
+Error: No footprint defined for component 'P23'.
+
+Error: No footprint defined for component 'R20'.
+
+Error: No footprint defined for component 'C47'.
+
+Error: No footprint defined for component 'C51'.
+
+Error: No footprint defined for component 'P34'.
+
+Error: No footprint defined for component 'C52'.
+
+Error: No footprint defined for component 'C45'.
+
+Error: No footprint defined for component 'C46'.
+
+Error: No footprint defined for component 'P17'.
+
+Error: No footprint defined for component 'P11'.
+
+Error: No footprint defined for component 'P8'.
+
+Error: No footprint defined for component 'P13'.
+
+Error: No footprint defined for component 'P14'.
+
+Error: No footprint defined for component 'P12'.
+
+Error: No footprint defined for component 'P18'.
+
+Error: No footprint defined for component 'P20'.
+
+Error: No footprint defined for component 'P15'.
+
+Error: No footprint defined for component 'U1'.
+
+Error: No footprint defined for component 'P19'.
+
+Error: No footprint defined for component 'P16'.
+
+Error: No footprint defined for component 'P21'.
+
+Error: No footprint defined for component 'D2'.
+
+Error: No footprint defined for component 'D1'.
+
+Error: No footprint defined for component 'C26'.
+
+Error: No footprint defined for component 'P22'.
+
+Error: No footprint defined for component 'C25'.
+
+Error: No footprint defined for component 'C31'.
+
+Error: No footprint defined for component 'C41'.
+
+Error: No footprint defined for component 'C40'.
+
+Error: No footprint defined for component 'C39'.
+
+Error: No footprint defined for component 'C38'.
+
+Error: No footprint defined for component 'C35'.
+
+Error: No footprint defined for component 'C33'.
+
+Error: No footprint defined for component 'C27'.
+
+Error: No footprint defined for component 'C34'.
+
+Error: No footprint defined for component 'C23'.
+
+Error: No footprint defined for component 'C16'.
+
+Error: No footprint defined for component 'C15'.
+
+Error: No footprint defined for component 'C50'.
+
+Error: No footprint defined for component 'C12'.
+
+Error: No footprint defined for component 'C10'.
+
+Error: No footprint defined for component 'C8'.
+
+Error: No footprint defined for component 'P36'.
+
+Error: No footprint defined for component 'R23'.
+
+Error: No footprint defined for component 'P5'.
+
+Error: No footprint defined for component 'P6'.
+
+Error: No footprint defined for component 'P4'.
+
+Error: No footprint defined for component 'P3'.
+
+Error: No footprint defined for component 'P2'.
+
+Error: No footprint defined for component 'P1'.
+
+Error: No footprint defined for component 'C2'.
+
+Error: No footprint defined for component 'C6'.
+
+Error: No footprint defined for component 'R13'.
+
+Error: No footprint defined for component 'R12'.
+
+Error: No footprint defined for component 'R11'.
+
+Error: No footprint defined for component 'R5'.
+
+Error: No footprint defined for component 'R4'.
+
+Error: No footprint defined for component 'R3'.
+
+Error: No footprint defined for component 'C19'.
+
+Error: No footprint defined for component 'C60'.
+
+Error: No footprint defined for component 'C13'.
+
+Error: No footprint defined for component 'C11'.
+
+Error: No footprint defined for component 'C9'.
+
+Error: No footprint defined for component 'C7'.
+
+Error: No footprint defined for component 'C5'.
+
+Error: No footprint defined for component 'C3'.
+
+Error: No footprint defined for component 'C1'.
+
+Error: No footprint defined for component 'C49'.
+
+Error: No footprint defined for component 'C17'.
+
+Error: No footprint defined for component 'C59'.
+
+Error: No footprint defined for component 'C58'.
+
+Error: No footprint defined for component 'C57'.
+
+Error: No footprint defined for component 'C44'.
+
+Error: No footprint defined for component 'P33'.
+
+Error: No footprint defined for component 'P37'.
+
+Error: No footprint defined for component 'P32'.
+
+Error: No footprint defined for component 'C20'.
+
+Error: No footprint defined for component 'C4'.
+
+Error: No footprint defined for component 'C30'.
+
+Error: No footprint defined for component 'FB1'.
+
+Error: No footprint defined for component 'C43'.
+
+Error: No footprint defined for component 'R9'.
+
+Error: No footprint defined for component 'R8'.
+
+Error: No footprint defined for component 'R7'.
+
+Error: No footprint defined for component 'R6'.
+
+Error: No footprint defined for component 'R18'.
+
+Error: No footprint defined for component 'R19'.
+
+Error: No footprint defined for component 'R14'.
+
+Error: No footprint defined for component 'R25'.
+
+Error: No footprint defined for component 'C22'.
+
+Error: No footprint defined for component 'C21'.
+
+Error: No footprint defined for component 'C18'.
+
+Error: No footprint defined for component 'C24'.
+
+Info: Checking netlist component footprint "C1:/5599ED12:".
+
+Error: Cannot add new component "C1:/5599ED12" due to missing footprint "".
+
+Info: Checking netlist component footprint "C2:/5599ECC6:".
+
+Error: Cannot add new component "C2:/5599ECC6" due to missing footprint "".
+
+Info: Checking netlist component footprint "C3:/5599ED11:".
+
+Error: Cannot add new component "C3:/5599ED11" due to missing footprint "".
+
+Info: Checking netlist component footprint "C4:/5599ECFB:".
+
+Error: Cannot add new component "C4:/5599ECFB" due to missing footprint "".
+
+Info: Checking netlist component footprint "C5:/5599ED10:".
+
+Error: Cannot add new component "C5:/5599ED10" due to missing footprint "".
+
+Info: Checking netlist component footprint "C6:/5599ECFA:".
+
+Error: Cannot add new component "C6:/5599ECFA" due to missing footprint "".
+
+Info: Checking netlist component footprint "C7:/5599ED0F:".
+
+Error: Cannot add new component "C7:/5599ED0F" due to missing footprint "".
+
+Info: Checking netlist component footprint "C8:/5599ECF9:".
+
+Error: Cannot add new component "C8:/5599ECF9" due to missing footprint "".
+
+Info: Checking netlist component footprint "C9:/5599ED0E:".
+
+Error: Cannot add new component "C9:/5599ED0E" due to missing footprint "".
+
+Info: Checking netlist component footprint "C10:/5599ECF8:".
+
+Error: Cannot add new component "C10:/5599ECF8" due to missing footprint "".
+
+Info: Checking netlist component footprint "C11:/5599ED0D:".
+
+Error: Cannot add new component "C11:/5599ED0D" due to missing footprint "".
+
+Info: Checking netlist component footprint "C12:/5599ECF7:".
+
+Error: Cannot add new component "C12:/5599ECF7" due to missing footprint "".
+
+Info: Checking netlist component footprint "C13:/5599ED0C:".
+
+Error: Cannot add new component "C13:/5599ED0C" due to missing footprint "".
+
+Info: Checking netlist component footprint "C14:/5599ED5C:".
+
+Error: Cannot add new component "C14:/5599ED5C" due to missing footprint "".
+
+Info: Checking netlist component footprint "C15:/5599ECF5:".
+
+Error: Cannot add new component "C15:/5599ECF5" due to missing footprint "".
+
+Info: Checking netlist component footprint "C16:/5599ECF4:".
+
+Error: Cannot add new component "C16:/5599ECF4" due to missing footprint "".
+
+Info: Checking netlist component footprint "C17:/5599ED0B:".
+
+Error: Cannot add new component "C17:/5599ED0B" due to missing footprint "".
+
+Info: Checking netlist component footprint "C18:/5599ED09:".
+
+Error: Cannot add new component "C18:/5599ED09" due to missing footprint "".
+
+Info: Checking netlist component footprint "C19:/5599ECE8:".
+
+Error: Cannot add new component "C19:/5599ECE8" due to missing footprint "".
+
+Info: Checking netlist component footprint "C20:/5599ED03:".
+
+Error: Cannot add new component "C20:/5599ED03" due to missing footprint "".
+
+Info: Checking netlist component footprint "C21:/5599ED08:".
+
+Error: Cannot add new component "C21:/5599ED08" due to missing footprint "".
+
+Info: Checking netlist component footprint "C22:/5599ED07:".
+
+Error: Cannot add new component "C22:/5599ED07" due to missing footprint "".
+
+Info: Checking netlist component footprint "C23:/5599ECF3:".
+
+Error: Cannot add new component "C23:/5599ECF3" due to missing footprint "".
+
+Info: Checking netlist component footprint "C24:/5599ED0A:".
+
+Error: Cannot add new component "C24:/5599ED0A" due to missing footprint "".
+
+Info: Checking netlist component footprint "C25:/5599ECF2:".
+
+Error: Cannot add new component "C25:/5599ECF2" due to missing footprint "".
+
+Info: Checking netlist component footprint "C26:/5599ED83:".
+
+Error: Cannot add new component "C26:/5599ED83" due to missing footprint "".
+
+Info: Checking netlist component footprint "C27:/5599ECF1:".
+
+Error: Cannot add new component "C27:/5599ECF1" due to missing footprint "".
+
+Info: Checking netlist component footprint "C28:/5599ED49:".
+
+Error: Cannot add new component "C28:/5599ED49" due to missing footprint "".
+
+Info: Checking netlist component footprint "C29:/5599ED3E:".
+
+Error: Cannot add new component "C29:/5599ED3E" due to missing footprint "".
+
+Info: Checking netlist component footprint "C30:/5599ECFC:".
+
+Error: Cannot add new component "C30:/5599ECFC" due to missing footprint "".
+
+Info: Checking netlist component footprint "C31:/5599ECEA:".
+
+Error: Cannot add new component "C31:/5599ECEA" due to missing footprint "".
+
+Info: Checking netlist component footprint "C32:/5599ED4A:".
+
+Error: Cannot add new component "C32:/5599ED4A" due to missing footprint "".
+
+Info: Checking netlist component footprint "C33:/5599ECF0:".
+
+Error: Cannot add new component "C33:/5599ECF0" due to missing footprint "".
+
+Info: Checking netlist component footprint "C34:/5599ECE9:".
+
+Error: Cannot add new component "C34:/5599ECE9" due to missing footprint "".
+
+Info: Checking netlist component footprint "C35:/5599ECEF:".
+
+Error: Cannot add new component "C35:/5599ECEF" due to missing footprint "".
+
+Info: Checking netlist component footprint "C36:/5599ED3C:".
+
+Error: Cannot add new component "C36:/5599ED3C" due to missing footprint "".
+
+Info: Checking netlist component footprint "C37:/5599ED53:".
+
+Error: Cannot add new component "C37:/5599ED53" due to missing footprint "".
+
+Info: Checking netlist component footprint "C38:/5599ECEE:".
+
+Error: Cannot add new component "C38:/5599ECEE" due to missing footprint "".
+
+Info: Checking netlist component footprint "C39:/5599ECED:".
+
+Error: Cannot add new component "C39:/5599ECED" due to missing footprint "".
+
+Info: Checking netlist component footprint "C40:/5599ECEC:".
+
+Error: Cannot add new component "C40:/5599ECEC" due to missing footprint "".
+
+Info: Checking netlist component footprint "C41:/5599ECEB:".
+
+Error: Cannot add new component "C41:/5599ECEB" due to missing footprint "".
+
+Info: Checking netlist component footprint "C42:/5599ED3D:".
+
+Error: Cannot add new component "C42:/5599ED3D" due to missing footprint "".
+
+Info: Checking netlist component footprint "C43:/5599ECFE:".
+
+Error: Cannot add new component "C43:/5599ECFE" due to missing footprint "".
+
+Info: Checking netlist component footprint "C44:/5599ED18:".
+
+Error: Cannot add new component "C44:/5599ED18" due to missing footprint "".
+
+Info: Checking netlist component footprint "C45:/5599EDA2:".
+
+Error: Cannot add new component "C45:/5599EDA2" due to missing footprint "".
+
+Info: Checking netlist component footprint "C46:/5599EDA3:".
+
+Error: Cannot add new component "C46:/5599EDA3" due to missing footprint "".
+
+Info: Checking netlist component footprint "C47:/5599ED9B:".
+
+Error: Cannot add new component "C47:/5599ED9B" due to missing footprint "".
+
+Info: Checking netlist component footprint "C48:/5599ED56:".
+
+Error: Cannot add new component "C48:/5599ED56" due to missing footprint "".
+
+Info: Checking netlist component footprint "C49:/5599ED13:".
+
+Error: Cannot add new component "C49:/5599ED13" due to missing footprint "".
+
+Info: Checking netlist component footprint "C50:/5599ECF6:".
+
+Error: Cannot add new component "C50:/5599ECF6" due to missing footprint "".
+
+Info: Checking netlist component footprint "C51:/5599ED9C:".
+
+Error: Cannot add new component "C51:/5599ED9C" due to missing footprint "".
+
+Info: Checking netlist component footprint "C52:/5599EDA0:".
+
+Error: Cannot add new component "C52:/5599EDA0" due to missing footprint "".
+
+Info: Checking netlist component footprint "C53:/5599ED67:".
+
+Error: Cannot add new component "C53:/5599ED67" due to missing footprint "".
+
+Info: Checking netlist component footprint "C54:/5599ED68:".
+
+Error: Cannot add new component "C54:/5599ED68" due to missing footprint "".
+
+Info: Checking netlist component footprint "C55:/5599ED6B:".
+
+Error: Cannot add new component "C55:/5599ED6B" due to missing footprint "".
+
+Info: Checking netlist component footprint "C56:/5599ED6E:".
+
+Error: Cannot add new component "C56:/5599ED6E" due to missing footprint "".
+
+Info: Checking netlist component footprint "C57:/5599ED17:".
+
+Error: Cannot add new component "C57:/5599ED17" due to missing footprint "".
+
+Info: Checking netlist component footprint "C58:/5599ED16:".
+
+Error: Cannot add new component "C58:/5599ED16" due to missing footprint "".
+
+Info: Checking netlist component footprint "C59:/5599ED15:".
+
+Error: Cannot add new component "C59:/5599ED15" due to missing footprint "".
+
+Info: Checking netlist component footprint "C60:/5599ED14:".
+
+Error: Cannot add new component "C60:/5599ED14" due to missing footprint "".
+
+Info: Checking netlist component footprint "D1:/5599ED81:".
+
+Error: Cannot add new component "D1:/5599ED81" due to missing footprint "".
+
+Info: Checking netlist component footprint "D2:/5599ED7F:".
+
+Error: Cannot add new component "D2:/5599ED7F" due to missing footprint "".
+
+Info: Checking netlist component footprint "FB1:/5599ECFD:".
+
+Error: Cannot add new component "FB1:/5599ECFD" due to missing footprint "".
+
+Info: Checking netlist component footprint "L1:/5599ED25:".
+
+Error: Cannot add new component "L1:/5599ED25" due to missing footprint "".
+
+Info: Checking netlist component footprint "L2:/5599ED5B:".
+
+Error: Cannot add new component "L2:/5599ED5B" due to missing footprint "".
+
+Info: Checking netlist component footprint "L3:/5599ED23:".
+
+Error: Cannot add new component "L3:/5599ED23" due to missing footprint "".
+
+Info: Checking netlist component footprint "L4:/5599ED24:".
+
+Error: Cannot add new component "L4:/5599ED24" due to missing footprint "".
+
+Info: Checking netlist component footprint "P1:/5599ECC5:".
+
+Error: Cannot add new component "P1:/5599ECC5" due to missing footprint "".
+
+Info: Checking netlist component footprint "P2:/5599ECC4:".
+
+Error: Cannot add new component "P2:/5599ECC4" due to missing footprint "".
+
+Info: Checking netlist component footprint "P3:/5599ECC3:".
+
+Error: Cannot add new component "P3:/5599ECC3" due to missing footprint "".
+
+Info: Checking netlist component footprint "P4:/5599ECC2:".
+
+Error: Cannot add new component "P4:/5599ECC2" due to missing footprint "".
+
+Info: Checking netlist component footprint "P5:/5599ECC0:".
+
+Error: Cannot add new component "P5:/5599ECC0" due to missing footprint "".
+
+Info: Checking netlist component footprint "P6:/5599ECC1:".
+
+Error: Cannot add new component "P6:/5599ECC1" due to missing footprint "".
+
+Info: Checking netlist component footprint "P7:/5599ED72:".
+
+Error: Cannot add new component "P7:/5599ED72" due to missing footprint "".
+
+Info: Checking netlist component footprint "P8:/5599ED74:".
+
+Error: Cannot add new component "P8:/5599ED74" due to missing footprint "".
+
+Info: Checking netlist component footprint "P9:/5599ED70:".
+
+Error: Cannot add new component "P9:/5599ED70" due to missing footprint "".
+
+Info: Checking netlist component footprint "P10:/5599ED71:".
+
+Error: Cannot add new component "P10:/5599ED71" due to missing footprint "".
+
+Info: Checking netlist component footprint "P11:/5599ED73:".
+
+Error: Cannot add new component "P11:/5599ED73" due to missing footprint "".
+
+Info: Checking netlist component footprint "P12:/5599ED77:".
+
+Error: Cannot add new component "P12:/5599ED77" due to missing footprint "".
+
+Info: Checking netlist component footprint "P13:/5599ED75:".
+
+Error: Cannot add new component "P13:/5599ED75" due to missing footprint "".
+
+Info: Checking netlist component footprint "P14:/5599ED76:".
+
+Error: Cannot add new component "P14:/5599ED76" due to missing footprint "".
+
+Info: Checking netlist component footprint "P15:/5599ED7A:".
+
+Error: Cannot add new component "P15:/5599ED7A" due to missing footprint "".
+
+Info: Checking netlist component footprint "P16:/5599ED7D:".
+
+Error: Cannot add new component "P16:/5599ED7D" due to missing footprint "".
+
+Info: Checking netlist component footprint "P17:/5599ED7B:".
+
+Error: Cannot add new component "P17:/5599ED7B" due to missing footprint "".
+
+Info: Checking netlist component footprint "P18:/5599ED78:".
+
+Error: Cannot add new component "P18:/5599ED78" due to missing footprint "".
+
+Info: Checking netlist component footprint "P19:/5599ED7C:".
+
+Error: Cannot add new component "P19:/5599ED7C" due to missing footprint "".
+
+Info: Checking netlist component footprint "P20:/5599ED79:".
+
+Error: Cannot add new component "P20:/5599ED79" due to missing footprint "".
+
+Info: Checking netlist component footprint "P21:/5599ED7E:".
+
+Error: Cannot add new component "P21:/5599ED7E" due to missing footprint "".
+
+Info: Checking netlist component footprint "P22:/5599ED85:".
+
+Error: Cannot add new component "P22:/5599ED85" due to missing footprint "".
+
+Info: Checking netlist component footprint "P23:/5599ED87:".
+
+Error: Cannot add new component "P23:/5599ED87" due to missing footprint "".
+
+Info: Checking netlist component footprint "P24:/5599ED89:".
+
+Error: Cannot add new component "P24:/5599ED89" due to missing footprint "".
+
+Info: Checking netlist component footprint "P25:/5599ED8B:".
+
+Error: Cannot add new component "P25:/5599ED8B" due to missing footprint "".
+
+Info: Checking netlist component footprint "P26:/5599ED8D:".
+
+Error: Cannot add new component "P26:/5599ED8D" due to missing footprint "".
+
+Info: Checking netlist component footprint "P27:/5599ED8F:".
+
+Error: Cannot add new component "P27:/5599ED8F" due to missing footprint "".
+
+Info: Checking netlist component footprint "P28:/5599ED91:".
+
+Error: Cannot add new component "P28:/5599ED91" due to missing footprint "".
+
+Info: Checking netlist component footprint "P29:/5599ED93:".
+
+Error: Cannot add new component "P29:/5599ED93" due to missing footprint "".
+
+Info: Checking netlist component footprint "P30:/5599ED95:".
+
+Error: Cannot add new component "P30:/5599ED95" due to missing footprint "".
+
+Info: Checking netlist component footprint "P31:/5599ED97:".
+
+Error: Cannot add new component "P31:/5599ED97" due to missing footprint "".
+
+Info: Checking netlist component footprint "P32:/5599ED1E:".
+
+Error: Cannot add new component "P32:/5599ED1E" due to missing footprint "".
+
+Info: Checking netlist component footprint "P33:/5599ED1C:".
+
+Error: Cannot add new component "P33:/5599ED1C" due to missing footprint "".
+
+Info: Checking netlist component footprint "P34:/5599ED9D:".
+
+Error: Cannot add new component "P34:/5599ED9D" due to missing footprint "".
+
+Info: Checking netlist component footprint "P35:/5599ED29:".
+
+Error: Cannot add new component "P35:/5599ED29" due to missing footprint "".
+
+Info: Checking netlist component footprint "P36:/5599ECC7:".
+
+Error: Cannot add new component "P36:/5599ECC7" due to missing footprint "".
+
+Info: Checking netlist component footprint "P37:/5599ED1D:".
+
+Error: Cannot add new component "P37:/5599ED1D" due to missing footprint "".
+
+Info: Checking netlist component footprint "Q1:/5599ED65:".
+
+Error: Cannot add new component "Q1:/5599ED65" due to missing footprint "".
+
+Info: Checking netlist component footprint "R1:/5599ED50:".
+
+Error: Cannot add new component "R1:/5599ED50" due to missing footprint "".
+
+Info: Checking netlist component footprint "R2:/5599ED66:".
+
+Error: Cannot add new component "R2:/5599ED66" due to missing footprint "".
+
+Info: Checking netlist component footprint "R3:/5599ECE7:".
+
+Error: Cannot add new component "R3:/5599ECE7" due to missing footprint "".
+
+Info: Checking netlist component footprint "R4:/5599ECE6:".
+
+Error: Cannot add new component "R4:/5599ECE6" due to missing footprint "".
+
+Info: Checking netlist component footprint "R5:/5599ECE5:".
+
+Error: Cannot add new component "R5:/5599ECE5" due to missing footprint "".
+
+Info: Checking netlist component footprint "R6:/5599ED02:".
+
+Error: Cannot add new component "R6:/5599ED02" due to missing footprint "".
+
+Info: Checking netlist component footprint "R7:/5599ED01:".
+
+Error: Cannot add new component "R7:/5599ED01" due to missing footprint "".
+
+Info: Checking netlist component footprint "R8:/5599ED00:".
+
+Error: Cannot add new component "R8:/5599ED00" due to missing footprint "".
+
+Info: Checking netlist component footprint "R9:/5599ECFF:".
+
+Error: Cannot add new component "R9:/5599ECFF" due to missing footprint "".
+
+Info: Checking netlist component footprint "R10:/5599ED26:".
+
+Error: Cannot add new component "R10:/5599ED26" due to missing footprint "".
+
+Info: Checking netlist component footprint "R11:/5599ECE4:".
+
+Error: Cannot add new component "R11:/5599ECE4" due to missing footprint "".
+
+Info: Checking netlist component footprint "R12:/5599ECE3:".
+
+Error: Cannot add new component "R12:/5599ECE3" due to missing footprint "".
+
+Info: Checking netlist component footprint "R13:/5599ECE2:".
+
+Error: Cannot add new component "R13:/5599ECE2" due to missing footprint "".
+
+Info: Checking netlist component footprint "R14:/5599ED05:".
+
+Error: Cannot add new component "R14:/5599ED05" due to missing footprint "".
+
+Info: Checking netlist component footprint "R15:/5599ED55:".
+
+Error: Cannot add new component "R15:/5599ED55" due to missing footprint "".
+
+Info: Checking netlist component footprint "R16:/5599ED54:".
+
+Error: Cannot add new component "R16:/5599ED54" due to missing footprint "".
+
+Info: Checking netlist component footprint "R17:/5599ED31:".
+
+Error: Cannot add new component "R17:/5599ED31" due to missing footprint "".
+
+Info: Checking netlist component footprint "R18:/5599ECBD:".
+
+Error: Cannot add new component "R18:/5599ECBD" due to missing footprint "".
+
+Info: Checking netlist component footprint "R19:/5599ED04:".
+
+Error: Cannot add new component "R19:/5599ED04" due to missing footprint "".
+
+Info: Checking netlist component footprint "R20:/5599ED9A:".
+
+Error: Cannot add new component "R20:/5599ED9A" due to missing footprint "".
+
+Info: Checking netlist component footprint "R21:/5599ED99:".
+
+Error: Cannot add new component "R21:/5599ED99" due to missing footprint "".
+
+Info: Checking netlist component footprint "R22:/5599ED5F:".
+
+Error: Cannot add new component "R22:/5599ED5F" due to missing footprint "".
+
+Info: Checking netlist component footprint "R23:/5599ECBF:".
+
+Error: Cannot add new component "R23:/5599ECBF" due to missing footprint "".
+
+Info: Checking netlist component footprint "R24:/5599ED6D:".
+
+Error: Cannot add new component "R24:/5599ED6D" due to missing footprint "".
+
+Info: Checking netlist component footprint "R25:/5599ED06:".
+
+Error: Cannot add new component "R25:/5599ED06" due to missing footprint "".
+
+Info: Checking netlist component footprint "T1:/5599ED3B:".
+
+Error: Cannot add new component "T1:/5599ED3B" due to missing footprint "".
+
+Info: Checking netlist component footprint "T2:/5599ED38:".
+
+Error: Cannot add new component "T2:/5599ED38" due to missing footprint "".
+
+Info: Checking netlist component footprint "U1:/5599ED21:".
+
+Error: Cannot add new component "U1:/5599ED21" due to missing footprint "".
+
+Info: Checking netlist component footprint "U2:/5599ED4F:".
+
+Error: Cannot add new component "U2:/5599ED4F" due to missing footprint "".
+
+Info: Checking netlist component footprint "U3:/5599ED32:".
+
+Error: Cannot add new component "U3:/5599ED32" due to missing footprint "".
+
+Info: Checking netlist component footprint "X1:/5599ED2C:".
+
+Error: Cannot add new component "X1:/5599ED2C" due to missing footprint "".
+
