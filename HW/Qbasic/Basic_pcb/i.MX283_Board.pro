@@ -1,4 +1,4 @@
-update=Sun 19 Jul 2015 22:17:18 COT
+update=24/02/2016 11:33:09
 version=1
 last_client=kicad
 [cvpcb]
@@ -186,3 +186,13 @@ LibName100=atsam3n2
 LibName101=6slx9tqg144
 LibName102=lan8720a
 LibName103=rj45_stamp
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
