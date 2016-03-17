@@ -1,4 +1,4 @@
-update=13/11/2015 10:16:42
+update=11/03/2016 9:46:16
 version=1
 last_client=kicad
 [cvpcb]
@@ -40,10 +40,20 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=D:/hackrf/hackrf/hardware/kicad/hackrf
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=Rfshieldnew.net
+LastNetListRead=Rfshield.net
 PadDrill=1.016
 PadDrillOvalY=1.016
 PadSizeH=1.7272
@@ -59,13 +69,3 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.09999999999999999
 BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.381
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60

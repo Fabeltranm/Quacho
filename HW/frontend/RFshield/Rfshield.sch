@@ -3185,13 +3185,13 @@ Text GLabel 11800 8000 0    40   Input ~ 0
 SDA
 Text GLabel 12550 7700 2    40   Input ~ 0
 SCL
-Text GLabel 12550 7200 2    40   Input ~ 0
-CS_XCVR
 Text GLabel 12550 7600 2    40   Input ~ 0
+CS_XCVR
+Text GLabel 12550 7200 2    40   Input ~ 0
 SSP1_MOSI
-Text GLabel 11850 7600 0    40   Input ~ 0
+Text GLabel 11850 7100 0    40   Input ~ 0
 SSP1_MISO
-Text GLabel 12550 8100 2    40   Input ~ 0
+Text GLabel 12550 7100 2    40   Input ~ 0
 SSP1_SCK
 $Comp
 L CONN_02X12 PFIO2
@@ -3204,17 +3204,17 @@ F 3 "" H 10850 6550 60  0000 C CNN
 	1    10850 7750
 	1    0    0    -1  
 $EndComp
-Text GLabel 12550 7800 2    40   Input ~ 0
+Text GLabel 11900 7600 0    40   Input ~ 0
 XCVR_EN
-Text GLabel 12550 8000 2    40   Input ~ 0
+Text GLabel 11900 7400 0    40   Input ~ 0
 TXENABLE
-Text GLabel 12550 7900 2    40   Input ~ 0
+Text GLabel 11900 7500 0    40   Input ~ 0
 RXENABLE
-Text GLabel 12550 7100 2    40   Input ~ 0
+Text GLabel 11850 7300 0    40   Input ~ 0
 CS_AD
-Text Notes 12400 7000 0    60   ~ 0
+Text Notes 12800 7000 0    60   ~ 0
 2 chip select input for spi
-Text Notes 13000 8000 0    60   ~ 0
+Text Notes 13000 7950 0    60   ~ 0
 transceiver\n logic pins\n
 NoConn ~ 11100 7200
 NoConn ~ 11100 7300
@@ -4089,24 +4089,14 @@ Wire Wire Line
 	12550 7700 12450 7700
 Wire Wire Line
 	11800 8000 11950 8000
-Wire Wire Line
-	11850 7600 11950 7600
-Wire Wire Line
-	12550 7100 12450 7100
-Wire Wire Line
-	12550 7200 12450 7200
-Wire Wire Line
-	12550 7600 12450 7600
-Wire Wire Line
-	12550 8100 12450 8100
 Wire Notes Line
-	12950 7050 12950 7250
+	13350 7050 13350 7250
 Wire Notes Line
-	12950 7250 12500 7250
+	13350 7250 12900 7250
 Wire Notes Line
-	12500 7250 12500 7050
+	12900 7250 12900 7050
 Wire Notes Line
-	12500 7050 12550 7050
+	12900 7050 12950 7050
 Wire Notes Line
 	13000 7750 13000 8050
 Wire Notes Line
@@ -4115,12 +4105,6 @@ Wire Notes Line
 	12500 8050 12500 7750
 Wire Notes Line
 	12500 7750 13000 7750
-Wire Wire Line
-	12550 7800 12450 7800
-Wire Wire Line
-	12550 7900 12450 7900
-Wire Wire Line
-	12550 8000 12450 8000
 $Comp
 L GND #PWR095
 U 1 1 562D2950
@@ -4145,18 +4129,11 @@ F 3 "" H 13700 8800 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	14100 8700 14250 8700
-NoConn ~ 11950 7200
-NoConn ~ 11950 7300
-NoConn ~ 11950 7400
-NoConn ~ 11950 7500
 NoConn ~ 12450 7300
 NoConn ~ 12450 7400
-NoConn ~ 12450 7500
 NoConn ~ 11950 7700
-NoConn ~ 11950 7800
 NoConn ~ 11950 7900
 NoConn ~ 11950 8200
-NoConn ~ 11950 8300
 NoConn ~ 11950 8400
 NoConn ~ 12450 8200
 NoConn ~ 12450 8300
@@ -4274,10 +4251,8 @@ F 3 "" H 15800 1400 60  0000 C CNN
 $EndComp
 Wire Wire Line
 	15800 1300 15800 1400
-Text GLabel 11850 7100 0    40   Input ~ 0
+Text GLabel 11800 8300 0    40   Input ~ 0
 !VAA_ENABLE
-Wire Wire Line
-	11850 7100 11950 7100
 Wire Wire Line
 	11700 950  11700 900 
 Text Notes 15000 1300 0    60   ~ 0
@@ -4470,4 +4445,22 @@ Wire Wire Line
 	14150 8550 14150 8600
 Wire Wire Line
 	14150 8600 14250 8600
+Wire Wire Line
+	11850 7100 11950 7100
+Wire Wire Line
+	12550 7100 12450 7100
+Wire Wire Line
+	12550 7200 12450 7200
+Wire Wire Line
+	11800 8300 11950 8300
+Wire Wire Line
+	11850 7300 11950 7300
+Wire Wire Line
+	11900 7400 11950 7400
+Wire Wire Line
+	11900 7500 11950 7500
+Wire Wire Line
+	11900 7600 11950 7600
+Wire Wire Line
+	12450 7600 12550 7600
 $EndSCHEMATC
