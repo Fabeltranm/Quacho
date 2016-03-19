@@ -3185,7 +3185,7 @@ Text GLabel 11800 8000 0    40   Input ~ 0
 SDA
 Text GLabel 12550 7700 2    40   Input ~ 0
 SCL
-Text GLabel 11850 7800 0    40   Input ~ 0
+Text GLabel 12550 7600 2    40   Input ~ 0
 CS_XCVR
 Text GLabel 12550 7200 2    40   Input ~ 0
 SSP1_MOSI
@@ -4456,11 +4456,11 @@ Wire Wire Line
 Wire Wire Line
 	11850 7300 11950 7300
 Wire Wire Line
-	11850 7800 11950 7800
-Wire Wire Line
 	11900 7400 11950 7400
 Wire Wire Line
 	11900 7500 11950 7500
 Wire Wire Line
 	11900 7600 11950 7600
+Wire Wire Line
+	12450 7600 12550 7600
 $EndSCHEMATC

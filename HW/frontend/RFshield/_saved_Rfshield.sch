@@ -3167,8 +3167,6 @@ Text GLabel 14900 7800 2    40   Input ~ 0
 DD1
 Text GLabel 14900 7700 2    40   Input ~ 0
 DD2
-Text GLabel 14900 7600 2    40   Input ~ 0
-DD3
 Text GLabel 14900 7500 2    40   Input ~ 0
 DD4
 Text GLabel 14900 7400 2    40   Input ~ 0
