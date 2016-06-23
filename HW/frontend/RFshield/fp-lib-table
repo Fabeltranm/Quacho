@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name kicad)(type KiCad)(uri "$(KIPRJMOD)\\kicad")(options "")(descr ""))
+  (lib (name ssdr)(type KiCad)(uri "$(KIPRJMOD)\\ssdr.pretty")(options "")(descr ""))
+)
