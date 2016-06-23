@@ -1,4 +1,4 @@
-update=11/03/2016 9:46:16
+update=12/05/2016 04:28:08 p.m.
 version=1
 last_client=kicad
 [cvpcb]
@@ -40,16 +40,6 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=D:/hackrf/hackrf/hardware/kicad/hackrf
-[schematic_editor]
-version=1
-PageLayoutDescrFile=
-PlotDirectoryName=
-SubpartIdSeparator=0
-SubpartFirstId=65
-NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
-LabSize=60
 [pcbnew]
 version=1
 PageLayoutDescrFile=
@@ -69,3 +59,13 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.09999999999999999
 BoardOutlineThickness=0.15
 ModuleOutlineThickness=0.381
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
