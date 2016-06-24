@@ -1,8 +1,8 @@
 (export (version D)
   (design
-    (source D:/QUACHO/Quacho_git/HW/frontend/RFshield/Rfshield.sch)
-    (date "14/06/2016 03:18:46 p.m.")
-    (tool "Eeschema 4.0.2-stable")
+    (source D:\Quacho++\Quacho\Quacho\HW\frontend\RFshield\Rfshield.sch)
+    (date "24/06/2016 16:05:44")
+    (tool "Eeschema 4.0.0-rc1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "HackRF One baseband")
@@ -17,7 +17,7 @@
   (components
     (comp (ref R18)
       (value 1k8)
-      (footprint hackrf1:GSG-0402)
+      (footprint Resistors_SMD:R_0402)
       (fields
         (field (name Manufacturer) Stackpole)
         (field (name "Part Number") RMCF0402JT1K80)
@@ -27,7 +27,7 @@
       (tstamp 5599ECBD))
     (comp (ref R23)
       (value 10k)
-      (footprint hackrf1:GSG-0402)
+      (footprint Resistors_SMD:R_0402)
       (fields
         (field (name Manufacturer) Stackpole)
         (field (name "Part Number") RMCF0402JT10K0)
@@ -85,7 +85,7 @@
       (tstamp 5599ECC5))
     (comp (ref C13)
       (value 2.2uF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) "Taiyo Yuden")
         (field (name "Part Number") LMK105BJ225MV-F)
@@ -100,12 +100,12 @@
         (field (name Manufacturer) Molex)
         (field (name "Part Number") 73251-2121)
         (field (name Description) "CONN SMA JACK 50 OHM EDGE MNT W/JAM NUT & LOCK WASHER"))
-      (libsource (lib Rfshield-cache) (part GSG-RF-CONN))
+      (libsource (lib hackrf) (part GSG-RF-CONN))
       (sheetpath (names /) (tstamps /))
       (tstamp 5599ECC7))
     (comp (ref R13)
       (value 0)
-      (footprint hackrf1:GSG-0402)
+      (footprint Resistors_SMD:R_0402)
       (fields
         (field (name Manufacturer) Stackpole)
         (field (name "Part Number") RMCF0402ZT0R00)
@@ -115,7 +115,7 @@
       (tstamp 5599ECE2))
     (comp (ref R12)
       (value 0)
-      (footprint hackrf1:GSG-0402)
+      (footprint Resistors_SMD:R_0402)
       (fields
         (field (name Manufacturer) Stackpole)
         (field (name "Part Number") RMCF0402ZT0R00)
@@ -125,7 +125,7 @@
       (tstamp 5599ECE3))
     (comp (ref R11)
       (value 0)
-      (footprint hackrf1:GSG-0402)
+      (footprint Resistors_SMD:R_0402)
       (fields
         (field (name Manufacturer) Stackpole)
         (field (name "Part Number") RMCF0402ZT0R00)
@@ -135,7 +135,7 @@
       (tstamp 5599ECE4))
     (comp (ref R5)
       (value 1k)
-      (footprint hackrf1:GSG-0402)
+      (footprint Resistors_SMD:R_0402)
       (fields
         (field (name Manufacturer) Stackpole)
         (field (name "Part Number") RMCF0402FT1K00)
@@ -145,7 +145,7 @@
       (tstamp 5599ECE5))
     (comp (ref R4)
       (value 1k)
-      (footprint hackrf1:GSG-0402)
+      (footprint Resistors_SMD:R_0402)
       (fields
         (field (name Manufacturer) Stackpole)
         (field (name "Part Number") RMCF0402FT1K00)
@@ -155,7 +155,7 @@
       (tstamp 5599ECE6))
     (comp (ref R3)
       (value 1k)
-      (footprint hackrf1:GSG-0402)
+      (footprint Resistors_SMD:R_0402)
       (fields
         (field (name Manufacturer) Stackpole)
         (field (name "Part Number") RMCF0402FT1K00)
@@ -165,7 +165,7 @@
       (tstamp 5599ECE7))
     (comp (ref C6)
       (value 100pF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") GRM1555C1H101JA01D)
@@ -175,7 +175,7 @@
       (tstamp 5599ECE8))
     (comp (ref C34)
       (value 22pF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") GRM1555C1H220JA01D)
@@ -185,7 +185,7 @@
       (tstamp 5599ECE9))
     (comp (ref C31)
       (value 22pF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") GRM1555C1H220JA01D)
@@ -195,7 +195,7 @@
       (tstamp 5599ECEA))
     (comp (ref C41)
       (value 22pF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") GRM1555C1H220JA01D)
@@ -206,7 +206,7 @@
       (tstamp 5599ECEB))
     (comp (ref C40)
       (value 22pF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") GRM1555C1H220JA01D)
@@ -217,7 +217,7 @@
       (tstamp 5599ECEC))
     (comp (ref C39)
       (value 22pF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") GRM1555C1H220JA01D)
@@ -228,7 +228,7 @@
       (tstamp 5599ECED))
     (comp (ref C38)
       (value 22pF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") GRM1555C1H220JA01D)
@@ -239,7 +239,7 @@
       (tstamp 5599ECEE))
     (comp (ref C35)
       (value 22pF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") GRM1555C1H220JA01D)
@@ -250,7 +250,7 @@
       (tstamp 5599ECEF))
     (comp (ref C33)
       (value 22pF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") GRM1555C1H220JA01D)
@@ -261,7 +261,7 @@
       (tstamp 5599ECF0))
     (comp (ref C27)
       (value 22pF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") GRM1555C1H220JA01D)
@@ -272,7 +272,7 @@
       (tstamp 5599ECF1))
     (comp (ref C26)
       (value 22pF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") GRM1555C1H220JA01D)
@@ -283,7 +283,7 @@
       (tstamp 5599ECF2))
     (comp (ref C10)
       (value 22pF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") GRM1555C1H220JA01D)
@@ -293,7 +293,7 @@
       (tstamp 5599ECF3))
     (comp (ref C3)
       (value 22pF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") GRM1555C1H220JA01D)
@@ -303,7 +303,7 @@
       (tstamp 5599ECF4))
     (comp (ref C2)
       (value 22pF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") GRM1555C1H220JA01D)
@@ -313,7 +313,7 @@
       (tstamp 5599ECF5))
     (comp (ref C46)
       (value 2.2uF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) "Taiyo Yuden")
         (field (name "Part Number") LMK105BJ225MV-F)
@@ -323,7 +323,7 @@
       (tstamp 5599ECF6))
     (comp (ref C23)
       (value 2.2uF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) "Taiyo Yuden")
         (field (name "Part Number") LMK105BJ225MV-F)
@@ -333,7 +333,7 @@
       (tstamp 5599ECF7))
     (comp (ref C21)
       (value 2.2uF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) "Taiyo Yuden")
         (field (name "Part Number") LMK105BJ225MV-F)
@@ -343,7 +343,7 @@
       (tstamp 5599ECF8))
     (comp (ref C19)
       (value 100nF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) "Taiyo Yuden")
         (field (name "Part Number") LMK105BJ225MV-F)
@@ -353,7 +353,7 @@
       (tstamp 5599ECF9))
     (comp (ref C17)
       (value 2.2uF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) "Taiyo Yuden")
         (field (name "Part Number") LMK105BJ225MV-F)
@@ -363,7 +363,7 @@
       (tstamp 5599ECFA))
     (comp (ref C15)
       (value 2.2uF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) "Taiyo Yuden")
         (field (name "Part Number") LMK105BJ225MV-F)
@@ -373,7 +373,7 @@
       (tstamp 5599ECFB))
     (comp (ref C30)
       (value 10uF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") GRM21BR61A106KE19L)
@@ -393,7 +393,7 @@
       (tstamp 5599ECFD))
     (comp (ref C43)
       (value 180pF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") GRM1555C1H181JA01D)
@@ -403,7 +403,7 @@
       (tstamp 5599ECFE))
     (comp (ref R9)
       (value 4k7)
-      (footprint hackrf1:GSG-0402)
+      (footprint Resistors_SMD:R_0402)
       (fields
         (field (name Manufacturer) Stackpole)
         (field (name "Part Number") RMCF0402FT4K70)
@@ -413,7 +413,7 @@
       (tstamp 5599ECFF))
     (comp (ref R8)
       (value 4k7)
-      (footprint hackrf1:GSG-0402)
+      (footprint Resistors_SMD:R_0402)
       (fields
         (field (name Manufacturer) Stackpole)
         (field (name "Part Number") RMCF0402FT4K70)
@@ -423,7 +423,7 @@
       (tstamp 5599ED00))
     (comp (ref R7)
       (value 4k7)
-      (footprint hackrf1:GSG-0402)
+      (footprint Resistors_SMD:R_0402)
       (fields
         (field (name Manufacturer) Stackpole)
         (field (name "Part Number") RMCF0402FT4K70)
@@ -433,7 +433,7 @@
       (tstamp 5599ED01))
     (comp (ref R6)
       (value 4k7)
-      (footprint hackrf1:GSG-0402)
+      (footprint Resistors_SMD:R_0402)
       (fields
         (field (name Manufacturer) Stackpole)
         (field (name "Part Number") RMCF0402FT4K70)
@@ -443,7 +443,7 @@
       (tstamp 5599ED02))
     (comp (ref C7)
       (value 100nF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") GRM155R61A104KA01D)
@@ -453,7 +453,7 @@
       (tstamp 5599ED03))
     (comp (ref R19)
       (value 10k)
-      (footprint hackrf1:GSG-0402)
+      (footprint Resistors_SMD:R_0402)
       (fields
         (field (name Manufacturer) Stackpole)
         (field (name "Part Number") RMCF0402JT10K0)
@@ -463,7 +463,7 @@
       (tstamp 5599ED04))
     (comp (ref R14)
       (value 10k)
-      (footprint hackrf1:GSG-0402)
+      (footprint Resistors_SMD:R_0402)
       (fields
         (field (name Manufacturer) Stackpole)
         (field (name "Part Number") RMCF0402JT10K0)
@@ -473,7 +473,7 @@
       (tstamp 5599ED05))
     (comp (ref R25)
       (value 10k)
-      (footprint hackrf1:GSG-0402)
+      (footprint Resistors_SMD:R_0402)
       (fields
         (field (name Manufacturer) Stackpole)
         (field (name "Part Number") RMCF0402JT10K0)
@@ -483,7 +483,7 @@
       (tstamp 5599ED06))
     (comp (ref C9)
       (value 10nF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") GRM155R71C103KA01D)
@@ -493,7 +493,7 @@
       (tstamp 5599ED07))
     (comp (ref C8)
       (value 10nF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") GRM155R71C103KA01D)
@@ -503,7 +503,7 @@
       (tstamp 5599ED08))
     (comp (ref C5)
       (value 10nF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") GRM155R71C103KA01D)
@@ -513,7 +513,7 @@
       (tstamp 5599ED09))
     (comp (ref C11)
       (value 10nF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") GRM155R71C103KA01D)
@@ -523,7 +523,7 @@
       (tstamp 5599ED0A))
     (comp (ref C4)
       (value 10nF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") GRM155R71C103KA01D)
@@ -533,7 +533,7 @@
       (tstamp 5599ED0B))
     (comp (ref C24)
       (value 100nF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") GRM155R61A104KA01D)
@@ -543,7 +543,7 @@
       (tstamp 5599ED0C))
     (comp (ref C22)
       (value 100nF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") GRM155R61A104KA01D)
@@ -553,7 +553,7 @@
       (tstamp 5599ED0D))
     (comp (ref C20)
       (value 100nF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") GRM155R61A104KA01D)
@@ -563,7 +563,7 @@
       (tstamp 5599ED0E))
     (comp (ref C18)
       (value 100nF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") GRM155R61A104KA01D)
@@ -573,7 +573,7 @@
       (tstamp 5599ED0F))
     (comp (ref C16)
       (value 100nF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") GRM155R61A104KA01D)
@@ -583,7 +583,7 @@
       (tstamp 5599ED10))
     (comp (ref C14)
       (value 100nF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") GRM155R61A104KA01D)
@@ -593,7 +593,7 @@
       (tstamp 5599ED11))
     (comp (ref C12)
       (value 100nF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") GRM155R61A104KA01D)
@@ -603,7 +603,7 @@
       (tstamp 5599ED12))
     (comp (ref C45)
       (value 100nF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") GRM155R61A104KA01D)
@@ -613,7 +613,7 @@
       (tstamp 5599ED13))
     (comp (ref C60)
       (value 100nF)
-      (footprint hackrf1:GSG-0603)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") GRM155R61A104KA01D)
@@ -623,7 +623,7 @@
       (tstamp 5599ED14))
     (comp (ref C59)
       (value 100nF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") GRM155R61A104KA01D)
@@ -633,7 +633,7 @@
       (tstamp 5599ED15))
     (comp (ref C58)
       (value 100nF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") GRM155R61A104KA01D)
@@ -643,7 +643,7 @@
       (tstamp 5599ED16))
     (comp (ref C57)
       (value 100nF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") GRM155R61A104KA01D)
@@ -653,7 +653,7 @@
       (tstamp 5599ED17))
     (comp (ref C44)
       (value 100nF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") GRM155R61A104KA01D)
@@ -684,7 +684,7 @@
         (field (name Manufacturer) Maxim)
         (field (name "Part Number") MAX2837ETM+)
         (field (name Description) "IC TXRX 2.3GHZ-2.7GHZ 48TQFN"))
-      (libsource (lib Rfshield-cache) (part MAX2837))
+      (libsource (lib hackrf) (part MAX2837))
       (sheetpath (names /) (tstamps /))
       (tstamp 5599ED21))
     (comp (ref L3)
@@ -713,7 +713,7 @@
       (tstamp 5599ED25))
     (comp (ref R10)
       (value 0)
-      (footprint hackrf1:GSG-0402)
+      (footprint Resistors_SMD:R_0402)
       (fields
         (field (name Manufacturer) Stackpole)
         (field (name "Part Number") RMCF0402ZT0R00)
@@ -728,7 +728,7 @@
         (field (name Manufacturer) Molex)
         (field (name "Part Number") 73251-2121)
         (field (name Description) "CONN SMA JACK 50 OHM EDGE MNT W/JAM NUT & LOCK WASHER"))
-      (libsource (lib Rfshield-cache) (part GSG-RF-CONN))
+      (libsource (lib hackrf) (part GSG-RF-CONN))
       (sheetpath (names /) (tstamps /))
       (tstamp 5599ED29))
     (comp (ref X1)
@@ -738,12 +738,12 @@
         (field (name Manufacturer) AVX)
         (field (name "Part Number") CX3225GB25000D0HEQZ1)
         (field (name Description) "CRYSTAL 25.000MHZ 8PF SMD"))
-      (libsource (lib Rfshield-cache) (part GSG-XTAL4PIN))
+      (libsource (lib hackrf) (part GSG-XTAL4PIN))
       (sheetpath (names /) (tstamps /))
       (tstamp 5599ED2C))
     (comp (ref R17)
       (value 1k8)
-      (footprint hackrf1:GSG-0402)
+      (footprint Resistors_SMD:R_0402)
       (fields
         (field (name Manufacturer) Stackpole)
         (field (name "Part Number") RMCF0402JT1K80)
@@ -758,7 +758,7 @@
         (field (name Manufacturer) "Silicon Laboratories Inc")
         (field (name "Part Number") SI5351C-B-GM)
         (field (name Description) "IC CLK GENERATOR 160MHZ 20QFN"))
-      (libsource (lib Rfshield-cache) (part SI5351C))
+      (libsource (lib hackrf) (part SI5351C))
       (sheetpath (names /) (tstamps /))
       (tstamp 5599ED32))
     (comp (ref T2)
@@ -768,7 +768,7 @@
         (field (name Manufacturer) "Johanson Technology")
         (field (name "Part Number") 2500BL14M100T)
         (field (name Description) "BALUN CERAMIC CHIP WIMAX 2.5GHZ"))
-      (libsource (lib Rfshield-cache) (part BALUN))
+      (libsource (lib hackrf) (part BALUN))
       (sheetpath (names /) (tstamps /))
       (tstamp 5599ED38))
     (comp (ref T1)
@@ -778,12 +778,12 @@
         (field (name Manufacturer) "Johanson Technology")
         (field (name "Part Number") 2500BL14M100T)
         (field (name Description) "BALUN CERAMIC CHIP WIMAX 2.5GHZ"))
-      (libsource (lib Rfshield-cache) (part BALUN))
+      (libsource (lib hackrf) (part BALUN))
       (sheetpath (names /) (tstamps /))
       (tstamp 5599ED3B))
     (comp (ref C36)
       (value 3pF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") GRM1555C1H3R0CA01D)
@@ -793,7 +793,7 @@
       (tstamp 5599ED3C))
     (comp (ref C42)
       (value 3pF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") GRM1555C1H3R0CA01D)
@@ -803,7 +803,7 @@
       (tstamp 5599ED3D))
     (comp (ref C29)
       (value 330nF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") GRM155R61A334KE15D)
@@ -813,7 +813,7 @@
       (tstamp 5599ED3E))
     (comp (ref C28)
       (value 330nF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") GRM155R61A334KE15D)
@@ -823,7 +823,7 @@
       (tstamp 5599ED49))
     (comp (ref C32)
       (value 330nF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") GRM155R61A334KE15D)
@@ -838,12 +838,12 @@
         (field (name Manufacturer) Maxim)
         (field (name "Part Number") MAX5864ETM+)
         (field (name Description) "IC ANLG FRONT END 22MSPS 48-TQFN"))
-      (libsource (lib Rfshield-cache) (part MAX5864))
+      (libsource (lib hackrf) (part MAX5864))
       (sheetpath (names /) (tstamps /))
       (tstamp 5599ED4F))
     (comp (ref R2)
       (value 1k)
-      (footprint hackrf1:GSG-0402)
+      (footprint Resistors_SMD:R_0402)
       (fields
         (field (name Manufacturer) Stackpole)
         (field (name "Part Number") RMCF0402FT1K00)
@@ -853,7 +853,7 @@
       (tstamp 5599ED50))
     (comp (ref C37)
       (value 1uF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) "Taiyo Yuden")
         (field (name "Part Number") LMK105BJ105KV-F)
@@ -863,7 +863,7 @@
       (tstamp 5599ED53))
     (comp (ref R16)
       (value 475)
-      (footprint hackrf1:GSG-0402)
+      (footprint Resistors_SMD:R_0402)
       (fields
         (field (name Manufacturer) Stackpole)
         (field (name "Part Number") RMCF0402JT470R)
@@ -873,7 +873,7 @@
       (tstamp 5599ED54))
     (comp (ref R15)
       (value 475)
-      (footprint hackrf1:GSG-0402)
+      (footprint Resistors_SMD:R_0402)
       (fields
         (field (name Manufacturer) Stackpole)
         (field (name "Part Number") RMCF0402JT470R)
@@ -883,7 +883,7 @@
       (tstamp 5599ED55))
     (comp (ref C50)
       (value 3.3nF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") GRM155R71H332KA01D)
@@ -903,7 +903,7 @@
       (tstamp 5599ED5B))
     (comp (ref C1)
       (value 22pF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") GRM1555C1H220JA01D)
@@ -913,7 +913,7 @@
       (tstamp 5599ED5C))
     (comp (ref R22)
       (value 39)
-      (footprint hackrf1:GSG-0402)
+      (footprint Resistors_SMD:R_0402)
       (fields
         (field (name Manufacturer) Stackpole)
         (field (name "Part Number") RMCF0402JT39R0)
@@ -933,7 +933,7 @@
       (tstamp 5599ED65))
     (comp (ref R1)
       (value 10k)
-      (footprint hackrf1:GSG-0402)
+      (footprint Resistors_SMD:R_0402)
       (fields
         (field (name Manufacturer) Stackpole)
         (field (name "Part Number") RMCF0402JT10K0)
@@ -943,7 +943,7 @@
       (tstamp 5599ED66))
     (comp (ref C53)
       (value 100pF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") GRM1555C1H101JA01D)
@@ -954,7 +954,7 @@
       (tstamp 5599ED67))
     (comp (ref C54)
       (value 100pF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") GRM1555C1H101JA01D)
@@ -965,7 +965,7 @@
       (tstamp 5599ED68))
     (comp (ref C55)
       (value 100pF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") GRM1555C1H101JA01D)
@@ -976,7 +976,7 @@
       (tstamp 5599ED6B))
     (comp (ref R24)
       (value 39)
-      (footprint hackrf1:GSG-0402)
+      (footprint Resistors_SMD:R_0402)
       (fields
         (field (name Manufacturer) Stackpole)
         (field (name "Part Number") RMCF0402JT39R0)
@@ -986,7 +986,7 @@
       (tstamp 5599ED6D))
     (comp (ref C56)
       (value 100pF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") GRM1555C1H101JA01D)
@@ -1117,27 +1117,27 @@
       (tstamp 5599ED7E))
     (comp (ref D2)
       (value GSG-DIODE-TVS-BI)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") LXES15AAA1-100)
         (field (name Description) "TVS DIODE ESD .05PF 15KV 0402"))
-      (libsource (lib Rfshield-cache) (part GSG-DIODE-TVS-BI))
+      (libsource (lib hackrf) (part GSG-DIODE-TVS-BI))
       (sheetpath (names /) (tstamps /))
       (tstamp 5599ED7F))
     (comp (ref D1)
       (value GSG-DIODE-TVS-BI)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") LXES15AAA1-100)
         (field (name Description) "TVS DIODE ESD .05PF 15KV 0402"))
-      (libsource (lib Rfshield-cache) (part GSG-DIODE-TVS-BI))
+      (libsource (lib hackrf) (part GSG-DIODE-TVS-BI))
       (sheetpath (names /) (tstamps /))
       (tstamp 5599ED81))
     (comp (ref C25)
       (value 100nF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") GRM155R61A104KA01D)
@@ -1227,7 +1227,7 @@
       (tstamp 5599ED97))
     (comp (ref R21)
       (value 39)
-      (footprint hackrf1:GSG-0402)
+      (footprint Resistors_SMD:R_0402)
       (fields
         (field (name Manufacturer) Stackpole)
         (field (name "Part Number") RMCF0402JT39R0)
@@ -1237,7 +1237,7 @@
       (tstamp 5599ED99))
     (comp (ref R20)
       (value 39)
-      (footprint hackrf1:GSG-0402)
+      (footprint Resistors_SMD:R_0402)
       (fields
         (field (name Manufacturer) Stackpole)
         (field (name "Part Number") RMCF0402JT39R0)
@@ -1247,7 +1247,7 @@
       (tstamp 5599ED9A))
     (comp (ref C49)
       (value 33pF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") GRM1555C1H330JA01D)
@@ -1257,7 +1257,7 @@
       (tstamp 5599ED9B))
     (comp (ref C52)
       (value 47pF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") GRM1555C1H470JA01D)
@@ -1267,7 +1267,7 @@
       (tstamp 5599ED9C))
     (comp (ref C51)
       (value 100pF)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Manufacturer) Murata)
         (field (name "Part Number") GRM1555C1H101JA01D)
@@ -1278,7 +1278,7 @@
       (tstamp 5599EDA0))
     (comp (ref C47)
       (value DNP)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Note) DNP))
       (libsource (lib device) (part C))
@@ -1286,7 +1286,7 @@
       (tstamp 5599EDA2))
     (comp (ref C48)
       (value DNP)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (fields
         (field (name Note) DNP))
       (libsource (lib device) (part C))
@@ -1312,13 +1312,13 @@
       (tstamp 5626557D))
     (comp (ref 22pF1)
       (value C_Small)
-      (footprint hackrf1:GSG-0402)
+      (footprint Capacitors_SMD:C_0402)
       (libsource (lib device) (part C_Small))
       (sheetpath (names /) (tstamps /))
       (tstamp 562EC8F1))
     (comp (ref R26)
       (value 0)
-      (footprint hackrf1:GSG-0402)
+      (footprint Resistors_SMD:R_0402)
       (fields
         (field (name Manufacturer) Stackpole)
         (field (name "Part Number") RMCF0402ZT0R00)
@@ -1341,7 +1341,7 @@
         (field (name Manufacturer) Molex)
         (field (name "Part Number") 73251-2121)
         (field (name Description) "CONN SMA JACK 50 OHM EDGE MNT W/JAM NUT & LOCK WASHER"))
-      (libsource (lib Rfshield-cache) (part GSG-RF-CONN))
+      (libsource (lib hackrf) (part GSG-RF-CONN))
       (sheetpath (names /) (tstamps /))
       (tstamp 5627FF57))
     (comp (ref TX1)
@@ -1351,72 +1351,72 @@
         (field (name Manufacturer) Molex)
         (field (name "Part Number") 73251-2121)
         (field (name Description) "CONN SMA JACK 50 OHM EDGE MNT W/JAM NUT & LOCK WASHER"))
-      (libsource (lib Rfshield-cache) (part GSG-RF-CONN))
+      (libsource (lib hackrf) (part GSG-RF-CONN))
       (sheetpath (names /) (tstamps /))
       (tstamp 56280BE6))
     (comp (ref R34)
       (value R)
-      (footprint hackrf1:GSG-0402)
+      (footprint Resistors_SMD:R_0402)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 56307B55))
     (comp (ref R33)
       (value R)
-      (footprint hackrf1:GSG-0402)
+      (footprint Resistors_SMD:R_0402)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 56307CBA))
     (comp (ref R32)
       (value R)
-      (footprint hackrf1:GSG-0402)
+      (footprint Resistors_SMD:R_0402)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 56307DFD))
     (comp (ref R31)
       (value R)
-      (footprint hackrf1:GSG-0402)
+      (footprint Resistors_SMD:R_0402)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 56307F36))
     (comp (ref R30)
       (value R)
-      (footprint hackrf1:GSG-0402)
+      (footprint Resistors_SMD:R_0402)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 5630808F))
     (comp (ref R29)
       (value R)
-      (footprint hackrf1:GSG-0402)
+      (footprint Resistors_SMD:R_0402)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 563081E8))
     (comp (ref R28)
       (value R)
-      (footprint hackrf1:GSG-0402)
+      (footprint Resistors_SMD:R_0402)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 5630833F))
     (comp (ref R27)
       (value 0)
-      (footprint hackrf1:GSG-0402)
+      (footprint Resistors_SMD:R_0402)
       (libsource (lib device) (part R))
       (sheetpath (names /) (tstamps /))
       (tstamp 563090C5))
     (comp (ref D3)
       (value LED)
-      (footprint LEDs:LED-3MM)
+      (footprint LEDs:LED-0603)
       (libsource (lib device) (part LED))
       (sheetpath (names /) (tstamps /))
       (tstamp 5748CB63))
     (comp (ref D5)
       (value LED)
-      (footprint LEDs:LED-3MM)
+      (footprint LEDs:LED-0603)
       (libsource (lib device) (part LED))
       (sheetpath (names /) (tstamps /))
       (tstamp 5748EA4E))
     (comp (ref R35)
       (value 475)
-      (footprint hackrf1:GSG-0402)
+      (footprint Resistors_SMD:R_0402)
       (fields
         (field (name Manufacturer) Stackpole)
         (field (name "Part Number") RMCF0402JT470R)
@@ -1426,7 +1426,7 @@
       (tstamp 574960AE))
     (comp (ref R37)
       (value 475)
-      (footprint hackrf1:GSG-0402)
+      (footprint Resistors_SMD:R_0402)
       (fields
         (field (name Manufacturer) Stackpole)
         (field (name "Part Number") RMCF0402JT470R)
@@ -1436,13 +1436,13 @@
       (tstamp 57499D2F))
     (comp (ref D4)
       (value LED)
-      (footprint LEDs:LED-3MM)
+      (footprint LEDs:LED-0603)
       (libsource (lib device) (part LED))
       (sheetpath (names /) (tstamps /))
       (tstamp 575E15F6))
     (comp (ref R36)
       (value 475)
-      (footprint hackrf1:GSG-0402)
+      (footprint Resistors_SMD:R_0402)
       (fields
         (field (name Manufacturer) Stackpole)
         (field (name "Part Number") RMCF0402JT470R)
@@ -1451,16 +1451,6 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 575E1885)))
   (libparts
-    (libpart (lib Rfshield-cache) (part BALUN)
-      (fields
-        (field (name Reference) T)
-        (field (name Value) BALUN))
-      (pins
-        (pin (num 1) (name S1) (type passive))
-        (pin (num 2) (name S2) (type passive))
-        (pin (num 3) (name PR1) (type passive))
-        (pin (num 4) (name PR2) (type passive))
-        (pin (num 5) (name PM) (type passive))))
     (libpart (lib device) (part C)
       (description "Unpolarized capacitor")
       (footprints
@@ -1475,8 +1465,62 @@
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
+    (libpart (lib device) (part C_Small)
+      (description "Unpolarized capacitor")
+      (footprints
+        (fp C?)
+        (fp C_????_*)
+        (fp C_????)
+        (fp SMD*_c)
+        (fp Capacitor*))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C_Small))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib device) (part FILTER)
+      (description "Filtre EMI")
+      (fields
+        (field (name Reference) FB)
+        (field (name Value) FILTER))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))))
+    (libpart (lib device) (part INDUCTOR)
+      (fields
+        (field (name Reference) L)
+        (field (name Value) INDUCTOR))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))))
+    (libpart (lib device) (part LED)
+      (footprints
+        (fp LED-3MM)
+        (fp LED-5MM)
+        (fp LED-10MM)
+        (fp LED-0603)
+        (fp LED-0805)
+        (fp LED-1206)
+        (fp LEDV))
+      (fields
+        (field (name Reference) D)
+        (field (name Value) LED))
+      (pins
+        (pin (num 1) (name K) (type passive))
+        (pin (num 2) (name A) (type passive))))
+    (libpart (lib device) (part R)
+      (description Resistor)
+      (footprints
+        (fp R_*)
+        (fp Resistor_*))
+      (fields
+        (field (name Reference) R)
+        (field (name Value) R))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
     (libpart (lib conn) (part CONN_02X12)
-      (description "Connector 02x12")
       (footprints
         (fp Pin_Header_Straight_2X12)
         (fp Pin_Header_Angled_2X12)
@@ -1511,7 +1555,6 @@
         (pin (num 23) (name P23) (type passive))
         (pin (num 24) (name P24) (type passive))))
     (libpart (lib conn) (part CONN_02X14)
-      (description "Connector 02x14")
       (footprints
         (fp Pin_Header_Straight_2X14)
         (fp Pin_Header_Angled_2X14)
@@ -1550,7 +1593,6 @@
         (pin (num 27) (name P27) (type passive))
         (pin (num 28) (name P28) (type passive))))
     (libpart (lib conn) (part CONN_02X18)
-      (description "Connector 02x18")
       (footprints
         (fp Pin_Header_Straight_2X18)
         (fp Pin_Header_Angled_2X18)
@@ -1596,42 +1638,18 @@
         (pin (num 34) (name P34) (type passive))
         (pin (num 35) (name P35) (type passive))
         (pin (num 36) (name P36) (type passive))))
-    (libpart (lib Rfshield-cache) (part CONN_1)
+    (libpart (lib hackrf) (part BALUN)
       (fields
-        (field (name Reference) P)
-        (field (name Value) CONN_1))
+        (field (name Reference) T)
+        (field (name Value) BALUN))
       (pins
-        (pin (num 1) (name 1) (type passive))))
-    (libpart (lib Rfshield-cache) (part CONN_2)
-      (fields
-        (field (name Reference) P)
-        (field (name Value) CONN_2))
-      (pins
-        (pin (num 1) (name P1) (type passive))
-        (pin (num 2) (name PM) (type passive))))
-    (libpart (lib device) (part C_Small)
-      (description "Unpolarized capacitor")
-      (footprints
-        (fp C?)
-        (fp C_????_*)
-        (fp C_????)
-        (fp SMD*_c)
-        (fp Capacitor*))
-      (fields
-        (field (name Reference) C)
-        (field (name Value) C_Small))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib device) (part FILTER)
-      (description "Filtre EMI")
-      (fields
-        (field (name Reference) FB)
-        (field (name Value) FILTER))
-      (pins
-        (pin (num 1) (name 1) (type passive))
-        (pin (num 2) (name 2) (type passive))))
-    (libpart (lib Rfshield-cache) (part GSG-DIODE-TVS-BI)
+        (pin (num 1) (name S1) (type passive))
+        (pin (num 2) (name S2) (type passive))
+        (pin (num 3) (name PR1) (type passive))
+        (pin (num 4) (name PR2) (type passive))
+        (pin (num 5) (name PM) (type passive))))
+    (libpart (lib hackrf) (part GSG-DIODE-TVS-BI)
+      (description "Diode zener")
       (footprints
         (fp D?)
         (fp SO*)
@@ -1642,14 +1660,14 @@
       (pins
         (pin (num 1) (name A) (type passive))
         (pin (num 2) (name K) (type passive))))
-    (libpart (lib Rfshield-cache) (part GSG-RF-CONN)
+    (libpart (lib hackrf) (part GSG-RF-CONN)
       (fields
         (field (name Reference) P)
         (field (name Value) GSG-RF-CONN))
       (pins
         (pin (num 1) (name RF) (type BiDi))
         (pin (num 2) (name GND) (type power_in))))
-    (libpart (lib Rfshield-cache) (part GSG-XTAL4PIN)
+    (libpart (lib hackrf) (part GSG-XTAL4PIN)
       (fields
         (field (name Reference) X)
         (field (name Value) GSG-XTAL4PIN))
@@ -1658,29 +1676,7 @@
         (pin (num 2) (name 2) (type passive))
         (pin (num 3) (name 3) (type passive))
         (pin (num 4) (name 4) (type passive))))
-    (libpart (lib device) (part INDUCTOR)
-      (fields
-        (field (name Reference) L)
-        (field (name Value) INDUCTOR))
-      (pins
-        (pin (num 1) (name 1) (type passive))
-        (pin (num 2) (name 2) (type passive))))
-    (libpart (lib device) (part LED)
-      (footprints
-        (fp LED-3MM)
-        (fp LED-5MM)
-        (fp LED-10MM)
-        (fp LED-0603)
-        (fp LED-0805)
-        (fp LED-1206)
-        (fp LEDV))
-      (fields
-        (field (name Reference) D)
-        (field (name Value) LED))
-      (pins
-        (pin (num 1) (name K) (type passive))
-        (pin (num 2) (name A) (type passive))))
-    (libpart (lib Rfshield-cache) (part MAX2837)
+    (libpart (lib hackrf) (part MAX2837)
       (fields
         (field (name Reference) U)
         (field (name Value) MAX2837))
@@ -1734,7 +1730,7 @@
         (pin (num 46) (name VCCRXMX) (type power_in))
         (pin (num 47) (name TXENABLE) (type input))
         (pin (num 48) (name RXENABLE) (type input))))
-    (libpart (lib Rfshield-cache) (part MAX5864)
+    (libpart (lib hackrf) (part MAX5864)
       (fields
         (field (name Reference) U)
         (field (name Value) MAX5864))
@@ -1788,28 +1784,7 @@
         (pin (num 46) (name REFIN) (type input))
         (pin (num 47) (name COM) (type output))
         (pin (num 48) (name REFN) (type output))))
-    (libpart (lib Rfshield-cache) (part MOS_P)
-      (aliases
-        (alias MOSFET_P))
-      (fields
-        (field (name Reference) Q)
-        (field (name Value) MOS_P))
-      (pins
-        (pin (num D) (name D) (type passive))
-        (pin (num G) (name G) (type input))
-        (pin (num S) (name S) (type passive))))
-    (libpart (lib device) (part R)
-      (description Resistor)
-      (footprints
-        (fp R_*)
-        (fp Resistor_*))
-      (fields
-        (field (name Reference) R)
-        (field (name Value) R))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib Rfshield-cache) (part SI5351C)
+    (libpart (lib hackrf) (part SI5351C)
       (fields
         (field (name Reference) U)
         (field (name Value) SI5351C))
@@ -1834,14 +1809,39 @@
         (pin (num 17) (name CLK5) (type output))
         (pin (num 18) (name VDDOC) (type power_in))
         (pin (num 19) (name CLK4) (type output))
-        (pin (num 20) (name VDD) (type power_in)))))
+        (pin (num 20) (name VDD) (type power_in))))
+    (libpart (lib Rfshield-cache) (part CONN_1)
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_1))
+      (pins
+        (pin (num 1) (name 1) (type passive))))
+    (libpart (lib Rfshield-cache) (part CONN_2)
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_2))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name PM) (type passive))))
+    (libpart (lib Rfshield-cache) (part MOS_P)
+      (aliases
+        (alias MOSFET_P))
+      (fields
+        (field (name Reference) Q)
+        (field (name Value) MOS_P))
+      (pins
+        (pin (num D) (name D) (type passive))
+        (pin (num G) (name G) (type input))
+        (pin (num S) (name S) (type passive)))))
   (libraries
     (library (logical device)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\device.lib"))
     (library (logical conn)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library\\conn.lib"))
+    (library (logical hackrf)
+      (uri D:\hackrf\hackrf\hardware\kicad\hackrf.lib))
     (library (logical Rfshield-cache)
-      (uri D:\QUACHO\Quacho_git\HW\frontend\RFshield\Rfshield-cache.lib)))
+      (uri D:\Quacho++\Quacho\Quacho\HW\frontend\RFshield\Rfshield-cache.lib)))
   (nets
     (net (code 1) (name "Net-(C30-Pad1)")
       (node (ref P2) (pin 2))
