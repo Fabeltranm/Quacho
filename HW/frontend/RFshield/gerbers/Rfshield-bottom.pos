@@ -1,0 +1,24 @@
+### Module positions - created on 06/07/2016 10:36:50 ###
+### Printed by Pcbnew version kicad 4.0.0-rc1-stable
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref    Val                  Package         PosX       PosY        Rot     Side
+C4       10nF             C_0402             31.9430    11.7680      45.0    bottom
+C4       10nF             C_0402             34.8005     2.3700       0.0    bottom
+C5       10nF             C_0402             29.1490    11.7680      45.0    bottom
+C6       100pF            C_0402             22.7990     7.6405     135.0    bottom
+C13      2.2uF            C_0402             42.4840     6.9420     180.0    bottom
+C15      2.2uF            C_0402             34.5465    10.2440       0.0    bottom
+C16      100nF            C_0402             46.6750    -1.1225     225.0    bottom
+C18      100nF            C_0402             42.4840     5.0370     180.0    bottom
+C19      100nF            C_0402             42.4840     2.8780     180.0    bottom
+C23      2.2uF            C_0402             47.2465    11.8315      90.0    bottom
+C46      2.2uF            C_0402             44.7700    -0.2970     225.0    bottom
+C61      10nF             C_0402             20.3860     3.1320     180.0    bottom
+C62      10nF             C_0402             20.3860     1.8620     180.0    bottom
+C63      10nF             C_0402             20.3860     4.4020     180.0    bottom
+C64      10nF             C_0402             50.1675    -0.3605     225.0    bottom
+C65      10nF             C_0402             26.0375    -1.6940     270.0    bottom
+C66      10nF             C_0402             56.4540     4.7830       0.0    bottom
+C68      10nF             C_0402             34.2290     3.8305     270.0    bottom
+## End
