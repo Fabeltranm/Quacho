@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source D:/Quacho++/Quacho/Quacho/HW/frontend/RFshield/Rfshield.sch)
-    (date "25/07/2016 14:16:25")
+    (date "26/07/2016 8:36:39")
     (tool "Eeschema 4.0.0-rc1-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -1131,13 +1131,13 @@
       (tstamp 5599EDA3))
     (comp (ref PSA1)
       (value CONN_02X14)
-      (footprint Socket_Strips:Socket_Strip_Straight_2x14)
+      (footprint Socket_Strips:Socket_Strip_Straight_2x14_B)
       (libsource (lib conn) (part CONN_02X14))
       (sheetpath (names /) (tstamps /))
       (tstamp 55A592FE))
     (comp (ref PFIO1)
       (value CONN_02X18)
-      (footprint Socket_Strips:Socket_Strip_Straight_2x18)
+      (footprint Socket_Strips:Socket_Strip_Straight_2x18_B)
       (libsource (lib conn) (part CONN_02X18))
       (sheetpath (names /) (tstamps /))
       (tstamp 55A594A9))
@@ -1353,7 +1353,7 @@
       (tstamp 5774DB0F))
     (comp (ref P1)
       (value CONN_01X01)
-      (footprint Connect:GSG-HOLE-06mm1)
+      (footprint Connect:GSG-HOLE-06mm_nt)
       (libsource (lib conn) (part CONN_01X01))
       (sheetpath (names /) (tstamps /))
       (tstamp 577649CA))
@@ -1389,13 +1389,13 @@
       (tstamp 577EFC7D))
     (comp (ref P34)
       (value CONN_01X01)
-      (footprint Connect:GSG-HOLE-06mm1)
+      (footprint Connect:GSG-HOLE-06mm_nt)
       (libsource (lib conn) (part CONN_01X01))
       (sheetpath (names /) (tstamps /))
       (tstamp 577F7956))
     (comp (ref PFIO2)
       (value CONN_02X12)
-      (footprint Socket_Strips:Socket_Strip_Straight_2x12)
+      (footprint Socket_Strips:Socket_Strip_Straight_2x12_B)
       (libsource (lib conn) (part CONN_02X12))
       (sheetpath (names /) (tstamps /))
       (tstamp 5626557D))
@@ -1460,6 +1460,72 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 579750E4)))
   (libparts
+    (libpart (lib conn) (part CONN_01X01)
+      (footprints
+        (fp Pin_Header_Straight_1X01)
+        (fp Pin_Header_Angled_1X01)
+        (fp Socket_Strip_Straight_1X01)
+        (fp Socket_Strip_Angled_1X01))
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_01X01))
+      (pins
+        (pin (num 1) (name P1) (type passive))))
+    (libpart (lib device) (part R)
+      (description Resistor)
+      (footprints
+        (fp R_*)
+        (fp Resistor_*))
+      (fields
+        (field (name Reference) R)
+        (field (name Value) R))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
+    (libpart (lib device) (part INDUCTOR)
+      (fields
+        (field (name Reference) L)
+        (field (name Value) INDUCTOR))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))))
+    (libpart (lib device) (part LED)
+      (footprints
+        (fp LED-3MM)
+        (fp LED-5MM)
+        (fp LED-10MM)
+        (fp LED-0603)
+        (fp LED-0805)
+        (fp LED-1206)
+        (fp LEDV))
+      (fields
+        (field (name Reference) D)
+        (field (name Value) LED))
+      (pins
+        (pin (num 1) (name K) (type passive))
+        (pin (num 2) (name A) (type passive))))
+    (libpart (lib device) (part FILTER)
+      (description "Filtre EMI")
+      (fields
+        (field (name Reference) FB)
+        (field (name Value) FILTER))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))))
+    (libpart (lib device) (part C_Small)
+      (description "Unpolarized capacitor")
+      (footprints
+        (fp C?)
+        (fp C_????_*)
+        (fp C_????)
+        (fp SMD*_c)
+        (fp Capacitor*))
+      (fields
+        (field (name Reference) C)
+        (field (name Value) C_Small))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))))
     (libpart (lib conn) (part CONN_02X12)
       (footprints
         (fp Pin_Header_Straight_2X12)
@@ -1578,28 +1644,6 @@
         (pin (num 34) (name P34) (type passive))
         (pin (num 35) (name P35) (type passive))
         (pin (num 36) (name P36) (type passive))))
-    (libpart (lib device) (part INDUCTOR)
-      (fields
-        (field (name Reference) L)
-        (field (name Value) INDUCTOR))
-      (pins
-        (pin (num 1) (name 1) (type passive))
-        (pin (num 2) (name 2) (type passive))))
-    (libpart (lib device) (part LED)
-      (footprints
-        (fp LED-3MM)
-        (fp LED-5MM)
-        (fp LED-10MM)
-        (fp LED-0603)
-        (fp LED-0805)
-        (fp LED-1206)
-        (fp LEDV))
-      (fields
-        (field (name Reference) D)
-        (field (name Value) LED))
-      (pins
-        (pin (num 1) (name K) (type passive))
-        (pin (num 2) (name A) (type passive))))
     (libpart (lib device) (part C)
       (description "Unpolarized capacitor")
       (footprints
@@ -1611,50 +1655,6 @@
       (fields
         (field (name Reference) C)
         (field (name Value) C))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib device) (part C_Small)
-      (description "Unpolarized capacitor")
-      (footprints
-        (fp C?)
-        (fp C_????_*)
-        (fp C_????)
-        (fp SMD*_c)
-        (fp Capacitor*))
-      (fields
-        (field (name Reference) C)
-        (field (name Value) C_Small))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib conn) (part CONN_01X01)
-      (footprints
-        (fp Pin_Header_Straight_1X01)
-        (fp Pin_Header_Angled_1X01)
-        (fp Socket_Strip_Straight_1X01)
-        (fp Socket_Strip_Angled_1X01))
-      (fields
-        (field (name Reference) P)
-        (field (name Value) CONN_01X01))
-      (pins
-        (pin (num 1) (name P1) (type passive))))
-    (libpart (lib device) (part FILTER)
-      (description "Filtre EMI")
-      (fields
-        (field (name Reference) FB)
-        (field (name Value) FILTER))
-      (pins
-        (pin (num 1) (name 1) (type passive))
-        (pin (num 2) (name 2) (type passive))))
-    (libpart (lib device) (part R)
-      (description Resistor)
-      (footprints
-        (fp R_*)
-        (fp Resistor_*))
-      (fields
-        (field (name Reference) R)
-        (field (name Value) R))
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))

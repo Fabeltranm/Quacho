@@ -1990,7 +1990,7 @@ F 4 "DNP" H 2050 4450 60  0001 C CNN "Note"
 	0    -1   -1   0   
 $EndComp
 Text Label 2050 4800 1    40   ~ 0
-XTAL2
+CLK5
 Text GLabel 2200 4700 3    40   Input ~ 0
 GCK1
 Text GLabel 2350 4700 3    40   Input ~ 0

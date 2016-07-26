@@ -1,11 +1,9 @@
-update=11/07/2016 11:37:51 a.m.
+update=26/07/2016 12:52:46
 version=1
 last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../../../../../hackrf/hackrf/hardware/lemondrop
@@ -69,3 +67,5 @@ SolderMaskMinWidth=0
 DrawSegmentWidth=0.5
 BoardOutlineThickness=0.5
 ModuleOutlineThickness=0.381
+[general]
+version=1
