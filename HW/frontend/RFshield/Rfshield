@@ -1,171 +1,218 @@
-Reference, Value, Footprint, Datasheet, Manufacturer, Part Number, Description, Note
-R18,1k8,Resistors_SMD:R_0402,,Stackpole,RMCF0402JT1K80,RES TF 1.8K OHM 5% 1/16W 0402,
-R23,10k,Resistors_SMD:R_0402,,Stackpole,RMCF0402JT10K0,RES 10K OHM 1/16W 5% 0402 SMD,
-P6,SSP1_MOSI,Connect:testpoint1mm,,,,,DNP
-P7,SSP1_MISO,Connect:testpoint1mm,,,,,DNP
-P5,SSP1_SCK,Connect:testpoint1mm,,,,,DNP
-P4,SDA,Connect:testpoint1mm,,,,,DNP
-P3,SCL,Connect:testpoint1mm,,,,,DNP
-P2,VAA,Pin_Headers:Pin_Header_Straight_1x02_Pitch3.96mm_Friction_Lock,,,,,DNP
-C13,2.2uF,Capacitors_SMD:C_0402,,Taiyo Yuden,LMK105BJ225MV-F,CAP CER 2.2UF 10V 1% X5R 0402,
-P39,CLKOUT,hackrf1:GSG-SMA-EDGE,,Molex,73251-2121,CONN SMA JACK 50 OHM EDGE MNT W/JAM NUT & LOCK WASHER,
-R13,0,Resistors_SMD:R_0402,,Stackpole,RMCF0402ZT0R00,RES 0.0 OHM 1/16W 0402 SMD,
-R12,0,Resistors_SMD:R_0402,,Stackpole,RMCF0402ZT0R00,RES 0.0 OHM 1/16W 0402 SMD,
-R11,0,Resistors_SMD:R_0402,,Stackpole,RMCF0402ZT0R00,RES 0.0 OHM 1/16W 0402 SMD,
-R5,1k,Resistors_SMD:R_0402,,Stackpole,RMCF0402FT1K00,RES 1K OHM 1/16W 1% 0402,
-R4,1k,Resistors_SMD:R_0402,,Stackpole,RMCF0402FT1K00,RES 1K OHM 1/16W 1% 0402,
-R3,1k,Resistors_SMD:R_0402,,Stackpole,RMCF0402FT1K00,RES 1K OHM 1/16W 1% 0402,
-C6,100pF,Capacitors_SMD:C_0402,,Murata,GRM1555C1H101JA01D,CAP CER 100PF 50V 5% NP0 0402,
-C34,22pF,Capacitors_SMD:C_0402,,Murata,GRM1555C1H220JA01D,CAP CER 22PF 50V 5% NP0 0402,
-C31,22pF,Capacitors_SMD:C_0402,,Murata,GRM1555C1H220JA01D,CAP CER 22PF 50V 5% NP0 0402,
-C41,22pF,Capacitors_SMD:C_0402,,Murata,GRM1555C1H220JA01D,CAP CER 22PF 50V 5% NP0 0402,DNP
-C40,22pF,Capacitors_SMD:C_0402,,Murata,GRM1555C1H220JA01D,CAP CER 22PF 50V 5% NP0 0402,DNP
-C39,22pF,Capacitors_SMD:C_0402,,Murata,GRM1555C1H220JA01D,CAP CER 22PF 50V 5% NP0 0402,DNP
-C38,22pF,Capacitors_SMD:C_0402,,Murata,GRM1555C1H220JA01D,CAP CER 22PF 50V 5% NP0 0402,DNP
-C35,22pF,Capacitors_SMD:C_0402,,Murata,GRM1555C1H220JA01D,CAP CER 22PF 50V 5% NP0 0402,DNP
-C33,22pF,Capacitors_SMD:C_0402,,Murata,GRM1555C1H220JA01D,CAP CER 22PF 50V 5% NP0 0402,DNP
-C27,22pF,Capacitors_SMD:C_0402,,Murata,GRM1555C1H220JA01D,CAP CER 22PF 50V 5% NP0 0402,DNP
-C26,22pF,Capacitors_SMD:C_0402,,Murata,GRM1555C1H220JA01D,CAP CER 22PF 50V 5% NP0 0402,DNP
-C10,22pF,Capacitors_SMD:C_0402,,Murata,GRM1555C1H220JA01D,CAP CER 22PF 50V 5% NP0 0402,
-C3,22pF,Capacitors_SMD:C_0402,,Murata,GRM1555C1H220JA01D,CAP CER 22PF 50V 5% NP0 0402,
-C2,22pF,Capacitors_SMD:C_0402,,Murata,GRM1555C1H220JA01D,CAP CER 22PF 50V 5% NP0 0402,
-C46,2.2uF,Capacitors_SMD:C_0402,,Taiyo Yuden,LMK105BJ225MV-F,CAP CER 2.2UF 10V 20% X5R 0402,
-C23,2.2uF,Capacitors_SMD:C_0402,,Taiyo Yuden,LMK105BJ225MV-F,CAP CER 2.2UF 10V 20% X5R 0402,
-C21,2.2uF,Capacitors_SMD:C_0402,,Taiyo Yuden,LMK105BJ225MV-F,CAP CER 2.2UF 10V 20% X5R 0402,
-C19,100nF,Capacitors_SMD:C_0402,,Taiyo Yuden,LMK105BJ225MV-F,CAP CER 2.2UF 10V 20% X5R 0402,
-C17,2.2uF,Capacitors_SMD:C_0402,,Taiyo Yuden,LMK105BJ225MV-F,CAP CER 2.2UF 10V 20% X5R 0402,
-C15,2.2uF,Capacitors_SMD:C_0402,,Taiyo Yuden,LMK105BJ225MV-F,CAP CER 2.2UF 10V 1% X5R 0402,
-C30,10uF,Capacitors_SMD:C_0402,,Murata,GRM21BR61A106KE19L,CAP CER 10UF 10V 10% X5R 0805,
-FB1,FILTER,hackrf1:GSG-0805,,Murata,BLM21PG221SN1D,FERRITE CHIP 220 OHM 2000MA 0805,
-C43,180pF,Capacitors_SMD:C_0402,,Murata,GRM1555C1H181JA01D,CAP CER 180PF 50V 5% NP0 0402,
-R9,4k7,Resistors_SMD:R_0402,,Stackpole,RMCF0402FT4K70,RES 4.7K OHM 1/16W 1% 0402,
-R8,4k7,Resistors_SMD:R_0402,,Stackpole,RMCF0402FT4K70,RES 4.7K OHM 1/16W 1% 0402,
-R7,4k7,Resistors_SMD:R_0402,,Stackpole,RMCF0402FT4K70,RES 4.7K OHM 1/16W 1% 0402,
-R6,4k7,Resistors_SMD:R_0402,,Stackpole,RMCF0402FT4K70,RES 4.7K OHM 1/16W 1% 0402,
-C7,22pF,Capacitors_SMD:C_0402,,Murata,GRM155R61A104KA01D,CAP CER 0.1UF 10V 10% X5R 0402,
-R19,10k,Resistors_SMD:R_0402,,Stackpole,RMCF0402JT10K0,RES 10K OHM 1/16W 5% 0402 SMD,
-R14,10k,Resistors_SMD:R_0402,,Stackpole,RMCF0402JT10K0,RES 10K OHM 1/16W 5% 0402 SMD,
-R25,10k,Resistors_SMD:R_0402,,Stackpole,RMCF0402JT10K0,RES 10K OHM 1/16W 5% 0402 SMD,
-C9,22pF,Capacitors_SMD:C_0402,,Murata,GRM155R71C103KA01D,CAP CER 10000PF 16V 10% X7R 0402,
-C8,22pF,Capacitors_SMD:C_0402,,Murata,GRM155R71C103KA01D,CAP CER 10000PF 16V 10% X7R 0402,
-C5,10nF,Capacitors_SMD:C_0402,,Murata,GRM155R71C103KA01D,CAP CER 10000PF 16V 10% X7R 0402,
-C11,22pF,Capacitors_SMD:C_0402,,Murata,GRM155R71C103KA01D,CAP CER 10000PF 16V 10% X7R 0402,
-C4,10nF,Capacitors_SMD:C_0402,,Murata,GRM155R71C103KA01D,CAP CER 10000PF 16V 10% X7R 0402,
-C24,100nF,Capacitors_SMD:C_0402,,Murata,GRM155R61A104KA01D,CAP CER 0.1UF 10V 10% X5R 0402,
-C22,100nF,Capacitors_SMD:C_0402,,Murata,GRM155R61A104KA01D,CAP CER 0.1UF 10V 10% X5R 0402,
-C20,100nF,Capacitors_SMD:C_0402,,Murata,GRM155R61A104KA01D,CAP CER 0.1UF 10V 10% X5R 0402,
-C18,100nF,Capacitors_SMD:C_0402,,Murata,GRM155R61A104KA01D,CAP CER 0.1UF 10V 10% X5R 0402,
-C16,100nF,Capacitors_SMD:C_0402,,Murata,GRM155R61A104KA01D,CAP CER 0.1UF 10V 10% X5R 0402,
-C14,22pF,Capacitors_SMD:C_0402,,Murata,GRM155R61A104KA01D,CAP CER 0.1UF 10V 1% X5R 0402,
-C12,100nF,Capacitors_SMD:C_0402,,Murata,GRM155R61A104KA01D,CAP CER 0.1UF 10V 1% X5R 0402,
-C45,100nF,Capacitors_SMD:C_0402,,Murata,GRM155R61A104KA01D,CAP CER 0.1UF 10V 10% X5R 0402,
-C60,100nF,Capacitors_SMD:C_0402,,Murata,GRM155R61A104KA01D,CAP CER 0.1UF 10V 10% X5R 0402,
-C59,100nF,Capacitors_SMD:C_0402,,Murata,GRM155R61A104KA01D,CAP CER 0.1UF 10V 10% X5R 0402,
-C58,100nF,Capacitors_SMD:C_0402,,Murata,GRM155R61A104KA01D,CAP CER 0.1UF 10V 10% X5R 0402,
-C57,100nF,Capacitors_SMD:C_0402,,Murata,GRM155R61A104KA01D,CAP CER 0.1UF 10V 10% X5R 0402,
-C44,100nF,Capacitors_SMD:C_0402,,Murata,GRM155R61A104KA01D,CAP CER 0.1UF 10V 10% X5R 0402,
-P37,INTR,Connect:testpoint1mm,,,,,DNP
-P33,XCVR_CLKOUT,Connect:testpoint1mm,,,,,DNP
-U1,MAX2837,hackrf1:GSG-QFN48-6,,Maxim,MAX2837ETM+,IC TXRX 2.3GHZ-2.7GHZ 48TQFN,
-L3,DNP,hackrf1:GSG-0402,,,,,DNP
-L4,DNP,hackrf1:GSG-0402,,,,,DNP
-L1,DNP,hackrf1:GSG-0402,,,,,DNP
-R10,0,Resistors_SMD:R_0402,,Stackpole,RMCF0402ZT0R00,RES 0.0 OHM 1/16W 0402 SMD,
-P38,CLKIN,hackrf1:GSG-SMA-EDGE,,Molex,73251-2121,CONN SMA JACK 50 OHM EDGE MNT W/JAM NUT & LOCK WASHER,
-X1,GSG-XTAL4PIN,hackrf1:GSG-XTAL3.2x2.5mm,,AVX,CX3225GB25000D0HEQZ1,CRYSTAL 25.000MHZ 8PF SMD,
-R17,1k8,Resistors_SMD:R_0402,,Stackpole,RMCF0402JT1K80,RES TF 1.8K OHM 5% 1/16W 0402,
-U3,SI5351C,hackrf1:GSG-QFN20-4,,Silicon Laboratories Inc,SI5351C-B-GM,IC CLK GENERATOR 160MHZ 20QFN,
-T2,TX_BALUN,hackrf1:GSG-2500BL14M100,,Johanson Technology,2500BL14M100T,BALUN CERAMIC CHIP WIMAX 2.5GHZ,
-T1,RX_BALUN,hackrf1:GSG-2500BL14M100,,Johanson Technology,2500BL14M100T,BALUN CERAMIC CHIP WIMAX 2.5GHZ,
-C36,3pF,Capacitors_SMD:C_0402,,Murata,GRM1555C1H3R0CA01D,CAP CER 3PF 50V NP0 0402,
-C42,3pF,Capacitors_SMD:C_0402,,Murata,GRM1555C1H3R0CA01D,CAP CER 3PF 50V NP0 0402,
-C29,330nF,Capacitors_SMD:C_0402,,Murata,GRM155R61A334KE15D,CAP CER 0.33UF 10V 10% X5R 0402,
-C28,330nF,Capacitors_SMD:C_0402,,Murata,GRM155R61A334KE15D,CAP CER 0.33UF 10V 10% X5R 0402,
-C32,330nF,Capacitors_SMD:C_0402,,Murata,GRM155R61A334KE15D,CAP CER 0.33UF 10V 10% X5R 0402,
-U2,MAX5864,hackrf1:GSG-QFN48-7,,Maxim,MAX5864ETM+,IC ANLG FRONT END 22MSPS 48-TQFN,
-R2,1k,Resistors_SMD:R_0402,,Stackpole,RMCF0402FT1K00,RES 1K OHM 1/16W 1% 0402,
-C37,1uF,Capacitors_SMD:C_0402,,Taiyo Yuden,LMK105BJ105KV-F,CAP CER 1UF 10V 10% X5R 0402,
-R16,475,Resistors_SMD:R_0402,,Stackpole,RMCF0402JT470R,RES TF 1/16W 470 OHM 5% 0402,
-R15,475,Resistors_SMD:R_0402,,Stackpole,RMCF0402JT470R,RES TF 1/16W 470 OHM 5% 0402,
-C50,3.3nF,Capacitors_SMD:C_0402,,Murata,GRM155R71H332KA01D,CAP CER 3300PF 50V 10% X7R 0402,
-L2,6.2nH,hackrf1:GSG-0402,,Taiyo Yuden,HK10056N2S-T,INDUCTOR HIFREQ 6.2+/-0.3NH 0402,
-C1,22pF,Capacitors_SMD:C_0402,,Murata,GRM1555C1H220JA01D,CAP CER 22PF 50V 5% NP0 0402,
-R22,39,Resistors_SMD:R_0402,,Stackpole,RMCF0402JT39R0,RES 39 OHM 1/16W 5% 0402 SMD,
-Q1,MOSFET_P,kicad1:SOT-23mos,,Diodes Inc.,DMP2305U-7,MOSFET P-CH 20V 4.2A SOT-23,
-R1,10k,Resistors_SMD:R_0402,,Stackpole,RMCF0402JT10K0,RES 10K OHM 1/16W 5% 0402 SMD,
-C53,100pF,Capacitors_SMD:C_0402,,Murata,GRM1555C1H101JA01D,CAP CER 100PF 50V 5% NP0 0402,DNP
-C54,100pF,Capacitors_SMD:C_0402,,Murata,GRM1555C1H101JA01D,CAP CER 100PF 50V 5% NP0 0402,DNP
-C55,100pF,Capacitors_SMD:C_0402,,Murata,GRM1555C1H101JA01D,CAP CER 100PF 50V 5% NP0 0402,DNP
-R24,39,Resistors_SMD:R_0402,,Stackpole,RMCF0402JT39R0,RES 39 OHM 1/16W 5% 0402 SMD,
-C56,100pF,Capacitors_SMD:C_0402,,Murata,GRM1555C1H101JA01D,CAP CER 100PF 50V 5% NP0 0402,DNP
-P10,TXENABLE,Connect:testpoint1mm,,,,,DNP
-P11,RXENABLE,Connect:testpoint1mm,,,,,DNP
-P8,CS_XCVR,Connect:testpoint1mm,,,,,DNP
-P12,XTAL2,Connect:testpoint1mm,,,,,DNP
-P9,CS_AD,Connect:testpoint1mm,,,,,DNP
-P14,GCK2,Connect:testpoint1mm,,,,,DNP
-P15,SGPIO_CLK,Connect:testpoint1mm,,,,,DNP
-P13,GCK1,Connect:testpoint1mm,,,,,DNP
-P19,DD0,Connect:testpoint1mm,,,,,DNP
-P21,DD9,Connect:testpoint1mm,,,,,DNP
-P16,DA0,Connect:testpoint1mm,,,,,DNP
-P18,DA7,Connect:testpoint1mm,,,,,DNP
-P20,DD5,Connect:testpoint1mm,,,,,DNP
-P17,DA4,Connect:testpoint1mm,,,,,DNP
-P22,RSSI,Connect:testpoint1mm,,,,,DNP
-D2,GSG-DIODE-TVS-BI,Capacitors_SMD:C_0402,,Murata,LXES15AAA1-100,TVS DIODE ESD .05PF 15KV 0402,
-D1,GSG-DIODE-TVS-BI,Capacitors_SMD:C_0402,,Murata,LXES15AAA1-100,TVS DIODE ESD .05PF 15KV 0402,
-C25,100nF,Capacitors_SMD:C_0402,,Murata,GRM155R61A104KA01D,CAP CER 0.1UF 10V 10% X5R 0402,
-P23,GND,Connect:testpoint1mm,,,,,DNP
-P24,GND,Connect:testpoint1mm,,,,,DNP
-P25,GND,Connect:testpoint1mm,,,,,DNP
-P26,GND,Connect:testpoint1mm,,,,,DNP
-P27,GND,Connect:testpoint1mm,,,,,DNP
-P28,GND,Connect:testpoint1mm,,,,,DNP
-P29,GND,Connect:testpoint1mm,,,,,DNP
-P30,GND,Connect:testpoint1mm,,,,,DNP
-P31,GND,Connect:testpoint1mm,,,,,DNP
-P32,GND,Connect:testpoint1mm,,,,,DNP
-R21,39,Resistors_SMD:R_0402,,Stackpole,RMCF0402JT39R0,RES 39 OHM 1/16W 5% 0402 SMD,
-R20,39,Resistors_SMD:R_0402,,Stackpole,RMCF0402JT39R0,RES 39 OHM 1/16W 5% 0402 SMD,
-C49,33pF,Capacitors_SMD:C_0402,,Murata,GRM1555C1H330JA01D,CAP CER 33PF 50V 5% NP0 0402,
-C52,47pF,Capacitors_SMD:C_0402,,Murata,GRM1555C1H470JA01D,CAP CER 47PF 50V 5% NP0 0402,
-C51,100pF,Capacitors_SMD:C_0402,,Murata,GRM1555C1H101JA01D,CAP CER 100PF 50V 5% NP0 0402,DNP
-C47,DNP,Capacitors_SMD:C_0402,,,,,DNP
-C48,DNP,Capacitors_SMD:C_0402,,,,,DNP
-PSA1,CONN_02X14,Socket_Strips:Socket_Strip_Straight_2x14,
-PFIO1,CONN_02X18,Socket_Strips:Socket_Strip_Straight_2x18,
-PFIO2,CONN_02X12,Socket_Strips:Socket_Strip_Straight_2x12,
-C72,22pF,Capacitors_SMD:C_0402,
-R26,0,Resistors_SMD:R_0402,,Stackpole,RMCF0402ZT0R00,RES 0.0 OHM 1/16W 0402 SMD,
-GndCon1,GND,Connect:1pin,,,,,DNP
-RX1,CLKOUT,hackrf1:GSG-SMA-EDGE,,Molex,73251-2121,CONN SMA JACK 50 OHM EDGE MNT W/JAM NUT & LOCK WASHER,
-TX1,CLKOUT,hackrf1:GSG-SMA-EDGE,,Molex,73251-2121,CONN SMA JACK 50 OHM EDGE MNT W/JAM NUT & LOCK WASHER,
-R34,R,Resistors_SMD:R_0402,
-R33,R,Resistors_SMD:R_0402,
-R32,R,Resistors_SMD:R_0402,
-R31,R,Resistors_SMD:R_0402,
-R30,R,Resistors_SMD:R_0402,
-R29,R,Resistors_SMD:R_0402,
-R28,R,Resistors_SMD:R_0402,
-R27,0,Resistors_SMD:R_0402,
-D3,LED,LEDs:LED-0603,
-D5,LED,LEDs:LED-0603,
-R35,475,Resistors_SMD:R_0402,,Stackpole,RMCF0402JT470R,RES TF 1/16W 470 OHM 5% 0402,
-R37,475,Resistors_SMD:R_0402,,Stackpole,RMCF0402JT470R,RES TF 1/16W 470 OHM 5% 0402,
-D4,LED,LEDs:LED-0603,
-R36,475,Resistors_SMD:R_0402,,Stackpole,RMCF0402JT470R,RES TF 1/16W 470 OHM 5% 0402,
-C61,10nF,Capacitors_SMD:C_0402,,Murata,GRM155R71C103KA01D,CAP CER 10000PF 16V 10% X7R 0402,
-C62,10nF,Capacitors_SMD:C_0402,,Murata,GRM155R71C103KA01D,CAP CER 10000PF 16V 10% X7R 0402,
-C63,10nF,Capacitors_SMD:C_0402,,Murata,GRM155R71C103KA01D,CAP CER 10000PF 16V 10% X7R 0402,
-C64,10nF,Capacitors_SMD:C_0402,,Murata,GRM155R71C103KA01D,CAP CER 10000PF 16V 10% X7R 0402,
-C65,10nF,Capacitors_SMD:C_0402,,Murata,GRM155R71C103KA01D,CAP CER 10000PF 16V 10% X7R 0402,
-C66,10nF,Capacitors_SMD:C_0402,,Murata,GRM155R71C103KA01D,CAP CER 10000PF 16V 10% X7R 0402,
-C67,22pF,Capacitors_SMD:C_0402,,Murata,GRM155R71C103KA01D,CAP CER 10000PF 16V 10% X7R 0402,
-P1,CONN_01X01,Connect:GSG-HOLE-06mm1,
-R38,0,Resistors_SMD:R_0402,,Stackpole,RMCF0402ZT0R00,RES 0.0 OHM 1/16W 0402 SMD,
-C69,22pF,Capacitors_SMD:C_0402,,Murata,GRM1555C1H220JA01D,CAP CER 22PF 50V 5% NP0 0402,
-C68,10nF,Capacitors_SMD:C_0402,,Murata,GRM155R71C103KA01D,CAP CER 10000PF 16V 10% X7R 0402,
-P34,CONN_01X01,Connect:GSG-HOLE-06mm1,
-C71,10nF,Capacitors_SMD:C_0402,,Murata,GRM155R71C103KA01D,CAP CER 10000PF 16V 10% X7R 0402,
-C70,22pF,Capacitors_SMD:C_0402,,Murata,GRM1555C1H220JA01D,CAP CER 22PF 50V 5% NP0 0402,
+"Source:","D:\QUACHO\Quacho_git\HW\frontend\RFshield\Rfshield.sch"
+"Date:","12/08/2016 04:45:53 p.m."
+"Tool:","Eeschema 4.0.2-stable"
+"Generator:","C:/Program Files/KiCad/bin/scripts/bom-in-python/bom_csv_grouped_by_value.py"
+"Component Count:","154"
+
+"Individual Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","Description","Manufacturer","Note","Part Number"
+"","","C1","22pF","device:C","Capacitors_SMD:C_0402","","CAP CER 22PF 50V 5% NP0 0402","Murata","","GRM1555C1H220JA01D"
+"","","C2","22pF","device:C","Capacitors_SMD:C_0402","","CAP CER 22PF 50V 5% NP0 0402","Murata","","GRM1555C1H220JA01D"
+"","","C3","22pF","device:C","Capacitors_SMD:C_0402","","CAP CER 22PF 50V 5% NP0 0402","Murata","","GRM1555C1H220JA01D"
+"","","C4","10nF","device:C","Capacitors_SMD:C_0402","","CAP CER 10000PF 16V 10% X7R 0402","Murata","","GRM155R71C103KA01D"
+"","","C5","10nF","device:C","Capacitors_SMD:C_0402","","CAP CER 10000PF 16V 10% X7R 0402","Murata","","GRM155R71C103KA01D"
+"","","C6","100pF","device:C","Capacitors_SMD:C_0402","","CAP CER 100PF 50V 5% NP0 0402","Murata","","GRM1555C1H101JA01D"
+"","","C7","22pF","device:C","Capacitors_SMD:C_0402","","CAP CER 0.1UF 10V 10% X5R 0402","Murata","","GRM155R61A104KA01D"
+"","","C8","22pF","device:C","Capacitors_SMD:C_0402","","CAP CER 10000PF 16V 10% X7R 0402","Murata","","GRM155R71C103KA01D"
+"","","C9","22pF","device:C","Capacitors_SMD:C_0402","","CAP CER 10000PF 16V 10% X7R 0402","Murata","","GRM155R71C103KA01D"
+"","","C10","22pF","device:C","Capacitors_SMD:C_0402","","CAP CER 22PF 50V 5% NP0 0402","Murata","","GRM1555C1H220JA01D"
+"","","C11","22pF","device:C","Capacitors_SMD:C_0402","","CAP CER 10000PF 16V 10% X7R 0402","Murata","","GRM155R71C103KA01D"
+"","","C12","100nF","device:C","Capacitors_SMD:C_0402","","CAP CER 0.1UF 10V 1% X5R 0402","Murata","","GRM155R61A104KA01D"
+"","","C13","2.2uF","device:C","Capacitors_SMD:C_0402","","CAP CER 2.2UF 10V 1% X5R 0402","Taiyo Yuden","","LMK105BJ225MV-F"
+"","","C14","22pF","device:C","Capacitors_SMD:C_0402","","CAP CER 0.1UF 10V 1% X5R 0402","Murata","","GRM155R61A104KA01D"
+"","","C15","2.2uF","device:C","Capacitors_SMD:C_0402","","CAP CER 2.2UF 10V 1% X5R 0402","Taiyo Yuden","","LMK105BJ225MV-F"
+"","","C16","100nF","device:C","Capacitors_SMD:C_0402","","CAP CER 0.1UF 10V 10% X5R 0402","Murata","","GRM155R61A104KA01D"
+"","","C17","2.2uF","device:C","Capacitors_SMD:C_0402","","CAP CER 2.2UF 10V 20% X5R 0402","Taiyo Yuden","","LMK105BJ225MV-F"
+"","","C18","100nF","device:C","Capacitors_SMD:C_0402","","CAP CER 0.1UF 10V 10% X5R 0402","Murata","","GRM155R61A104KA01D"
+"","","C19","100nF","device:C","Capacitors_SMD:C_0402","","CAP CER 2.2UF 10V 20% X5R 0402","Taiyo Yuden","","LMK105BJ225MV-F"
+"","","C20","100nF","device:C","Capacitors_SMD:C_0402","","CAP CER 0.1UF 10V 10% X5R 0402","Murata","","GRM155R61A104KA01D"
+"","","C21","2.2uF","device:C","Capacitors_SMD:C_0402","","CAP CER 2.2UF 10V 20% X5R 0402","Taiyo Yuden","","LMK105BJ225MV-F"
+"","","C22","100nF","device:C","Capacitors_SMD:C_0402","","CAP CER 0.1UF 10V 10% X5R 0402","Murata","","GRM155R61A104KA01D"
+"","","C23","2.2uF","device:C","Capacitors_SMD:C_0402","","CAP CER 2.2UF 10V 20% X5R 0402","Taiyo Yuden","","LMK105BJ225MV-F"
+"","","C24","100nF","device:C","Capacitors_SMD:C_0402","","CAP CER 0.1UF 10V 10% X5R 0402","Murata","","GRM155R61A104KA01D"
+"","","C25","100nF","device:C","Capacitors_SMD:C_0402","","CAP CER 0.1UF 10V 10% X5R 0402","Murata","","GRM155R61A104KA01D"
+"","","C26","22pF","device:C","Capacitors_SMD:C_0402","","CAP CER 22PF 50V 5% NP0 0402","Murata","DNP","GRM1555C1H220JA01D"
+"","","C27","22pF","device:C","Capacitors_SMD:C_0402","","CAP CER 22PF 50V 5% NP0 0402","Murata","DNP","GRM1555C1H220JA01D"
+"","","C28","330nF","device:C","Capacitors_SMD:C_0402","","CAP CER 0.33UF 10V 10% X5R 0402","Murata","","GRM155R61A334KE15D"
+"","","C29","330nF","device:C","Capacitors_SMD:C_0402","","CAP CER 0.33UF 10V 10% X5R 0402","Murata","","GRM155R61A334KE15D"
+"","","C30","10uF","device:C","Capacitors_SMD:C_0402","","CAP CER 10UF 10V 10% X5R 0805","Murata","","GRM21BR61A106KE19L"
+"","","C31","22pF","device:C","Capacitors_SMD:C_0402","","CAP CER 22PF 50V 5% NP0 0402","Murata","","GRM1555C1H220JA01D"
+"","","C32","330nF","device:C","Capacitors_SMD:C_0402","","CAP CER 0.33UF 10V 10% X5R 0402","Murata","","GRM155R61A334KE15D"
+"","","C33","22pF","device:C","Capacitors_SMD:C_0402","","CAP CER 22PF 50V 5% NP0 0402","Murata","DNP","GRM1555C1H220JA01D"
+"","","C34","22pF","device:C","Capacitors_SMD:C_0402","","CAP CER 22PF 50V 5% NP0 0402","Murata","","GRM1555C1H220JA01D"
+"","","C35","22pF","device:C","Capacitors_SMD:C_0402","","CAP CER 22PF 50V 5% NP0 0402","Murata","DNP","GRM1555C1H220JA01D"
+"","","C36","3pF","device:C","Capacitors_SMD:C_0402","","CAP CER 3PF 50V NP0 0402","Murata","","GRM1555C1H3R0CA01D"
+"","","C37","1uF","device:C","Capacitors_SMD:C_0402","","CAP CER 1UF 10V 10% X5R 0402","Taiyo Yuden","","LMK105BJ105KV-F"
+"","","C38","22pF","device:C","Capacitors_SMD:C_0402","","CAP CER 22PF 50V 5% NP0 0402","Murata","DNP","GRM1555C1H220JA01D"
+"","","C39","22pF","device:C","Capacitors_SMD:C_0402","","CAP CER 22PF 50V 5% NP0 0402","Murata","DNP","GRM1555C1H220JA01D"
+"","","C40","22pF","device:C","Capacitors_SMD:C_0402","","CAP CER 22PF 50V 5% NP0 0402","Murata","DNP","GRM1555C1H220JA01D"
+"","","C41","22pF","device:C","Capacitors_SMD:C_0402","","CAP CER 22PF 50V 5% NP0 0402","Murata","DNP","GRM1555C1H220JA01D"
+"","","C42","3pF","device:C","Capacitors_SMD:C_0402","","CAP CER 3PF 50V NP0 0402","Murata","","GRM1555C1H3R0CA01D"
+"","","C43","180pF","device:C","Capacitors_SMD:C_0402","","CAP CER 180PF 50V 5% NP0 0402","Murata","","GRM1555C1H181JA01D"
+"","","C44","100nF","device:C","Capacitors_SMD:C_0402","","CAP CER 0.1UF 10V 10% X5R 0402","Murata","","GRM155R61A104KA01D"
+"","","C45","100nF","device:C","Capacitors_SMD:C_0402","","CAP CER 0.1UF 10V 10% X5R 0402","Murata","","GRM155R61A104KA01D"
+"","","C46","2.2uF","device:C","Capacitors_SMD:C_0402","","CAP CER 2.2UF 10V 20% X5R 0402","Taiyo Yuden","","LMK105BJ225MV-F"
+"","","C47","DNP","device:C","Capacitors_SMD:C_0402","","","","DNP",""
+"","","C48","DNP","device:C","Capacitors_SMD:C_0402","","","","DNP",""
+"","","C49","33pF","device:C","Capacitors_SMD:C_0402","","CAP CER 33PF 50V 5% NP0 0402","Murata","","GRM1555C1H330JA01D"
+"","","C50","3.3nF","device:C","Capacitors_SMD:C_0402","","CAP CER 3300PF 50V 10% X7R 0402","Murata","","GRM155R71H332KA01D"
+"","","C51","22pF","device:C","Capacitors_SMD:C_0402","","CAP CER 22PF 50V 5% NP0 0402","Murata","","GRM1555C1H220JA01D"
+"","","C52","47pF","device:C","Capacitors_SMD:C_0402","","CAP CER 47PF 50V 5% NP0 0402","Murata","","GRM1555C1H470JA01D"
+"","","C53","100pF","device:C","Capacitors_SMD:C_0402","","CAP CER 100PF 50V 5% NP0 0402","Murata","DNP","GRM1555C1H101JA01D"
+"","","C54","100pF","device:C","Capacitors_SMD:C_0402","","CAP CER 100PF 50V 5% NP0 0402","Murata","DNP","GRM1555C1H101JA01D"
+"","","C55","100pF","device:C","Capacitors_SMD:C_0402","","CAP CER 100PF 50V 5% NP0 0402","Murata","DNP","GRM1555C1H101JA01D"
+"","","C56","100pF","device:C","Capacitors_SMD:C_0402","","CAP CER 100PF 50V 5% NP0 0402","Murata","DNP","GRM1555C1H101JA01D"
+"","","C57","100nF","device:C","Capacitors_SMD:C_0402","","CAP CER 0.1UF 10V 10% X5R 0402","Murata","","GRM155R61A104KA01D"
+"","","C58","100nF","device:C","Capacitors_SMD:C_0402","","CAP CER 0.1UF 10V 10% X5R 0402","Murata","","GRM155R61A104KA01D"
+"","","C59","100nF","device:C","Capacitors_SMD:C_0402","","CAP CER 0.1UF 10V 10% X5R 0402","Murata","","GRM155R61A104KA01D"
+"","","C60","100nF","device:C","Capacitors_SMD:C_0402","","CAP CER 0.1UF 10V 10% X5R 0402","Murata","","GRM155R61A104KA01D"
+"","","C61","10nF","device:C","Capacitors_SMD:C_0402","","CAP CER 10000PF 16V 10% X7R 0402","Murata","","GRM155R71C103KA01D"
+"","","C62","10nF","device:C","Capacitors_SMD:C_0402","","CAP CER 10000PF 16V 10% X7R 0402","Murata","","GRM155R71C103KA01D"
+"","","C63","10nF","device:C","Capacitors_SMD:C_0402","","CAP CER 10000PF 16V 10% X7R 0402","Murata","","GRM155R71C103KA01D"
+"","","C64","10nF","device:C","Capacitors_SMD:C_0402","","CAP CER 10000PF 16V 10% X7R 0402","Murata","","GRM155R71C103KA01D"
+"","","C65","10nF","device:C","Capacitors_SMD:C_0402","","CAP CER 10000PF 16V 10% X7R 0402","Murata","","GRM155R71C103KA01D"
+"","","C66","10nF","device:C","Capacitors_SMD:C_0402","","CAP CER 10000PF 16V 10% X7R 0402","Murata","","GRM155R71C103KA01D"
+"","","C67","22pF","device:C","Capacitors_SMD:C_0402","","CAP CER 10000PF 16V 10% X7R 0402","Murata","","GRM155R71C103KA01D"
+"","","C68","10nF","device:C","Capacitors_SMD:C_0402","","CAP CER 10000PF 16V 10% X7R 0402","Murata","","GRM155R71C103KA01D"
+"","","C69","22pF","device:C","Capacitors_SMD:C_0402","","CAP CER 22PF 50V 5% NP0 0402","Murata","","GRM1555C1H220JA01D"
+"","","C70","2.2uF","device:C","Capacitors_SMD:C_0402","","CAP CER 2.2UF 10V 1% X5R 0402","Taiyo Yuden","","LMK105BJ225MV-F"
+"","","C71","2.2uF","device:C","Capacitors_SMD:C_0402","","CAP CER 2.2UF 10V 1% X5R 0402","Taiyo Yuden","","LMK105BJ225MV-F"
+"","","C72","22pF","device:C_Small","Capacitors_SMD:C_0402","","CAP CER 22PF 50V 5% NP0 0402","Murata","","GRM1555C1H220JA01D"
+"","","C73","2.2uF","device:C","Capacitors_SMD:C_0402","","CAP CER 2.2UF 10V 1% X5R 0402","Taiyo Yuden","","LMK105BJ225MV-F"
+"","","C74","2.2uF","device:C","Capacitors_SMD:C_0402","","CAP CER 2.2UF 10V 1% X5R 0402","Taiyo Yuden","","LMK105BJ225MV-F"
+"","","C75","2.2uF","device:C","Capacitors_SMD:C_0402","","CAP CER 2.2UF 10V 1% X5R 0402","Taiyo Yuden","","LMK105BJ225MV-F"
+"","","D1","GSG-DIODE-TVS-BI","Rfshield-cache:GSG-DIODE-TVS-BI","Capacitors_SMD:C_0402","","TVS DIODE ESD .05PF 15KV 0402","Murata","","LXES15AAA1-100"
+"","","D2","GSG-DIODE-TVS-BI","Rfshield-cache:GSG-DIODE-TVS-BI","Capacitors_SMD:C_0402","","TVS DIODE ESD .05PF 15KV 0402","Murata","","LXES15AAA1-100"
+"","","D3","LED","device:LED","LEDs:LED-0603","","SMD CHIP LED 0603","Kingbright","","APT1608SGC"
+"","","D4","LED","device:LED","LEDs:LED-0603","","SMD CHIP LED 0603","Kingbright","","APT1608SGC"
+"","","D5","LED","device:LED","LEDs:LED-0603","","SMD CHIP LED 0603","Kingbright","","APT1608SGC"
+"","","FB1","FILTER","device:FILTER","hackrf1:GSG-0805","","FERRITE CHIP 220 OHM 2000MA 0805","Murata","","BLM21PG221SN1D"
+"","","GndCon1","GND","Rfshield-cache:CONN_1","Connect:1pin","","","","DNP",""
+"","","L1","DNP","device:INDUCTOR","hackrf1:GSG-0402","","","","DNP",""
+"","","L2","6.2nH","device:INDUCTOR","hackrf1:GSG-0402","","INDUCTOR HIFREQ 6.2+/-0.3NH 0402","Taiyo Yuden","","HK10056N2S-T"
+"","","L3","DNP","device:INDUCTOR","hackrf1:GSG-0402","","","","DNP",""
+"","","L4","DNP","device:INDUCTOR","hackrf1:GSG-0402","","","","DNP",""
+"","","P1","CONN_01X01","conn:CONN_01X01","Connect:GSG-HOLE-06mm_nt","","","","DNP",""
+"","","P2","VAA","Rfshield-cache:CONN_2","Pin_Headers:Pin_Header_Straight_2x01","","","","DNP",""
+"","","P11","RXENABLE","Rfshield-cache:CONN_1","Connect:testpoint1mm","","","","DNP",""
+"","","P12","XTAL2","Rfshield-cache:CONN_1","Connect:testpoint1mm","","","","DNP",""
+"","","P13","GCK1","Rfshield-cache:CONN_1","Connect:testpoint1mm","","","","DNP",""
+"","","P14","GCK2","Rfshield-cache:CONN_1","Connect:testpoint1mm","","","","DNP",""
+"","","P15","SGPIO_CLK","Rfshield-cache:CONN_1","Connect:testpoint1mm","","","","DNP",""
+"","","P22","RSSI","Rfshield-cache:CONN_1","Connect:testpoint1mm","","","","DNP",""
+"","","P23","GND","Rfshield-cache:CONN_1","Connect:testpoint1mm","","","","DNP",""
+"","","P24","GND","Rfshield-cache:CONN_1","Connect:testpoint1mm","","","","DNP",""
+"","","P25","GND","Rfshield-cache:CONN_1","Connect:testpoint1mm","","","","DNP",""
+"","","P26","GND","Rfshield-cache:CONN_1","Connect:testpoint1mm","","","","DNP",""
+"","","P27","GND","Rfshield-cache:CONN_1","Connect:testpoint1mm","","","","DNP",""
+"","","P28","GND","Rfshield-cache:CONN_1","Connect:testpoint1mm","","","","DNP",""
+"","","P33","XCVR_CLKOUT","Rfshield-cache:CONN_1","Connect:testpoint1mm","","","","DNP",""
+"","","P34","CONN_01X01","conn:CONN_01X01","Connect:GSG-HOLE-06mm_nt","","","","DNP",""
+"","","P38","CLKIN","Rfshield-cache:GSG-RF-CONN","hackrf1:GSG-SMA-EDGE","","CONN SMA JACK 50 OHM EDGE MNT W/JAM NUT & LOCK WASHER","Molex","","73251-2121"
+"","","P39","CLKOUT","Rfshield-cache:GSG-RF-CONN","hackrf1:GSG-SMA-EDGE","","CONN SMA JACK 50 OHM EDGE MNT W/JAM NUT & LOCK WASHER","Molex","","73251-2121"
+"","","PFIO1","CONN_02X18","conn:CONN_02X18","Socket_Strips:Socket_Strip_Straight_2x18_B","","36P DR UNSHRD HRD .38 GOLD OVER NI","Amphenol FCI","","67996-236HLF"
+"","","PFIO2","CONN_02X12","conn:CONN_02X12","Socket_Strips:Socket_Strip_Straight_2x12_B",""," 24P DR UNSHRD HRD TIN OVER NI","Amphenol FCI","","67997-224HLF"
+"","","PSA1","CONN_02X14","conn:CONN_02X14","Socket_Strips:Socket_Strip_Straight_2x14_B",""," 28P DR UNSHRD HRD TIN OVER NI","Amphenol FCI","","67997-428HLF"
+"","","Q1","MOSFET_P","Rfshield-cache:MOSFET_P","kicad1:SOT-23mos","","MOSFET P-CH 20V 4.2A SOT-23","Diodes Inc.","","DMP2305U-7"
+"","","R1","10k","device:R","Resistors_SMD:R_0402","","RES 10K OHM 1/16W 5% 0402 SMD","Stackpole","","RMCF0402JT10K0"
+"","","R2","1k","device:R","Resistors_SMD:R_0402","","RES 1K OHM 1/16W 1% 0402","Stackpole","","RMCF0402FT1K00"
+"","","R3","1k","device:R","Resistors_SMD:R_0402","","RES 1K OHM 1/16W 1% 0402","Stackpole","","RMCF0402FT1K00"
+"","","R4","1k","device:R","Resistors_SMD:R_0402","","RES 1K OHM 1/16W 1% 0402","Stackpole","","RMCF0402FT1K00"
+"","","R5","1k","device:R","Resistors_SMD:R_0402","","RES 1K OHM 1/16W 1% 0402","Stackpole","","RMCF0402FT1K00"
+"","","R6","4k7","device:R","Resistors_SMD:R_0402","","RES 4.7K OHM 1/16W 1% 0402","Stackpole","","RMCF0402FT4K70"
+"","","R7","4k7","device:R","Resistors_SMD:R_0402","","RES 4.7K OHM 1/16W 1% 0402","Stackpole","","RMCF0402FT4K70"
+"","","R8","4k7","device:R","Resistors_SMD:R_0402","","RES 4.7K OHM 1/16W 1% 0402","Stackpole","","RMCF0402FT4K70"
+"","","R9","4k7","device:R","Resistors_SMD:R_0402","","RES 4.7K OHM 1/16W 1% 0402","Stackpole","","RMCF0402FT4K70"
+"","","R10","0","device:R","Resistors_SMD:R_0402","","RES 0.0 OHM 1/16W 0402 SMD","Stackpole","","RMCF0402ZT0R00"
+"","","R11","0","device:R","Resistors_SMD:R_0402","","RES 0.0 OHM 1/16W 0402 SMD","Stackpole","","RMCF0402ZT0R00"
+"","","R12","0","device:R","Resistors_SMD:R_0402","","RES 0.0 OHM 1/16W 0402 SMD","Stackpole","","RMCF0402ZT0R00"
+"","","R13","0","device:R","Resistors_SMD:R_0402","","RES 0.0 OHM 1/16W 0402 SMD","Stackpole","","RMCF0402ZT0R00"
+"","","R14","10k","device:R","Resistors_SMD:R_0402","","RES 10K OHM 1/16W 5% 0402 SMD","Stackpole","","RMCF0402JT10K0"
+"","","R15","475","device:R","Resistors_SMD:R_0402","","RES TF 1/16W 470 OHM 5% 0402","Stackpole","","RMCF0402JT470R"
+"","","R16","475","device:R","Resistors_SMD:R_0402","","RES TF 1/16W 470 OHM 5% 0402","Stackpole","","RMCF0402JT470R"
+"","","R17","1k8","device:R","Resistors_SMD:R_0402","","RES TF 1.8K OHM 5% 1/16W 0402","Stackpole","","RMCF0402JT1K80"
+"","","R18","1k8","device:R","Resistors_SMD:R_0402","","RES TF 1.8K OHM 5% 1/16W 0402","Stackpole","","RMCF0402JT1K80"
+"","","R19","10k","device:R","Resistors_SMD:R_0402","","RES 10K OHM 1/16W 5% 0402 SMD","Stackpole","","RMCF0402JT10K0"
+"","","R20","39","device:R","Resistors_SMD:R_0402","","RES 39 OHM 1/16W 5% 0402 SMD","Stackpole","","RMCF0402JT39R0"
+"","","R21","39","device:R","Resistors_SMD:R_0402","","RES 39 OHM 1/16W 5% 0402 SMD","Stackpole","","RMCF0402JT39R0"
+"","","R22","39","device:R","Resistors_SMD:R_0402","","RES 39 OHM 1/16W 5% 0402 SMD","Stackpole","","RMCF0402JT39R0"
+"","","R23","10k","device:R","Resistors_SMD:R_0402","","RES 10K OHM 1/16W 5% 0402 SMD","Stackpole","","RMCF0402JT10K0"
+"","","R24","39","device:R","Resistors_SMD:R_0402","","RES 39 OHM 1/16W 5% 0402 SMD","Stackpole","","RMCF0402JT39R0"
+"","","R25","10k","device:R","Resistors_SMD:R_0402","","RES 10K OHM 1/16W 5% 0402 SMD","Stackpole","","RMCF0402JT10K0"
+"","","R26","0","device:R","Resistors_SMD:R_0402","","RES 0.0 OHM 1/16W 0402 SMD","Stackpole","","RMCF0402ZT0R00"
+"","","R27","0","device:R","Resistors_SMD:R_0402","","RES 0.0 OHM 1/16W 0402 SMD","Stackpole","","RMCF0402ZT0R00"
+"","","R28","0","device:R","Resistors_SMD:R_0402","","RES 0.0 OHM 1/16W 0402 SMD","Stackpole","","RMCF0402ZT0R00"
+"","","R29","0","device:R","Resistors_SMD:R_0402","","RES 0.0 OHM 1/16W 0402 SMD","Stackpole","","RMCF0402ZT0R00"
+"","","R30","0","device:R","Resistors_SMD:R_0402","","RES 0.0 OHM 1/16W 0402 SMD","Stackpole","","RMCF0402ZT0R00"
+"","","R31","0","device:R","Resistors_SMD:R_0402","","RES 0.0 OHM 1/16W 0402 SMD","Stackpole","","RMCF0402ZT0R00"
+"","","R32","0","device:R","Resistors_SMD:R_0402","","RES 0.0 OHM 1/16W 0402 SMD","Stackpole","","RMCF0402ZT0R00"
+"","","R33","0","device:R","Resistors_SMD:R_0402","","RES 0.0 OHM 1/16W 0402 SMD","Stackpole","","RMCF0402ZT0R00"
+"","","R34","0","device:R","Resistors_SMD:R_0402","","RES 0.0 OHM 1/16W 0402 SMD","Stackpole","","RMCF0402ZT0R00"
+"","","R35","475","device:R","Resistors_SMD:R_0402","","RES TF 1/16W 470 OHM 5% 0402","Stackpole","","RMCF0402JT470R"
+"","","R36","475","device:R","Resistors_SMD:R_0402","","RES TF 1/16W 470 OHM 5% 0402","Stackpole","","RMCF0402JT470R"
+"","","R37","475","device:R","Resistors_SMD:R_0402","","RES TF 1/16W 470 OHM 5% 0402","Stackpole","","RMCF0402JT470R"
+"","","R38","0","device:R","Resistors_SMD:R_0402","","RES 0.0 OHM 1/16W 0402 SMD","Stackpole","","RMCF0402ZT0R00"
+"","","RX1","CLKOUT","Rfshield-cache:GSG-RF-CONN","hackrf1:GSG-SMA-EDGE","","CONN SMA JACK 50 OHM EDGE MNT W/JAM NUT & LOCK WASHER","Molex","","73251-2121"
+"","","T1","BALUN","Rfshield-cache:BALUN","hackrf1:GSG-2500BL14M100","","BALUN CERAMIC CHIP WIMAX 2.5GHZ","Johanson Technology","","2500BL14M100T"
+"","","T2","BALUN","Rfshield-cache:BALUN","hackrf1:GSG-2500BL14M100","","BALUN CERAMIC CHIP WIMAX 2.5GHZ","Johanson Technology","","2500BL14M100T"
+"","","TX1","CLKOUT","Rfshield-cache:GSG-RF-CONN","hackrf1:GSG-SMA-EDGE","","CONN SMA JACK 50 OHM EDGE MNT W/JAM NUT & LOCK WASHER","Molex","","73251-2121"
+"","","U1","MAX2837","Rfshield-cache:MAX2837","hackrf1:GSG-QFN48-6","","IC TXRX 2.3GHZ-2.7GHZ 48TQFN","Maxim","","MAX2837ETM+"
+"","","U2","MAX5864","Rfshield-cache:MAX5864","hackrf1:GSG-QFN48-7","","IC ANLG FRONT END 22MSPS 48-TQFN","Maxim","","MAX5864ETM+"
+"","","U3","SI5351C","Rfshield-cache:SI5351C","hackrf1:GSG-QFN20-4","","IC CLK GENERATOR 160MHZ 20QFN","Silicon Laboratories Inc","","SI5351C-B-GM"
+"","","X1","GSG-XTAL4PIN","Rfshield-cache:GSG-XTAL4PIN","hackrf1:GSG-XTAL3.2x2.5mm","","CRYSTAL 25.000MHZ 8PF SMD","AVX","","CX3225GB25000D0HEQZ1"
+
+
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","Description","Manufacturer","Note","Part Number"
+"1","22","C1, C2, C3, C7, C8, C9, C10, C11, C14, C26, C27, C31, C33, C34, C35, C38, C39, C40, C41, C51, C67, C69","22pF","device:C","Capacitors_SMD:C_0402","","CAP CER 22PF 50V 5% NP0 0402","Murata","DNP","GRM1555C1H220JA01D"
+"2","9","C4, C5, C61, C62, C63, C64, C65, C66, C68","10nF","device:C","Capacitors_SMD:C_0402","","CAP CER 10000PF 16V 10% X7R 0402","Murata","","GRM155R71C103KA01D"
+"3","5","C6, C53, C54, C55, C56","100pF","device:C","Capacitors_SMD:C_0402","","CAP CER 100PF 50V 5% NP0 0402","Murata","DNP","GRM1555C1H101JA01D"
+"4","14","C12, C16, C18, C19, C20, C22, C24, C25, C44, C45, C57, C58, C59, C60","100nF","device:C","Capacitors_SMD:C_0402","","CAP CER 0.1UF 10V 1% X5R 0402","Murata","","GRM155R61A104KA01D"
+"5","11","C13, C15, C17, C21, C23, C46, C70, C71, C73, C74, C75","2.2uF","device:C","Capacitors_SMD:C_0402","","CAP CER 2.2UF 10V 1% X5R 0402","Taiyo Yuden","","LMK105BJ225MV-F"
+"6","3","C28, C29, C32","330nF","device:C","Capacitors_SMD:C_0402","","CAP CER 0.33UF 10V 10% X5R 0402","Murata","","GRM155R61A334KE15D"
+"7","1","C30","10uF","device:C","Capacitors_SMD:C_0402","","CAP CER 10UF 10V 10% X5R 0805","Murata","","GRM21BR61A106KE19L"
+"8","2","C36, C42","3pF","device:C","Capacitors_SMD:C_0402","","CAP CER 3PF 50V NP0 0402","Murata","","GRM1555C1H3R0CA01D"
+"9","1","C37","1uF","device:C","Capacitors_SMD:C_0402","","CAP CER 1UF 10V 10% X5R 0402","Taiyo Yuden","","LMK105BJ105KV-F"
+"10","1","C43","180pF","device:C","Capacitors_SMD:C_0402","","CAP CER 180PF 50V 5% NP0 0402","Murata","","GRM1555C1H181JA01D"
+"11","2","C47, C48","DNP","device:C","Capacitors_SMD:C_0402","","","","DNP",""
+"12","1","C49","33pF","device:C","Capacitors_SMD:C_0402","","CAP CER 33PF 50V 5% NP0 0402","Murata","","GRM1555C1H330JA01D"
+"13","1","C50","3.3nF","device:C","Capacitors_SMD:C_0402","","CAP CER 3300PF 50V 10% X7R 0402","Murata","","GRM155R71H332KA01D"
+"14","1","C52","47pF","device:C","Capacitors_SMD:C_0402","","CAP CER 47PF 50V 5% NP0 0402","Murata","","GRM1555C1H470JA01D"
+"15","1","C72","22pF","device:C_Small","Capacitors_SMD:C_0402","","CAP CER 22PF 50V 5% NP0 0402","Murata","","GRM1555C1H220JA01D"
+"16","2","D1, D2","GSG-DIODE-TVS-BI","Rfshield-cache:GSG-DIODE-TVS-BI","Capacitors_SMD:C_0402","","TVS DIODE ESD .05PF 15KV 0402","Murata","","LXES15AAA1-100"
+"17","3","D3, D4, D5","LED","device:LED","LEDs:LED-0603","","SMD CHIP LED 0603","Kingbright","","APT1608SGC"
+"18","1","FB1","FILTER","device:FILTER","hackrf1:GSG-0805","","FERRITE CHIP 220 OHM 2000MA 0805","Murata","","BLM21PG221SN1D"
+"19","1","GndCon1","GND","Rfshield-cache:CONN_1","Connect:1pin","","","","DNP",""
+"20","3","L1, L3, L4","DNP","device:INDUCTOR","hackrf1:GSG-0402","","","","DNP",""
+"21","1","L2","6.2nH","device:INDUCTOR","hackrf1:GSG-0402","","INDUCTOR HIFREQ 6.2+/-0.3NH 0402","Taiyo Yuden","","HK10056N2S-T"
+"22","2","P1, P34","CONN_01X01","conn:CONN_01X01","Connect:GSG-HOLE-06mm_nt","","","","DNP",""
+"23","1","P2","VAA","Rfshield-cache:CONN_2","Pin_Headers:Pin_Header_Straight_2x01","","","","DNP",""
+"24","1","P11","RXENABLE","Rfshield-cache:CONN_1","Connect:testpoint1mm","","","","DNP",""
+"25","1","P12","XTAL2","Rfshield-cache:CONN_1","Connect:testpoint1mm","","","","DNP",""
+"26","1","P13","GCK1","Rfshield-cache:CONN_1","Connect:testpoint1mm","","","","DNP",""
+"27","1","P14","GCK2","Rfshield-cache:CONN_1","Connect:testpoint1mm","","","","DNP",""
+"28","1","P15","SGPIO_CLK","Rfshield-cache:CONN_1","Connect:testpoint1mm","","","","DNP",""
+"29","1","P22","RSSI","Rfshield-cache:CONN_1","Connect:testpoint1mm","","","","DNP",""
+"30","6","P23, P24, P25, P26, P27, P28","GND","Rfshield-cache:CONN_1","Connect:testpoint1mm","","","","DNP",""
+"31","1","P33","XCVR_CLKOUT","Rfshield-cache:CONN_1","Connect:testpoint1mm","","","","DNP",""
+"32","1","P38","CLKIN","Rfshield-cache:GSG-RF-CONN","hackrf1:GSG-SMA-EDGE","","CONN SMA JACK 50 OHM EDGE MNT W/JAM NUT & LOCK WASHER","Molex","","73251-2121"
+"33","3","P39, RX1, TX1","CLKOUT","Rfshield-cache:GSG-RF-CONN","hackrf1:GSG-SMA-EDGE","","CONN SMA JACK 50 OHM EDGE MNT W/JAM NUT & LOCK WASHER","Molex","","73251-2121"
+"34","1","PFIO1","CONN_02X18","conn:CONN_02X18","Socket_Strips:Socket_Strip_Straight_2x18_B","","36P DR UNSHRD HRD .38 GOLD OVER NI","Amphenol FCI","","67996-236HLF"
+"35","1","PFIO2","CONN_02X12","conn:CONN_02X12","Socket_Strips:Socket_Strip_Straight_2x12_B",""," 24P DR UNSHRD HRD TIN OVER NI","Amphenol FCI","","67997-224HLF"
+"36","1","PSA1","CONN_02X14","conn:CONN_02X14","Socket_Strips:Socket_Strip_Straight_2x14_B",""," 28P DR UNSHRD HRD TIN OVER NI","Amphenol FCI","","67997-428HLF"
+"37","1","Q1","MOSFET_P","Rfshield-cache:MOSFET_P","kicad1:SOT-23mos","","MOSFET P-CH 20V 4.2A SOT-23","Diodes Inc.","","DMP2305U-7"
+"38","5","R1, R14, R19, R23, R25","10k","device:R","Resistors_SMD:R_0402","","RES 10K OHM 1/16W 5% 0402 SMD","Stackpole","","RMCF0402JT10K0"
+"39","4","R2, R3, R4, R5","1k","device:R","Resistors_SMD:R_0402","","RES 1K OHM 1/16W 1% 0402","Stackpole","","RMCF0402FT1K00"
+"40","4","R6, R7, R8, R9","4k7","device:R","Resistors_SMD:R_0402","","RES 4.7K OHM 1/16W 1% 0402","Stackpole","","RMCF0402FT4K70"
+"41","14","R10, R11, R12, R13, R26, R27, R28, R29, R30, R31, R32, R33, R34, R38","0","device:R","Resistors_SMD:R_0402","","RES 0.0 OHM 1/16W 0402 SMD","Stackpole","","RMCF0402ZT0R00"
+"42","5","R15, R16, R35, R36, R37","475","device:R","Resistors_SMD:R_0402","","RES TF 1/16W 470 OHM 5% 0402","Stackpole","","RMCF0402JT470R"
+"43","2","R17, R18","1k8","device:R","Resistors_SMD:R_0402","","RES TF 1.8K OHM 5% 1/16W 0402","Stackpole","","RMCF0402JT1K80"
+"44","4","R20, R21, R22, R24","39","device:R","Resistors_SMD:R_0402","","RES 39 OHM 1/16W 5% 0402 SMD","Stackpole","","RMCF0402JT39R0"
+"45","2","T1, T2","BALUN","Rfshield-cache:BALUN","hackrf1:GSG-2500BL14M100","","BALUN CERAMIC CHIP WIMAX 2.5GHZ","Johanson Technology","","2500BL14M100T"
+"46","1","U1","MAX2837","Rfshield-cache:MAX2837","hackrf1:GSG-QFN48-6","","IC TXRX 2.3GHZ-2.7GHZ 48TQFN","Maxim","","MAX2837ETM+"
+"47","1","U2","MAX5864","Rfshield-cache:MAX5864","hackrf1:GSG-QFN48-7","","IC ANLG FRONT END 22MSPS 48-TQFN","Maxim","","MAX5864ETM+"
+"48","1","U3","SI5351C","Rfshield-cache:SI5351C","hackrf1:GSG-QFN20-4","","IC CLK GENERATOR 160MHZ 20QFN","Silicon Laboratories Inc","","SI5351C-B-GM"
+"49","1","X1","GSG-XTAL4PIN","Rfshield-cache:GSG-XTAL4PIN","hackrf1:GSG-XTAL3.2x2.5mm","","CRYSTAL 25.000MHZ 8PF SMD","AVX","","CX3225GB25000D0HEQZ1"
