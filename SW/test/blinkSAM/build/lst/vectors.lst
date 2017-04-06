@@ -1,0 +1,637 @@
+ARM GAS  /tmp/ccRard6f.s 			page 1
+
+
+   1              		.syntax unified
+   2              		.cpu cortex-m3
+   3              		.fpu softvfp
+   4              		.eabi_attribute 20, 1
+   5              		.eabi_attribute 21, 1
+   6              		.eabi_attribute 23, 3
+   7              		.eabi_attribute 24, 1
+   8              		.eabi_attribute 25, 1
+   9              		.eabi_attribute 26, 1
+  10              		.eabi_attribute 30, 2
+  11              		.eabi_attribute 34, 1
+  12              		.eabi_attribute 18, 4
+  13              		.thumb
+  14              		.file	"vectors.c"
+  15              		.text
+  16              	.Ltext0:
+  17              		.cfi_sections	.debug_frame
+  18              		.section	.text._unhandled_exception,"ax",%progbits
+  19              		.align	2
+  20              		.p2align 4,,15
+  21              		.global	_unhandled_exception
+  22              		.thumb
+  23              		.thumb_func
+  24              		.type	_unhandled_exception, %function
+  25              	_unhandled_exception:
+  26              	.LFB7:
+  27              		.file 1 "../../os/ports/GCC/ARMCMx/AT91SAM3S/vectors.c"
+  28              		.loc 1 126 0
+  29              		.cfi_startproc
+  30              		@ Naked Function: prologue and epilogue provided by programmer.
+  31              		@ Volatile: function does not return.
+  32              		@ args = 0, pretend = 0, frame = 0
+  33              		@ frame_needed = 0, uses_anonymous_args = 0
+  34              		.loc 1 128 0
+  35              	@ 128 "../../os/ports/GCC/ARMCMx/AT91SAM3S/vectors.c" 1
+  36              		.weak NMIVector            
+  37              	NMIVector:                
+  38              		.weak HardFaultVector      
+  39              	HardFaultVector:          
+  40              		.weak MemManageVector      
+  41              	MemManageVector:          
+  42              		.weak BusFaultVector       
+  43              	BusFaultVector:           
+  44              		.weak UsageFaultVector     
+  45              	UsageFaultVector:         
+  46              		.weak Vector1C             
+  47              	Vector1C:                 
+  48              		.weak Vector20             
+  49              	Vector20:                 
+  50              		.weak Vector24             
+  51              	Vector24:                 
+  52              		.weak Vector28             
+  53              	Vector28:                 
+  54              		.weak SVCallVector         
+  55              	SVCallVector:             
+  56              		.weak DebugMonitorVector   
+  57              	DebugMonitorVector:       
+ARM GAS  /tmp/ccRard6f.s 			page 2
+
+
+  58              		.weak Vector34             
+  59              	Vector34:                 
+  60              		.weak PendSVVector         
+  61              	PendSVVector:             
+  62              		.weak SysTickVector        
+  63              	SysTickVector:            
+  64              		.weak Vector40             
+  65              	Vector40:                 
+  66              		.weak Vector44             
+  67              	Vector44:                 
+  68              		.weak Vector48             
+  69              	Vector48:                 
+  70              		.weak Vector4C             
+  71              	Vector4C:                 
+  72              		.weak Vector50             
+  73              	Vector50:                 
+  74              		.weak Vector54             
+  75              	Vector54:                 
+  76              		.weak Vector58             
+  77              	Vector58:                 
+  78              		.weak Vector5C             
+  79              	Vector5C:                 
+  80              		.weak Vector60             
+  81              	Vector60:                 
+  82              		.weak Vector64             
+  83              	Vector64:                 
+  84              		.weak Vector68             
+  85              	Vector68:                 
+  86              		.weak Vector6C             
+  87              	Vector6C:                 
+  88              		.weak Vector70             
+  89              	Vector70:                 
+  90              		.weak Vector74             
+  91              	Vector74:                 
+  92              		.weak Vector78             
+  93              	Vector78:                 
+  94              		.weak Vector7C             
+  95              	Vector7C:                 
+  96              		.weak Vector80             
+  97              	Vector80:                 
+  98              		.weak Vector84             
+  99              	Vector84:                 
+ 100              		.weak Vector88             
+ 101              	Vector88:                 
+ 102              		.weak Vector8C             
+ 103              	Vector8C:                 
+ 104              		.weak Vector90             
+ 105              	Vector90:                 
+ 106              		.weak Vector94             
+ 107              	Vector94:                 
+ 108              		.weak Vector98             
+ 109              	Vector98:                 
+ 110              		.weak Vector9C             
+ 111              	Vector9C:                 
+ 112              		.weak VectorA0             
+ 113              	VectorA0:                 
+ 114              		.weak VectorA4             
+ARM GAS  /tmp/ccRard6f.s 			page 3
+
+
+ 115              	VectorA4:                 
+ 116              		.weak VectorA8             
+ 117              	VectorA8:                 
+ 118              		.weak VectorAC             
+ 119              	VectorAC:                 
+ 120              		.weak VectorB0             
+ 121              	VectorB0:                 
+ 122              		.weak VectorB4             
+ 123              	VectorB4:                 
+ 124              		.weak VectorB8             
+ 125              	VectorB8:                 
+ 126              		.weak VectorBC             
+ 127              	VectorBC:                 
+ 128              		.weak VectorC0             
+ 129              	VectorC0:                 
+ 130              		.weak VectorC4             
+ 131              	VectorC4:                 
+ 132              		.weak VectorC8             
+ 133              	VectorC8:                 
+ 134              		.weak VectorCC             
+ 135              	VectorCC:                 
+ 136              		
+ 137              	@ 0 "" 2
+ 138              		.thumb
+ 139              	.L2:
+ 140 0000 FEE7     		b	.L2
+ 141              		.cfi_endproc
+ 142              	.LFE7:
+ 143              		.size	_unhandled_exception, .-_unhandled_exception
+ 144              		.global	_vectors
+ 145 0002 00BFAFF3 		.section	vectors,"aw",%progbits
+ 145      0080AFF3 
+ 145      0080AFF3 
+ 145      0080
+ 146              		.align	2
+ 147              		.type	_vectors, %object
+ 148              		.size	_vectors, 208
+ 149              	_vectors:
+ 150 0000 00000000 		.word	__ram_end__
+ 151 0004 00000000 		.word	ResetHandler
+ 152 0008 00000000 		.word	NMIVector
+ 153 000c 00000000 		.word	HardFaultVector
+ 154 0010 00000000 		.word	MemManageVector
+ 155 0014 00000000 		.word	BusFaultVector
+ 156 0018 00000000 		.word	UsageFaultVector
+ 157 001c 00000000 		.word	Vector1C
+ 158 0020 00000000 		.word	Vector20
+ 159 0024 00000000 		.word	Vector24
+ 160 0028 00000000 		.word	Vector28
+ 161 002c 00000000 		.word	SVCallVector
+ 162 0030 00000000 		.word	DebugMonitorVector
+ 163 0034 00000000 		.word	Vector34
+ 164 0038 00000000 		.word	PendSVVector
+ 165 003c 00000000 		.word	SysTickVector
+ 166 0040 00000000 		.word	Vector40
+ 167 0044 00000000 		.word	Vector44
+ 168 0048 00000000 		.word	Vector48
+ARM GAS  /tmp/ccRard6f.s 			page 4
+
+
+ 169 004c 00000000 		.word	Vector4C
+ 170 0050 00000000 		.word	Vector50
+ 171 0054 00000000 		.word	Vector54
+ 172 0058 00000000 		.word	Vector58
+ 173 005c 00000000 		.word	Vector5C
+ 174 0060 00000000 		.word	Vector60
+ 175 0064 00000000 		.word	Vector64
+ 176 0068 00000000 		.word	Vector68
+ 177 006c 00000000 		.word	Vector6C
+ 178 0070 00000000 		.word	Vector70
+ 179 0074 00000000 		.word	Vector74
+ 180 0078 00000000 		.word	Vector78
+ 181 007c 00000000 		.word	Vector7C
+ 182 0080 00000000 		.word	Vector80
+ 183 0084 00000000 		.word	Vector84
+ 184 0088 00000000 		.word	Vector88
+ 185 008c 00000000 		.word	Vector8C
+ 186 0090 00000000 		.word	Vector90
+ 187 0094 00000000 		.word	Vector94
+ 188 0098 00000000 		.word	Vector98
+ 189 009c 00000000 		.word	Vector9C
+ 190 00a0 00000000 		.word	VectorA0
+ 191 00a4 00000000 		.word	VectorA4
+ 192 00a8 00000000 		.word	VectorA8
+ 193 00ac 00000000 		.word	VectorAC
+ 194 00b0 00000000 		.word	VectorB0
+ 195 00b4 00000000 		.word	VectorB4
+ 196 00b8 00000000 		.word	VectorB8
+ 197 00bc 00000000 		.word	VectorBC
+ 198 00c0 00000000 		.word	VectorC0
+ 199 00c4 00000000 		.word	VectorC4
+ 200 00c8 00000000 		.word	VectorC8
+ 201 00cc 00000000 		.word	VectorCC
+ 202              		.text
+ 203              	.Letext0:
+ 204              		.section	.debug_info,"",%progbits
+ 205              	.Ldebug_info0:
+ 206 0000 AF000000 		.4byte	0xaf
+ 207 0004 0400     		.2byte	0x4
+ 208 0006 00000000 		.4byte	.Ldebug_abbrev0
+ 209 000a 04       		.byte	0x4
+ 210 000b 01       		.uleb128 0x1
+ 211 000c 0E000000 		.4byte	.LASF11
+ 212 0010 01       		.byte	0x1
+ 213 0011 55010000 		.4byte	.LASF12
+ 214 0015 00010000 		.4byte	.LASF13
+ 215 0019 00000000 		.4byte	.Ldebug_ranges0+0
+ 216 001d 00000000 		.4byte	0
+ 217 0021 00000000 		.4byte	.Ldebug_line0
+ 218 0025 02       		.uleb128 0x2
+ 219 0026 04       		.byte	0x4
+ 220 0027 05       		.byte	0x5
+ 221 0028 696E7400 		.ascii	"int\000"
+ 222 002c 03       		.uleb128 0x3
+ 223 002d 04       		.byte	0x4
+ 224 002e 07       		.byte	0x7
+ 225 002f F3000000 		.4byte	.LASF0
+ARM GAS  /tmp/ccRard6f.s 			page 5
+
+
+ 226 0033 03       		.uleb128 0x3
+ 227 0034 01       		.byte	0x1
+ 228 0035 06       		.byte	0x6
+ 229 0036 BB010000 		.4byte	.LASF1
+ 230 003a 03       		.uleb128 0x3
+ 231 003b 01       		.byte	0x1
+ 232 003c 08       		.byte	0x8
+ 233 003d 83010000 		.4byte	.LASF2
+ 234 0041 03       		.uleb128 0x3
+ 235 0042 02       		.byte	0x2
+ 236 0043 05       		.byte	0x5
+ 237 0044 DC010000 		.4byte	.LASF3
+ 238 0048 03       		.uleb128 0x3
+ 239 0049 02       		.byte	0x2
+ 240 004a 07       		.byte	0x7
+ 241 004b A8010000 		.4byte	.LASF4
+ 242 004f 03       		.uleb128 0x3
+ 243 0050 04       		.byte	0x4
+ 244 0051 05       		.byte	0x5
+ 245 0052 96010000 		.4byte	.LASF5
+ 246 0056 03       		.uleb128 0x3
+ 247 0057 04       		.byte	0x4
+ 248 0058 07       		.byte	0x7
+ 249 0059 2C010000 		.4byte	.LASF6
+ 250 005d 03       		.uleb128 0x3
+ 251 005e 08       		.byte	0x8
+ 252 005f 05       		.byte	0x5
+ 253 0060 00000000 		.4byte	.LASF7
+ 254 0064 03       		.uleb128 0x3
+ 255 0065 08       		.byte	0x8
+ 256 0066 07       		.byte	0x7
+ 257 0067 3E010000 		.4byte	.LASF8
+ 258 006b 03       		.uleb128 0x3
+ 259 006c 04       		.byte	0x4
+ 260 006d 07       		.byte	0x7
+ 261 006e E6010000 		.4byte	.LASF9
+ 262 0072 03       		.uleb128 0x3
+ 263 0073 01       		.byte	0x1
+ 264 0074 08       		.byte	0x8
+ 265 0075 91010000 		.4byte	.LASF10
+ 266 0079 04       		.uleb128 0x4
+ 267 007a C7010000 		.4byte	.LASF14
+ 268 007e 01       		.byte	0x1
+ 269 007f 7E       		.byte	0x7e
+ 270 0080 00000000 		.4byte	.LFB7
+ 271 0084 02000000 		.4byte	.LFE7-.LFB7
+ 272 0088 01       		.uleb128 0x1
+ 273 0089 9C       		.byte	0x9c
+ 274 008a 05       		.uleb128 0x5
+ 275 008b 9A000000 		.4byte	0x9a
+ 276 008f 9A000000 		.4byte	0x9a
+ 277 0093 06       		.uleb128 0x6
+ 278 0094 6B000000 		.4byte	0x6b
+ 279 0098 33       		.byte	0x33
+ 280 0099 00       		.byte	0
+ 281 009a 07       		.uleb128 0x7
+ 282 009b 04       		.byte	0x4
+ARM GAS  /tmp/ccRard6f.s 			page 6
+
+
+ 283 009c A0000000 		.4byte	0xa0
+ 284 00a0 08       		.uleb128 0x8
+ 285 00a1 09       		.uleb128 0x9
+ 286 00a2 9F010000 		.4byte	.LASF15
+ 287 00a6 01       		.byte	0x1
+ 288 00a7 64       		.byte	0x64
+ 289 00a8 8A000000 		.4byte	0x8a
+ 290 00ac 05       		.uleb128 0x5
+ 291 00ad 03       		.byte	0x3
+ 292 00ae 00000000 		.4byte	_vectors
+ 293 00b2 00       		.byte	0
+ 294              		.section	.debug_abbrev,"",%progbits
+ 295              	.Ldebug_abbrev0:
+ 296 0000 01       		.uleb128 0x1
+ 297 0001 11       		.uleb128 0x11
+ 298 0002 01       		.byte	0x1
+ 299 0003 25       		.uleb128 0x25
+ 300 0004 0E       		.uleb128 0xe
+ 301 0005 13       		.uleb128 0x13
+ 302 0006 0B       		.uleb128 0xb
+ 303 0007 03       		.uleb128 0x3
+ 304 0008 0E       		.uleb128 0xe
+ 305 0009 1B       		.uleb128 0x1b
+ 306 000a 0E       		.uleb128 0xe
+ 307 000b 55       		.uleb128 0x55
+ 308 000c 17       		.uleb128 0x17
+ 309 000d 11       		.uleb128 0x11
+ 310 000e 01       		.uleb128 0x1
+ 311 000f 10       		.uleb128 0x10
+ 312 0010 17       		.uleb128 0x17
+ 313 0011 00       		.byte	0
+ 314 0012 00       		.byte	0
+ 315 0013 02       		.uleb128 0x2
+ 316 0014 24       		.uleb128 0x24
+ 317 0015 00       		.byte	0
+ 318 0016 0B       		.uleb128 0xb
+ 319 0017 0B       		.uleb128 0xb
+ 320 0018 3E       		.uleb128 0x3e
+ 321 0019 0B       		.uleb128 0xb
+ 322 001a 03       		.uleb128 0x3
+ 323 001b 08       		.uleb128 0x8
+ 324 001c 00       		.byte	0
+ 325 001d 00       		.byte	0
+ 326 001e 03       		.uleb128 0x3
+ 327 001f 24       		.uleb128 0x24
+ 328 0020 00       		.byte	0
+ 329 0021 0B       		.uleb128 0xb
+ 330 0022 0B       		.uleb128 0xb
+ 331 0023 3E       		.uleb128 0x3e
+ 332 0024 0B       		.uleb128 0xb
+ 333 0025 03       		.uleb128 0x3
+ 334 0026 0E       		.uleb128 0xe
+ 335 0027 00       		.byte	0
+ 336 0028 00       		.byte	0
+ 337 0029 04       		.uleb128 0x4
+ 338 002a 2E       		.uleb128 0x2e
+ 339 002b 00       		.byte	0
+ARM GAS  /tmp/ccRard6f.s 			page 7
+
+
+ 340 002c 3F       		.uleb128 0x3f
+ 341 002d 19       		.uleb128 0x19
+ 342 002e 03       		.uleb128 0x3
+ 343 002f 0E       		.uleb128 0xe
+ 344 0030 3A       		.uleb128 0x3a
+ 345 0031 0B       		.uleb128 0xb
+ 346 0032 3B       		.uleb128 0x3b
+ 347 0033 0B       		.uleb128 0xb
+ 348 0034 27       		.uleb128 0x27
+ 349 0035 19       		.uleb128 0x19
+ 350 0036 11       		.uleb128 0x11
+ 351 0037 01       		.uleb128 0x1
+ 352 0038 12       		.uleb128 0x12
+ 353 0039 06       		.uleb128 0x6
+ 354 003a 40       		.uleb128 0x40
+ 355 003b 18       		.uleb128 0x18
+ 356 003c 9742     		.uleb128 0x2117
+ 357 003e 19       		.uleb128 0x19
+ 358 003f 00       		.byte	0
+ 359 0040 00       		.byte	0
+ 360 0041 05       		.uleb128 0x5
+ 361 0042 01       		.uleb128 0x1
+ 362 0043 01       		.byte	0x1
+ 363 0044 49       		.uleb128 0x49
+ 364 0045 13       		.uleb128 0x13
+ 365 0046 01       		.uleb128 0x1
+ 366 0047 13       		.uleb128 0x13
+ 367 0048 00       		.byte	0
+ 368 0049 00       		.byte	0
+ 369 004a 06       		.uleb128 0x6
+ 370 004b 21       		.uleb128 0x21
+ 371 004c 00       		.byte	0
+ 372 004d 49       		.uleb128 0x49
+ 373 004e 13       		.uleb128 0x13
+ 374 004f 2F       		.uleb128 0x2f
+ 375 0050 0B       		.uleb128 0xb
+ 376 0051 00       		.byte	0
+ 377 0052 00       		.byte	0
+ 378 0053 07       		.uleb128 0x7
+ 379 0054 0F       		.uleb128 0xf
+ 380 0055 00       		.byte	0
+ 381 0056 0B       		.uleb128 0xb
+ 382 0057 0B       		.uleb128 0xb
+ 383 0058 49       		.uleb128 0x49
+ 384 0059 13       		.uleb128 0x13
+ 385 005a 00       		.byte	0
+ 386 005b 00       		.byte	0
+ 387 005c 08       		.uleb128 0x8
+ 388 005d 15       		.uleb128 0x15
+ 389 005e 00       		.byte	0
+ 390 005f 27       		.uleb128 0x27
+ 391 0060 19       		.uleb128 0x19
+ 392 0061 00       		.byte	0
+ 393 0062 00       		.byte	0
+ 394 0063 09       		.uleb128 0x9
+ 395 0064 34       		.uleb128 0x34
+ 396 0065 00       		.byte	0
+ARM GAS  /tmp/ccRard6f.s 			page 8
+
+
+ 397 0066 03       		.uleb128 0x3
+ 398 0067 0E       		.uleb128 0xe
+ 399 0068 3A       		.uleb128 0x3a
+ 400 0069 0B       		.uleb128 0xb
+ 401 006a 3B       		.uleb128 0x3b
+ 402 006b 0B       		.uleb128 0xb
+ 403 006c 49       		.uleb128 0x49
+ 404 006d 13       		.uleb128 0x13
+ 405 006e 3F       		.uleb128 0x3f
+ 406 006f 19       		.uleb128 0x19
+ 407 0070 02       		.uleb128 0x2
+ 408 0071 18       		.uleb128 0x18
+ 409 0072 00       		.byte	0
+ 410 0073 00       		.byte	0
+ 411 0074 00       		.byte	0
+ 412              		.section	.debug_aranges,"",%progbits
+ 413 0000 1C000000 		.4byte	0x1c
+ 414 0004 0200     		.2byte	0x2
+ 415 0006 00000000 		.4byte	.Ldebug_info0
+ 416 000a 04       		.byte	0x4
+ 417 000b 00       		.byte	0
+ 418 000c 0000     		.2byte	0
+ 419 000e 0000     		.2byte	0
+ 420 0010 00000000 		.4byte	.LFB7
+ 421 0014 02000000 		.4byte	.LFE7-.LFB7
+ 422 0018 00000000 		.4byte	0
+ 423 001c 00000000 		.4byte	0
+ 424              		.section	.debug_ranges,"",%progbits
+ 425              	.Ldebug_ranges0:
+ 426 0000 00000000 		.4byte	.LFB7
+ 427 0004 02000000 		.4byte	.LFE7
+ 428 0008 00000000 		.4byte	0
+ 429 000c 00000000 		.4byte	0
+ 430              		.section	.debug_line,"",%progbits
+ 431              	.Ldebug_line0:
+ 432 0000 5B000000 		.section	.debug_str,"MS",%progbits,1
+ 432      02004400 
+ 432      00000201 
+ 432      FB0E0D00 
+ 432      01010101 
+ 433              	.LASF7:
+ 434 0000 6C6F6E67 		.ascii	"long long int\000"
+ 434      206C6F6E 
+ 434      6720696E 
+ 434      7400
+ 435              	.LASF11:
+ 436 000e 474E5520 		.ascii	"GNU C 4.8.4 20140526 (release) [ARM/embedded-4_8-br"
+ 436      4320342E 
+ 436      382E3420 
+ 436      32303134 
+ 436      30353236 
+ 437 0041 616E6368 		.ascii	"anch revision 211358] -mcpu=cortex-m3 -mno-thumb-in"
+ 437      20726576 
+ 437      6973696F 
+ 437      6E203231 
+ 437      31333538 
+ 438 0074 74657277 		.ascii	"terwork -mthumb -ggdb -O2 -std=gnu99 -fomit-frame-p"
+ARM GAS  /tmp/ccRard6f.s 			page 9
+
+
+ 438      6F726B20 
+ 438      2D6D7468 
+ 438      756D6220 
+ 438      2D676764 
+ 439 00a7 6F696E74 		.ascii	"ointer -falign-functions=16 -ffunction-sections -fd"
+ 439      6572202D 
+ 439      66616C69 
+ 439      676E2D66 
+ 439      756E6374 
+ 440 00da 6174612D 		.ascii	"ata-sections -fno-common\000"
+ 440      73656374 
+ 440      696F6E73 
+ 440      202D666E 
+ 440      6F2D636F 
+ 441              	.LASF0:
+ 442 00f3 756E7369 		.ascii	"unsigned int\000"
+ 442      676E6564 
+ 442      20696E74 
+ 442      00
+ 443              	.LASF13:
+ 444 0100 2F686F6D 		.ascii	"/home/alejandro/Desktop/ChibiOS/sam3s/blink\000"
+ 444      652F616C 
+ 444      656A616E 
+ 444      64726F2F 
+ 444      4465736B 
+ 445              	.LASF6:
+ 446 012c 6C6F6E67 		.ascii	"long unsigned int\000"
+ 446      20756E73 
+ 446      69676E65 
+ 446      6420696E 
+ 446      7400
+ 447              	.LASF8:
+ 448 013e 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 448      206C6F6E 
+ 448      6720756E 
+ 448      7369676E 
+ 448      65642069 
+ 449              	.LASF12:
+ 450 0155 2E2E2F2E 		.ascii	"../../os/ports/GCC/ARMCMx/AT91SAM3S/vectors.c\000"
+ 450      2E2F6F73 
+ 450      2F706F72 
+ 450      74732F47 
+ 450      43432F41 
+ 451              	.LASF2:
+ 452 0183 756E7369 		.ascii	"unsigned char\000"
+ 452      676E6564 
+ 452      20636861 
+ 452      7200
+ 453              	.LASF10:
+ 454 0191 63686172 		.ascii	"char\000"
+ 454      00
+ 455              	.LASF5:
+ 456 0196 6C6F6E67 		.ascii	"long int\000"
+ 456      20696E74 
+ 456      00
+ 457              	.LASF15:
+ 458 019f 5F766563 		.ascii	"_vectors\000"
+ARM GAS  /tmp/ccRard6f.s 			page 10
+
+
+ 458      746F7273 
+ 458      00
+ 459              	.LASF4:
+ 460 01a8 73686F72 		.ascii	"short unsigned int\000"
+ 460      7420756E 
+ 460      7369676E 
+ 460      65642069 
+ 460      6E7400
+ 461              	.LASF1:
+ 462 01bb 7369676E 		.ascii	"signed char\000"
+ 462      65642063 
+ 462      68617200 
+ 463              	.LASF14:
+ 464 01c7 5F756E68 		.ascii	"_unhandled_exception\000"
+ 464      616E646C 
+ 464      65645F65 
+ 464      78636570 
+ 464      74696F6E 
+ 465              	.LASF3:
+ 466 01dc 73686F72 		.ascii	"short int\000"
+ 466      7420696E 
+ 466      7400
+ 467              	.LASF9:
+ 468 01e6 73697A65 		.ascii	"sizetype\000"
+ 468      74797065 
+ 468      00
+ 469              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.8.4 20140526 (release) [ARM/embedded-4_8-br
+ARM GAS  /tmp/ccRard6f.s 			page 11
+
+
+DEFINED SYMBOLS
+                            *ABS*:00000000 vectors.c
+     /tmp/ccRard6f.s:19     .text._unhandled_exception:00000000 $t
+     /tmp/ccRard6f.s:25     .text._unhandled_exception:00000000 _unhandled_exception
+     /tmp/ccRard6f.s:37     .text._unhandled_exception:00000000 NMIVector
+     /tmp/ccRard6f.s:39     .text._unhandled_exception:00000000 HardFaultVector
+     /tmp/ccRard6f.s:41     .text._unhandled_exception:00000000 MemManageVector
+     /tmp/ccRard6f.s:43     .text._unhandled_exception:00000000 BusFaultVector
+     /tmp/ccRard6f.s:45     .text._unhandled_exception:00000000 UsageFaultVector
+     /tmp/ccRard6f.s:47     .text._unhandled_exception:00000000 Vector1C
+     /tmp/ccRard6f.s:49     .text._unhandled_exception:00000000 Vector20
+     /tmp/ccRard6f.s:51     .text._unhandled_exception:00000000 Vector24
+     /tmp/ccRard6f.s:53     .text._unhandled_exception:00000000 Vector28
+     /tmp/ccRard6f.s:55     .text._unhandled_exception:00000000 SVCallVector
+     /tmp/ccRard6f.s:57     .text._unhandled_exception:00000000 DebugMonitorVector
+     /tmp/ccRard6f.s:59     .text._unhandled_exception:00000000 Vector34
+     /tmp/ccRard6f.s:61     .text._unhandled_exception:00000000 PendSVVector
+     /tmp/ccRard6f.s:63     .text._unhandled_exception:00000000 SysTickVector
+     /tmp/ccRard6f.s:65     .text._unhandled_exception:00000000 Vector40
+     /tmp/ccRard6f.s:67     .text._unhandled_exception:00000000 Vector44
+     /tmp/ccRard6f.s:69     .text._unhandled_exception:00000000 Vector48
+     /tmp/ccRard6f.s:71     .text._unhandled_exception:00000000 Vector4C
+     /tmp/ccRard6f.s:73     .text._unhandled_exception:00000000 Vector50
+     /tmp/ccRard6f.s:75     .text._unhandled_exception:00000000 Vector54
+     /tmp/ccRard6f.s:77     .text._unhandled_exception:00000000 Vector58
+     /tmp/ccRard6f.s:79     .text._unhandled_exception:00000000 Vector5C
+     /tmp/ccRard6f.s:81     .text._unhandled_exception:00000000 Vector60
+     /tmp/ccRard6f.s:83     .text._unhandled_exception:00000000 Vector64
+     /tmp/ccRard6f.s:85     .text._unhandled_exception:00000000 Vector68
+     /tmp/ccRard6f.s:87     .text._unhandled_exception:00000000 Vector6C
+     /tmp/ccRard6f.s:89     .text._unhandled_exception:00000000 Vector70
+     /tmp/ccRard6f.s:91     .text._unhandled_exception:00000000 Vector74
+     /tmp/ccRard6f.s:93     .text._unhandled_exception:00000000 Vector78
+     /tmp/ccRard6f.s:95     .text._unhandled_exception:00000000 Vector7C
+     /tmp/ccRard6f.s:97     .text._unhandled_exception:00000000 Vector80
+     /tmp/ccRard6f.s:99     .text._unhandled_exception:00000000 Vector84
+     /tmp/ccRard6f.s:101    .text._unhandled_exception:00000000 Vector88
+     /tmp/ccRard6f.s:103    .text._unhandled_exception:00000000 Vector8C
+     /tmp/ccRard6f.s:105    .text._unhandled_exception:00000000 Vector90
+     /tmp/ccRard6f.s:107    .text._unhandled_exception:00000000 Vector94
+     /tmp/ccRard6f.s:109    .text._unhandled_exception:00000000 Vector98
+     /tmp/ccRard6f.s:111    .text._unhandled_exception:00000000 Vector9C
+     /tmp/ccRard6f.s:113    .text._unhandled_exception:00000000 VectorA0
+     /tmp/ccRard6f.s:115    .text._unhandled_exception:00000000 VectorA4
+     /tmp/ccRard6f.s:117    .text._unhandled_exception:00000000 VectorA8
+     /tmp/ccRard6f.s:119    .text._unhandled_exception:00000000 VectorAC
+     /tmp/ccRard6f.s:121    .text._unhandled_exception:00000000 VectorB0
+     /tmp/ccRard6f.s:123    .text._unhandled_exception:00000000 VectorB4
+     /tmp/ccRard6f.s:125    .text._unhandled_exception:00000000 VectorB8
+     /tmp/ccRard6f.s:127    .text._unhandled_exception:00000000 VectorBC
+     /tmp/ccRard6f.s:129    .text._unhandled_exception:00000000 VectorC0
+     /tmp/ccRard6f.s:131    .text._unhandled_exception:00000000 VectorC4
+     /tmp/ccRard6f.s:133    .text._unhandled_exception:00000000 VectorC8
+     /tmp/ccRard6f.s:135    .text._unhandled_exception:00000000 VectorCC
+     /tmp/ccRard6f.s:149    vectors:00000000 _vectors
+     /tmp/ccRard6f.s:146    vectors:00000000 $d
+                     .debug_frame:00000010 $d
+ARM GAS  /tmp/ccRard6f.s 			page 12
+
+
+
+UNDEFINED SYMBOLS
+__ram_end__
+ResetHandler
