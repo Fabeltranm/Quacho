@@ -1256,7 +1256,7 @@ Wire Wire Line
 Wire Wire Line
 	1100 5300 1600 5300
 Wire Wire Line
-	1100 5400 1600 5400
+	850  5400 1600 5400
 Wire Wire Line
 	1100 5500 1600 5500
 Wire Wire Line
@@ -1510,4 +1510,12 @@ Wire Wire Line
 Connection ~ 8250 4550
 Wire Wire Line
 	7050 4850 7550 4850
+Wire Wire Line
+	1600 5600 850  5600
+Wire Wire Line
+	850  5600 850  5400
+Text Notes 500  5600 0    60   ~ 0
+se puente el pa23 a pa19 
+Text Notes 6000 6350 0    60   ~ 0
+se cambia en la tarjeta original el pa19 por el pa23
 $EndSCHEMATC
