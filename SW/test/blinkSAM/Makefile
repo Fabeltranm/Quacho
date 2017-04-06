@@ -45,7 +45,7 @@ endif
 PROJECT = ch
 
 # Imported source files
-CHIBIOS = ../..
+CHIBIOS = ChibiOS/
 include $(CHIBIOS)/boards/ATMEL_SAM3S_EK/board.mk
 include $(CHIBIOS)/os/hal/platforms/AT91SAM3S/platform.mk
 include $(CHIBIOS)/os/hal/hal.mk

@@ -18,9 +18,13 @@ static msg_t Thread1(void *arg) {
   (void)arg;
   while (TRUE) {
     palClearPad(IOPORT3, 17);
-    chThdSleepMilliseconds(150);
+    chThdSleepMilliseconds(50);
     palSetPad(IOPORT3, 17);
-    chThdSleepMilliseconds(150);
+    chThdSleepMilliseconds(800);
+    palClearPad(IOPORT3, 17);
+    chThdSleepMilliseconds(50);
+    palSetPad(IOPORT3, 17);
+    chThdSleepMilliseconds(50);
   }
   return(0);
 }

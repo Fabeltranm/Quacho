@@ -1,4 +1,4 @@
-ARM GAS  /tmp/ccbfQSzO.s 			page 1
+ARM GAS  /tmp/cckihHkz.s 			page 1
 
 
    1              		.syntax unified
@@ -27,7 +27,7 @@ ARM GAS  /tmp/ccbfQSzO.s 			page 1
   24              		.type	hal_lld_init, %function
   25              	hal_lld_init:
   26              	.LFB36:
-  27              		.file 1 "../../os/hal/platforms/AT91SAM3S/hal_lld.c"
+  27              		.file 1 "ChibiOS//os/hal/platforms/AT91SAM3S/hal_lld.c"
   28              		.loc 1 66 0
   29              		.cfi_startproc
   30              		@ args = 0, pretend = 0, frame = 0
@@ -40,43 +40,42 @@ ARM GAS  /tmp/ccbfQSzO.s 			page 1
   37 0002 FFF7FEFF 		bl	SystemCoreClockUpdate
   38              	.LVL0:
   39              		.loc 1 71 0
-  40 0006 0821     		movs	r1, #8
-  41 0008 0B20     		movs	r0, #11
+  40 0006 0B20     		movs	r0, #11
+  41 0008 0821     		movs	r1, #8
   42 000a FFF7FEFF 		bl	nvicSetSystemHandlerPriority
   43              	.LVL1:
   44              		.loc 1 72 0
-  45 000e 074B     		ldr	r3, .L2
-  46 0010 074A     		ldr	r2, .L2+4
-  47 0012 1868     		ldr	r0, [r3]
-  48 0014 074B     		ldr	r3, .L2+8
-  49 0016 A2FB0010 		umull	r1, r0, r2, r0
-  50 001a 8009     		lsrs	r0, r0, #6
-  51 001c 0138     		subs	r0, r0, #1
+  45 000e 074B     		ldr	r3, .L3
+  46 0010 0749     		ldr	r1, .L3+4
+  47 0012 1B68     		ldr	r3, [r3]
+  48 0014 074A     		ldr	r2, .L3+8
+  49 0016 A1FB0313 		umull	r1, r3, r1, r3
+  50 001a 9B09     		lsrs	r3, r3, #6
+  51 001c 013B     		subs	r3, r3, #1
   52              		.loc 1 73 0
-  53 001e 0021     		movs	r1, #0
+  53 001e 0020     		movs	r0, #0
   54              		.loc 1 74 0
-  55 0020 0722     		movs	r2, #7
+  55 0020 0721     		movs	r1, #7
   56              		.loc 1 72 0
-  57 0022 5860     		str	r0, [r3, #4]
-ARM GAS  /tmp/ccbfQSzO.s 			page 2
+  57 0022 5360     		str	r3, [r2, #4]
+ARM GAS  /tmp/cckihHkz.s 			page 2
 
 
   58              		.loc 1 73 0
-  59 0024 9960     		str	r1, [r3, #8]
+  59 0024 9060     		str	r0, [r2, #8]
   60              		.loc 1 74 0
-  61 0026 1A60     		str	r2, [r3]
+  61 0026 1160     		str	r1, [r2]
   62 0028 08BD     		pop	{r3, pc}
-  63              	.L3:
+  63              	.L4:
   64 002a 00BF     		.align	2
-  65              	.L2:
+  65              	.L3:
   66 002c 00000000 		.word	SystemCoreClock
   67 0030 D34D6210 		.word	274877907
   68 0034 10E000E0 		.word	-536813552
   69              		.cfi_endproc
   70              	.LFE36:
   71              		.size	hal_lld_init, .-hal_lld_init
-  72 0038 AFF30080 		.section	.text.at91sam3_clock_init,"ax",%progbits
-  72      AFF30080 
+  72              		.section	.text.at91sam3_clock_init,"ax",%progbits
   73              		.align	2
   74              		.p2align 4,,15
   75              		.global	at91sam3_clock_init
@@ -96,15 +95,13 @@ ARM GAS  /tmp/ccbfQSzO.s 			page 1
   89              		.cfi_endproc
   90              	.LFE37:
   91              		.size	at91sam3_clock_init, .-at91sam3_clock_init
-  92 0004 AFF30080 		.text
-  92      AFF30080 
-  92      AFF30080 
+  92              		.text
   93              	.Letext0:
-  94              		.file 2 "/usr/local/gcc-arm-none-eabi-4_8-2014q2/arm-none-eabi/include/machine/_default_types.h"
-  95              		.file 3 "/usr/local/gcc-arm-none-eabi-4_8-2014q2/arm-none-eabi/include/stdint.h"
-  96              		.file 4 "../../os/hal/platforms/AT91SAM3S/core_cm3.h"
-  97              		.file 5 "../../os/hal/platforms/AT91SAM3S/system_SAM3.h"
-  98              		.file 6 "../../os/ports/common/ARMCMx/nvic.h"
+  94              		.file 2 "/usr/include/newlib/machine/_default_types.h"
+  95              		.file 3 "/usr/include/newlib/sys/_stdint.h"
+  96              		.file 4 "ChibiOS//os/hal/platforms/AT91SAM3S/core_cm3.h"
+  97              		.file 5 "ChibiOS//os/hal/platforms/AT91SAM3S/system_SAM3.h"
+  98              		.file 6 "ChibiOS//os/ports/common/ARMCMx/nvic.h"
   99              		.section	.debug_info,"",%progbits
  100              	.Ldebug_info0:
  101 0000 73010000 		.4byte	0x173
@@ -112,53 +109,53 @@ ARM GAS  /tmp/ccbfQSzO.s 			page 1
  103 0006 00000000 		.4byte	.Ldebug_abbrev0
  104 000a 04       		.byte	0x4
  105 000b 01       		.uleb128 0x1
- 106 000c 0E000000 		.4byte	.LASF23
+ 106 000c 7D010000 		.4byte	.LASF23
  107 0010 01       		.byte	0x1
- 108 0011 3D020000 		.4byte	.LASF24
- 109 0015 16010000 		.4byte	.LASF25
+ 108 0011 39000000 		.4byte	.LASF24
+ 109 0015 18010000 		.4byte	.LASF25
  110 0019 00000000 		.4byte	.Ldebug_ranges0+0
  111 001d 00000000 		.4byte	0
-ARM GAS  /tmp/ccbfQSzO.s 			page 3
-
-
  112 0021 00000000 		.4byte	.Ldebug_line0
  113 0025 02       		.uleb128 0x2
  114 0026 04       		.byte	0x4
+ARM GAS  /tmp/cckihHkz.s 			page 3
+
+
  115 0027 05       		.byte	0x5
  116 0028 696E7400 		.ascii	"int\000"
  117 002c 03       		.uleb128 0x3
  118 002d 04       		.byte	0x4
  119 002e 07       		.byte	0x7
- 120 002f FE000000 		.4byte	.LASF0
+ 120 002f 2C000000 		.4byte	.LASF0
  121 0033 03       		.uleb128 0x3
  122 0034 01       		.byte	0x1
  123 0035 06       		.byte	0x6
- 124 0036 31020000 		.4byte	.LASF1
+ 124 0036 71010000 		.4byte	.LASF1
  125 003a 03       		.uleb128 0x3
  126 003b 01       		.byte	0x1
  127 003c 08       		.byte	0x8
- 128 003d D6010000 		.4byte	.LASF2
+ 128 003d F3000000 		.4byte	.LASF2
  129 0041 03       		.uleb128 0x3
  130 0042 02       		.byte	0x2
  131 0043 05       		.byte	0x5
- 132 0044 68020000 		.4byte	.LASF3
+ 132 0044 3B020000 		.4byte	.LASF3
  133 0048 03       		.uleb128 0x3
  134 0049 02       		.byte	0x2
  135 004a 07       		.byte	0x7
- 136 004b 94010000 		.4byte	.LASF4
+ 136 004b 0E000000 		.4byte	.LASF4
  137 004f 03       		.uleb128 0x3
  138 0050 04       		.byte	0x4
  139 0051 05       		.byte	0x5
- 140 0052 F2010000 		.4byte	.LASF5
+ 140 0052 0F010000 		.4byte	.LASF5
  141 0056 04       		.uleb128 0x4
- 142 0057 0B010000 		.4byte	.LASF9
+ 142 0057 67000000 		.4byte	.LASF9
  143 005b 02       		.byte	0x2
- 144 005c 38       		.byte	0x38
+ 144 005c 41       		.byte	0x41
  145 005d 61000000 		.4byte	0x61
  146 0061 03       		.uleb128 0x3
  147 0062 04       		.byte	0x4
  148 0063 07       		.byte	0x7
- 149 0064 52010000 		.4byte	.LASF6
+ 149 0064 82000000 		.4byte	.LASF6
  150 0068 03       		.uleb128 0x3
  151 0069 08       		.byte	0x8
  152 006a 05       		.byte	0x5
@@ -166,25 +163,25 @@ ARM GAS  /tmp/ccbfQSzO.s 			page 1
  154 006f 03       		.uleb128 0x3
  155 0070 08       		.byte	0x8
  156 0071 07       		.byte	0x7
- 157 0072 69010000 		.4byte	.LASF8
+ 157 0072 99000000 		.4byte	.LASF8
  158 0076 04       		.uleb128 0x4
- 159 0077 E9010000 		.4byte	.LASF10
+ 159 0077 06010000 		.4byte	.LASF10
  160 007b 03       		.byte	0x3
- 161 007c 42       		.byte	0x42
+ 161 007c 20       		.byte	0x20
  162 007d 56000000 		.4byte	0x56
  163 0081 05       		.uleb128 0x5
  164 0082 76000000 		.4byte	0x76
  165 0086 03       		.uleb128 0x3
  166 0087 04       		.byte	0x4
  167 0088 07       		.byte	0x7
- 168 0089 72020000 		.4byte	.LASF11
-ARM GAS  /tmp/ccbfQSzO.s 			page 4
-
-
+ 168 0089 45020000 		.4byte	.LASF11
  169 008d 03       		.uleb128 0x3
  170 008e 01       		.byte	0x1
  171 008f 08       		.byte	0x8
- 172 0090 E4010000 		.4byte	.LASF12
+ARM GAS  /tmp/cckihHkz.s 			page 4
+
+
+ 172 0090 01010000 		.4byte	.LASF12
  173 0094 06       		.uleb128 0x6
  174 0095 81000000 		.4byte	0x81
  175 0099 07       		.uleb128 0x7
@@ -193,13 +190,13 @@ ARM GAS  /tmp/ccbfQSzO.s 			page 1
  178 009c 6D01     		.2byte	0x16d
  179 009e D7000000 		.4byte	0xd7
  180 00a2 08       		.uleb128 0x8
- 181 00a3 64010000 		.4byte	.LASF13
+ 181 00a3 94000000 		.4byte	.LASF13
  182 00a7 04       		.byte	0x4
  183 00a8 6F01     		.2byte	0x16f
  184 00aa 81000000 		.4byte	0x81
  185 00ae 00       		.byte	0
  186 00af 08       		.uleb128 0x8
- 187 00b0 C4010000 		.4byte	.LASF14
+ 187 00b0 E1000000 		.4byte	.LASF14
  188 00b4 04       		.byte	0x4
  189 00b5 7001     		.2byte	0x170
  190 00b7 81000000 		.4byte	0x81
@@ -211,19 +208,19 @@ ARM GAS  /tmp/ccbfQSzO.s 			page 1
  196 00c4 81000000 		.4byte	0x81
  197 00c8 08       		.byte	0x8
  198 00c9 08       		.uleb128 0x8
- 199 00ca FB010000 		.4byte	.LASF15
+ 199 00ca 3B010000 		.4byte	.LASF15
  200 00ce 04       		.byte	0x4
  201 00cf 7201     		.2byte	0x172
  202 00d1 94000000 		.4byte	0x94
  203 00d5 0C       		.byte	0xc
  204 00d6 00       		.byte	0
  205 00d7 0A       		.uleb128 0xa
- 206 00d8 C9010000 		.4byte	.LASF16
+ 206 00d8 E6000000 		.4byte	.LASF16
  207 00dc 04       		.byte	0x4
  208 00dd 7301     		.2byte	0x173
  209 00df 99000000 		.4byte	0x99
  210 00e3 0B       		.uleb128 0xb
- 211 00e4 17020000 		.4byte	.LASF17
+ 211 00e4 57010000 		.4byte	.LASF17
  212 00e8 01       		.byte	0x1
  213 00e9 41       		.byte	0x41
  214 00ea 00000000 		.4byte	.LFB36
@@ -238,12 +235,12 @@ ARM GAS  /tmp/ccbfQSzO.s 			page 1
  223 0102 0E000000 		.4byte	.LVL1
  224 0106 58010000 		.4byte	0x158
  225 010a 0E       		.uleb128 0xe
-ARM GAS  /tmp/ccbfQSzO.s 			page 5
-
-
  226 010b 01       		.uleb128 0x1
  227 010c 51       		.byte	0x51
  228 010d 01       		.uleb128 0x1
+ARM GAS  /tmp/cckihHkz.s 			page 5
+
+
  229 010e 38       		.byte	0x38
  230 010f 0E       		.uleb128 0xe
  231 0110 01       		.uleb128 0x1
@@ -253,7 +250,7 @@ ARM GAS  /tmp/ccbfQSzO.s 			page 1
  235 0114 00       		.byte	0
  236 0115 00       		.byte	0
  237 0116 0B       		.uleb128 0xb
- 238 0117 80010000 		.4byte	.LASF18
+ 238 0117 B0000000 		.4byte	.LASF18
  239 011b 01       		.byte	0x1
  240 011c 5B       		.byte	0x5b
  241 011d 00000000 		.4byte	.LFB37
@@ -266,23 +263,23 @@ ARM GAS  /tmp/ccbfQSzO.s 			page 1
  248 0130 6F010000 		.4byte	0x16f
  249 0134 00       		.byte	0
  250 0135 10       		.uleb128 0x10
- 251 0136 24020000 		.4byte	.LASF19
+ 251 0136 64010000 		.4byte	.LASF19
  252 013a 04       		.byte	0x4
  253 013b CE06     		.2byte	0x6ce
  254 013d 41010000 		.4byte	0x141
  255 0141 05       		.uleb128 0x5
  256 0142 25000000 		.4byte	0x25
  257 0146 11       		.uleb128 0x11
- 258 0147 42010000 		.4byte	.LASF20
+ 258 0147 72000000 		.4byte	.LASF20
  259 014b 05       		.byte	0x5
  260 014c 21       		.byte	0x21
  261 014d 76000000 		.4byte	0x76
  262 0151 12       		.uleb128 0x12
- 263 0152 01020000 		.4byte	.LASF21
+ 263 0152 41010000 		.4byte	.LASF21
  264 0156 05       		.byte	0x5
  265 0157 38       		.byte	0x38
  266 0158 13       		.uleb128 0x13
- 267 0159 A7010000 		.4byte	.LASF26
+ 267 0159 C4000000 		.4byte	.LASF26
  268 015d 06       		.byte	0x6
  269 015e 2501     		.2byte	0x125
  270 0160 6F010000 		.4byte	0x16f
@@ -292,18 +289,18 @@ ARM GAS  /tmp/ccbfQSzO.s 			page 1
  274 016a 76000000 		.4byte	0x76
  275 016e 00       		.byte	0
  276 016f 12       		.uleb128 0x12
- 277 0170 F3000000 		.4byte	.LASF22
+ 277 0170 21000000 		.4byte	.LASF22
  278 0174 05       		.byte	0x5
  279 0175 2D       		.byte	0x2d
  280 0176 00       		.byte	0
  281              		.section	.debug_abbrev,"",%progbits
  282              	.Ldebug_abbrev0:
-ARM GAS  /tmp/ccbfQSzO.s 			page 6
-
-
  283 0000 01       		.uleb128 0x1
  284 0001 11       		.uleb128 0x11
  285 0002 01       		.byte	0x1
+ARM GAS  /tmp/cckihHkz.s 			page 6
+
+
  286 0003 25       		.uleb128 0x25
  287 0004 0E       		.uleb128 0xe
  288 0005 13       		.uleb128 0x13
@@ -358,12 +355,12 @@ ARM GAS  /tmp/ccbfQSzO.s 			page 1
  337 0036 05       		.uleb128 0x5
  338 0037 35       		.uleb128 0x35
  339 0038 00       		.byte	0
-ARM GAS  /tmp/ccbfQSzO.s 			page 7
-
-
  340 0039 49       		.uleb128 0x49
  341 003a 13       		.uleb128 0x13
  342 003b 00       		.byte	0
+ARM GAS  /tmp/cckihHkz.s 			page 7
+
+
  343 003c 00       		.byte	0
  344 003d 06       		.uleb128 0x6
  345 003e 26       		.uleb128 0x26
@@ -418,12 +415,12 @@ ARM GAS  /tmp/ccbfQSzO.s 			page 1
  394 006f 0A       		.uleb128 0xa
  395 0070 16       		.uleb128 0x16
  396 0071 00       		.byte	0
-ARM GAS  /tmp/ccbfQSzO.s 			page 8
-
-
  397 0072 03       		.uleb128 0x3
  398 0073 0E       		.uleb128 0xe
  399 0074 3A       		.uleb128 0x3a
+ARM GAS  /tmp/cckihHkz.s 			page 8
+
+
  400 0075 0B       		.uleb128 0xb
  401 0076 3B       		.uleb128 0x3b
  402 0077 05       		.uleb128 0x5
@@ -478,12 +475,12 @@ ARM GAS  /tmp/ccbfQSzO.s 			page 1
  451 00ad 8A8201   		.uleb128 0x410a
  452 00b0 00       		.byte	0
  453 00b1 02       		.uleb128 0x2
-ARM GAS  /tmp/ccbfQSzO.s 			page 9
-
-
  454 00b2 18       		.uleb128 0x18
  455 00b3 9142     		.uleb128 0x2111
  456 00b5 18       		.uleb128 0x18
+ARM GAS  /tmp/cckihHkz.s 			page 9
+
+
  457 00b6 00       		.byte	0
  458 00b7 00       		.byte	0
  459 00b8 0F       		.uleb128 0xf
@@ -538,12 +535,12 @@ ARM GAS  /tmp/ccbfQSzO.s 			page 1
  508 00ec 19       		.uleb128 0x19
  509 00ed 03       		.uleb128 0x3
  510 00ee 0E       		.uleb128 0xe
-ARM GAS  /tmp/ccbfQSzO.s 			page 10
-
-
  511 00ef 3A       		.uleb128 0x3a
  512 00f0 0B       		.uleb128 0xb
  513 00f1 3B       		.uleb128 0x3b
+ARM GAS  /tmp/cckihHkz.s 			page 10
+
+
  514 00f2 0B       		.uleb128 0xb
  515 00f3 27       		.uleb128 0x27
  516 00f4 19       		.uleb128 0x19
@@ -598,15 +595,15 @@ ARM GAS  /tmp/ccbfQSzO.s 			page 1
  565 0004 38000000 		.4byte	.LFE36
  566 0008 00000000 		.4byte	.LFB37
  567 000c 04000000 		.4byte	.LFE37
-ARM GAS  /tmp/ccbfQSzO.s 			page 11
-
-
  568 0010 00000000 		.4byte	0
  569 0014 00000000 		.4byte	0
  570              		.section	.debug_line,"",%progbits
+ARM GAS  /tmp/cckihHkz.s 			page 11
+
+
  571              	.Ldebug_line0:
- 572 0000 5A010000 		.section	.debug_str,"MS",%progbits,1
- 572      02002B01 
+ 572 0000 11010000 		.section	.debug_str,"MS",%progbits,1
+ 572      0200E200 
  572      00000201 
  572      FB0E0D00 
  572      01010101 
@@ -615,169 +612,163 @@ ARM GAS  /tmp/ccbfQSzO.s 			page 1
  574      206C6F6E 
  574      6720696E 
  574      7400
- 575              	.LASF23:
- 576 000e 474E5520 		.ascii	"GNU C 4.8.4 20140526 (release) [ARM/embedded-4_8-br"
- 576      4320342E 
- 576      382E3420 
- 576      32303134 
- 576      30353236 
- 577 0041 616E6368 		.ascii	"anch revision 211358] -mcpu=cortex-m3 -mno-thumb-in"
- 577      20726576 
- 577      6973696F 
- 577      6E203231 
- 577      31333538 
- 578 0074 74657277 		.ascii	"terwork -mthumb -ggdb -O2 -std=gnu99 -fomit-frame-p"
- 578      6F726B20 
- 578      2D6D7468 
- 578      756D6220 
- 578      2D676764 
- 579 00a7 6F696E74 		.ascii	"ointer -falign-functions=16 -ffunction-sections -fd"
- 579      6572202D 
- 579      66616C69 
- 579      676E2D66 
- 579      756E6374 
- 580 00da 6174612D 		.ascii	"ata-sections -fno-common\000"
- 580      73656374 
- 580      696F6E73 
- 580      202D666E 
- 580      6F2D636F 
- 581              	.LASF22:
- 582 00f3 53797374 		.ascii	"SystemInit\000"
- 582      656D496E 
- 582      697400
- 583              	.LASF0:
- 584 00fe 756E7369 		.ascii	"unsigned int\000"
- 584      676E6564 
- 584      20696E74 
- 584      00
- 585              	.LASF9:
- 586 010b 5F5F7569 		.ascii	"__uint32_t\000"
- 586      6E743332 
- 586      5F7400
- 587              	.LASF25:
- 588 0116 2F686F6D 		.ascii	"/home/alejandro/Desktop/ChibiOS/sam3s/blink\000"
- 588      652F616C 
- 588      656A616E 
-ARM GAS  /tmp/ccbfQSzO.s 			page 12
+ 575              	.LASF4:
+ 576 000e 73686F72 		.ascii	"short unsigned int\000"
+ 576      7420756E 
+ 576      7369676E 
+ 576      65642069 
+ 576      6E7400
+ 577              	.LASF22:
+ 578 0021 53797374 		.ascii	"SystemInit\000"
+ 578      656D496E 
+ 578      697400
+ 579              	.LASF0:
+ 580 002c 756E7369 		.ascii	"unsigned int\000"
+ 580      676E6564 
+ 580      20696E74 
+ 580      00
+ 581              	.LASF24:
+ 582 0039 43686962 		.ascii	"ChibiOS//os/hal/platforms/AT91SAM3S/hal_lld.c\000"
+ 582      694F532F 
+ 582      2F6F732F 
+ 582      68616C2F 
+ 582      706C6174 
+ 583              	.LASF9:
+ 584 0067 5F5F7569 		.ascii	"__uint32_t\000"
+ 584      6E743332 
+ 584      5F7400
+ 585              	.LASF20:
+ 586 0072 53797374 		.ascii	"SystemCoreClock\000"
+ 586      656D436F 
+ 586      7265436C 
+ 586      6F636B00 
+ 587              	.LASF6:
+ 588 0082 6C6F6E67 		.ascii	"long unsigned int\000"
+ 588      20756E73 
+ 588      69676E65 
+ 588      6420696E 
+ 588      7400
+ 589              	.LASF13:
+ 590 0094 4354524C 		.ascii	"CTRL\000"
+ 590      00
+ 591              	.LASF8:
+ 592 0099 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 592      206C6F6E 
+ 592      6720756E 
+ 592      7369676E 
+ 592      65642069 
+ 593              	.LASF18:
+ARM GAS  /tmp/cckihHkz.s 			page 12
 
 
- 588      64726F2F 
- 588      4465736B 
- 589              	.LASF20:
- 590 0142 53797374 		.ascii	"SystemCoreClock\000"
- 590      656D436F 
- 590      7265436C 
- 590      6F636B00 
- 591              	.LASF6:
- 592 0152 6C6F6E67 		.ascii	"long unsigned int\000"
- 592      20756E73 
- 592      69676E65 
- 592      6420696E 
- 592      7400
- 593              	.LASF13:
- 594 0164 4354524C 		.ascii	"CTRL\000"
- 594      00
- 595              	.LASF8:
- 596 0169 6C6F6E67 		.ascii	"long long unsigned int\000"
- 596      206C6F6E 
- 596      6720756E 
- 596      7369676E 
- 596      65642069 
- 597              	.LASF18:
- 598 0180 61743931 		.ascii	"at91sam3_clock_init\000"
- 598      73616D33 
- 598      5F636C6F 
- 598      636B5F69 
- 598      6E697400 
- 599              	.LASF4:
- 600 0194 73686F72 		.ascii	"short unsigned int\000"
- 600      7420756E 
- 600      7369676E 
- 600      65642069 
- 600      6E7400
- 601              	.LASF26:
- 602 01a7 6E766963 		.ascii	"nvicSetSystemHandlerPriority\000"
- 602      53657453 
- 602      79737465 
- 602      6D48616E 
- 602      646C6572 
- 603              	.LASF14:
- 604 01c4 4C4F4144 		.ascii	"LOAD\000"
+ 594 00b0 61743931 		.ascii	"at91sam3_clock_init\000"
+ 594      73616D33 
+ 594      5F636C6F 
+ 594      636B5F69 
+ 594      6E697400 
+ 595              	.LASF26:
+ 596 00c4 6E766963 		.ascii	"nvicSetSystemHandlerPriority\000"
+ 596      53657453 
+ 596      79737465 
+ 596      6D48616E 
+ 596      646C6572 
+ 597              	.LASF14:
+ 598 00e1 4C4F4144 		.ascii	"LOAD\000"
+ 598      00
+ 599              	.LASF16:
+ 600 00e6 53797354 		.ascii	"SysTick_Type\000"
+ 600      69636B5F 
+ 600      54797065 
+ 600      00
+ 601              	.LASF2:
+ 602 00f3 756E7369 		.ascii	"unsigned char\000"
+ 602      676E6564 
+ 602      20636861 
+ 602      7200
+ 603              	.LASF12:
+ 604 0101 63686172 		.ascii	"char\000"
  604      00
- 605              	.LASF16:
- 606 01c9 53797354 		.ascii	"SysTick_Type\000"
- 606      69636B5F 
- 606      54797065 
+ 605              	.LASF10:
+ 606 0106 75696E74 		.ascii	"uint32_t\000"
+ 606      33325F74 
  606      00
- 607              	.LASF2:
- 608 01d6 756E7369 		.ascii	"unsigned char\000"
- 608      676E6564 
- 608      20636861 
- 608      7200
- 609              	.LASF12:
- 610 01e4 63686172 		.ascii	"char\000"
- 610      00
- 611              	.LASF10:
-ARM GAS  /tmp/ccbfQSzO.s 			page 13
+ 607              	.LASF5:
+ 608 010f 6C6F6E67 		.ascii	"long int\000"
+ 608      20696E74 
+ 608      00
+ 609              	.LASF25:
+ 610 0118 2F686F6D 		.ascii	"/home/raparram/Escritorio/blinkSAM\000"
+ 610      652F7261 
+ 610      70617272 
+ 610      616D2F45 
+ 610      73637269 
+ 611              	.LASF15:
+ 612 013b 43414C49 		.ascii	"CALIB\000"
+ 612      4200
+ 613              	.LASF21:
+ 614 0141 53797374 		.ascii	"SystemCoreClockUpdate\000"
+ 614      656D436F 
+ 614      7265436C 
+ 614      6F636B55 
+ 614      70646174 
+ 615              	.LASF17:
+ 616 0157 68616C5F 		.ascii	"hal_lld_init\000"
+ 616      6C6C645F 
+ 616      696E6974 
+ 616      00
+ 617              	.LASF19:
+ 618 0164 49544D5F 		.ascii	"ITM_RxBuffer\000"
+ARM GAS  /tmp/cckihHkz.s 			page 13
 
 
- 612 01e9 75696E74 		.ascii	"uint32_t\000"
- 612      33325F74 
- 612      00
- 613              	.LASF5:
- 614 01f2 6C6F6E67 		.ascii	"long int\000"
- 614      20696E74 
- 614      00
- 615              	.LASF15:
- 616 01fb 43414C49 		.ascii	"CALIB\000"
- 616      4200
- 617              	.LASF21:
- 618 0201 53797374 		.ascii	"SystemCoreClockUpdate\000"
- 618      656D436F 
- 618      7265436C 
- 618      6F636B55 
- 618      70646174 
- 619              	.LASF17:
- 620 0217 68616C5F 		.ascii	"hal_lld_init\000"
- 620      6C6C645F 
- 620      696E6974 
- 620      00
- 621              	.LASF19:
- 622 0224 49544D5F 		.ascii	"ITM_RxBuffer\000"
- 622      52784275 
- 622      66666572 
- 622      00
- 623              	.LASF1:
- 624 0231 7369676E 		.ascii	"signed char\000"
- 624      65642063 
- 624      68617200 
- 625              	.LASF24:
- 626 023d 2E2E2F2E 		.ascii	"../../os/hal/platforms/AT91SAM3S/hal_lld.c\000"
- 626      2E2F6F73 
- 626      2F68616C 
- 626      2F706C61 
- 626      74666F72 
- 627              	.LASF3:
- 628 0268 73686F72 		.ascii	"short int\000"
- 628      7420696E 
- 628      7400
- 629              	.LASF11:
- 630 0272 73697A65 		.ascii	"sizetype\000"
- 630      74797065 
- 630      00
- 631              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 4.8.4 20140526 (release) [ARM/embedded-4_8-br
-ARM GAS  /tmp/ccbfQSzO.s 			page 14
+ 618      52784275 
+ 618      66666572 
+ 618      00
+ 619              	.LASF1:
+ 620 0171 7369676E 		.ascii	"signed char\000"
+ 620      65642063 
+ 620      68617200 
+ 621              	.LASF23:
+ 622 017d 474E5520 		.ascii	"GNU C 4.9.3 20150529 (prerelease) -mcpu=cortex-m3 -"
+ 622      4320342E 
+ 622      392E3320 
+ 622      32303135 
+ 622      30353239 
+ 623 01b0 6D6E6F2D 		.ascii	"mno-thumb-interwork -mthumb -ggdb -O2 -std=gnu99 -f"
+ 623      7468756D 
+ 623      622D696E 
+ 623      74657277 
+ 623      6F726B20 
+ 624 01e3 6F6D6974 		.ascii	"omit-frame-pointer -falign-functions=16 -ffunction-"
+ 624      2D667261 
+ 624      6D652D70 
+ 624      6F696E74 
+ 624      6572202D 
+ 625 0216 73656374 		.ascii	"sections -fdata-sections -fno-common\000"
+ 625      696F6E73 
+ 625      202D6664 
+ 625      6174612D 
+ 625      73656374 
+ 626              	.LASF3:
+ 627 023b 73686F72 		.ascii	"short int\000"
+ 627      7420696E 
+ 627      7400
+ 628              	.LASF11:
+ 629 0245 73697A65 		.ascii	"sizetype\000"
+ 629      74797065 
+ 629      00
+ 630              		.ident	"GCC: (15:4.9.3+svn231177-1) 4.9.3 20150529 (prerelease)"
+ARM GAS  /tmp/cckihHkz.s 			page 14
 
 
 DEFINED SYMBOLS
-                            *ABS*:00000000 hal_lld.c
-     /tmp/ccbfQSzO.s:19     .text.hal_lld_init:00000000 $t
-     /tmp/ccbfQSzO.s:25     .text.hal_lld_init:00000000 hal_lld_init
-     /tmp/ccbfQSzO.s:66     .text.hal_lld_init:0000002c $d
-     /tmp/ccbfQSzO.s:73     .text.at91sam3_clock_init:00000000 $t
-     /tmp/ccbfQSzO.s:79     .text.at91sam3_clock_init:00000000 at91sam3_clock_init
-                     .debug_frame:00000010 $d
-     /tmp/ccbfQSzO.s:72     .text.hal_lld_init:00000038 $t
+                            *ABS*:0000000000000000 hal_lld.c
+     /tmp/cckihHkz.s:19     .text.hal_lld_init:0000000000000000 $t
+     /tmp/cckihHkz.s:25     .text.hal_lld_init:0000000000000000 hal_lld_init
+     /tmp/cckihHkz.s:66     .text.hal_lld_init:000000000000002c $d
+     /tmp/cckihHkz.s:73     .text.at91sam3_clock_init:0000000000000000 $t
+     /tmp/cckihHkz.s:79     .text.at91sam3_clock_init:0000000000000000 at91sam3_clock_init
+                     .debug_frame:0000000000000010 $d
 
 UNDEFINED SYMBOLS
 SystemCoreClockUpdate
