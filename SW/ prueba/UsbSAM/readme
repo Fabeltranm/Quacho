@@ -1,0 +1,87 @@
+DEVICE_EXAMPLE_1_USB_QUACHO:
+
+Esta carpeta contiene los archivos (fuente y cabecera) del proyecto de comunicacion entre el microcontrolador SAM3S2C y el Host, incluyendo el makefile que crea los archivos desde linux.
+
+El proyecto se manejó desde ATMEL STUDIO 7.0. y el makefile fue modificado para que funcionara en linux.
+
+Para la realización de este proyecto se tuvo en cuenta la siguiente documentación, suministrada por el fabricante del microcontrolador y el IDE:
+
+- ASF USB: Atmel Software Framework, es una pila para la implementación de todo tipo de ejemplos USB entre el dispositivo y el Host.
+  http://asf.atmel.com/docs/3.15.0/asf_usb.html
+
+- UDI: USB Interface Device, contiene las rutinas necesarias para la implementacion de cualquier clase de comunicacion entre el dispositivo y el Host.
+
+- UDI CDC: Communication Class Device, guia paso a paso para la configuracion de los modulos y su uso especifico en cada caso.
+
+- UDP: USB Device Port, encargado de dar una guía del uso de la interfaz Transciever USB 2.0 que posee el microcontrolador.
+
+AVANCES: 
+
+El ejemplo construido a base de la documentación ATMEL STUDIO se realiza a partir de CDC, el cual basicamente hace una enumeración del microcontrolador y proporciona una serie de configuraciones para lograr una comunicacion serial con el dispositivo.
+
+-UDD Contiene: usbb_device.c/h 
+               usbc_device.c/h 
+               usb_device.c/h    
+	
+	Drivers USB para el funcionamiento del proyecto.
+
+-UDC Contiene: udc.c/h 
+    	       udc_desc.h 
+	       udi.h 
+	       udd.h 
+
+	Descriptores y cabeceras para el núcleo del dispositivo USB.
+
+	       usb_protocol.h 
+               usb_atmel.h  
+
+	Define las constantes y el protocolo usado por ATMEL para comunicarse.
+
+-UDI CDC Contiene: 
+
+	       usb_protocol_cdc.h
+
+	Constantes de protocolo de comunicacion CDC.
+
+	       udi_cdc_desc.c 
+	       udi_cdc_conf.h
+
+	Descriptores necesarios para la comunicacion USB con la interfaz CDC.
+
+	       udi_cdc.c/h 
+
+	Implementación explícita de la clase de comunicación.
+
+-APLICACION Contiene: 
+
+	       main.c 
+               ui.c 
+               uart_uc3.c 
+               uart_xmega.c 
+               conf_usb.h  
+
+	Código principal para la aplicacion del proyecto sobre el SAM3S
+
+
+El código principal hace la configuración del microcontrolador con todos los parámetros necesarios para que el Host lo reconozca y desarrolle su función principal.
+
+SE ENTREGA:
+
+Por medio del archivo de configuracion del BlinkSAM se carga el archivo al microcontrolador, realizando la siguiente configuración:
+
+ID Fabricante
+ID Producto
+ID Clase de Comunicación
+# Endpoints (Necesarios para definir el tipo de comunicacion que se quiere lograr)
+Tipo de Interfaz a usar
+Protocolos de configuración USB (Velocidad, UDP, PLL's)
+Tamaño del Buffer de TX
+Tamañao del Buffer de RX
+Protocolo de comunicacion (señalización)
+Tipo de datos y almacenamiento
+
+Despues de la configuración básica, el microcontrolador usa UART para la TX y RX de datos al Host, activa esta interfaz y empieza a monitorear el BUS de datos, la aplicacion principal genera un eco en una terminal de lo que se esté enviando hacia el microcontrolador a otra terminal, todo esto en un ciclo infinito.
+
+CONCLUSIÓN: Se logra la enumeración del dispositivo, es decir, que el Host reconozca parametros como la el fabricante, el tipo de producto, el tipo de comunicacion, la interfaz a utilizar, el tamaño del buffer, el tamaño de los datos, la velocidad de transmisión, el protocolo a usar, etc. No se logra obtener comunicacion con el Host desde la terminal de Windows ni la de Linux (CuteCom). 
+
+Se intenta alcanzar el objetivo utilizando tipos diferentes de comunicacion entre el dispositivo y el host (usb_hid_transfer_quacho, usb_cdc_quacho y usb_quacho) con codigos principales diferentes para alcanzar un comunicacion de diferentes tipos, sin embargo no se logra el reconocimiento y comunicacion con el Host.  
